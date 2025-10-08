@@ -42,7 +42,7 @@ export default function Header() {
 
   const zonesItems = [
     { href: '/nice', label: 'Nice' },
-    { href: '/nice/vieux-Nice', label: 'Vieux Nice' },
+    { href: '/nice/vieux-nice', label: 'Vieux Nice' },
     { href: '/nice/promenade-anglais', label: 'Promenade des Anglais' },
     { href: '/nice/cimiez', label: 'Cimiez' },
     { href: '/nice/liberation', label: 'Libération' },
