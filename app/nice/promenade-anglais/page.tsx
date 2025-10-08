@@ -50,5 +50,5 @@ const nicePromenadedesAnglaisData = {
 };
 
 export default function NicePromenadedesAnglaisPage() {
-  return <LocalPage data={nicePromenadedesAnglaisData} />;
+  return <LocalPage {...nicePromenadedesAnglaisData} />;
 }

@@ -50,5 +50,5 @@ const niceVieuxNiceData = {
 };
 
 export default function NiceVieuxNicePage() {
-  return <LocalPage data={niceVieuxNiceData} />;
+  return <LocalPage {...niceVieuxNiceData} />;
 }

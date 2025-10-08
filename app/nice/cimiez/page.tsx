@@ -50,5 +50,5 @@ const niceCimiezData = {
 };
 
 export default function NiceCimiezPage() {
-  return <LocalPage data={niceCimiezData} />;
+  return <LocalPage {...niceCimiezData} />;
 }

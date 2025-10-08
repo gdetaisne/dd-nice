@@ -50,5 +50,5 @@ const niceLibrationData = {
 };
 
 export default function NiceLibrationPage() {
-  return <LocalPage data={niceLibrationData} />;
+  return <LocalPage {...niceLibrationData} />;
 }

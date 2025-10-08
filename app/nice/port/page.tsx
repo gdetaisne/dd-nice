@@ -50,5 +50,5 @@ const nicePortData = {
 };
 
 export default function NicePortPage() {
-  return <LocalPage data={nicePortData} />;
+  return <LocalPage {...nicePortData} />;
 }
