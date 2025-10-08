@@ -41,12 +41,12 @@ export default function Header() {
   };
 
   const zonesItems = [
-    { href: '/Nice', label: 'Nice' },
-    { href: '/Nice/vieux-Nice', label: 'Vieux Nice' },
-    { href: '/Nice/promenade-anglais', label: 'Promenade des Anglais' },
-    { href: '/Nice/cimiez', label: 'Cimiez' },
-    { href: '/Nice/liberation', label: 'Libération' },
-    { href: '/Nice/port', label: 'Port' },  ];
+    { href: '/nice', label: 'Nice' },
+    { href: '/nice/vieux-Nice', label: 'Vieux Nice' },
+    { href: '/nice/promenade-anglais', label: 'Promenade des Anglais' },
+    { href: '/nice/cimiez', label: 'Cimiez' },
+    { href: '/nice/liberation', label: 'Libération' },
+    { href: '/nice/port', label: 'Port' },  ];
 
 
   return (
@@ -127,7 +127,7 @@ export default function Header() {
                   Destinations fréquentes
                 </div>
                 <Link
-                  href="/Nice-vers-paris"
+                  href="/nice-vers-paris"
                   className="block px-4 py-2 text-gray-800 hover:bg-white/50 transition-colors"
                   onClick={() => {
                     setIsZonesDropdownOpen(false);
@@ -137,7 +137,7 @@ export default function Header() {
                   Nice → Paris
                 </Link>
                 <Link
-                  href="/Nice-vers-lyon"
+                  href="/nice-vers-lyon"
                   className="block px-4 py-2 text-gray-800 hover:bg-white/50 transition-colors"
                   onClick={() => {
                     setIsZonesDropdownOpen(false);
@@ -147,7 +147,7 @@ export default function Header() {
                   Nice → Lyon
                 </Link>
                 <Link
-                  href="/Nice-vers-toulouse"
+                  href="/nice-vers-toulouse"
                   className="block px-4 py-2 text-gray-800 hover:bg-white/50 transition-colors"
                   onClick={() => {
                     setIsZonesDropdownOpen(false);
