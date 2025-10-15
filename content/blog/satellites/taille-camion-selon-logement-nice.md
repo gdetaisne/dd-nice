@@ -27,6 +27,9 @@ Ce guide détaille les tailles par logement, les prix Nice 2025, et les agences 
 
 **Chambre 9m² (10m³) :** 12m³ Kangoo/Partner  
 **Studio 20m² (15-20m³) :** 12m³ (1 rotation) ou 20m³ (confort)  
+
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide location camion déménagement Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
+
 **T1 30m² (25m³) :** 20m³ Master/Boxer  
 **T2 45m² (35-40m³) :** 20m³ (1 rotation serrée) ou 2× 12m³ (2 rotations)  
 **T3 70m² (55-65m³) :** 35m³ (1 rotation) ou 2× 20m³  
@@ -40,6 +43,9 @@ Ce guide détaille les tailles par logement, les prix Nice 2025, et les agences 
 **Permis B** suffit (< 3,5T).
 
 **Vieux-Nice :** Max 12m³ (20m³ impossible rues étroites).
+
+Ces éléments s'inscrivent dans le contexte plus large de notre [louer un camion pour déménager à Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
+
 
 ## Agences Location Nice
 
@@ -59,6 +65,9 @@ Ce guide détaille les tailles par logement, les prix Nice 2025, et les agences 
 **Prix :** Similaires (90-130€ pour 20m³), comparer promotions en ligne.
 
 **Leclerc** (si présent) : -10-15% vs grandes agences.
+
+
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [location véhicule utilitaire Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
 
 ## Conclusion
 

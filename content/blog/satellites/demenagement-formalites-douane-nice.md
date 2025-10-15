@@ -27,6 +27,9 @@ Les documents nécessaires incluent : **passeport/CNI**, **justificatif résiden
 - Droits douane : 0€ (libre circulation)
 - TVA : 0€ (déjà payée France)
 - Contrôle frontière : 1h (aléatoire, parfois aucun)
+
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagement international depuis Nice](/blog/demenagement-international-nice/demenagement-international-nice-guide).
+
 - Documents : Inventaire basique, passeport, justificatif résidence
 - Nice → Vintimille 30 km : quasi-domestique
 
@@ -34,6 +37,9 @@ Les documents nécessaires incluent : **passeport/CNI**, **justificatif résiden
 - Formalités : Complexes
 - Formulaires : 18.44 Suisse, C3 UK
 - Inventaire : Valorisé détaillé (prix achat chaque bien)
+
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménager à l'étranger depuis Nice](/blog/demenagement-international-nice/demenagement-international-nice-guide).
+
 - Contrôle : 2-4h inspection
 - TVA : 7,7% Suisse (objets neufs < 6 mois)
 - Délai : +2-3 jours vs UE
@@ -51,6 +57,9 @@ Les documents nécessaires incluent : **passeport/CNI**, **justificatif résiden
 - Inventaire valorisé (prix achat, valeur usage)
 - Formulaires spécifiques pays
 - Photos biens valeur (> 5 000€)
+
+
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [expatriation et déménagement international Nice](/blog/demenagement-international-nice/demenagement-international-nice-guide).
 
 ## Conclusion
 

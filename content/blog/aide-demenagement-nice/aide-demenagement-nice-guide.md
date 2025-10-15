@@ -22,6 +22,18 @@ Heureusement, de nombreuses solutions existent pour vous épauler, que vous cher
 
 Dans ce guide complet, découvrez toutes les formes d'aide disponibles pour votre déménagement à Nice, comment choisir la solution adaptée à votre situation, et comment Moverz vous accompagne à chaque étape de votre projet.
 
+## 📚 Notre Dossier Complet Aide Déménagement Nice
+
+Découvrez toutes les solutions d'accompagnement pour votre déménagement à Nice :
+
+**Aides Financières :**
+- [Aides financières déménagement à Nice](/blog/aide-demenagement-nice/satellites/aide-financiere-demenagement-nice) - CAF, Pôle Emploi, employeur, FSL
+- [Aide Pôle Emploi déménagement Nice](/blog/aide-demenagement-nice/satellites/aide-pole-emploi-demenagement-nice) - Conditions, démarches, montants 2025
+
+**Aide Humaine et Manutention :**
+- [Aide manutention déménagement Nice](/blog/aide-demenagement-nice/satellites/aide-manutention-demenagement-nice) - Professionnels à l'heure, formules flexibles
+- [Déménagement personnes âgées à Nice](/blog/aide-demenagement-nice/satellites/demenagement-personnes-agees-nice) - Accompagnement adapté, services seniors
+
 ## Pourquoi chercher de l'aide pour votre déménagement à Nice ?
 
 ### Gain de temps et réduction du stress

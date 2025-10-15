@@ -36,6 +36,9 @@ Ce guide détaille les solutions économiques spécifiques aux 35 000 étudiants
 
 **Avec déménageur économique :**
 - Formule transport seul : 350-450€ (2 déménageurs, utilitaire, 3-4h)
+
+Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement économique à Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
+
 - Vous emballez cartons
 - **Total : 350-450€**
 
@@ -98,9 +101,12 @@ Ce guide détaille les solutions économiques spécifiques aux 35 000 étudiants
 
 ### Aides Locales Nice (À Vérifier)
 
-Contactez **CROUS Nice** (aides ponctuelles), **Mission Locale** (< 25 ans), **CCAS Nice** (Centre Communal Action Sociale) pour aides exceptionnelles déménagement/installation.
+Contactez **CROUS Nice** (aides ponctuelles), **Mission Locale** (< 25 ans), **CCAS Nice** (Centre Communal Action Sociale) pour aides exceptionnelles déménagement/installation. Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas chères pour déménager à Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
 
 **Montants variables :** 50-300€ selon situation (très précaire, première installation, etc.)
+
+
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [réduire le coût de votre déménagement niçois](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
 
 ## Conclusion
 

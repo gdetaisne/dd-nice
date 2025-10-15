@@ -29,6 +29,9 @@ Conduire un camion de déménagement dans le **Vieux-Nice est fortement déconse
 
 **Utilitaires :**
 - **Kangoo 12m³** : Largeur 1,9m + miroirs 2,1m total
+
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide location camion déménagement Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
+
 - **Master 20m³** : Largeur 2,0m + miroirs 2,2m total
 - **35m³** : Largeur 2,2m + miroirs 2,4m total
 
@@ -42,6 +45,9 @@ Conduire un camion de déménagement dans le **Vieux-Nice est fortement déconse
 ## Risques et Dommages
 
 **Rayures miroirs :** Frottement murs étroits (réparation 150-400€)
+
+
+Ces éléments s'inscrivent dans le contexte plus large de notre [louer un camion pour déménager à Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
 
 **Bosses carrosserie :** Accrochage angles bâtiments, portails (300-800€)
 
@@ -68,6 +74,9 @@ Conduire un camion de déménagement dans le **Vieux-Nice est fortement déconse
 - Risque 20m³ Vieux-Nice : 400€ rayures (probabilité 65%) = coût attendu 260€
 - Alternative navettes : +70€ (2ème véhicule) ou +0€ (diable à pied mais +3h fatigue)
 - **Navettes plus sûres et souvent moins chères**
+
+
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [location véhicule utilitaire Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
 
 ## Conclusion
 

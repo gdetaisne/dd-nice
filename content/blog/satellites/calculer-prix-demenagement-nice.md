@@ -36,6 +36,9 @@ Ce guide explique comment calculer précisément votre budget déménagement à 
 
 **Règle approximative :** Surface (m²) × 0,7 = Volume (m³)
 
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide des prix déménagement à Nice](/blog/prix-demenagement-nice/prix-demenagement-nice-guide).
+
+
 **Exemples Nice :**
 - Studio Vieux-Nice 20m² × 0,7 = 14m³ → **15-20m³** (petits meubles compacts)
 - T2 Libération 45m² × 0,7 = 31,5m³ → **35-40m³** (mobilier standard)
@@ -55,6 +58,9 @@ Ce guide explique comment calculer précisément votre budget déménagement à 
 **Cimiez :** 50% sans ascenseur (immeubles bourgeois anciens)
 
 **Arenas, Riquier moderne :** 90% avec ascenseur (économie)
+
+
+Ces éléments s'inscrivent dans le contexte plus large de notre [tarifs déménageur Nice détaillés](/blog/prix-demenagement-nice/prix-demenagement-nice-guide).
 
 ### Étape 3 : Surcoût Quartier
 
@@ -91,6 +97,9 @@ Ce guide explique comment calculer précisément votre budget déménagement à 
 **Visite technique :** Obligatoire (devis téléphone = imprécis ±30%)
 
 **En ligne :** Comparateurs (estimation rapide ±20%)
+
+
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [comprendre les coûts de déménagement niçois](/blog/prix-demenagement-nice/prix-demenagement-nice-guide).
 
 ## Conclusion
 

@@ -28,6 +28,9 @@ Ce guide explique méthode tri, délais conservation légaux, destruction sécur
 - Lister tous cartons archives (dates, contenu)
 - Identifier types documents (comptables, RH, juridiques, commerciaux)
 
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagement d'entreprise à Nice](/blog/demenagement-entreprise-nice/demenagement-entreprise-nice-guide).
+
+
 **Étape 2 : Vérifier Délais Légaux :**
 - **Comptables :** 10 ans (factures, bilans)
 - **Sociaux/RH :** 5 ans (bulletins paie, contrats)
@@ -44,6 +47,9 @@ Ce guide explique méthode tri, délais conservation légaux, destruction sécur
 - Conservation : 3m³ obligatoires (déménager ou stocker)
 - Numérisation : 2m³ fréquents
 - **Économie transport :** 10m³ × 25€/m³ = 250€
+
+
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel et bureaux Nice](/blog/demenagement-entreprise-nice/demenagement-entreprise-nice-guide).
 
 ## Destruction Sécurisée RGPD
 
@@ -70,6 +76,9 @@ Ce guide explique méthode tri, délais conservation légaux, destruction sécur
 **Garde-meuble pro** moins cher si accès rares (< 1 fois/trimestre). **Self-stockage** si accès fréquents (dossiers courants).
 
 **Quartiers :** Périphérie (Arenas) moins cher 20% vs centre pour stockage.
+
+
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transfert de locaux professionnels à Nice](/blog/demenagement-entreprise-nice/demenagement-entreprise-nice-guide).
 
 ## Conclusion
 

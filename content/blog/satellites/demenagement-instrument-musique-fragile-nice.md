@@ -16,6 +16,9 @@ Le **Conservatoire Nice** forme **2 500 élèves musiciens** et la ville compte 
 
 **Fragilité extrême :**
 - **Bois précieux** : Épicéa, érable (sensibilité humidité 70-80% Nice)
+
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du déménagement de piano à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide).
+
 - **Vernis** : Craquelures si chocs/température
 - **Chevalet** : Désarme transport (cordes détendues)
 - **Valeur** : Violon 2 000-50 000€, alto 3 000-25 000€, violoncelle 5 000-80 000€
@@ -111,6 +114,9 @@ Le **Conservatoire Nice** forme **2 500 élèves musiciens** et la ville compte 
 - **Micros** : Sensibles chocs (aimants, bobinages)
 - **Potentiomètres** : Câblage fragile
 - **Manche** : Réglage truss rod post-transport (luthier)
+
+
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement piano professionnel à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide).
 
 **Emballage :**
 - Détendre cordes légèrement
@@ -217,6 +223,9 @@ Le **Conservatoire Nice** forme **2 500 élèves musiciens** et la ville compte 
 **Conservatoire prêt matériel :**
 - **Étudiants** : Instruments prêtés (réduction achats)
 - **Transport** : Responsabilité élève (étuis fournis)
+
+
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transport sécurisé de piano à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide).
 
 ## FAQ Instruments Musique Déménagement Nice
 

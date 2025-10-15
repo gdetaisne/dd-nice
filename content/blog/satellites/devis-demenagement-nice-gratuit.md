@@ -31,6 +31,9 @@ Ce guide explique comment obtenir devis de qualité, les informations à fournir
 1. Contact déménageur (téléphone, site web, email)
 2. RDV fixé sous 2-5 jours (selon disponibilité)
 3. Visite logement 30-45 min (toutes pièces, cave, grenier)
+
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide des prix déménagement à Nice](/blog/prix-demenagement-nice/prix-demenagement-nice-guide).
+
 4. Évaluation volume, contraintes, formule
 5. Devis remis sur place ou 24-48h après
 
@@ -49,6 +52,9 @@ Ce guide explique comment obtenir devis de qualité, les informations à fournir
 ### Délai Réponse
 
 **Visite → Devis écrit :** 24-48h généralement
+
+
+Ces éléments s'inscrivent dans le contexte plus large de notre [tarifs déménageur Nice détaillés](/blog/prix-demenagement-nice/prix-demenagement-nice-guide).
 
 **Devis téléphonique rapide :** 1-2h (mais imprécis ±30%, à éviter)
 
@@ -80,6 +86,9 @@ Ce guide explique comment obtenir devis de qualité, les informations à fournir
 **Méfiez-vous :** Devis trop bas suspect (services absents, surcoûts jour J). Devis trop haut injustifié (marge excessive).
 
 **Optimal :** Prix moyen marché (900-1 100€ T2 standard) + avis solides (≥ 4/5).
+
+
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [comprendre les coûts de déménagement niçois](/blog/prix-demenagement-nice/prix-demenagement-nice-guide).
 
 ## Conclusion
 

@@ -25,6 +25,9 @@ Votre déménagement à Nice coûte cher ? Plusieurs aides financières existent
 
 Voici les aides financières auxquelles vous pouvez prétendre :
 
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide aide au déménagement à Nice](/blog/aide-demenagement-nice/aide-demenagement-nice-guide).
+
+
 - **Aide CAF** : jusqu'à 1 000€ sous conditions de ressources
 - **Aide employeur** : forfait variable selon entreprise
 - **Mobili-Pass** : Action Logement, jusqu'à 3 500€
@@ -228,7 +231,7 @@ Voici pourquoi :
 
 **Couple 2 enfants** : Inférieures à 2 900€.
 
-Ces plafonds varient selon les départements. Consultez le site CAF des Alpes-Maritimes pour les montants exacts.
+Ces plafonds varient selon les départements. Consultez le site CAF des Alpes-Maritimes pour les montants exacts. Ces éléments s'inscrivent dans le contexte plus large de notre [obtenir de l'aide pour déménager à Nice](/blog/aide-demenagement-nice/aide-demenagement-nice-guide).
 
 ### Plafonds Mobili-Pass 2025
 
@@ -339,6 +342,9 @@ Vérifiez toujours auprès des organismes avant de constituer vos dossiers. Ils 
 - J+15 : Envoyez les factures pour versement
 
 **Important** : Toutes les aides nécessitent une demande avant le déménagement. Aucun remboursement possible si vous déménagez avant d'avoir déposé votre dossier.
+
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [aides financières et pratiques déménagement Nice](/blog/aide-demenagement-nice/aide-demenagement-nice-guide).
+
 
 ---
 

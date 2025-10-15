@@ -25,6 +25,9 @@ Ce guide détaille planning optimal, prix, matériel sensible et assurances pour
 ## Prix Cabinet Médical Nice
 
 **Cabinet généraliste 50m² (1-2 pièces consult) :**
+
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagement d'entreprise à Nice](/blog/demenagement-entreprise-nice/demenagement-entreprise-nice-guide).
+
 - Weekend : 2 500-3 500€
 - Semaine : 2 000-2 800€
 
@@ -35,6 +38,9 @@ Ce guide détaille planning optimal, prix, matériel sensible et assurances pour
 **Cabinet dentaire 120m² (fauteuils, radio, etc.) :**
 - Weekend : 4 500-6 000€
 - Nécessite : Débranchement/rebranchement équipements par technicien (facturation séparée +500-1 000€)
+
+
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel et bureaux Nice](/blog/demenagement-entreprise-nice/demenagement-entreprise-nice-guide).
 
 **Inclus déménagement :** Mobilier bureau, archives, petit matériel
 
@@ -53,6 +59,9 @@ Ce guide détaille planning optimal, prix, matériel sensible et assurances pour
 **Patients :** Prévenir 2-3 semaines avant (courrier/SMS nouvelle adresse), reporter RDV semaine précédente ou suivante
 
 **Interruption :** 0 jour (weekend) vs 3-5 jours (déménagement semaine)
+
+
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transfert de locaux professionnels à Nice](/blog/demenagement-entreprise-nice/demenagement-entreprise-nice-guide).
 
 ## Conclusion
 

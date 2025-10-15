@@ -23,6 +23,30 @@ Sur la Côte d'Azur, les contraintes d'espace sont particulièrement marquées :
 
 Dans ce guide complet, découvrez tout ce qu'il faut savoir pour **louer un garde meuble à Nice** : les différentes solutions disponibles, les critères de choix essentiels, les prix pratiqués en 2025, et les quartiers les mieux desservis.
 
+## 📚 Notre Dossier Complet Garde-Meuble Nice
+
+Pour approfondir chaque aspect du garde-meuble à Nice, consultez nos guides détaillés :
+
+**Prix et Tarifs :**
+- [Prix garde-meuble Nice 2025 : tarifs et comparatif complet](/blog/garde-meuble-nice/satellites/prix-garde-meuble-nice-2025) - Fourchettes détaillées par taille de box et acteur
+- [Garde-meuble étudiant pas cher à Nice](/blog/garde-meuble-nice/satellites/garde-meuble-etudiant-nice-pas-cher) - Solutions économiques pour les 35 000 étudiants niçois
+
+**Types et Choix :**
+- [Self-stockage vs garde-meuble traditionnel à Nice](/blog/garde-meuble-nice/satellites/self-stockage-vs-garde-meuble-traditionnel-nice) - Comparatif complet des deux formules
+- [Quelle taille de box choisir à Nice ?](/blog/garde-meuble-nice/satellites/quelle-taille-box-stockage-nice) - Calculer vos besoins selon votre logement
+- [Durée minimum de location d'un box à Nice](/blog/garde-meuble-nice/satellites/duree-minimum-location-box-nice) - Contrats flexibles et engagements
+
+**Localisation et Accès :**
+- [Garde-meuble Vieux-Nice et centre-ville](/blog/garde-meuble-nice/satellites/garde-meuble-vieux-nice-centre) - Acteurs accessibles depuis le centre historique
+- [Accès 24/7 aux garde-meubles de Nice](/blog/garde-meuble-nice/satellites/acces-24-7-garde-meuble-nice) - Qui propose l'accès libre jour et nuit ?
+
+**Sécurité et Préparation :**
+- [Garde-meuble sécurisé à Nice : normes et dispositifs](/blog/garde-meuble-nice/satellites/garde-meuble-securise-nice) - Vidéosurveillance, alarmes, assurance
+- [Comment préparer ses affaires pour un garde-meuble](/blog/garde-meuble-nice/satellites/preparer-affaires-garde-meuble-nice) - Emballage et organisation optimale
+
+**Cas d'Usage Spécifiques :**
+- [Stockage temporaire pendant déménagement à Nice](/blog/garde-meuble-nice/satellites/garde-meuble-pendant-demenagement-nice) - Solutions transition 1-6 mois
+
 ## Pourquoi opter pour un garde meuble à Nice ?
 
 ### Les besoins de stockage spécifiques à Nice

@@ -29,6 +29,9 @@ Ce guide explique les types d'assurances, ce qu'elles couvrent exactement, la d�
 
 **Couverture :** Dommages causés par le déménageur à vos biens (casse pendant manutention, rayures, pertes)
 
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet des déménageurs à Nice](/blog/demenageur-nice/demenageur-nice-guide-complet).
+
+
 **Plafond :** 50 000-100 000€ (standard) à 150 000-300 000€ (renforcé)
 
 **Franchise :** 150-300€ généralement
@@ -103,7 +106,7 @@ Ces situations représentent **95% des sinistres** déménagement. L'assurance R
 
 **Vices cachés découverts :** Meuble semble intact, vous découvrez fêlure 2 semaines après (déménageur nie) → Litige complexe → Tous risques facilite indemnisation
 
-Ces situations (5% des cas) justifient l'assurance tous risques si vos biens ont forte valeur ou si vous êtes inquiet.
+Ces situations (5% des cas) justifient l'assurance tous risques si vos biens ont forte valeur ou si vous êtes inquiet. Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel à Nice](/blog/demenageur-nice/demenageur-nice-guide-complet).
 
 ## Démarche en Cas de Sinistre Nice
 
@@ -182,6 +185,9 @@ Ces situations (5% des cas) justifient l'assurance tous risques si vos biens ont
 **Photos litige :** Si découvrez dommage, photographiez avec déménageur présent = preuve irréfutable.
 
 **Bon livraison :** Lisez avant signer. "Livraison conforme" = vous validez tout OK. Annotez réserves.
+
+
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [nos services de déménagement niçois](/blog/demenageur-nice/demenageur-nice-guide-complet).
 
 ## Conclusion
 

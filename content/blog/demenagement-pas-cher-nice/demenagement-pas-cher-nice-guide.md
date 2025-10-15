@@ -22,6 +22,26 @@ Que vous soyez étudiant quittant une colocation près du Port, jeune actif s'in
 
 Nous comparerons les différentes options disponibles à Nice, analyserons les prix réels en 2025, et vous montrerons comment obtenir le meilleur rapport qualité-prix pour votre déménagement sur la Côte d'Azur.
 
+## 📚 Notre Dossier Complet Déménagement Pas Cher Nice
+
+Tous nos conseils pour réduire le coût de votre déménagement à Nice :
+
+**Conseils et Astuces :**
+- [Astuces déménagement pas cher à Nice](/blog/demenagement-pas-cher-nice/satellites/astuces-demenagement-pas-cher-nice) - 15 conseils pour économiser 30-60%
+- [Cartons gratuits à Nice : où les trouver ?](/blog/demenagement-pas-cher-nice/satellites/cartons-gratuits-nice-ou-trouver) - Supermarchés, magasins, ressourceries
+- [Période pas chère pour déménager à Nice](/blog/demenagement-pas-cher-nice/satellites/periode-pas-chere-demenagement-nice) - Éviter juillet-août, privilégier hiver
+
+**Formules Économiques :**
+- [Formule économique déménagement Nice](/blog/demenagement-pas-cher-nice/satellites/demenagement-formule-economique-nice) - Transport seul, vous gérez chargement
+- [Déménager seul à Nice : guide complet](/blog/demenagement-pas-cher-nice/satellites/demenager-seul-nice-guide) - Location camion, aide amis, DIY
+- [Déménagement étudiant pas cher Nice](/blog/demenagement-pas-cher-nice/satellites/demenagement-etudiant-pas-cher-nice) - Solutions 35 000 étudiants niçois
+
+**Optimisation Budget :**
+- [Déménagement groupe à Nice](/blog/demenagement-pas-cher-nice/satellites/demenagement-groupe-nice) - Mutualiser camion, diviser coûts
+- [Comparateur devis déménagement Nice](/blog/demenagement-pas-cher-nice/satellites/comparateur-devis-demenagement-nice) - 3-5 devis gratuits, gagner 20-40%
+- [Déménagement weekend vs semaine Nice](/blog/demenagement-pas-cher-nice/satellites/demenagement-weekend-vs-semaine-nice) - Économiser 15-25% en semaine
+- [Déménagement petit budget Nice](/blog/demenagement-pas-cher-nice/satellites/demenagement-petit-budget-nice) - Solutions <500€ T1-T2
+
 ## Déménagement pas cher à Nice : Est-ce vraiment possible ?
 
 ### Oui, avec de la préparation et les bons choix

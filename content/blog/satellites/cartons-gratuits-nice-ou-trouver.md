@@ -28,6 +28,9 @@ Ce guide liste les 8 meilleures sources de cartons gratuits à Nice avec horaire
 ### 1. Marché Libération (⭐⭐⭐⭐⭐)
 
 **Adresse :** Place du Général de Gaulle, Libération  
+
+Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement économique à Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
+
 **Horaires :** Mardi-dimanche 6h-13h30 (fermeture 13h30)  
 **Meilleur moment :** 7h-9h (marchands déballent, cartons disponibles)
 
@@ -57,6 +60,9 @@ Ce guide liste les 8 meilleures sources de cartons gratuits à Nice avec horaire
 **Tramway :** T3 direction Arenas
 
 ### 4. Leclerc TNL (La Trinité)
+
+Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas chères pour déménager à Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
+
 
 **Horaires :** 8h30-20h  
 **Méthode :** Réception marchandises (généralement arrière magasin, demander accueil)
@@ -93,6 +99,9 @@ Ce guide liste les 8 meilleures sources de cartons gratuits à Nice avec horaire
 **Hygiène :** Cartons fruits/légumes OK si propres (éviter cartons viande/poisson)
 
 **Transport :** Voiture perso (10-15 cartons pliés), vélo cargo (si disponible), à pied 5-10 cartons si marché proche logement
+
+
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [réduire le coût de votre déménagement niçois](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
 
 ## Conclusion
 

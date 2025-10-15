@@ -22,6 +22,23 @@ Nice présente des particularités qui impactent directement le coût : ruelles 
 
 Dans ce guide complet, découvrez tous les **facteurs influençant le prix d'un déménagement à Nice**, des fourchettes tarifaires réalistes pour 2025, comment obtenir un devis précis et transparent, et nos conseils pour maîtriser votre budget sans sacrifier la qualité.
 
+## 📚 Notre Dossier Complet Prix Déménagement Nice
+
+Tout comprendre sur les tarifs de déménagement à Nice :
+
+**Prix par Type de Logement :**
+- [Prix déménagement T2 à Nice 2025](/blog/prix-demenagement-nice/satellites/prix-demenagement-t2-nice) - Fourchettes 600-1400€ selon formule
+- [Prix déménagement T3 à Nice 2025](/blog/prix-demenagement-nice/satellites/prix-demenagement-t3-nice) - Tarifs 900-2000€ détaillés
+- [Prix déménagement maison Nice](/blog/prix-demenagement-nice/satellites/demenagement-maison-nice-prix) - Budget T4-T5 complet
+
+**Facteurs de Prix :**
+- [Facteurs influençant le prix déménagement Nice](/blog/prix-demenagement-nice/satellites/facteurs-prix-demenagement-nice) - Volume, distance, étage, services
+- [Comment calculer le prix de son déménagement](/blog/prix-demenagement-nice/satellites/calculer-prix-demenagement-nice) - Estimateur DIY
+
+**Devis et Longue Distance :**
+- [Devis déménagement Nice gratuit](/blog/prix-demenagement-nice/satellites/devis-demenagement-nice-gratuit) - 3-5 devis comparatifs
+- [Prix déménagement longue distance depuis Nice](/blog/prix-demenagement-nice/satellites/demenagement-longue-distance-depuis-nice) - Nice-Paris, Nice-Lyon, interrégional
+
 ## Quels sont les principaux facteurs qui influencent le prix d'un déménagement à Nice ?
 
 ### Le volume à déménager : Le facteur n°1

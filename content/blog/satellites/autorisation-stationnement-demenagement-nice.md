@@ -29,6 +29,9 @@ Ce guide détaille la démarche complète, les quartiers concernés, les délais
 
 Le Vieux-Nice est **80% piétonnier** avec stationnement quasi-impossible. Sans autorisation, vous ne pouvez PAS stationner un camion de déménagement. **Amende systématique : 135€** + risque fourrière (sortie véhicule 150-200€).
 
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet des déménageurs à Nice](/blog/demenageur-nice/demenageur-nice-guide-complet).
+
+
 L'autorisation réserve 1-2 places rue périphérique Vieux-Nice (où camions peuvent stationner) pendant fenêtre horaire définie (généralement 6h-14h). Le déménageur fait navettes entre camion et immeuble (parfois 50-100m à pied).
 
 **Demande :** 5-7 jours ouvrés minimum, idéal 10-15 jours (évite refus si planning police saturé)
@@ -116,7 +119,10 @@ Stationnement libre généralement disponible. Autorisation inutile sauf rues sp
 
 Sans autorisation : amende 135€ + temps perdu 2h = +200€ → **autorisation est rentable**.
 
-Pour tout savoir sur [les contraintes du Vieux-Nice](/blog/demenageur-nice/demenageur-vieux-nice-acces-difficile), consultez notre guide spécialisé.
+Pour tout savoir sur [les contraintes du Vieux-Nice](/blog/demenageur-nice/demenageur-vieux-nice-acces-difficile), consultez notre guide spécialisé. Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel à Nice](/blog/demenageur-nice/demenageur-nice-guide-complet).
+
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [nos services de déménagement niçois](/blog/demenageur-nice/demenageur-nice-guide-complet).
+
 
 ---
 

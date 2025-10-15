@@ -27,6 +27,9 @@ Ce guide détaille services spécialisés, aides financières seniors Nice, et a
 
 **Formule clé en main complète :**
 - Emballage total (vaisselle, vêtements, objets personnels)
+
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide aide au déménagement à Nice](/blog/aide-demenagement-nice/aide-demenagement-nice-guide).
+
 - Démontage mobilier
 - Transport sécurisé
 - Remontage, installation nouveau logement
@@ -41,6 +44,9 @@ Ce guide détaille services spécialisés, aides financières seniors Nice, et a
 - Garde-meuble temporaire : +150-400€ si décalage dates entrée EHPAD/résidence
 
 **Acteurs spécialisés :** Certains déménageurs niçois (vérifier) ou structures associatives (Croix Rouge, services municipaux).
+
+Ces éléments s'inscrivent dans le contexte plus large de notre [obtenir de l'aide pour déménager à Nice](/blog/aide-demenagement-nice/aide-demenagement-nice-guide).
+
 
 ## Aides Financières Seniors Nice
 
@@ -62,6 +68,9 @@ Ce guide détaille services spécialisés, aides financières seniors Nice, et a
 **Mutuelles seniors :** Certaines incluent aide déménagement (100-300€ forfait). Vérifier contrat.
 
 **Cumul aides :** CCAS 300€ + CARSAT 500€ = 800€ → T2 coûte 1 200€ - 800€ = **400€ reste à charge** vs 1 200€ sans aides.
+
+
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [aides financières et pratiques déménagement Nice](/blog/aide-demenagement-nice/aide-demenagement-nice-guide).
 
 ## Conclusion
 

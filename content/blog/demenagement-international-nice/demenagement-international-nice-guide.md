@@ -22,6 +22,18 @@ Nice, avec son aéroport international de Nice Côte d'Azur et sa proximité ave
 
 Dans ce guide complet, découvrez toutes les étapes d'un déménagement international réussi depuis ou vers Nice : les modes de transport disponibles dans les Alpes-Maritimes, les formalités douanières, les prix pratiqués en 2025, et comment choisir le bon prestataire pour ce projet de vie majeur.
 
+## 📚 Notre Dossier Complet Déménagement International Nice
+
+Préparez votre expatriation depuis/vers Nice avec nos guides spécialisés :
+
+**Formalités et Délais :**
+- [Formalités douanières déménagement international Nice](/blog/demenagement-international-nice/satellites/demenagement-formalites-douane-nice) - Documents, déclarations, restrictions
+- [Délais déménagement international depuis Nice](/blog/demenagement-international-nice/satellites/delai-demenagement-international-nice) - Maritime vs aérien, timing complet
+
+**Destinations Populaires :**
+- [Déménagement Nice-Italie](/blog/demenagement-international-nice/satellites/demenagement-international-nice-italie) - Voisin frontalier, spécificités Europe
+- [Déménagement Nice-Suisse](/blog/demenagement-international-nice/satellites/demenagement-international-nice-suisse) - Hors UE, formalités complètes
+
 ## Pourquoi un déménagement international depuis/vers Nice est-il si particulier ?
 
 ### Les enjeux majeurs d'un transfert mondial

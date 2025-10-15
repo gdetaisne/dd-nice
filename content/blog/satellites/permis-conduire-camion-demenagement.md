@@ -27,6 +27,9 @@ Le **permis C** (poids lourds > 3,5T) n'est nécessaire QUE pour camions démén
 
 **Véhicules autorisés :** PTAC < 3,5 tonnes (Poids Total Autorisé en Charge)
 
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide location camion déménagement Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
+
+
 **Utilitaires Nice concernés :**
 - 12m³ Kangoo/Partner : 1,8T à vide + 0,8T charge = 2,6T PTAC ✅
 - 20m³ Master/Boxer : 2,2T à vide + 1,1T charge = 3,3T PTAC ✅
@@ -38,6 +41,9 @@ Le **permis C** (poids lourds > 3,5T) n'est nécessaire QUE pour camions démén
 - Europcar : 21 ans, permis depuis 1 an
 - Sixt : 23 ans, permis depuis 2 ans (parfois 21 ans selon agence)
 - Hertz : 21 ans, permis depuis 1 an
+
+Ces éléments s'inscrivent dans le contexte plus large de notre [louer un camion pour déménager à Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
+
 
 **Jeunes conducteurs (21-25 ans) :** Surcoût assurance +10-20€/jour (risque statistique élevé).
 
@@ -55,6 +61,9 @@ Le **permis C** (poids lourds > 3,5T) n'est nécessaire QUE pour camions démén
 - A8 : Limitation 110 km/h utilitaires (vs 130 voitures)
 
 **Formation :** Aucune obligatoire (permis B autorise), mais **essai 10-15 min** parking avant de charger (familiarisation dimensions, freinage, angles morts).
+
+
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [location véhicule utilitaire Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
 
 ## Conclusion
 

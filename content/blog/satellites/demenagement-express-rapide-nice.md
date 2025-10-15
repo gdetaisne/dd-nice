@@ -39,11 +39,17 @@ Le déménagement express à Nice (délai < 48h) génère surcoût **+30-50%** v
 
 **Facteurs :** Délai (48h = +30%, 24h = +50%, même jour = +70%), volume (studio OK, T3 difficile disponibilité), quartier (Arenas plus facile organiser que Vieux-Nice).
 
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide petit déménagement Nice](/blog/petit-demenagement-nice/petit-demenagement-nice-guide).
+
+
 ## Disponibilité Express
 
 **< 48h :** 50-60% déménageurs (si planning permet)
 
 **< 24h :** 20-30% (rares créneaux libres)
+
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménager un studio ou petit volume à Nice](/blog/petit-demenagement-nice/petit-demenagement-nice-guide).
+
 
 **Même jour :** 10-20% (exceptionnel, petits volumes uniquement)
 
@@ -70,6 +76,9 @@ Le déménagement express à Nice (délai < 48h) génère surcoût **+30-50%** v
 - Quitter logement conjoint rapidement
 - Solution temporaire (famille, hôtel) puis logement définitif
 - Express vers temporaire (petit volume) puis standard vers définitif
+
+
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [solutions petit déménagement économique Nice](/blog/petit-demenagement-nice/petit-demenagement-nice-guide).
 
 ## Conclusion
 

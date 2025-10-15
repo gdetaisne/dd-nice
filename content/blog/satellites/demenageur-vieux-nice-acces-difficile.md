@@ -29,6 +29,9 @@ Ce guide détaille les spécificités du déménagement dans le Vieux-Nice, le r
 
 Le Vieux-Nice conserve son **tracé médiéval** avec des ruelles de 2 à 4m de largeur. Un camion de déménagement standard (20m³, largeur 2,5m) ne peut **physiquement pas circuler** dans 80% des rues. Les impasses, virages à 90°, arches basses (2,2m) et pavés irréguliers compliquent davantage.
 
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet des déménageurs à Nice](/blog/demenageur-nice/demenageur-nice-guide-complet).
+
+
 **Solution :** Utiliser des **utilitaires 12m³ maximum** (Renault Master, Fiat Ducato, largeur 2m). Inconvénient : un T2 (40m³) nécessite **3 rotations** au lieu d'1 avec camion 20m³. Temps supplémentaire : +2-4h = surcoût +150-250€ (main d'œuvre).
 
 **Alternative :** Stationner camion 20m³ en périphérie Vieux-Nice (parking Port, place Garibaldi) et faire **navettes utilitaire 12m³** entre camion et immeuble. Encore plus long mais parfois nécessaire.
@@ -94,7 +97,7 @@ Akte 21 se positionne comme **spécialiste des déménagements complexes** niço
 **Note :** 4/5 sur 2 avis  
 **Adresse :** 9 rue Pertinax, 06000 Nice
 
-Les Collinettes, malgré peu d'avis (seulement 2), affichent une **note parfaite 4/5**. Acteur niçois local, probablement petite structure familiale, connaissant bien les spécificités locales.
+Les Collinettes, malgré peu d'avis (seulement 2), affichent une **note parfaite 4/5**. Acteur niçois local, probablement petite structure familiale, connaissant bien les spécificités locales. Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel à Nice](/blog/demenageur-nice/demenageur-nice-guide-complet).
 
 **Avantages supposés :** Proximité, connaissance terrain, flexibilité petite structure
 
@@ -146,6 +149,9 @@ Ces préparations **facilitent travail déménageurs** = gain 30-60 min = écono
 - Monte-meuble si nécessaire
 
 **Économie :** 150-230€ vs formule standard, tout en déléguant le plus technique (contraintes Vieux-Nice).
+
+
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [nos services de déménagement niçois](/blog/demenageur-nice/demenageur-nice-guide-complet).
 
 ## Conclusion
 

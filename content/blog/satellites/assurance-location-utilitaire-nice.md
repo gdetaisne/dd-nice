@@ -27,6 +27,9 @@ Ce guide explique les types d'assurances, ce qu'elles couvrent, la franchise, et
 
 **RC (Responsabilité Civile) - INCLUSE :**
 - Couvre : Dommages causés à tiers (autre véhicule, piéton, bien)
+
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide location camion déménagement Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
+
 - Ne couvre PAS : Dommages à votre utilitaire loué
 - Franchise : N/A pour tiers
 - Franchise utilitaire : 1 200-1 500€ (vous payez si rayure/bosse)
@@ -40,6 +43,9 @@ Ce guide explique les types d'assurances, ce qu'elles couvrent, la franchise, et
 - **Sans tous risques** : Réparation 800€, vous payez 800€ (< franchise 1 500€)
 - **Avec tous risques (+20€)** : Réparation 800€, vous payez franchise 200€, assurance 600€
 - **Différence : 600€** pour 20€ investis
+
+Ces éléments s'inscrivent dans le contexte plus large de notre [louer un camion pour déménager à Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
+
 
 **Dans Vieux-Nice (risque élevé), tous risques se justifie largement.**
 
@@ -59,6 +65,9 @@ Ce guide explique les types d'assurances, ce qu'elles couvrent, la franchise, et
 - Budget sécurité 1 500€ disponible (acceptation risque)
 
 **Statistiques Nice :** 40-50% loueurs Vieux-Nice subissent rayure mineure (200-600€ réparations). Tous risques +20€ = **rentabilité 95%** (seulement 5% locations Vieux-Nice sans accroc).
+
+
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [location véhicule utilitaire Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
 
 ## Conclusion
 

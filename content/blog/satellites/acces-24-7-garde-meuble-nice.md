@@ -265,7 +265,7 @@ Vous payez le même prix que l'accès soit limité ou libre. Cette politique ren
 
 Comparé à Annexx 44-400€ par mois avec horaires 7h-20h ou Stock Avenue 25-350€ par mois avec horaires limités, l'écart de 10 à 30€ par mois s'explique partiellement par l'accès 24/7. Mais aussi par les services premium : sécurité renforcée, emplacement central, installations modernes. 
 
-Sur un box de 5m², l'accès 24/7 "coûte" environ 20 à 30€ par mois supplémentaires versus horaires.
+Sur un box de 5m², l'accès 24/7 "coûte" environ 20 à 30€ par mois supplémentaires versus horaires. Pour comparer tous les acteurs et leurs services à Nice, consultez notre [guide des solutions de stockage sécurisé à Nice](/blog/garde-meuble-nice/garde-meuble-nice-guide-complet).
 
 ### Peut-on vraiment accéder à 3h du matin à Nice ?
 

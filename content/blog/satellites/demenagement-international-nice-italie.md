@@ -26,6 +26,9 @@ Ce guide détaille les prix selon destinations, les formalités douanières UE, 
 ## Prix Nice → Italie
 
 **Nice → Vintimille/San Remo (30-50 km) :**
+
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagement international depuis Nice](/blog/demenagement-international-nice/demenagement-international-nice-guide).
+
 - Studio : 800-1 200€
 - T2 : 1 200-1 800€
 - Délai : 1-2 jours
@@ -41,6 +44,9 @@ Ce guide détaille les prix selon destinations, les formalités douanières UE, 
 - T2 : 2 000-2 800€
 - T3 : 2 800-4 000€
 - Délai : 3-5 jours
+
+
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménager à l'étranger depuis Nice](/blog/demenagement-international-nice/demenagement-international-nice-guide).
 
 **Nice → Rome (650 km) :**
 - Studio : 2 000-2 800€
@@ -64,6 +70,9 @@ Ce guide détaille les prix selon destinations, les formalités douanières UE, 
 **Délai douane :** 1-3h contrôle frontière Vintimille (aléatoire, parfois aucun).
 
 **Objets interdits/restreints :** Armes, produits dangereux, animaux vivants (procédure distincte).
+
+
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [expatriation et déménagement international Nice](/blog/demenagement-international-nice/demenagement-international-nice-guide).
 
 ## Conclusion
 

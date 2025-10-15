@@ -38,6 +38,9 @@ Quartiers étudiants Nice : **Riquier** (10 000), **Libération** (8 000), **Are
 
 **Économie auto : 177-327€** pour 8h travail (emballage 4h, chargement/déchargement avec amis 4h).
 
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide petit déménagement Nice](/blog/petit-demenagement-nice/petit-demenagement-nice-guide).
+
+
 ## Quartiers Étudiants
 
 **Riquier (10 000 étudiants) :**
@@ -46,6 +49,9 @@ Quartiers étudiants Nice : **Riquier** (10 000), **Libération** (8 000), **Are
 - Déménagements fréquents : septembre (rentrée), juin (fin année)
 
 **Libération (8 000 étudiants) :**
+
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménager un studio ou petit volume à Nice](/blog/petit-demenagement-nice/petit-demenagement-nice-guide).
+
 - Chambres meublées, colocations
 - Loyers : 450-600€
 - Marché Libération (cartons gratuits 7h-9h)
@@ -75,6 +81,9 @@ Quartiers étudiants Nice : **Riquier** (10 000), **Libération** (8 000), **Are
 - Durée : 4h (chargement 2h, transport 30 min, déchargement 1h30)
 
 **Stockage été :** 60% étudiants Nice stockent affaires été (garde-meuble 60-90€/mois × 3,5 mois = 210-315€) vs tout ramener famille (200-600€ transport).
+
+
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [solutions petit déménagement économique Nice](/blog/petit-demenagement-nice/petit-demenagement-nice-guide).
 
 ## Conclusion
 
