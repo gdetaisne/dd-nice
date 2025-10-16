@@ -32,7 +32,7 @@ Le montant varie en fonction de :
 
 Cette aide couvre plusieurs types de frais. Frais de déménagement. Frais d'installation. Caution du nouveau logement.
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide aide au déménagement à Nice](/blog/aide-demenagement-nice/aide-demenagement-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide aide au déménagement à Nice](/blog/aide-demenagement/aide-demenagement-nice-guide).
 
 
 ## Le contexte niçois
@@ -199,7 +199,7 @@ Sophia-Antipolis est un atout pour Nice. C'est un technopole européen majeur.
 - 2 500 entreprises
 - Secteurs : high-tech, R&D, santé
 
-De nombreux demandeurs d'emploi d'autres régions acceptent des postes à Sophia. Ils bénéficient de l'aide Pôle Emploi pour leur installation à Nice. Ces éléments s'inscrivent dans le contexte plus large de notre [obtenir de l'aide pour déménager à Nice](/blog/aide-demenagement-nice/aide-demenagement-nice-guide).
+De nombreux demandeurs d'emploi d'autres régions acceptent des postes à Sophia. Ils bénéficient de l'aide Pôle Emploi pour leur installation à Nice. Ces éléments s'inscrivent dans le contexte plus large de notre [obtenir de l'aide pour déménager à Nice](/blog/aide-demenagement/aide-demenagement-nice-guide).
 
 ## Conseils pour Maximiser vos Chances
 
@@ -334,7 +334,7 @@ Exemples :
 L'aide de 300 à 1 000€ finance partiellement votre déménagement vers la nouvelle région. Les coûts longue distance de Nice sont élevés : 2 500 à 4 000€. L'aide couvre 25-40% selon le cas.
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [aides financières et pratiques déménagement Nice](/blog/aide-demenagement-nice/aide-demenagement-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [aides financières et pratiques déménagement Nice](/blog/aide-demenagement/aide-demenagement-nice-guide).
 
 Démarche identique : dossier conseiller Pôle Emploi AVANT de déménager.
 

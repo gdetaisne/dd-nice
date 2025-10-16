@@ -22,7 +22,7 @@ Vous vous demandez pour combien de temps vous devez louer un garde-meuble à Nic
 
 À Nice, ville dynamique avec **35 000 étudiants** et un marché immobilier tendu (4 500-5 000€/m²), les situations de stockage sont souvent temporaires et imprévisibles. Les acteurs locaux — Homebox, Shurgard, Annexx et Stock Avenue — ont adapté leurs contrats pour offrir une souplesse maximale. Vous pouvez louer un box pour 1 mois comme pour 5 ans, sans contrainte d'engagement.
 
-Ce guide détaille les durées minimum chez les acteurs niçois, les avantages des engagements courts et longs, ainsi que les situations spécifiques à Nice (étudiants, expatriés, déménagement). Pour comprendre l'ensemble des options de stockage disponibles, consultez notre [guide complet du garde-meuble à Nice](/blog/garde-meuble-nice/garde-meuble-nice-guide-complet).
+Ce guide détaille les durées minimum chez les acteurs niçois, les avantages des engagements courts et longs, ainsi que les situations spécifiques à Nice (étudiants, expatriés, déménagement). Pour comprendre l'ensemble des options de stockage disponibles, consultez notre [guide complet du garde-meuble à Nice](/blog/garde-meuble/garde-meuble-nice-guide-complet).
 
 ## Durée Minimum chez les Acteurs Nice
 
@@ -170,7 +170,7 @@ Les **engagements 6-12 mois** offrent des économies de 5 à 16% (premier mois o
 
 Notre recommandation : **démarrez sans engagement** si votre durée est incertaine (déménagement, travaux). Vous pouvez toujours négocier un engagement en cours de location pour obtenir une réduction rétroactive. À l'inverse, s'engager puis vouloir partir avant la fin coûte des pénalités.
 
-Pour tout comprendre sur [comment choisir et utiliser un garde-meuble à Nice](/blog/garde-meuble-nice/garde-meuble-nice-guide-complet), consultez notre guide complet avec tous les critères de sélection.
+Pour tout comprendre sur [comment choisir et utiliser un garde-meuble à Nice](/blog/garde-meuble/garde-meuble-nice-guide-complet), consultez notre guide complet avec tous les critères de sélection.
 
 ---
 

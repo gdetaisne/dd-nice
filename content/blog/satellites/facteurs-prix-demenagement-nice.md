@@ -26,7 +26,7 @@ Ce guide analyse chaque facteur avec exemples chiffrés Nice pour comprendre vot
 
 **1. Volume (m³) :** Studio 15m³ = 400€ base, Maison 120m³ = 2 500€ base (+525%)
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide des prix déménagement à Nice](/blog/prix-demenagement-nice/prix-demenagement-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide des prix déménagement à Nice](/blog/prix/prix-demenagement-nice-guide).
 
 
 **2. Quartier :** Vieux-Nice +15-25% (contraintes), Arenas -5-10% (accès)
@@ -34,7 +34,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide des prix d�
 **3. Étage :** +30-50€/étage sans ascenseur (3ème = +120€)
 
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [tarifs déménageur Nice détaillés](/blog/prix-demenagement-nice/prix-demenagement-nice-guide).
+Ces éléments s'inscrivent dans le contexte plus large de notre [tarifs déménageur Nice détaillés](/blog/prix/prix-demenagement-nice-guide).
 
 **4. Formule :** Économique base, Standard +30%, Clé en main +50%
 
@@ -48,7 +48,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [tarifs démén
 - **Écart : 700€** (78%)
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [comprendre les coûts de déménagement niçois](/blog/prix-demenagement-nice/prix-demenagement-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [comprendre les coûts de déménagement niçois](/blog/prix/prix-demenagement-nice-guide).
 
 ## Conclusion
 

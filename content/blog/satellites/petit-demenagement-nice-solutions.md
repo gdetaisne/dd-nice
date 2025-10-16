@@ -42,7 +42,7 @@ Ce guide détaille les solutions selon volume, prix, et astuces économies pour 
 
 **Formule économique = vous emballez, déménageur transporte.**
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide petit déménagement Nice](/blog/petit-demenagement-nice/petit-demenagement-nice-guide). Ces éléments s'inscrivent dans le contexte plus large de notre [déménager un studio ou petit volume à Nice](/blog/petit-demenagement-nice/petit-demenagement-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide petit déménagement Nice](/blog/petit-demenagement/petit-demenagement-nice-guide). Ces éléments s'inscrivent dans le contexte plus large de notre [déménager un studio ou petit volume à Nice](/blog/petit-demenagement/petit-demenagement-nice-guide).
 
 
 **Auto = location utilitaire + essence + aide amis.**
@@ -60,7 +60,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide petit dém�
 **Vieux-Nice :** +15-25% (contraintes accès)
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [solutions petit déménagement économique Nice](/blog/petit-demenagement-nice/petit-demenagement-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [solutions petit déménagement économique Nice](/blog/petit-demenagement/petit-demenagement-nice-guide).
 
 ## Conclusion
 

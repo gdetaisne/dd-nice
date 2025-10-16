@@ -33,12 +33,12 @@ Ces délais incluent : **chargement** (1j), **transport routier** (1-3j Europe),
 - Zurich 700 km : 10-14 jours
 - Délai douane : 2-5 jours (formulaire 18.44, contrôles)
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagement international depuis Nice](/blog/demenagement-international-nice/demenagement-international-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagement international depuis Nice](/blog/international/demenagement-international-nice-guide).
 
 
 **UK (Hors-UE post-Brexit, 1 200 km + ferry) :**
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [déménager à l'étranger depuis Nice](/blog/demenagement-international-nice/demenagement-international-nice-guide).
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménager à l'étranger depuis Nice](/blog/international/demenagement-international-nice-guide).
 
 - Londres : 10-14 jours
 - Délai : +ferry (Calais-Douvres 1-2j) + douane UK (3-5j)
@@ -59,7 +59,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [déménager à
 **Distance destination finale :** Genève centre 7j vs Genève montagne reculée 10j (+3j livraison intérieure)
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [expatriation et déménagement international Nice](/blog/demenagement-international-nice/demenagement-international-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [expatriation et déménagement international Nice](/blog/international/demenagement-international-nice-guide).
 
 ## Conclusion
 

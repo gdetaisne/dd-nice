@@ -27,7 +27,7 @@ Les **déménagements Nice courants** : centre ↔ Riquier (6 km), Vieux-Nice �
 - Km supplémentaire : 0,30€/km
 - Adapté : Déménagements métropole étendue (Nice-Antibes-Cannes)
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide location camion déménagement Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide location camion déménagement Nice](/blog/location-camion/location-camion-demenagement-nice-guide).
 
 
 **Sixt Nice :**
@@ -52,7 +52,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide location ca
 **Nice → Fréjus (60 km, forfait 100 km) :**
 - Aller-retour : 120 km
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [louer un camion pour déménager à Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
+Ces éléments s'inscrivent dans le contexte plus large de notre [louer un camion pour déménager à Nice](/blog/location-camion/location-camion-demenagement-nice-guide).
 
 - Forfait : 100 km inclus
 - **Dépassement : 20 km**
@@ -86,7 +86,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [louer un camio
 **Conclusion km :** 95% déménagements Nice restent dans forfait 100-150 km inclus (aucun surcoût).
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [location véhicule utilitaire Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [location véhicule utilitaire Nice](/blog/location-camion/location-camion-demenagement-nice-guide).
 
 ## Conclusion
 

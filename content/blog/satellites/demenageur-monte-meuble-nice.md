@@ -21,7 +21,7 @@ Le monte-meuble (ou élévateur extérieur) est un équipement permettant de his
 
 Les **60-70% d'immeubles sans ascenseur** du Vieux-Nice rendent le monte-meuble indispensable pour tout mobilier large (canapés 3 places, armoires, pianos, électroménager). Les déménageurs niçois spécialisés comme **Akte 21** et **Les Collinettes** possèdent cet équipement et maîtrisent son utilisation dans les contraintes du centre historique (façades classées, rues étroites, autorisations).
 
-Ce guide explique dans quelles situations le monte-meuble est nécessaire à Nice, son coût détaillé, les quartiers concernés et comment choisir un déménageur équipé. Pour comprendre [tous les aspects du déménagement niçois](/blog/demenageur-nice/demenageur-nice-guide-complet), consultez notre guide complet.
+Ce guide explique dans quelles situations le monte-meuble est nécessaire à Nice, son coût détaillé, les quartiers concernés et comment choisir un déménageur équipé. Pour comprendre [tous les aspects du déménagement niçois](/blog/demenageur/demenageur-nice-guide-complet), consultez notre guide complet.
 
 ## Situations Nécessitant Monte-Meuble Nice
 
@@ -29,7 +29,7 @@ Ce guide explique dans quelles situations le monte-meuble est nécessaire à Nic
 
 Le **Vieux-Nice** concentre le plus fort taux d'utilisation de monte-meuble à Nice :
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet des déménageurs à Nice](/blog/demenageur-nice/demenageur-nice-guide-complet).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet des déménageurs à Nice](/blog/demenageur/demenageur-nice-guide-complet).
 
 
 **Immeubles 16ème-19ème siècles :**
@@ -115,7 +115,7 @@ Certains **immeubles 1960-1980** (Libération, Riquier, Pasteur) ont des ascense
 - Équipe moins fatiguée (qualité maintenue)
 - **Coût : 1 120€** (+20€ mais sécurité supérieure)
 
-Le monte-meuble coûte légèrement plus cher (+20-100€) mais **réduit risques** et **accélère** (6h vs 8h). Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel à Nice](/blog/demenageur-nice/demenageur-nice-guide-complet).
+Le monte-meuble coûte légèrement plus cher (+20-100€) mais **réduit risques** et **accélère** (6h vs 8h). Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel à Nice](/blog/demenageur/demenageur-nice-guide-complet).
 
 ### Quartiers Nice Fréquence Monte-Meuble
 
@@ -163,7 +163,7 @@ Le monte-meuble coûte légèrement plus cher (+20-100€) mais **réduit risque
 **Vente/Rachat :** Vendre gros meubles (canapé, armoire) avant déménagement, racheter d'occasion après installation nouveau logement. Perte valeur (50-70% valeur achat) mais évite monte-meuble. Pertinent pour meubles Ikea bas de gamme (facile remplacer).
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [nos services de déménagement niçois](/blog/demenageur-nice/demenageur-nice-guide-complet).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [nos services de déménagement niçois](/blog/demenageur/demenageur-nice-guide-complet).
 
 ## Conclusion
 

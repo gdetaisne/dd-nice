@@ -34,7 +34,7 @@ Choisissez **transporteur spécialisé pianos** (pas déménageur généraliste)
 
 **Inclus :** 6 pros, matériel spécialisé, assurance 10 000-20 000€
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du déménagement de piano à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide). Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement piano professionnel à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du déménagement de piano à Nice](/blog/piano/demenagement-piano-nice-guide). Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement piano professionnel à Nice](/blog/piano/demenagement-piano-nice-guide).
 
 
 **Longue distance (Nice → Paris) :** +1 500-3 000€ (transport sécurisé, assurance étendue)
@@ -48,7 +48,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du 
 **Facteurs sélection :** Assurance valeur piano (20 000-50 000€), références pianos queue récentes, équipement (monte-meuble, sangles industrielles, plateau renforcé)
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transport sécurisé de piano à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transport sécurisé de piano à Nice](/blog/piano/demenagement-piano-nice-guide).
 
 ## Conclusion
 

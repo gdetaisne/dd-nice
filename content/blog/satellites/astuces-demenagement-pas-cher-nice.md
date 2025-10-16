@@ -25,7 +25,7 @@ Déménager à Nice coûte cher. Les prix varient de 400 à 3 000€ selon le lo
 
 Pour un T2 standard à 1 000€, ces astuces vous font économiser 300 à 600€. Vous payez finalement 400 à 700€.
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement économique à Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement économique à Nice](/blog/pas-cher/demenagement-pas-cher-nice-guide).
 
 
 Les 35 000 étudiants niçois utilisent massivement ces solutions. Les jeunes actifs aussi. La contrainte budgétaire est réelle à Nice.
@@ -148,7 +148,7 @@ C'est la solution la plus économique. Mais aussi la plus fatigante.
 
 **Où louer à Nice** :
 
-Europcar, Sixt, Hertz : Plusieurs agences dans Nice. Réservez 2-3 semaines avant pour les meilleurs tarifs. Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas chères pour déménager à Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
+Europcar, Sixt, Hertz : Plusieurs agences dans Nice. Réservez 2-3 semaines avant pour les meilleurs tarifs. Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas chères pour déménager à Nice](/blog/pas-cher/demenagement-pas-cher-nice-guide).
 
 Leclerc location : Si présent à Nice, tarifs souvent 10-15% moins chers.
 
@@ -244,7 +244,7 @@ Déménager seul ou avec des amis est épuisant. Stress élevé. Conflits possib
 Si vous êtes fragile de santé ou très stressé, payez des pros. Votre santé vaut plus que 400€.
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [réduire le coût de votre déménagement niçois](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [réduire le coût de votre déménagement niçois](/blog/pas-cher/demenagement-pas-cher-nice-guide).
 
 ## Conclusion
 

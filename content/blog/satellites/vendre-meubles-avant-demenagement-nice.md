@@ -362,7 +362,7 @@ Nice, avec **344 064 habitants** et une forte mobilité résidentielle (35 000 �
 
 ### Combien de temps avant le déménagement faut-il vendre ses meubles ?
 
-**6-8 semaines idéal** : tri (J-60), publication annonces (J-45), négociations (J-30 à J-15), enlèvements (J-15 à J-7). Nice délai vente moyen : **7-15 jours** (bon état, prix correct). Si invendus J-7 : don [Emmaüs Nice](/demenagement) (reçu fiscal 66% déduction impôts) ou déchetterie Ariane (gratuit).
+**6-8 semaines idéal** : tri (J-60), publication annonces (J-45), négociations (J-30 à J-15), enlèvements (J-15 à J-7). Nice délai vente moyen : **7-15 jours** (bon état, prix correct). Si invendus J-7 : don [Emmaüs Nice](/blog) (reçu fiscal 66% déduction impôts) ou déchetterie Ariane (gratuit).
 
 ### À quel prix vendre un canapé d'occasion à Nice ?
 
@@ -370,7 +370,7 @@ Nice, avec **344 064 habitants** et une forte mobilité résidentielle (35 000 �
 
 ### Faut-il proposer la livraison pour vendre plus vite ses meubles ?
 
-**Oui, accélère ventes +30-40%**. Nice 30-40% immeubles sans ascenseur (Libération, Vieux-Nice) = acheteurs sans véhicule. [Location camion](/demenagement/location-utilitaire-demenagement-nice) 12m³ : 70-90€/jour (Europcar Aéroport). Livrer 3-4 meubles : facturer 20-40€/meuble = rentable. Exemple : vendre canapé 300€ + livraison 30€ = **330€ vs 280€** sans livraison (délai réduit).
+**Oui, accélère ventes +30-40%**. Nice 30-40% immeubles sans ascenseur (Libération, Vieux-Nice) = acheteurs sans véhicule. [Location camion](/blog/location-camion/location-camion-demenagement-nice-guide) 12m³ : 70-90€/jour (Europcar Aéroport). Livrer 3-4 meubles : facturer 20-40€/meuble = rentable. Exemple : vendre canapé 300€ + livraison 30€ = **330€ vs 280€** sans livraison (délai réduit).
 
 ### Où donner ses meubles à Nice si la vente échoue ?
 
@@ -382,6 +382,6 @@ Nice, avec **344 064 habitants** et une forte mobilité résidentielle (35 000 �
 
 ---
 
-**Vendre ses meubles avant un [déménagement à Nice](/demenagement/astuces-demenagement-pas-cher-nice) combine économies (réduction volume -600-800€) et recettes (300-1 200€)**. Avec une publication anticipée (6-8 semaines), des photos qualité et des prix compétitifs, le marché dynamique niçois (35 000 étudiants, forte mobilité) garantit des ventes rapides et rentables.
+**Vendre ses meubles avant un [déménagement à Nice](/blog/pas-cher/demenagement-pas-cher-nice-guide) combine économies (réduction volume -600-800€) et recettes (300-1 200€)**. Avec une publication anticipée (6-8 semaines), des photos qualité et des prix compétitifs, le marché dynamique niçois (35 000 étudiants, forte mobilité) garantit des ventes rapides et rentables.
 
 

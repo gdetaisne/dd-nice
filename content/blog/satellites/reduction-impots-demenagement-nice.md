@@ -332,7 +332,7 @@ Don mobilier **Emmaüs Nice Arenas** (04 93 52 XX XX, collecte gratuite >10 meub
 
 ### Un retraité peut-il bénéficier de réductions fiscales pour un déménagement à Nice ?
 
-**NON pour crédit impôt déménagement professionnel** (conditions : mutation, emploi). **OUI pour** : **Don mobilier** Emmaüs (-66% valeur, max 20% revenu), **SAP nettoyage/aide installation** Nice (crédit 50%, case 7DB). **Retraités 65+** : Aides [MDPH 06](/demenagement) (500-1 500€), Carsat (500-1 500€), CCAS Nice (200-800€) NON liées fiscalité. Total économies retraités : 700-2 800€ (aides + fiscalité).
+**NON pour crédit impôt déménagement professionnel** (conditions : mutation, emploi). **OUI pour** : **Don mobilier** Emmaüs (-66% valeur, max 20% revenu), **SAP nettoyage/aide installation** Nice (crédit 50%, case 7DB). **Retraités 65+** : Aides [MDPH 06](/blog) (500-1 500€), Carsat (500-1 500€), CCAS Nice (200-800€) NON liées fiscalité. Total économies retraités : 700-2 800€ (aides + fiscalité).
 
 ### Faut-il déclarer une indemnité de déménagement de l'employeur ?
 

@@ -21,7 +21,7 @@ Le marché immobilier tendu de Nice (4 500-5 000€/m²) provoque fréquemment d
 
 Les **acteurs niçois proposent des contrats flexibles** sans engagement longue durée, parfaitement adaptés à ces besoins temporaires. Homebox, Shurgard et Annexx appliquent le même tarif mensuel qu'une location standard (pas de surcoût "court terme"), avec préavis courts de 15-30 jours. Pour un T2 complet stocké 2 mois, comptez 300-400€ chez ces acteurs.
 
-Ce guide explique pourquoi les décalages sont fréquents à Nice, quelle durée prévoir, les prix et acteurs flexibles, et comment organiser logistiquement stockage et déménagement. Pour comprendre toutes les options, consultez notre [guide complet du garde-meuble à Nice](/blog/garde-meuble-nice/garde-meuble-nice-guide-complet).
+Ce guide explique pourquoi les décalages sont fréquents à Nice, quelle durée prévoir, les prix et acteurs flexibles, et comment organiser logistiquement stockage et déménagement. Pour comprendre toutes les options, consultez notre [guide complet du garde-meuble à Nice](/blog/garde-meuble/garde-meuble-nice-guide-complet).
 
 ## Pourquoi Stocker Pendant Déménagement Nice ?
 

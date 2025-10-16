@@ -37,7 +37,7 @@ Ce guide explique fonctionnement, économies, délais et situations adaptées au
 - J2 : Chargement C Cannes
 - J2-3 : Transport Nice → Paris (1 000 km, 2 jours avec pause)
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement économique à Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement économique à Nice](/blog/pas-cher/demenagement-pas-cher-nice-guide).
 
 - J4 : Livraison A Paris
 - J5 : Livraison B Paris
@@ -56,7 +56,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement é
 
 **Nice → Lyon (500 km) :**
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas chères pour déménager à Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
+Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas chères pour déménager à Nice](/blog/pas-cher/demenagement-pas-cher-nice-guide).
 
 - Dédié T2 : 2 200€
 - Groupé T2 : 1 450€
@@ -91,7 +91,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas 
 - Étudiants (retour famille pendant attente livraison)
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [réduire le coût de votre déménagement niçois](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [réduire le coût de votre déménagement niçois](/blog/pas-cher/demenagement-pas-cher-nice-guide).
 
 ## Conclusion
 

@@ -22,7 +22,7 @@ Nice accueille **35 000 étudiants** (Université Côte d'Azur, 2025), créant c
 
 Les acteurs niçois ont adapté leurs offres à ce public : **petits boxes de 1 à 3m² dès 25€/mois** chez Stock Avenue et Annexx, contrats flexibles de 3-4 mois (juin-septembre), emplacements proches des quartiers étudiants (Riquier, Libération, Arenas, Pasteur). Pour un budget moyen de 60-90€/mois sur 3,5 mois, un étudiant niçois stocke l'intégralité de sa chambre de 9-12m² pour 210-315€ l'été.
 
-Ce guide détaille les solutions de stockage économiques à Nice pour les 35 000 étudiants, avec les meilleurs tarifs, les quartiers adaptés et les astuces pour optimiser votre budget. Pour comprendre toutes les options disponibles, consultez notre [guide complet du garde-meuble à Nice](/blog/garde-meuble-nice/garde-meuble-nice-guide-complet).
+Ce guide détaille les solutions de stockage économiques à Nice pour les 35 000 étudiants, avec les meilleurs tarifs, les quartiers adaptés et les astuces pour optimiser votre budget. Pour comprendre toutes les options disponibles, consultez notre [guide complet du garde-meuble à Nice](/blog/garde-meuble/garde-meuble-nice-guide-complet).
 
 ## Pourquoi Stocker en Été à Nice ? (35 000 Étudiants)
 

@@ -193,7 +193,7 @@ Nice compte **20 000-25 000 colocations** (étudiants + jeunes actifs) sur **200
 **Option 2 : Location utilitaire**
 - **Kangoo/Partner** : 3-4m³ (150-200€ jour/semaine)
 - **Optimal** : 1 voyage, économie temps
-- [Location utilitaire Nice](/demenagement/location-utilitaire-demenagement-nice)
+- [Location utilitaire Nice](/blog/location-camion/location-camion-demenagement-nice-guide)
 
 **Option 3 : Déménageur petit volume**
 - **Formule express** : 2-4h, 300-600€

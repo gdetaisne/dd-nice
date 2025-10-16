@@ -97,7 +97,7 @@ Nice attire chaque année **8 000-12 000 nouveaux arrivants** depuis d'autres r�
 
 **Volume :**
 - Réduction si vente mobilier avant (-20-30% tarif)
-- [Vendre meubles avant déménagement](/demenagement/vendre-meubles-avant-demenagement-nice)
+- [Vendre meubles avant déménagement](/blog/pas-cher/demenagement-pas-cher-nice-guide)
 
 **Saison :**
 - Haute (juin-septembre) : +30-40% (rentrée 35 000 étudiants, tourisme)

@@ -40,7 +40,7 @@ Déménager en **semaine** (lundi-jeudi) économise **200-400€** vs weekend à
 
 **Exemple :** Économie 300€ = 3 mois courses ou 1 mois charges pour famille niçoise.
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement économique à Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement économique à Nice](/blog/pas-cher/demenagement-pas-cher-nice-guide).
 
 
 ## Jour Déménagement (Employeur)
@@ -48,7 +48,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement é
 Certaines conventions collectives prévoient "jour(s) déménagement" payé (1-2 jours congés spéciaux).
 
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas chères pour déménager à Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
+Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas chères pour déménager à Nice](/blog/pas-cher/demenagement-pas-cher-nice-guide).
 
 **Secteurs concernés :** Fonction publique, banques, grandes entreprises
 
@@ -79,7 +79,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas 
 **Septembre** (35 000 étudiants) : Weekend saturé. Réservation 2-3 mois avant nécessaire vs 2 semaines semaine.
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [réduire le coût de votre déménagement niçois](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [réduire le coût de votre déménagement niçois](/blog/pas-cher/demenagement-pas-cher-nice-guide).
 
 ## Conclusion
 

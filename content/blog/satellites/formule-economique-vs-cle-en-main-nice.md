@@ -29,10 +29,10 @@ Ce guide compare les trois formules en détail avec prix, prestations incluses e
 |---------|------------|----------|-------------|
 | **Client fait** | Emballage 100%, démontage | Emballage fragiles | Rien (supervision) |
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet des déménageurs à Nice](/blog/demenageur-nice/demenageur-nice-guide-complet).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet des déménageurs à Nice](/blog/demenageur/demenageur-nice-guide-complet).
 
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel à Nice](/blog/demenageur-nice/demenageur-nice-guide-complet).
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel à Nice](/blog/demenageur/demenageur-nice-guide-complet).
 
 | **Déménageur fait** | Transport uniquement | Emballage non-fragile, démontage, transport | Tout |
 | **Temps client** | 12-20h préparation | 4-8h | 0h |
@@ -44,7 +44,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement
 **Choix optimal :** Valorisez votre temps. Si 1h temps = 15-20€ (votre taux horaire), formule standard optimal (économie temps 8-12h = 120-240€ > surcoût 150-200€ vs économique).
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [nos services de déménagement niçois](/blog/demenageur-nice/demenageur-nice-guide-complet).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [nos services de déménagement niçois](/blog/demenageur/demenageur-nice-guide-complet).
 
 ## Conclusion
 

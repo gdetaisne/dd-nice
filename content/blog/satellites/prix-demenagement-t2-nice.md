@@ -33,7 +33,7 @@ Ce guide détaille prix par quartier, formules, et astuces économies pour T2 ni
 
 **Libération/Musiciens (45m², 2ème sans ascenseur) :**
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide des prix déménagement à Nice](/blog/prix-demenagement-nice/prix-demenagement-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide des prix déménagement à Nice](/blog/prix/prix-demenagement-nice-guide).
 
 - Économique : 800-950€
 - Standard : 950-1 100€
@@ -56,7 +56,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide des prix d�
 - Économie : -5-10% (accès optimaux)
 
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [tarifs déménageur Nice détaillés](/blog/prix-demenagement-nice/prix-demenagement-nice-guide).
+Ces éléments s'inscrivent dans le contexte plus large de notre [tarifs déménageur Nice détaillés](/blog/prix/prix-demenagement-nice-guide).
 
 **Fourchette globale T2 Nice : 700-1 200€** (variation 500€ = 71% selon quartier/formule)
 
@@ -92,7 +92,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [tarifs démén
 **Cumul astuces :** Économie totale 400-700€ possible (T2 de 1 200€ → 500-800€)
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [comprendre les coûts de déménagement niçois](/blog/prix-demenagement-nice/prix-demenagement-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [comprendre les coûts de déménagement niçois](/blog/prix/prix-demenagement-nice-guide).
 
 ## Conclusion
 

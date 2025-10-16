@@ -26,7 +26,7 @@ Ce guide détaille planning optimal, prix, matériel sensible et assurances pour
 
 **Cabinet généraliste 50m² (1-2 pièces consult) :**
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagement d'entreprise à Nice](/blog/demenagement-entreprise-nice/demenagement-entreprise-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagement d'entreprise à Nice](/blog/entreprise/demenagement-entreprise-nice-guide).
 
 - Weekend : 2 500-3 500€
 - Semaine : 2 000-2 800€
@@ -40,7 +40,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagem
 - Nécessite : Débranchement/rebranchement équipements par technicien (facturation séparée +500-1 000€)
 
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel et bureaux Nice](/blog/demenagement-entreprise-nice/demenagement-entreprise-nice-guide).
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel et bureaux Nice](/blog/entreprise/demenagement-entreprise-nice-guide).
 
 **Inclus déménagement :** Mobilier bureau, archives, petit matériel
 
@@ -61,7 +61,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement
 **Interruption :** 0 jour (weekend) vs 3-5 jours (déménagement semaine)
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transfert de locaux professionnels à Nice](/blog/demenagement-entreprise-nice/demenagement-entreprise-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transfert de locaux professionnels à Nice](/blog/entreprise/demenagement-entreprise-nice-guide).
 
 ## Conclusion
 

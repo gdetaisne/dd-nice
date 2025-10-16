@@ -24,7 +24,7 @@ Trois solutions exist à Nice pour obtenir de l'aide. Chacune a ses avantages et
 
 **Avec 4-5 amis** : Coût quasi nul. Prévoyez un repas de remerciement : 50 à 80€.
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide aide au déménagement à Nice](/blog/aide-demenagement-nice/aide-demenagement-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide aide au déménagement à Nice](/blog/aide-demenagement/aide-demenagement-nice-guide).
 
 
 **Avec 3 déménageurs pros** : Main d'œuvre pour un T2 : 300 à 400€.
@@ -152,7 +152,7 @@ Ce guide compare les 3 solutions. Nous détaillons les prix, avantages, inconvé
 
 **2 semaines avant** :
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [obtenir de l'aide pour déménager à Nice](/blog/aide-demenagement-nice/aide-demenagement-nice-guide).
+Ces éléments s'inscrivent dans le contexte plus large de notre [obtenir de l'aide pour déménager à Nice](/blog/aide-demenagement/aide-demenagement-nice-guide).
 
 - Réservez vos aides : amis ou étudiants
 - Confirmez date et horaires précis
@@ -286,7 +286,7 @@ Mettez de la musique. Restez de bonne humeur. Le déménagement sera plus agréa
 Ajoutez 20-30% de temps à vos estimations. Les imprévus arrivent toujours.
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [aides financières et pratiques déménagement Nice](/blog/aide-demenagement-nice/aide-demenagement-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [aides financières et pratiques déménagement Nice](/blog/aide-demenagement/aide-demenagement-nice-guide).
 
 ## Conclusion
 

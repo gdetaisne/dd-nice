@@ -33,7 +33,7 @@ Choisir la bonne taille de box de stockage à Nice peut sembler complexe. Trop p
 
 À Nice, la configuration des logements influence directement les besoins de stockage. Dans le Vieux-Nice et le centre historique, les studios de 15 à 25m² dominent, nécessitant généralement des boxes de 2 à 3m². Les T2 de Libération ou Riquier (40-50m² en moyenne) requièrent 5 à 7m². Les appartements spacieux de Cimiez (70-90m²) demandent 10 à 15m². Les acteurs niçois comme Homebox, Shurgard et Annexx proposent des tailles de 0,75m² à 30m², avec possibilité de changer en cours de location si vos besoins évoluent.
 
-Ce guide vous aide à déterminer la taille exacte de box dont vous avez besoin selon votre logement niçois, avec des exemples concrets par quartier et une méthode de calcul simple. Pour comprendre les différents types de stockage et choisir la solution adaptée, consultez notre [guide complet du garde-meuble à Nice](/blog/garde-meuble-nice/garde-meuble-nice-guide-complet).
+Ce guide vous aide à déterminer la taille exacte de box dont vous avez besoin selon votre logement niçois, avec des exemples concrets par quartier et une méthode de calcul simple. Pour comprendre les différents types de stockage et choisir la solution adaptée, consultez notre [guide complet du garde-meuble à Nice](/blog/garde-meuble/garde-meuble-nice-guide-complet).
 
 ## Les Tailles de Box Disponibles à Nice
 
@@ -160,7 +160,7 @@ Pour choisir la bonne taille de box à Nice, basez-vous sur votre type de logeme
 
 En cas de doute entre deux tailles, commencez par la plus petite : vous pourrez toujours passer à un box plus grand sans pénalités chez la plupart des acteurs niçois. Cette flexibilité vous évite de payer pour de l'espace inutilisé les premiers mois.
 
-N'hésitez pas à demander une estimation gratuite auprès des centres de stockage de Nice avant de vous engager. Homebox et Shurgard proposent des visites avec un conseiller qui peut vous aider à dimensionner précisément vos besoins. Au-delà de la taille, apprenez [comment bien choisir votre garde-meuble à Nice](/blog/garde-meuble-nice/garde-meuble-nice-guide-complet) selon vos critères de sécurité, localisation et budget.
+N'hésitez pas à demander une estimation gratuite auprès des centres de stockage de Nice avant de vous engager. Homebox et Shurgard proposent des visites avec un conseiller qui peut vous aider à dimensionner précisément vos besoins. Au-delà de la taille, apprenez [comment bien choisir votre garde-meuble à Nice](/blog/garde-meuble/garde-meuble-nice-guide-complet) selon vos critères de sécurité, localisation et budget.
 
 ---
 

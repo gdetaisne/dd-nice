@@ -27,7 +27,7 @@ Le **permis C** (poids lourds > 3,5T) n'est nécessaire QUE pour camions démén
 
 **Véhicules autorisés :** PTAC < 3,5 tonnes (Poids Total Autorisé en Charge)
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide location camion déménagement Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide location camion déménagement Nice](/blog/location-camion/location-camion-demenagement-nice-guide).
 
 
 **Utilitaires Nice concernés :**
@@ -42,7 +42,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide location ca
 - Sixt : 23 ans, permis depuis 2 ans (parfois 21 ans selon agence)
 - Hertz : 21 ans, permis depuis 1 an
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [louer un camion pour déménager à Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
+Ces éléments s'inscrivent dans le contexte plus large de notre [louer un camion pour déménager à Nice](/blog/location-camion/location-camion-demenagement-nice-guide).
 
 
 **Jeunes conducteurs (21-25 ans) :** Surcoût assurance +10-20€/jour (risque statistique élevé).
@@ -63,7 +63,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [louer un camio
 **Formation :** Aucune obligatoire (permis B autorise), mais **essai 10-15 min** parking avant de charger (familiarisation dimensions, freinage, angles morts).
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [location véhicule utilitaire Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [location véhicule utilitaire Nice](/blog/location-camion/location-camion-demenagement-nice-guide).
 
 ## Conclusion
 

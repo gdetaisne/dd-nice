@@ -33,7 +33,7 @@ Ce guide détaille les prix par taille de véhicule, les agences niçoises, le p
 - Semaine (7j) : 300-450€
 - **Idéal pour :** Studio, chambre étudiant, petit T1 (15-20m³)
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide location camion déménagement Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide location camion déménagement Nice](/blog/location-camion/location-camion-demenagement-nice-guide).
 
 
 **20m³ (Master, Boxer, Sprinter)**
@@ -71,7 +71,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide location ca
 - Agences quartiers (vérifier)
 
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [louer un camion pour déménager à Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
+Ces éléments s'inscrivent dans le contexte plus large de notre [louer un camion pour déménager à Nice](/blog/location-camion/location-camion-demenagement-nice-guide).
 
 **Hertz Nice :**
 - Aéroport
@@ -122,7 +122,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [louer un camio
 **Aide manœuvres :** Une personne guide pour stationnements serrés (Libération, Musiciens).
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [location véhicule utilitaire Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [location véhicule utilitaire Nice](/blog/location-camion/location-camion-demenagement-nice-guide).
 
 ## Conclusion
 

@@ -17,7 +17,7 @@ Un piano (droit **2 000-8 000€**, queue **15 000-80 000€**) représente un i
 **Pianos droits (200-350 kg) :**
 - **Mécanique délicate** : 5 000-12 000 pièces (marteaux, étouffoirs, cordes)
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du déménagement de piano à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du déménagement de piano à Nice](/blog/piano/demenagement-piano-nice-guide).
 
 - **Table harmonie bois** : Sensible humidité (fissures si choc)
 - **Chocs transport** : Désaccordage garanti, dommages internes possibles
@@ -157,7 +157,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du 
 ```
 Piano droit Yamaha U1 PE
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement piano professionnel à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide).
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement piano professionnel à Nice](/blog/piano/demenagement-piano-nice-guide).
 
 Numéro série : 5XXXXXX
 Année : 2015
@@ -307,7 +307,7 @@ Total déclaré : 5 730€
 - Touches, pédales, étouffoirs (tests complets)
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transport sécurisé de piano à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transport sécurisé de piano à Nice](/blog/piano/demenagement-piano-nice-guide).
 
 ## FAQ Assurance Piano Déménagement Nice
 

@@ -24,7 +24,7 @@ Les **immeubles anciens** du Vieux-Nice (60-70% sans ascenseur) et Cimiez (40-50
 
 **Piano Droit (120-180 kg, 140-160 cm large avec protections) :**
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du déménagement de piano à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du déménagement de piano à Nice](/blog/piano/demenagement-piano-nice-guide).
 
 - Escaliers < 90cm largeur : **Monte-meuble obligatoire** (50% immeubles Vieux-Nice)
 - Escaliers 90-120cm : Passage possible si virages faciles, impossible si virages 180° serrés (30% cas)
@@ -54,7 +54,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du 
 
 **Inclus :**
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement piano professionnel à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide).
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement piano professionnel à Nice](/blog/piano/demenagement-piano-nice-guide).
 
 - Location monte-meuble
 - Opérateur qualifié
@@ -90,7 +90,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement
 - Pertinent seulement si piano peu valeur sentimentale ET budget déménagement très serré
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transport sécurisé de piano à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transport sécurisé de piano à Nice](/blog/piano/demenagement-piano-nice-guide).
 
 ## Conclusion
 

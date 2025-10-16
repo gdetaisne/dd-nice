@@ -325,7 +325,7 @@ Nice compte **344 064 habitants** dont environ **40-45% possèdent un animal dom
 
 ### Peut-on transporter son chien dans le camion de déménagement ?
 
-**Non, interdit et dangereux**. Les animaux doivent voyager en **voiture personnelle** (coffre séparé ou harnais banquette arrière). Alternative : [pension animalière Nice](/demenagement) 2 jours (40-80€) pour éviter stress jour J (bruit, va-et-vient, portes ouvertes = risque fugue). Si trajet court Nice (<30 km), prévoir arrêts pipi et eau fraîche.
+**Non, interdit et dangereux**. Les animaux doivent voyager en **voiture personnelle** (coffre séparé ou harnais banquette arrière). Alternative : [pension animalière Nice](/blog) 2 jours (40-80€) pour éviter stress jour J (bruit, va-et-vient, portes ouvertes = risque fugue). Si trajet court Nice (<30 km), prévoir arrêts pipi et eau fraîche.
 
 ### Quels sont les meilleurs quartiers de Nice pour vivre avec un chien ?
 
