@@ -275,7 +275,7 @@ Le **stockage temporaire pendant déménagement** concerne 30-40% des Niçois en
 
 **Acteur recommandé Nice :** Shurgard avec promotion "premier mois offert" (-16%) offre le meilleur rapport flexibilité-prix pour les transitions. Homebox convient si vous prévoyez de nombreux accès pendant la période (24/7). Annexx ou Stock Avenue si budget très serré et accès rares acceptables.
 
-Pour choisir la taille de box exacte selon votre logement, consultez notre [guide de calcul des besoins](/blog/satellites/quelle-taille-box-stockage-nice). Pour comparer les prix détaillés, voir notre [comparatif tarifaire Nice 2025](/blog/garde-meuble-nice/prix-garde-meuble-nice-2025).
+Pour choisir la taille de box exacte selon votre logement, consultez notre [guide de calcul des besoins](/blog/garde-meuble-nice/quelle-taille-box-stockage-nice). Pour comparer les prix détaillés, voir notre [comparatif tarifaire Nice 2025](/blog/garde-meuble-nice/prix-garde-meuble-nice-2025).
 
 ---
 

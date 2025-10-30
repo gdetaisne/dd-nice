@@ -157,6 +157,7 @@ function Footer() {
             <li><Link href="/mentions-legales/" className="hover:text-white">Mentions légales</Link></li>
             <li><Link href="/politique-confidentialite/" className="hover:text-white">Confidentialité</Link></li>
             <li><Link href="/cgv/" className="hover:text-white">CGV</Link></li>
+            <li><Link href="/cgu/" className="hover:text-white">CGU</Link></li>
           </ul>
         </div>
       </div>

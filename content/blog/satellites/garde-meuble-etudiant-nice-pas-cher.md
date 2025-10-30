@@ -239,7 +239,7 @@ Les **quartiers étudiants** (Riquier, Libération, Arenas, Pasteur) sont bien d
 - Coût total : 210-315€
 - Économie vs allers-retours Paris : 200-300€
 
-Pour optimiser votre stockage, consultez notre [guide de la taille de box idéale selon vos affaires](/blog/satellites/quelle-taille-box-stockage-nice) et notre [comparatif des prix à Nice](/blog/garde-meuble-nice/prix-garde-meuble-nice-2025).
+Pour optimiser votre stockage, consultez notre [guide de la taille de box idéale selon vos affaires](/blog/garde-meuble-nice/quelle-taille-box-stockage-nice) et notre [comparatif des prix à Nice](/blog/garde-meuble-nice/prix-garde-meuble-nice-2025).
 
 ---
 

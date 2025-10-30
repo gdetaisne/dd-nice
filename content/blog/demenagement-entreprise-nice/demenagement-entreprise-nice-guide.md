@@ -27,17 +27,17 @@ Dans ce guide complet, découvrez les spécificités du déménagement d'entrepr
 Tous les aspects du transfert professionnel à Nice :
 
 **Types de Locaux :**
-- [Déménagement bureaux entreprise Nice](/blog/satellites/demenagement-bureaux-entreprise-nice) - Open space, bureaux fermés, coworking
-- [Déménagement locaux commerciaux Nice](/blog/satellites/demenagement-locaux-commerciaux-nice) - Boutiques, showrooms, entrepôts
-- [Déménagement cabinet médical Nice](/blog/satellites/demenagement-cabinet-medical-nice) - Matériel sensible, hygiène, continuité soins
+- [Déménagement bureaux entreprise Nice](/blog/demenagement-entreprise-nice/satellites/demenagement-bureaux-entreprise-nice) - Open space, bureaux fermés, coworking
+- [Déménagement locaux commerciaux Nice](/blog/demenagement-entreprise-nice/satellites/demenagement-locaux-commerciaux-nice) - Boutiques, showrooms, entrepôts
+- [Déménagement cabinet médical Nice](/blog/demenagement-entreprise-nice/satellites/demenagement-cabinet-medical-nice) - Matériel sensible, hygiène, continuité soins
 
 **Spécialités Professionnelles :**
-- [Déménagement archives entreprise Nice](/blog/satellites/demenagement-archives-entreprise-nice) - Documents légaux, conservation 10 ans
-- [Déménagement sans interruption activité Nice](/blog/satellites/demenagement-sans-interruption-activite-nice) - Weekend, nuit, phasage
-- [Déménagement entreprise weekend Nice](/blog/satellites/demenagement-entreprise-weekend-nice) - Samedi-dimanche, zéro coupure
+- [Déménagement archives entreprise Nice](/blog/demenagement-entreprise-nice/satellites/demenagement-archives-entreprise-nice) - Documents légaux, conservation 10 ans
+- [Déménagement sans interruption activité Nice](/blog/demenagement-entreprise-nice/satellites/demenagement-sans-interruption-activite-nice) - Weekend, nuit, phasage
+- [Déménagement entreprise weekend Nice](/blog/demenagement-entreprise-nice/satellites/demenagement-entreprise-weekend-nice) - Samedi-dimanche, zéro coupure
 
 **Destinations Technopôles :**
-- [Déménagement Sophia Antipolis depuis Nice](/blog/satellites/demenagement-sophia-antipolis-nice) - Technopôle régional, startups, IT
+- [Déménagement Sophia Antipolis depuis Nice](/blog/demenagement-entreprise-nice/satellites/demenagement-sophia-antipolis-nice) - Technopôle régional, startups, IT
 
 ## Les spécificités d'un déménagement d'entreprise à Nice
 
