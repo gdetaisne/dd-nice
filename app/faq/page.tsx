@@ -361,15 +361,15 @@ export default function FAQPage() {
                         {item.q.includes("prix") && (
                           <p className="text-sm text-white/70">
                             Voir aussi :{" "}
-                            <a className="underline text-accent" href="/prix-demenagement-nice/">Prix d'un déménagement à nice</a>.
+                            <a className="underline text-accent" href="/blog/prix-demenagement-nice/prix-demenagement-nice-guide">Prix d'un déménagement à nice</a>.
                           </p>
                         )}
                         {item.q.includes("quartiers") && (
                           <p className="text-sm text-white/70">
                             Utile :{" "}
-                            <a className="underline text-accent" href="/devis-demenagement-nice-chartrons/">Chartrons</a>,{" "}
-                            <a className="underline text-accent" href="/devis-demenagement-nice-saint-pierre/">Saint-Pierre</a>,{" "}
-                            <a className="underline text-accent" href="/devis-demenagement-nice-cauderan/">Caudéran</a>.
+                            <a className="underline text-accent" href="/quartiers-nice">Chartrons</a>,{" "}
+                            <a className="underline text-accent" href="/quartiers-nice">Saint-Pierre</a>,{" "}
+                            <a className="underline text-accent" href="/quartiers-nice">Caudéran</a>.
                           </p>
                         )}
                         {item.q.includes("estimer le volume") && (
@@ -402,15 +402,15 @@ export default function FAQPage() {
                     {item.q.includes("prix") && (
                       <p className="text-sm text-white/70">
                         Voir aussi :{" "}
-                        <a className="underline text-accent" href="/prix-demenagement-nice/">Prix d'un déménagement à nice</a>.
+                        <a className="underline text-accent" href="/blog/prix-demenagement-nice/prix-demenagement-nice-guide">Prix d'un déménagement à nice</a>.
                       </p>
                     )}
                     {item.q.includes("quartiers") && (
                       <p className="text-sm text-white/70">
                         Utile :{" "}
-                        <a className="underline text-accent" href="/devis-demenagement-nice-chartrons/">Chartrons</a>,{" "}
-                        <a className="underline text-accent" href="/devis-demenagement-nice-saint-pierre/">Saint-Pierre</a>,{" "}
-                        <a className="underline text-accent" href="/devis-demenagement-nice-cauderan/">Caudéran</a>.
+                        <a className="underline text-accent" href="/quartiers-nice">Chartrons</a>,{" "}
+                        <a className="underline text-accent" href="/quartiers-nice">Saint-Pierre</a>,{" "}
+                        <a className="underline text-accent" href="/quartiers-nice">Caudéran</a>.
                       </p>
                     )}
                     {item.q.includes("estimer le volume") && (
