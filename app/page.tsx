@@ -7,6 +7,7 @@ import PricingPreview from "@/components/PricingPreview";
 import Testimonials from "@/components/Testimonials";
 import NeighborhoodsTeaser from "@/components/NeighborhoodsTeaser";
 import StickyCTA from "@/components/StickyCTA";
+import LocalMoneyFAQ from "@/components/LocalMoneyFAQ";
 
 export default function Home() {
   return (
@@ -43,6 +44,10 @@ export default function Home() {
           <PricingPreview />
         </div>
       </section>
+      
+      {/* FAQ locales Nice (questions prix/devis) - JSON-LD FAQPage */}
+      <LocalMoneyFAQ citySlug="nice" cityName="Nice" />
+      
       <section className="section">
         <div className="container">
           <Testimonials />
