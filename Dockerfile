@@ -50,6 +50,9 @@ COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 # Copy static assets (required for standalone mode)
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 
+# Copy server pages (CRITICAL for standalone mode)
+COPY --from=builder --chown=nextjs:nodejs /app/.next/server ./.next/server
+
 # Copy public directory (logos, favicons, images)
 COPY --from=builder --chown=nextjs:nodejs /app/public ./public
 
