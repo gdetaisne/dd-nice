@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
+import { getCanonicalUrl } from "@/lib/canonical-helper";
 
 export const metadata: Metadata = {
   title: "Conditions Générales d'Utilisation (CGU) | Moverz",
   description:
     "CGU de Moverz (GSLV) — service gratuit pour particuliers, rôle d'intermédiaire B2B, données (60 jours).",
+  alternates: {
+    canonical: getCanonicalUrl('cgu'),
+  },
 };
 
 export default function CGUPage() {
@@ -88,4 +92,3 @@ export default function CGUPage() {
     </main>
   );
 }
-
