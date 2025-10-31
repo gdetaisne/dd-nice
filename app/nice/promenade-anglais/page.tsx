@@ -1,11 +1,9 @@
 import { Metadata } from 'next';
 import LocalPage from '@/app/_templates/LocalPage';
+import { generateLocalPageMetadata } from '@/app/_templates/LocalPage';
 
-export const metadata: Metadata = {
-  title: `Déménagement à Promenade des Anglais (Nice) | Devis gratuit & IA`,
-  description: `Déménagement à Promenade des Anglais (Nice). Quartier prestigieux de Nice, front de mer et hôtels. Accès délicat par la circulation. Accès: Boulevard bord de mer, circulation dense, parkings payants. Devis gratuit avec estimation IA.`,
-  keywords: `déménagement Promenade des Anglais Nice, déménageurs Nice, devis déménagement Nice, Boulevard bord de mer, circulation dense, parkings payants`,
-};
+export const metadata: Metadata = generateLocalPageMetadata('promenade-anglais', 'Promenade des Anglais');
+
 
 const nicePromenadedesAnglaisData = {
   zone: "promenade-anglais",

@@ -1,11 +1,9 @@
 import { Metadata } from 'next';
 import LocalPage from '@/app/_templates/LocalPage';
+import { generateLocalPageMetadata } from '@/app/_templates/LocalPage';
 
-export const metadata: Metadata = {
-  title: `Déménagement à Port (Nice) | Devis gratuit & IA`,
-  description: `Déménagement à Port (Nice). Quartier du port de Nice, reconversion récente. Logements modernes et accès facilité. Accès: Avenues modernes, parkings souterrains, immeubles récents. Devis gratuit avec estimation IA.`,
-  keywords: `déménagement Port Nice, déménageurs Nice, devis déménagement Nice, Avenues modernes, parkings souterrains, immeubles récents`,
-};
+export const metadata: Metadata = generateLocalPageMetadata('port', 'Port');
+
 
 const nicePortData = {
   zone: "port",

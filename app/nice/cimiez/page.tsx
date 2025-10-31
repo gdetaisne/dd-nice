@@ -1,11 +1,9 @@
 import { Metadata } from 'next';
 import LocalPage from '@/app/_templates/LocalPage';
+import { generateLocalPageMetadata } from '@/app/_templates/LocalPage';
 
-export const metadata: Metadata = {
-  title: `Déménagement à Cimiez (Nice) | Devis gratuit & IA`,
-  description: `Déménagement à Cimiez (Nice). Quartier résidentiel huppé de Nice, collines et patrimoine romain. Accès en pente. Accès: Rues en pente, parkings privés, villas et immeubles. Devis gratuit avec estimation IA.`,
-  keywords: `déménagement Cimiez Nice, déménageurs Nice, devis déménagement Nice, Rues en pente, parkings privés, villas et immeubles`,
-};
+export const metadata: Metadata = generateLocalPageMetadata('cimiez', 'Cimiez');
+
 
 const niceCimiezData = {
   zone: "cimiez",

@@ -1,11 +1,9 @@
 import { Metadata } from 'next';
 import LocalPage from '@/app/_templates/LocalPage';
+import { generateLocalPageMetadata } from '@/app/_templates/LocalPage';
 
-export const metadata: Metadata = {
-  title: `Déménagement à Vieux Nice (Nice) | Devis gratuit & IA`,
-  description: `Déménagement à Vieux Nice (Nice). Cœur historique de Nice, patrimoine baroque et commerces. Rues étroites et accès délicat. Accès: Rues étroites, circulation limitée, parkings payants, escaliers anciens. Devis gratuit avec estimation IA.`,
-  keywords: `déménagement Vieux Nice Nice, déménageurs Nice, devis déménagement Nice, Rues étroites, circulation limitée, parkings payants, escaliers anciens`,
-};
+export const metadata: Metadata = generateLocalPageMetadata('vieux-nice', 'Vieux Nice');
+
 
 const niceVieuxNiceData = {
   zone: "vieux-nice",

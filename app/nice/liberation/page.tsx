@@ -1,11 +1,9 @@
 import { Metadata } from 'next';
 import LocalPage from '@/app/_templates/LocalPage';
+import { generateLocalPageMetadata } from '@/app/_templates/LocalPage';
 
-export const metadata: Metadata = {
-  title: `Déménagement à Libération (Nice) | Devis gratuit & IA`,
-  description: `Déménagement à Libération (Nice). Quartier populaire de Nice, marché et commerces. Mixité sociale et accès varié. Accès: Rues commerçantes, parkings limités, mixité ancien/moderne. Devis gratuit avec estimation IA.`,
-  keywords: `déménagement Libération Nice, déménageurs Nice, devis déménagement Nice, Rues commerçantes, parkings limités, mixité ancien/moderne`,
-};
+export const metadata: Metadata = generateLocalPageMetadata('liberation', 'Libération');
+
 
 const niceLibrationData = {
   zone: "liberation",
