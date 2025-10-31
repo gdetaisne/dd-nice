@@ -40,8 +40,13 @@ const nextConfig = {
   },
 
   // Redirections 404 - Nettoyage indexation Nice
+  // ⚠️ DÉSACTIVÉ : 176 redirects causent 308 sur pages services/quartiers/corridors
+  // TODO: Réactiver par petits blocs après avoir isolé le conflit
   async redirects() {
-    return [
+    return [];
+    
+    // DÉSACTIVÉ TEMPORAIREMENT
+    return [ // eslint-disable-line
       // SATELLITES : Articles sans -nice → avec -nice (~50)
       { source: '/blog/satellites/cartons-gratuits-ou-trouver', destination: '/blog/satellites/cartons-gratuits-ou-trouver-nice/', permanent: true },
       { source: '/blog/satellites/demenagement-piano-droit', destination: '/blog/satellites/demenagement-piano-droit-nice/', permanent: true },
