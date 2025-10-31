@@ -1,6 +1,6 @@
 # Dockerfile multi-sites Moverz - nice
 # Version canonique: 2025-10-31 (fixed SITE_URL default + trailing slash)
-# Cache invalidation: 2025-10-31-15h00
+# Cache invalidation: 2025-10-31-18h30
 #
 # ⚠️  WARNING: Ce fichier est généré depuis .templates/Dockerfile.template
 # ⚠️  NE PAS MODIFIER CE FICHIER DIRECTEMENT
@@ -11,7 +11,7 @@ RUN apk add --no-cache libc6-compat
 WORKDIR /app
 ARG SITE_URL=https://devis-demenageur-nice.fr/
 ENV SITE_URL=${SITE_URL}
-RUN echo "Build timestamp: 2025-10-31-15h00"
+RUN echo "Build timestamp: 2025-10-31-18h30-force-rebuild"
 
 # Install dependencies
 FROM base AS deps
