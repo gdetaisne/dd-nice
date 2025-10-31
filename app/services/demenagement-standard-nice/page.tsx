@@ -23,6 +23,8 @@ export const metadata: Metadata = (() => {
 })();
 
 export default function DemenagementStandardPage() {
+  const city = getCityDataFromUrl(env.SITE_URL);
+  
   return (
     <main className="bg-hero">
       <div className="halo" />
@@ -37,19 +39,19 @@ export default function DemenagementStandardPage() {
             <Breadcrumbs 
               items={[
                 { label: "Accueil", href: "/" },
-                { label: "Services", href: "/services" },
-                { label: "Déménagement Standard", href: "/services/demenagement-standard-lille" }
+                { label: "Services", href: "/services/" },
+                { label: "Déménagement Standard", href: `/services/demenagement-standard-${city.slug}/` }
               ]}
             />
             <h1 className="mt-6 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-              Déménagement Standard à lille
+              Déménagement Standard à {city.nameCapitalized}
             </h1>
             <p className="mt-4 text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
               La formule la plus choisie. Bon équilibre prix/prestations avec protection des meubles et emballage standard.
             </p>
             <div className="mt-8">
               <a
-                href="/devis-demenagement-lille/"
+                href="/estimation-rapide/"
                 className="inline-flex rounded-xl bg-white px-6 py-3 text-lg font-semibold text-[#04163a] hover:bg-white/90 transition duration-300 shadow-lg"
               >
                 Créer mon dossier
@@ -164,7 +166,7 @@ export default function DemenagementStandardPage() {
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {/* Déménagement local */}
             <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8">
-              <h3 className="text-xl font-semibold text-white mb-6 text-center">Déménagement local (lille)</h3>
+              <h3 className="text-xl font-semibold text-white mb-6 text-center">Déménagement local ({city.nameCapitalized})</h3>
               <div className="space-y-6">
                 <div className="text-center">
                   <h4 className="text-lg font-medium text-white mb-2">T2/T3</h4>

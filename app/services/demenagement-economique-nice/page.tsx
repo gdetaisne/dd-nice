@@ -23,6 +23,8 @@ export const metadata: Metadata = (() => {
 })();
 
 export default function DemenagementEconomiquePage() {
+  const city = getCityDataFromUrl(env.SITE_URL);
+  
   return (
     <main className="bg-hero">
       <div className="halo" />
@@ -37,19 +39,19 @@ export default function DemenagementEconomiquePage() {
             <Breadcrumbs 
               items={[
                 { label: "Accueil", href: "/" },
-                { label: "Services", href: "/services" },
-                { label: "Déménagement Économique", href: "/services/demenagement-economique-lille" }
+                { label: "Services", href: "/services/" },
+                { label: "Déménagement Économique", href: `/services/demenagement-economique-${city.slug}/` }
               ]}
             />
             <h1 className="mt-6 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-              Déménagement Économique à lille
+              Déménagement Économique à {city.nameCapitalized}
             </h1>
             <p className="mt-4 text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
               La solution la plus abordable pour déménager à petit budget. Idéale pour les étudiants et petits budgets.
             </p>
             <div className="mt-8">
               <a
-                href="/devis-demenagement-lille/"
+                href="/estimation-rapide/"
                 className="inline-flex rounded-xl bg-white px-6 py-3 text-lg font-semibold text-[#04163a] hover:bg-white/90 transition duration-300 shadow-lg"
               >
                 Créer mon dossier
@@ -64,7 +66,7 @@ export default function DemenagementEconomiquePage() {
         <div className="container">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-2xl md:text-3xl font-semibold text-white mb-6">
-              Solution la plus abordable pour déménager à lille
+              Solution la plus abordable pour déménager à {city.nameCapitalized}
             </h2>
             <p className="text-lg text-white/80 leading-relaxed">
               Notre formule économique est la solution la plus abordable proposée par nos partenaires. 
@@ -160,7 +162,7 @@ export default function DemenagementEconomiquePage() {
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {/* Déménagement local */}
             <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8">
-              <h3 className="text-xl font-semibold text-white mb-6 text-center">Déménagement local (lille)</h3>
+              <h3 className="text-xl font-semibold text-white mb-6 text-center">Déménagement local ({city.nameCapitalized})</h3>
               <div className="space-y-6">
                 <div className="text-center">
                   <h4 className="text-lg font-medium text-white mb-2">Studio/T1</h4>
