@@ -5,7 +5,7 @@ Disallow: /api/
 Disallow: /admin/
 
 # Host
-Host: https://devis-demenageur-nice.fr
+Host: https://devis-demenageur-nice.fr/
 
 # Sitemaps
 Sitemap: https://devis-demenageur-nice.fr/sitemap.xml

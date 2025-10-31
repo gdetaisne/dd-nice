@@ -200,7 +200,7 @@ export const cityData: Record<string, CityData> = {
     name: 'Nice',
     nameCapitalized: 'Nice',
     region: 'Provence-Alpes-Côte d\'Azur',
-    siteUrl: 'https://devis-demenageur-nice.fr',
+    siteUrl: 'https://devis-demenageur-nice.fr/',
     coordinates: {
       latitude: 43.7102,
       longitude: 7.2620

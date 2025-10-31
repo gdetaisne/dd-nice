@@ -6,7 +6,7 @@ const envSchema = z.object({
   NODE_ENV: z.enum(['development', 'production', 'test']).default('development'),
   
   // URLs et services
-  SITE_URL: z.string().url().default('https://devis-demenageur-nice.fr'),
+  SITE_URL: z.string().url().default('https://devis-demenageur-nice.fr/'),
   MAKE_WEBHOOK_URL: z.string().url().optional(),
   
   // Configuration Next.js
@@ -46,7 +46,7 @@ function validateEnv() {
       console.error('\n💡 Créez un fichier .env.local avec les variables requises.');
       console.error('Exemple:');
       console.error('NODE_ENV=development');
-      console.error('SITE_URL=https://devis-demenageur-nice.fr');
+      console.error('SITE_URL=https://devis-demenageur-nice.fr/');
       console.error('MAKE_WEBHOOK_URL=https://hook.eu1.make.com/...');
       
       throw new Error('Configuration des variables d\'environnement invalide');

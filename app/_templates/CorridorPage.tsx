@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { getCanonicalUrl } from '@/lib/canonical-helper';
 
 interface CorridorPageProps {
   destination: string;
@@ -20,16 +21,17 @@ interface CorridorPageProps {
 }
 
 export function generateCorridorPageMetadata(destination: string): Metadata {
+  const canonicalUrl = getCanonicalUrl(`nice-vers-${destination.toLowerCase()}`);
   return {
     title: `Déménagement nice → ${destination} — Comparez des devis | Moverz`,
     description: `Un seul dossier, 20 déménageurs qualifiés. 3 devis sous 7 jours pour nice → ${destination}.`,
     alternates: {
-      canonical: `https://www.nice-demenageur.fr/nice-vers-${destination.toLowerCase()}`,
+      canonical: canonicalUrl,
     },
     openGraph: {
       title: `Déménagement nice → ${destination} — Comparez des devis | Moverz`,
       description: `Un seul dossier, 20 déménageurs qualifiés. 3 devis sous 7 jours pour nice → ${destination}.`,
-      url: `https://www.nice-demenageur.fr/nice-vers-${destination.toLowerCase()}`,
+      url: canonicalUrl,
       type: 'website',
     },
   };

@@ -2,17 +2,18 @@ import type { Metadata } from 'next'
 import { getAllBlogPosts, getPilierPosts } from '@/lib/blog';
 import Link from 'next/link';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import { getCanonicalUrl } from '@/lib/canonical-helper';
 
 export const metadata: Metadata = {
   title: "Blog Déménagement Nice - Guides & Conseils Experts | Moverz",
   description: "Guides complets et conseils d'experts pour réussir votre déménagement à Nice. Astuces budget, checklist, comparatifs, conseils pratiques. Articles rédigés par des professionnels.",
   alternates: {
-    canonical: `https://devis-demenageur-nice.fr/blog`,
+    canonical: getCanonicalUrl('blog'),
   },
   openGraph: {
     title: "Blog Déménagement Nice - Tous nos guides pratiques",
     description: "Conseils d'experts, guides détaillés et astuces pour déménager sereinement à Nice.",
-    url: `https://devis-demenageur-nice.fr/blog`,
+    url: getCanonicalUrl('blog'),
     type: 'website',
   },
 }

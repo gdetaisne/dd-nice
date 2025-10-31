@@ -4,17 +4,18 @@ import CtaPrimary from "@/components/CtaPrimary";
 import Section from "@/components/Section";
 import PartnerCard from "@/components/PartnerCard";
 import PartnersList from "@/components/PartnersList";
+import { getCanonicalUrl } from "@/lib/canonical-helper";
 
 export const metadata: Metadata = {
   title: "Partenaires déménageurs - Déménageurs nice (IA)",
   description: "Découvrez nos partenaires déménageurs certifiés à nice. Qualité garantie, tarifs transparents, service client premium.",
   alternates: {
-    canonical: "https://www.nice-demenageur.fr/partenaires/",
+    canonical: getCanonicalUrl('partenaires'),
   },
   openGraph: {
     title: "Partenaires déménageurs - Déménageurs nice (IA)",
     description: "Découvrez nos partenaires déménageurs certifiés à nice. Qualité garantie, tarifs transparents, service client premium.",
-    url: "https://www.nice-demenageur.fr/partenaires/",
+    url: getCanonicalUrl('partenaires'),
     type: "website",
   },
 };
