@@ -224,11 +224,10 @@ const nextConfig = {
       { source: '/services/demenagement-premium-Nice', destination: '/services/demenagement-premium-nice', permanent: true },
       { source: '/services/demenagement-standard-Nice', destination: '/services/demenagement-standard-nice', permanent: true },
 
-      // PAGES LÉGALES : Trailing slash
-      { source: '/mentions-legales/', destination: '/mentions-legales', permanent: true },
-      { source: '/cgv/', destination: '/cgv', permanent: true },
-      { source: '/politique-confidentialite/', destination: '/politique-confidentialite', permanent: true },
-
+      // PAGES LÉGALES : Redirection SANS slash → AVEC slash (Next.js gère automatiquement)
+      // ❌ SUPPRIMÉ - Conflit avec trailingSlash: true
+      // Ces redirections causaient des 308 car elles redirigent À L'ENVERS
+      
       // ANCIENNES URLs
       { source: '/estimation-demenagement-nice/', destination: '/estimation-rapide', permanent: true },
       { source: '/prix-demenagement-nice/', destination: '/blog/prix-demenagement-nice/prix-demenagement-nice-guide', permanent: true },
