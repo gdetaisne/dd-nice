@@ -5,7 +5,7 @@ import { getCityDataFromUrl } from "@/lib/cityData";
 import { env } from "@/lib/env";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = (() => {
+export function generateMetadata(): Metadata {
   const city = getCityDataFromUrl(env.SITE_URL);
   return {
     title: `Déménagement Premium ${city.nameCapitalized} - Service Haut de Gamme | Moverz`,
@@ -20,7 +20,7 @@ export const metadata: Metadata = (() => {
       type: 'website',
     },
   };
-})();
+}
 
 export default function DemenagementPremiumPage() {
   const city = getCityDataFromUrl(env.SITE_URL);
