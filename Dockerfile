@@ -38,10 +38,9 @@ RUN apk add --no-cache dumb-init && \
     adduser --system --uid 1001 nextjs
 
 WORKDIR /app
-ARG SITE_URL=https://devis-demenageur-nice.fr/
 ENV NODE_ENV=production
 ENV PORT=3000
-ENV SITE_URL=${SITE_URL}
+ENV SITE_URL=https://devis-demenageur-nice.fr/
 ENV NEXT_TELEMETRY_DISABLED=1
 
 # Copy standalone server
