@@ -17,7 +17,7 @@ Nice compte **8 000-12 000 pianistes** (sur 344 064 habitants), répartis entre 
 **Piano Acoustique (Droit/Queue) :**
 - **Poids** : 200-600 kg (bois massif, fonte, cordes)
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du déménagement de piano à Nice](/blog/piano/demenagement-piano-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du déménagement de piano à Nice](/blog/demenagement-piano/demenagement-piano-nice-guide).
 
 - **Sensibilité** : Humidité, température, chocs mécaniques
 - **Valeur** : 2 000-80 000€ (occasion-concert)
@@ -109,7 +109,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du 
 - **Queue concert** : 15-25m² (pièce dédiée)
 
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement piano professionnel à Nice](/blog/piano/demenagement-piano-nice-guide).
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement piano professionnel à Nice](/blog/demenagement-piano/demenagement-piano-nice-guide).
 
 **Acoustique :**
 - **Isolation phonique** : Obligations voisinage (immeubles anciens Nice)
@@ -211,7 +211,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement
 **35 000 étudiants Nice** : Demande instruments forte (marché occasion dynamique)
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transport sécurisé de piano à Nice](/blog/piano/demenagement-piano-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transport sécurisé de piano à Nice](/blog/demenagement-piano/demenagement-piano-nice-guide).
 
 ## FAQ Piano Électronique vs Acoustique
 

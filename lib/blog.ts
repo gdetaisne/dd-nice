@@ -53,50 +53,17 @@ export interface BlogPost {
 
 // Fonction pour nettoyer les slugs
 function cleanSlug(originalSlug: string, category: string): string {
-  // Retirer le préfixe de catégorie redondant
+  // Ne PAS retirer les préfixes - garder les slugs complets pour éviter les collisions
+  // Seulement simplifier "-guide-complet" → "-guide"
   let cleanSlug = originalSlug;
   
-  // Patterns de nettoyage spécifiques (ordre important!)
-    const cleanPatterns = [
-    // D'abord, retirer les préfixes de catégorie complets
-    { from: /^demenagement-etudiant-bordeaux-/, to: '' },
-    { from: /^demenagement-entreprise-bordeaux-/, to: '' },
-    { from: /^demenagement-piano-bordeaux-/, to: '' },
-    { from: /^demenagement-international-bordeaux-/, to: '' },
-    { from: /^demenagement-longue-distance-bordeaux-/, to: '' },
-    { from: /^demenagement-pas-cher-bordeaux-/, to: '' },
-    { from: /^demenagement-urgent-bordeaux-/, to: '' },
-    { from: /^devis-demenagement-bordeaux-/, to: '' },
-    { from: /^garde-meuble-bordeaux-/, to: '' },
-    { from: /^prix-demenagement-bordeaux-/, to: '' },
-    { from: /^prix-demenagement-piano-bordeaux-/, to: '' },
-    { from: /^prix-garde-meuble-bordeaux-/, to: '' },
-    // Ensuite, retirer les patterns partiels en début
-    { from: /^stockage-etudiant-bordeaux/, to: 'stockage-etudiant' },
-    { from: /^cartons-gratuits-bordeaux/, to: 'cartons-gratuits' },
-    { from: /^camion-demenagement-etudiant-bordeaux/, to: 'camion-demenagement-etudiant' },
-    { from: /^assurance-demenagement-international-bordeaux/, to: 'assurance-demenagement-international' },
-    { from: /^prix-demenagement-international-bordeaux/, to: 'prix-demenagement-international' },
-    { from: /^emballage-demenagement-international-bordeaux/, to: 'emballage-demenagement-international' },
-    { from: /^formalites-douanieres-demenagement-international-bordeaux/, to: 'formalites-douanieres-demenagement-international' },
-    // Retirer "-bordeaux" en milieu de slug
-    { from: /-bordeaux-/, to: '-' },
-    // Retirer "-bordeaux" en fin
-    // { from: /-bordeaux$/, to: '' },  // ✅ Option B: Garder ville dans slug (SEO local)
-    // Simplifications uniformes
-    { from: /-guide-complet$/, to: '-guide' },
-    { from: /-reperes-2025$/, to: '' },  // Retirer complètement pour éviter duplicates
-  ];
-
-  cleanPatterns.forEach(pattern => {
-    cleanSlug = cleanSlug.replace(pattern.from, pattern.to);
-  });
-
+  cleanSlug = cleanSlug.replace(/-guide-complet$/, '-guide');
+  
   return cleanSlug;
 }
 
 export function getAllBlogPosts(): BlogPost[] {
-  const monorepoDir = path.join(process.cwd(), 'sites/rouen/content/blog');
+  const monorepoDir = path.join(process.cwd(), 'sites/nice/content/blog');
   const standaloneDir = path.join(process.cwd(), 'content/blog');
   const blogDirectory = fs.existsSync(monorepoDir)
     ? monorepoDir

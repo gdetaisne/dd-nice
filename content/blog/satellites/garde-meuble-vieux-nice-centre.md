@@ -233,7 +233,7 @@ Certains **déménageurs spécialisés Vieux-Nice** proposent formule "déménag
 - Budget prioritaire, économie de 240-360€/an importante
 - Affaires standards (meubles, cartons, pas objets grande valeur)
 
-Pour évaluer précisément vos besoins en taille de box, consultez notre [guide pour calculer la taille idéale selon votre logement](/blog/garde-meuble-nice/quelle-taille-box-stockage-nice).
+Pour évaluer précisément vos besoins en taille de box, consultez notre [guide pour calculer la taille idéale selon votre logement](/blog/garde-meuble/quelle-taille-box-stockage-nice).
 
 ## Conclusion
 

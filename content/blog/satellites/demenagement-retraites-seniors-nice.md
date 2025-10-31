@@ -298,7 +298,7 @@ Nice attire **23-25% de population 60+ ans** (80 000-85 000 personnes sur 344 06
 
 **3. Basse saison :**
 - Déménager novembre-mars : -15-20% tarifs
-- [Déménagement hors saison Nice](/blog/pas-cher/demenagement-pas-cher-nice-guide)
+- [Déménagement hors saison Nice](/blog/demenagement-pas-cher/demenagement-pas-cher-nice-guide)
 
 **4. Vente mobilier :**
 - Leboncoin Nice : 300-800€ (canapé, lit, table)

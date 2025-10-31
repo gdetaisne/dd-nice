@@ -119,7 +119,7 @@ Stationnement libre généralement disponible. Autorisation inutile sauf rues sp
 
 Sans autorisation : amende 135€ + temps perdu 2h = +200€ → **autorisation est rentable**.
 
-Pour tout savoir sur [les contraintes du Vieux-Nice](/blog/demenageur-nice/demenageur-vieux-nice-acces-difficile), consultez notre guide spécialisé. Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel à Nice](/blog/demenageur/demenageur-nice-guide-complet).
+Pour tout savoir sur [les contraintes du Vieux-Nice](/blog/demenageur/demenageur-vieux-nice-acces-difficile), consultez notre guide spécialisé. Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel à Nice](/blog/demenageur/demenageur-nice-guide-complet).
 
 Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [nos services de déménagement niçois](/blog/demenageur/demenageur-nice-guide-complet).
 

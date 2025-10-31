@@ -7,7 +7,7 @@ Stack: Next.js 14 (App Router) + TypeScript, Tailwind CSS, shadcn/ui, MDX (blog)
 - `.env.local` à la racine avec:
   - `OPENAI_API_KEY=...`
   - `MAKE_WEBHOOK_URL=...`
-  - `SITE_URL=https://www.nice-demenageur.fr`
+  - `SITE_URL=https://devis-demenageur-nice.fr`
 
 ### Installation
 1. Installer les dépendances

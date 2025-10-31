@@ -134,7 +134,7 @@ Les quartiers étudiants (Riquier, Libération, Arenas, Pasteur) voient leurs bo
 - **Coût total : 210€** pour l'été
 - Alternative : laisser chez parents (gratuit mais 200 km aller-retour = 100€ essence)
 
-Découvrez toutes nos [solutions pour étudiants à Nice](/blog/garde-meuble-nice/garde-meuble-etudiant-nice-pas-cher) avec tarifs négociés et conseils spécifiques.
+Découvrez toutes nos [solutions pour étudiants à Nice](/blog/garde-meuble/garde-meuble-etudiant-nice-pas-cher) avec tarifs négociés et conseils spécifiques.
 
 ### Expatriés et Temporaires
 

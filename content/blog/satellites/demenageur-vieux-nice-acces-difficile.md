@@ -164,7 +164,7 @@ Les acteurs niçois recommandés incluent **Akte 21** (4,1/5 - 15 avis, expérie
 - T2 : 900-1 200€ (vs 700-1 000€)
 - T3 : 1 200-1 800€ (vs 1 000-1 500€)
 
-Pour limiter surcoûts : désencombrez, demandez autorisation 10j avant, optez pour formule économique mixte (vous emballez, déménageur gère contraintes). Pour comparer les [prix détaillés selon quartiers](/blog/demenageur-nice/prix-demenageur-nice-2025), consultez notre guide tarifaire Nice 2025.
+Pour limiter surcoûts : désencombrez, demandez autorisation 10j avant, optez pour formule économique mixte (vous emballez, déménageur gère contraintes). Pour comparer les [prix détaillés selon quartiers](/blog/demenageur/prix-demenageur-nice-2025), consultez notre guide tarifaire Nice 2025.
 
 ---
 

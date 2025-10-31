@@ -26,7 +26,7 @@ Ce guide détaille planning weekend/nuit, surcoûts, organisation et secteurs ad
 
 **Vendredi 18h-23h :** Démontage mobilier, emballage dossiers courants, déconnexion IT (technicien)
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagement d'entreprise à Nice](/blog/entreprise/demenagement-entreprise-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagement d'entreprise à Nice](/blog/demenagement-entreprise/demenagement-entreprise-nice-guide).
 
 
 **Samedi 8h-20h :** Chargement, transport, déchargement nouveaux locaux, installation mobilier
@@ -51,7 +51,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagem
 
 **Nuit 4 (jeudi 20h-6h vendredi) :** Installation complète, tests
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel et bureaux Nice](/blog/entreprise/demenagement-entreprise-nice-guide).
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel et bureaux Nice](/blog/demenagement-entreprise/demenagement-entreprise-nice-guide).
 
 
 **Vendredi 8h :** Bureau opérationnel
@@ -82,7 +82,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement
 - **Économie nette : 8 000€** (weekend largement rentable)
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transfert de locaux professionnels à Nice](/blog/entreprise/demenagement-entreprise-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transfert de locaux professionnels à Nice](/blog/demenagement-entreprise/demenagement-entreprise-nice-guide).
 
 ## Conclusion
 

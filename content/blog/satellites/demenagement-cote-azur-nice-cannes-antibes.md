@@ -286,6 +286,6 @@ Comptez **1 400-1 800€ TTC** pour un F2 40m² en formule standard (emballage, 
 
 ---
 
-**Déménager sur la Côte d'Azur entre [Nice](/blog/demenageur/demenageur-nice-guide-complet), [Cannes](/blog/international/demenagement-international-nice-guide) et Antibes nécessite une planification saisonnière**. Avec un déménageur local expérimenté et une organisation en basse saison, profitez d'un déménagement fluide sur le littoral azuréen sans subir les contraintes estivales.
+**Déménager sur la Côte d'Azur entre [Nice](/blog/demenageur/demenageur-nice-guide-complet), [Cannes](/blog/demenagement-international/demenagement-international-nice-guide) et Antibes nécessite une planification saisonnière**. Avec un déménageur local expérimenté et une organisation en basse saison, profitez d'un déménagement fluide sur le littoral azuréen sans subir les contraintes estivales.
 
 

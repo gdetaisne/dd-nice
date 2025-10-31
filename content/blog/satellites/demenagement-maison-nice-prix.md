@@ -30,7 +30,7 @@ Quartiers maisons Nice : Mont-Boron (villas luxe), Cimiez (bourgeoises), Gairaut
 
 **Gairaut/Saint-Maurice (120-150m²) :**
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [tarifs déménageur Nice détaillés](/blog/prix/prix-demenagement-nice-guide).
+Ces éléments s'inscrivent dans le contexte plus large de notre [tarifs déménageur Nice détaillés](/blog/prix-demenagement/prix-demenagement-nice-guide).
 
 - Standard : 1 800-2 400€
 
@@ -40,13 +40,13 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [tarifs démén
 **Surcoût collines :** +10-15% (pentes, accès)
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [comprendre les coûts de déménagement niçois](/blog/prix/prix-demenagement-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [comprendre les coûts de déménagement niçois](/blog/prix-demenagement/prix-demenagement-nice-guide).
 
 ## Conclusion
 
 **Prix maison Nice : 1 500-3 000€** (100-200m², 80-150m³). **Mont-Boron/Cimiez** (2 000-3 000€) vs **Arenas** (1 500-2 200€). Nécessite **2 camions** ou semi-remorque 90m³, **5-6 déménageurs**, **2 jours**. Formule clé en main recommandée (complexité, volume).
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide des prix déménagement à Nice](/blog/prix/prix-demenagement-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide des prix déménagement à Nice](/blog/prix-demenagement/prix-demenagement-nice-guide).
 
 
 ---

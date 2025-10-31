@@ -75,7 +75,7 @@ featured: false
 
 **Basse saison (novembre-mars) :**
 - Weekend **+15-25%** (demande moindre, négociation possible)
-- [Déménagement hors saison](/blog/pas-cher/demenagement-pas-cher-nice-guide) : Meilleure alternative
+- [Déménagement hors saison](/blog/demenagement-pas-cher/demenagement-pas-cher-nice-guide) : Meilleure alternative
 
 **Période optimale weekend** : **Avril-mai, octobre** (demande modérée, météo clémente)
 

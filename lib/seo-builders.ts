@@ -87,7 +87,7 @@ export function buildSiteMetadata(options: SiteMetadataOptions = {}): Metadata {
       images: [`${city.siteUrl}/og-image.jpg`],
     },
     alternates: {
-      canonical: city.siteUrl,
+      canonical: city.siteUrl.endsWith('/') ? city.siteUrl : `${city.siteUrl}/`,
     },
     icons: {
       icon: '/favicon.ico',

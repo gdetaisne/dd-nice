@@ -173,7 +173,7 @@ Le monte-meuble est **nécessaire pour 40-50% des déménagements du Vieux-Nice*
 - Studio 3ème étage : 500-650€ + 180€ monte-meuble = **680-830€**
 - T2 4ème étage : 900-1 100€ + 220€ monte-meuble = **1 120-1 320€**
 
-Vérifiez lors du **devis** que le déménageur possède l'équipement, a l'expérience du Vieux-Nice/Cimiez et gère l'autorisation mairie (nécessaire pour installer sur voie publique). Alternative économique : démontage poussé des meubles si techniquement possible. Pour tout savoir sur [les prix détaillés selon quartiers](/blog/demenageur-nice/prix-demenageur-nice-2025), consultez notre comparatif tarifaire.
+Vérifiez lors du **devis** que le déménageur possède l'équipement, a l'expérience du Vieux-Nice/Cimiez et gère l'autorisation mairie (nécessaire pour installer sur voie publique). Alternative économique : démontage poussé des meubles si techniquement possible. Pour tout savoir sur [les prix détaillés selon quartiers](/blog/demenageur/prix-demenageur-nice-2025), consultez notre comparatif tarifaire.
 
 ---
 

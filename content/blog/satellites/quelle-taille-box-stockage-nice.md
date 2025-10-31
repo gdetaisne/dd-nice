@@ -67,7 +67,7 @@ Pour un studio niçois de 20 à 25m², une taille de **2 à 3m²** suffit géné
 
 **Exemples quartiers :** Un studio de 20m² dans le Vieux-Nice nécessite 2m², tandis qu'un T1 de 25m² à Libération, légèrement plus meublé, requiert 3m². Ces tailles sont particulièrement demandées par les 35 000 étudiants niçois qui stockent leurs affaires pendant l'été.
 
-Les acteurs adaptés pour ces petits volumes incluent **Annexx (boxes dès 0,75m²), Stock Avenue et Homebox**. Les tarifs varient de 37 à 95€ par mois pour un box de 2-3m², avec des écarts significatifs entre le centre-ville et la périphérie (consultez notre [comparatif des prix détaillés des différentes tailles de box à Nice](/blog/garde-meuble-nice/prix-garde-meuble-nice-2025) pour budgéter précisément votre stockage).
+Les acteurs adaptés pour ces petits volumes incluent **Annexx (boxes dès 0,75m²), Stock Avenue et Homebox**. Les tarifs varient de 37 à 95€ par mois pour un box de 2-3m², avec des écarts significatifs entre le centre-ville et la périphérie (consultez notre [comparatif des prix détaillés des différentes tailles de box à Nice](/blog/garde-meuble/prix-garde-meuble-nice-2025) pour budgéter précisément votre stockage).
 
 ### T2 Nice (35-55m²)
 
@@ -138,7 +138,7 @@ Nice accueille **35 000 étudiants** (Université Côte d'Azur, 2025) avec des b
 
 La **période critique** correspond aux vacances d'été où les résidences universitaires ferment. Les étudiants des quartiers de Riquier, Libération, Arenas et Pasteur recherchent alors des solutions économiques et flexibles. **Annexx propose des petits boxes dès 0,75m²**, idéal pour ce public avec des tarifs de 25 à 60€ par mois.
 
-Le **contenu type** d'un étudiant inclut : vêtements (3-4 cartons), livres et cours (2-3 cartons), ordinateur et électronique (1 carton), petit mobilier (lampe, petit bureau démontable, chaise), linge de lit. Total : environ 2m² suffisent pour 90% des cas. Découvrez nos [solutions spécifiques pour étudiants à Nice avec tarifs adaptés](/blog/garde-meuble-nice/garde-meuble-etudiant-nice-pas-cher) et flexibilité maximale pour le stockage estival.
+Le **contenu type** d'un étudiant inclut : vêtements (3-4 cartons), livres et cours (2-3 cartons), ordinateur et électronique (1 carton), petit mobilier (lampe, petit bureau démontable, chaise), linge de lit. Total : environ 2m² suffisent pour 90% des cas. Découvrez nos [solutions spécifiques pour étudiants à Nice avec tarifs adaptés](/blog/garde-meuble/garde-meuble-etudiant-nice-pas-cher) et flexibilité maximale pour le stockage estival.
 
 ### Déménagement avec Décalage de Dates
 

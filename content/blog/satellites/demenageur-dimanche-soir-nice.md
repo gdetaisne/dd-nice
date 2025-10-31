@@ -21,7 +21,7 @@ Déménager le dimanche ou en soirée à Nice génère un **surcoût important**
 
 À Nice, la **disponibilité dimanche et soir est limitée** : seulement 30-40% des déménageurs acceptent (vs 100% lundi-jeudi journée). En haute saison (septembre, juillet-août), réservez 2-3 mois avant pour un dimanche. Les 35 000 étudiants et les actifs qui travaillent saturent les créneaux weekend, obligeant à anticiper fortement ou accepter dates imposées.
 
-Ce guide explique les surcoûts exacts, la disponibilité des acteurs niçois, les périodes où le dimanche/soir est justifié, et les alternatives pour économiser. Pour comprendre [tous les tarifs selon situations](/blog/demenageur-nice/prix-demenageur-nice-2025), consultez notre guide prix complet.
+Ce guide explique les surcoûts exacts, la disponibilité des acteurs niçois, les périodes où le dimanche/soir est justifié, et les alternatives pour économiser. Pour comprendre [tous les tarifs selon situations](/blog/demenageur/prix-demenageur-nice-2025), consultez notre guide prix complet.
 
 ## Surcoûts Dimanche et Soir
 

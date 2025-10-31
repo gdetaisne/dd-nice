@@ -193,7 +193,7 @@ Pour un box de 5m² à Nice :
 
 En choisissant intelligemment votre emplacement et votre période de location, vous économisez jusqu'à 30% sur votre budget stockage à Nice.
 
-Vous ne savez pas quelle taille choisir ? Consultez notre guide pour [calculer la taille de box dont vous avez besoin à Nice](/blog/garde-meuble-nice/quelle-taille-box-stockage-nice) selon votre logement et vos affaires.
+Vous ne savez pas quelle taille choisir ? Consultez notre guide pour [calculer la taille de box dont vous avez besoin à Nice](/blog/garde-meuble/quelle-taille-box-stockage-nice) selon votre logement et vos affaires.
 
 ## Conclusion
 

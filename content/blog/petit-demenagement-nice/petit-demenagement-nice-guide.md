@@ -27,14 +27,14 @@ Dans ce guide pratique, découvrez ce qu'est exactement un petit déménagement,
 Toutes les solutions pour les petits volumes à Nice :
 
 **Par Type de Déménagement :**
-- [Déménagement studio Nice : prix et solutions](/blog/petit-demenagement-nice/satellites/demenagement-studio-nice-prix) - 15-25m², budget 200-600€
-- [Déménagement chambre étudiant Nice](/blog/petit-demenagement-nice/satellites/demenagement-chambre-etudiant-nice) - 9-12m², 150-400€
-- [Déménagement colocation Nice](/blog/petit-demenagement-nice/satellites/demenagement-colocation-nice) - Une chambre vers autre coloc
-- [Déménagement une pièce Nice](/blog/petit-demenagement-nice/satellites/demenagement-une-piece-nice) - Salon, chambre, bureau uniquement
+- [Déménagement studio Nice : prix et solutions](/blog/prix-demenagement/demenagement-studio-nice-prix) - 15-25m², budget 200-600€
+- [Déménagement chambre étudiant Nice](/blog/petit-demenagement/demenagement-chambre-etudiant-nice) - 9-12m², 150-400€
+- [Déménagement colocation Nice](/blog/petit-demenagement/demenagement-colocation-nice) - Une chambre vers autre coloc
+- [Déménagement une pièce Nice](/blog/petit-demenagement/demenagement-une-piece-nice) - Salon, chambre, bureau uniquement
 
 **Services Spécialisés :**
-- [Déménagement express rapide Nice](/blog/petit-demenagement-nice/satellites/demenagement-express-rapide-nice) - Même jour, urgence 24-48h
-- [Solutions petit déménagement Nice](/blog/petit-demenagement-nice/satellites/petit-demenagement-nice-solutions) - Comparatif formules, acteurs
+- [Déménagement express rapide Nice](/blog/demenagement-general/demenagement-express-rapide-nice) - Même jour, urgence 24-48h
+- [Solutions petit déménagement Nice](/blog/petit-demenagement/petit-demenagement-nice-solutions) - Comparatif formules, acteurs
 
 ## Qu'est-ce qu'un "petit déménagement" à Nice ?
 

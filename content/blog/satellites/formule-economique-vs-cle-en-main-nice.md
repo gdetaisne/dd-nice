@@ -21,7 +21,7 @@ Les déménageurs niçois proposent trois formules principales : **économique**
 
 À Nice, la formule **standard** est plébiscitée par 70% des clients : bon compromis prix-effort. La formule **économique** séduit les 35 000 étudiants et budgets serrés (-30-40% vs clé en main). La formule **clé en main** convient aux cadres, retraités, familles sans temps. Les tarifs niçois intègrent les contraintes locales (Vieux-Nice, Cimiez) identiques pour les trois formules.
 
-Ce guide compare les trois formules en détail avec prix, prestations incluses et situations adaptées. Pour voir [les tarifs complets selon logement](/blog/demenageur-nice/prix-demenageur-nice-2025), consultez notre guide prix Nice.
+Ce guide compare les trois formules en détail avec prix, prestations incluses et situations adaptées. Pour voir [les tarifs complets selon logement](/blog/demenageur/prix-demenageur-nice-2025), consultez notre guide prix Nice.
 
 ## Comparatif Trois Formules
 
@@ -50,7 +50,7 @@ Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [nos 
 
 La formule **standard** offre le meilleur compromis pour 70% des Niçois (déménageur emballe non-fragile + démonte, vous gérez fragiles). Prix T2 : 900-1 100€. La formule **économique** économise 30-40% (700-900€ T2) mais nécessite 12-20h travail (emballage 30 cartons, démontage meubles). La **clé en main** coûte +15-20% (1 100-1 200€ T2) pour zéro effort (déménageur gère tout).
 
-**Recommandation Nice :** Standard si revenus moyens (valorisation temps 15-20€/h). Économique si étudiant/budget serré (35 000 étudiants Nice). Clé en main si cadre/retraité/famille sans temps. Pour choisir votre [déménageur selon critères](/blog/demenageur-nice/choisir-demenageur-nice-criteres), consultez notre guide.
+**Recommandation Nice :** Standard si revenus moyens (valorisation temps 15-20€/h). Économique si étudiant/budget serré (35 000 étudiants Nice). Clé en main si cadre/retraité/famille sans temps. Pour choisir votre [déménageur selon critères](/blog/demenageur/choisir-demenageur-nice-criteres), consultez notre guide.
 
 ---
 
