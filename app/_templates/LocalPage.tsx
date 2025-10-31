@@ -81,6 +81,7 @@ export default function LocalPage({
   partenaires,
   faq,
 }: LocalPageProps) {
+  const city = getCityDataFromUrl(env.SITE_URL);
   const jsonLd = generateLocalPageJsonLd(zone, zoneDisplay);
 
   return (
@@ -118,7 +119,7 @@ export default function LocalPage({
                     <span className="text-4xl">📍</span>
                     <div className="text-left">
                       <div className="text-white font-bold text-2xl">{zoneDisplay}</div>
-                      <div className="text-white/80 text-sm">toulouse</div>
+                      <div className="text-white/80 text-sm">{city.nameCapitalized}</div>
                     </div>
                   </div>
                 </div>
@@ -252,7 +253,7 @@ export default function LocalPage({
             Destinations couvertes
           </h2>
           <div className="flex flex-wrap justify-center gap-3">
-            {['toulouse intra-muros', 'Gironde', 'Pays de la Loire', 'France entière', 'Europe'].map((dest) => (
+            {[`${city.nameCapitalized} intra-muros`, 'Région', 'France métropolitaine', 'France entière', 'Europe'].map((dest) => (
               <span key={dest} className="bg-[#6bcfcf]/20 text-[#6bcfcf] px-4 py-2 rounded-full text-sm">
                 {dest}
               </span>
