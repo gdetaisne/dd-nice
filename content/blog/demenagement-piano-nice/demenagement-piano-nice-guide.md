@@ -352,15 +352,7 @@ Avec monte-meubles : À partir de 900€
 
 **Jean-Marc T., particulier, Vieux-Nice :** "Piano droit hérité de ma grand-mère à transporter du Vieux-Nice (3ème étage, escaliers impossibles) vers Cagnes-sur-Mer. Moverz a utilisé un monte-meubles, opération spectaculaire mais sans stress. Prix annoncé respecté, piano intact. Professionnel."
 
-### Demandez votre devis piano gratuit
-
-Vous devez déménager un piano à Nice ou dans les Alpes-Maritimes ? Contactez Moverz dès maintenant :
-
-📞 **Appelez-nous** : Nos experts piano vous conseillent et répondent à vos questions  
-📧 **Formulaire en ligne** : Première estimation sous 24h  
-🏠 **Visite technique gratuite** : Nous venons évaluer votre piano et établir un devis précis à votre domicile à Nice
-
-**Notre promesse** : Votre piano mérite le meilleur. Avec Moverz, confiez votre instrument à des spécialistes passionnés qui le traiteront avec le respect et l'expertise qu'il mérite.
+**Besoin de déménager un piano à Nice ?** Trouvez des [experts déménagement piano Nice](/) spécialisés dans le transport d'instruments fragiles. Comparez 5 devis de professionnels certifiés, matériel adapté garanti, assurance complète incluse. Déménageurs piano vérifiés à Nice.
 
 ## FAQ : Vos questions sur le déménagement de piano à Nice
 

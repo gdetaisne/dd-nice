@@ -321,15 +321,7 @@ Nous organisons des **déménagements internationaux** vers toutes les destinati
 
 **Nathalie et Marc D., Nice → Sydney :** "Retour en Australie après 10 ans à Nice. Conteneur 40 pieds avec toute notre vie. Moverz a tout géré : caisses maritimes, formalités australiennes, transport de nos 2 voitures. Arrivée après 7 semaines, tout intact. Bravo et merci !"
 
-### Demandez votre étude personnalisée
-
-Vous préparez un **déménagement international depuis ou vers Nice** ? Contactez Moverz dès maintenant :
-
-📞 **Appelez-nous** : Nos experts vous conseillent et répondent à toutes vos questions  
-📧 **Demandez un devis** : Formulaire en ligne, réponse sous 24h avec première estimation  
-🏠 **Audit gratuit à domicile** : Nous venons chez vous à Nice pour un devis précis et personnalisé
-
-**Notre promesse** : Transparence, expertise, accompagnement de A à Z pour que votre expatriation se déroule sereinement. Partez l'esprit tranquille, Moverz s'occupe de tout.
+**Déménagement international depuis Nice ?** Notre [plateforme déménageurs internationaux Nice](/) vous met en relation avec les meilleurs transporteurs certifiés FIDI. Comparez 5 devis gratuits, expertise douanes incluse, suivi en temps réel. Déménageurs internationaux vérifiés Nice.
 
 ## FAQ : Vos questions sur le déménagement international depuis Nice
 

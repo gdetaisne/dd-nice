@@ -487,15 +487,7 @@ En tant que spécialiste du **déménagement sur la Côte d'Azur**, Moverz vous 
 
 **Longue distance en groupage** : Jusqu'à -50% sur Nice-Paris, Nice-Lyon, Nice-Marseille
 
-### Demandez votre devis gratuit
-
-Vous planifiez un **déménagement économique à Nice** ? Contactez Moverz dès maintenant :
-
-📞 **Appelez-nous** : Conseil personnalisé et première estimation par téléphone  
-📧 **Devis en ligne** : Formulaire rapide, réponse sous 24h  
-🏠 **Visite technique gratuite** : Nous venons chez vous pour un devis définitif et précis
-
-**Notre promesse** : Un déménagement économique ne signifie pas un service au rabais. Avec Moverz, vous bénéficiez d'un service professionnel à prix juste, sans compromis sur la qualité.
+**Besoin d'un déménagement à Nice ?** Découvrez notre [comparateur de déménageurs Nice](/) pour obtenir 5 devis personnalisés en 2 minutes. Déménageurs vérifiés, tarifs transparents, économie moyenne de 40% en comparant. Trouvez la formule économique idéale pour votre budget niçois.
 
 ## FAQ : Vos questions sur le déménagement pas cher à Nice
 

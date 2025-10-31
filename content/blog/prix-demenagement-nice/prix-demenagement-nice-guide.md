@@ -389,15 +389,7 @@ En tant que **déménageur professionnel implanté à Nice**, Moverz s'engage su
 
 **Parrainage** : -50€ pour vous et votre ami
 
-### Demandez votre devis gratuit
-
-Vous planifiez un **déménagement à Nice** ? Contactez Moverz pour un devis transparent :
-
-📞 **Appelez-nous** : Première estimation par téléphone  
-📧 **Formulaire rapide** : Réponse sous 24h  
-🏠 **Visite technique gratuite** : Devis précis à votre domicile à Nice
-
-**Notre promesse** : Un prix juste, un service de qualité, aucune mauvaise surprise.
+**Estimez votre déménagement à Nice ?** Utilisez notre [calculateur de prix déménagement Nice](/) : renseignez votre volume en 2 minutes et recevez 5 devis personnalisés instantanément. Prix transparents, comparaison détaillée, économie moyenne de 40%.
 
 ## FAQ : Vos questions sur le prix d'un déménagement à Nice
 

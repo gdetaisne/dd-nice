@@ -324,15 +324,7 @@ En tant que spécialiste du **déménagement sur la Côte d'Azur**, Moverz vous 
 
 **Formule Complète T2** : 1 350€ (emballage + transport + installation + déballage)
 
-### Demandez votre devis personnalisé
-
-Vous avez besoin d'**aide pour votre déménagement à Nice** ? Contactez Moverz :
-
-📞 **Appelez-nous** : Conseil immédiat, devis par téléphone  
-📧 **Formulaire en ligne** : Réponse sous 24h  
-🏠 **Visite gratuite** : À votre domicile à Nice pour évaluation précise
-
-**Notre promesse** : Une aide adaptée à votre situation, des tarifs transparents, et un déménagement réussi sans stress.
+**Besoin d'aide pour déménager à Nice ?** Découvrez notre [plateforme de mise en relation déménagement Nice](/) : comparez 5 devis de professionnels adaptés à votre budget, formules économiques disponibles, ou options d'aide ponctuelle. Solutions d'aide adaptées à Nice.
 
 ## FAQ : Vos questions sur l'aide au déménagement à Nice
 

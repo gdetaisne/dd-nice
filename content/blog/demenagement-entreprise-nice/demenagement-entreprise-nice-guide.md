@@ -287,15 +287,7 @@ En tant qu'experts du **déménagement professionnel sur la Côte d'Azur**, Move
 
 **Réductions** : -15% pour déménagement en semaine (hors vendredi), -10% basse saison (novembre-mars).
 
-### Demandez votre étude personnalisée
-
-Vous planifiez un **déménagement d'entreprise à Nice** ? Contactez Moverz :
-
-📞 **Appelez-nous** : Discussion avec notre responsable déménagements professionnels  
-📧 **Formulaire entreprise** : Réponse sous 24h avec première estimation  
-🏢 **Visite sur site** : Audit gratuit de vos locaux actuels à Nice
-
-**Notre promesse** : Un déménagement d'entreprise réussi avec une interruption minimale de votre activité, un respect total des délais, et une transparence absolue sur les prix.
+**Déménagement d'entreprise à Nice ?** Notre [solution déménagement professionnel Nice](/) vous connecte aux meilleurs spécialistes du transfert d'entreprise. Comparez 5 devis adaptés PME/Grandes entreprises, planification sur mesure, intervention week-end/nuit. Déménageurs professionnels vérifiés Nice.
 
 ## FAQ : Vos questions sur le déménagement d'entreprise à Nice
 

@@ -283,15 +283,7 @@ En tant que spécialiste du **déménagement à Nice**, Moverz vous accompagne d
 
 **Tarifs dégressifs** : Plus la durée de stockage est longue, plus le tarif mensuel diminue. Nous vous proposons les meilleures conditions du marché niçois.
 
-### Demandez votre devis gratuit
-
-Vous recherchez une **solution de garde meuble à Nice** fiable et économique ? Contactez Moverz dès aujourd'hui :
-
-📞 **Appelez-nous** : Notre équipe vous répond et vous conseille immédiatement
-📧 **Devis en ligne** : Remplissez notre formulaire, recevez une estimation sous 24h
-🏢 **Visite du centre** : Nous organisons une visite gratuite du centre de stockage
-
-**Notre engagement** : Vous accompagner de A à Z dans votre projet de déménagement et de stockage à Nice, avec un service professionnel et des tarifs transparents.
+**Besoin d'une solution déménagement + stockage à Nice ?** Notre [service de mise en relation déménageurs Nice](/) vous permet de comparer instantanément les offres combinées garde-meuble et déménagement. Déménageurs vérifiés, tarifs transparents, économie moyenne de 40% en comparant. Trouvez votre solution complète en 2 minutes.
 
 ## FAQ : Vos questions sur le garde meuble à Nice
 

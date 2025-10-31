@@ -333,15 +333,7 @@ En tant que spécialiste du **déménagement sur la Côte d'Azur**, Moverz accom
 
 **Sophie et Marc D., Libération :** "Formule complète pour un T4. L'équipe a tout géré : emballage, démontage, transport, remontage, déballage. Zéro stress pour nous. Le prix correspondait exactement au devis. Merci Moverz !"
 
-### Demandez votre devis gratuit
-
-Vous planifiez un **déménagement à Nice** ? Contactez Moverz dès maintenant :
-
-📞 **Appelez-nous** : Notre équipe vous répond immédiatement et vous conseille sur la formule adaptée
-📧 **Devis en ligne** : Remplissez notre formulaire, recevez une première estimation sous 24h
-🏠 **Visite technique gratuite** : Nous nous déplaçons chez vous pour un devis définitif et personnalisé
-
-**Notre engagement** : Transparence des prix, respect des délais, protection optimale de vos biens, et service client irréprochable. Faites confiance au **déménageur local** qui connaît Nice comme sa poche.
+**Cherchez un déménageur à Nice ?** Notre [comparateur déménageurs locaux Nice](/) vous met en relation avec les meilleurs professionnels certifiés. Comparez 5 devis gratuits, avis clients vérifiés, disponibilités en temps réel. Déménageurs Nice vérifiés.
 
 ## FAQ : Vos questions sur les déménageurs à Nice
 

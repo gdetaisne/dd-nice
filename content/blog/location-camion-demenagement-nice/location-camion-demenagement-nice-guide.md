@@ -338,6 +338,8 @@ Ces prix sont **indicatifs** pour une location standard à Nice. Ajoutez :
 
 **État des lieux** : Vérifiez avec l'agent qu'aucun dommage n'est constaté. Signez l'état des lieux de restitution.
 
+**Location camion ou déménageur professionnel ?** Comparez les deux options avec notre [service comparatif déménagement Nice](/). Obtenez 5 devis déménageurs + tarifs location camion en 2 minutes. Faites le meilleur choix pour votre budget et situation.
+
 ## FAQ : Vos questions sur la location de camion à Nice
 
 ### Quel permis pour louer un camion de déménagement ?

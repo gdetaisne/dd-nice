@@ -303,15 +303,7 @@ En tant qu'experts du **déménagement sur la Côte d'Azur**, Moverz propose des
 
 **Basse saison** : -15% de novembre à mars
 
-### Demandez votre devis rapide
-
-Vous planifiez un **petit déménagement à Nice** ? Contactez Moverz :
-
-📞 **Appelez-nous** : Devis par téléphone en 5 minutes  
-📧 **Formulaire express** : Réponse sous 2h en semaine  
-💬 **WhatsApp** : Envoyez photos de vos affaires, estimation immédiate
-
-**Notre promesse** : Un déménagement rapide, économique et sans stress pour les petits volumes à Nice.
+**Studio ou petit volume à déménager à Nice ?** Utilisez notre [comparateur déménageurs petits volumes Nice](/) spécialisés dans les studios et T1. Obtenez 5 devis adaptés à votre situation, formules économiques disponibles. Déménageurs petits volumes vérifiés à Nice.
 
 ## FAQ : Vos questions sur le petit déménagement à Nice
 

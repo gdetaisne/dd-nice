@@ -17,11 +17,8 @@ const inter = Inter({ subsets: ["latin"], display: "swap" });
 // Résoudre les données de ville dynamiquement
 const city = getCityDataFromUrl(env.SITE_URL);
 
-// Metadata centralisée avec wording spécifique Nice (source unique)
+// Metadata centralisée - wording intent transactionnel (isMoneyPage: true)
 export const metadata: Metadata = buildSiteMetadata({
-  customTitle: `Déménagement Nice dès 299€ | Comparateur Gratuit | -40% 2025`,
-  customTemplate: `%s | Déménageur Nice`,
-  customDescription: `Déménagement Nice : comparez 5 devis en 2min. Prix dès 299€. Économisez 40%. ✓ Gratuit ✓ Déménageurs Alpes-Maritimes certifiés ✓ Réponse rapide.`,
   isMoneyPage: true,
 });
 
