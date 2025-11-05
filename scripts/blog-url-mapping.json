@@ -1,0 +1,954 @@
+{
+  "aide-demenagement-nice-guide": {
+    "url": "/blog/demenagement-nice/aide-demenagement-nice-guide/",
+    "category": "demenagement-nice",
+    "mappedCategory": "demenagement-nice",
+    "type": "satellite",
+    "folder": "aide-demenagement-nice",
+    "file": "aide-demenagement-nice-guide.md"
+  },
+  "demenagement-entreprise-nice-guide": {
+    "url": "/blog/demenagement-nice/demenagement-entreprise-nice-guide/",
+    "category": "demenagement-nice",
+    "mappedCategory": "demenagement-nice",
+    "type": "satellite",
+    "folder": "demenagement-entreprise-nice",
+    "file": "demenagement-entreprise-nice-guide.md"
+  },
+  "demenagement-international-nice-guide": {
+    "url": "/blog/demenagement-nice/demenagement-international-nice-guide/",
+    "category": "demenagement-nice",
+    "mappedCategory": "demenagement-nice",
+    "type": "satellite",
+    "folder": "demenagement-international-nice",
+    "file": "demenagement-international-nice-guide.md"
+  },
+  "demenagement-pas-cher-nice-guide": {
+    "url": "/blog/demenagement-nice/demenagement-pas-cher-nice-guide/",
+    "category": "demenagement-nice",
+    "mappedCategory": "demenagement-nice",
+    "type": "satellite",
+    "folder": "demenagement-pas-cher-nice",
+    "file": "demenagement-pas-cher-nice-guide.md"
+  },
+  "demenagement-piano-nice-guide": {
+    "url": "/blog/demenagement-nice/demenagement-piano-nice-guide/",
+    "category": "demenagement-nice",
+    "mappedCategory": "demenagement-nice",
+    "type": "satellite",
+    "folder": "demenagement-piano-nice",
+    "file": "demenagement-piano-nice-guide.md"
+  },
+  "demenageur-nice-guide-complet": {
+    "url": "/blog/demenagement-nice/demenageur-nice-guide/",
+    "category": "demenagement-nice",
+    "mappedCategory": "demenagement-nice",
+    "type": "satellite",
+    "folder": "demenageur-nice",
+    "file": "demenageur-nice-guide-complet.md"
+  },
+  "garde-meuble-nice-guide-complet": {
+    "url": "/blog/demenagement-nice/garde-meuble-nice-guide/",
+    "category": "demenagement-nice",
+    "mappedCategory": "demenagement-nice",
+    "type": "satellite",
+    "folder": "garde-meuble-nice",
+    "file": "garde-meuble-nice-guide-complet.md"
+  },
+  "location-camion-demenagement-nice-guide": {
+    "url": "/blog/demenagement-nice/location-camion-demenagement-nice-guide/",
+    "category": "demenagement-nice",
+    "mappedCategory": "demenagement-nice",
+    "type": "satellite",
+    "folder": "location-camion-demenagement-nice",
+    "file": "location-camion-demenagement-nice-guide.md"
+  },
+  "petit-demenagement-nice-guide": {
+    "url": "/blog/demenagement-nice/petit-demenagement-nice-guide/",
+    "category": "demenagement-nice",
+    "mappedCategory": "demenagement-nice",
+    "type": "satellite",
+    "folder": "petit-demenagement-nice",
+    "file": "petit-demenagement-nice-guide.md"
+  },
+  "prix-demenagement-nice-guide": {
+    "url": "/blog/demenagement-nice/prix-demenagement-nice-guide/",
+    "category": "demenagement-nice",
+    "mappedCategory": "demenagement-nice",
+    "type": "satellite",
+    "folder": "prix-demenagement-nice",
+    "file": "prix-demenagement-nice-guide.md"
+  },
+  "LISTE-COMPLETE-50-SATELLITES-GENERES": {
+    "url": "/blog/default/LISTE-COMPLETE-50-SATELLITES-GENERES/",
+    "category": "default",
+    "mappedCategory": "default",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "LISTE-COMPLETE-50-SATELLITES-GENERES.md"
+  },
+  "acces-24-7-garde-meuble-nice": {
+    "url": "/blog/garde-meuble-nice/acces-24-7-garde-meuble-nice/",
+    "category": "garde-meuble-nice",
+    "mappedCategory": "garde-meuble-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "acces-24-7-garde-meuble-nice.md"
+  },
+  "aide-financiere-demenagement-nice": {
+    "url": "/blog/aide-demenagement-nice/aide-financiere-demenagement-nice/",
+    "category": "aide-demenagement-nice",
+    "mappedCategory": "aide-demenagement-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "aide-financiere-demenagement-nice.md"
+  },
+  "aide-manutention-demenagement-nice": {
+    "url": "/blog/aide-demenagement-nice/aide-manutention-demenagement-nice/",
+    "category": "aide-demenagement-nice",
+    "mappedCategory": "aide-demenagement-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "aide-manutention-demenagement-nice.md"
+  },
+  "aide-pole-emploi-demenagement-nice": {
+    "url": "/blog/aide-demenagement-nice/aide-pole-emploi-demenagement-nice/",
+    "category": "aide-demenagement-nice",
+    "mappedCategory": "aide-demenagement-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "aide-pole-emploi-demenagement-nice.md"
+  },
+  "assurance-demenageur-nice": {
+    "url": "/blog/demenageur-nice/assurance-demenageur-nice/",
+    "category": "demenageur-nice",
+    "mappedCategory": "demenageur-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "assurance-demenageur-nice.md"
+  },
+  "assurance-location-utilitaire-nice": {
+    "url": "/blog/location-camion-nice/assurance-location-utilitaire-nice/",
+    "category": "location-camion-nice",
+    "mappedCategory": "location-camion-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "assurance-location-utilitaire-nice.md"
+  },
+  "assurer-piano-transport-nice": {
+    "url": "/blog/piano/assurer-piano-transport-nice/",
+    "category": "demenagement-piano",
+    "mappedCategory": "piano",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "assurer-piano-transport-nice.md"
+  },
+  "astuces-demenagement-pas-cher-nice": {
+    "url": "/blog/demenagement-pas-cher-nice/astuces-demenagement-pas-cher-nice/",
+    "category": "demenagement-pas-cher-nice",
+    "mappedCategory": "demenagement-pas-cher-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "astuces-demenagement-pas-cher-nice.md"
+  },
+  "autorisation-stationnement-demenagement-nice": {
+    "url": "/blog/demenageur-nice/autorisation-stationnement-demenagement-nice/",
+    "category": "demenageur-nice",
+    "mappedCategory": "demenageur-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "autorisation-stationnement-demenagement-nice.md"
+  },
+  "avis-demenageurs-nice-guide": {
+    "url": "/blog/demenageur-nice/avis-demenageurs-nice-guide/",
+    "category": "demenageur-nice",
+    "mappedCategory": "demenageur-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "avis-demenageurs-nice-guide.md"
+  },
+  "calculer-prix-demenagement-nice": {
+    "url": "/blog/prix-demenagement-nice/calculer-prix-demenagement-nice/",
+    "category": "prix-demenagement-nice",
+    "mappedCategory": "prix-demenagement-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "calculer-prix-demenagement-nice.md"
+  },
+  "camion-demenagement-permis-be-nice": {
+    "url": "/blog/location-camion/camion-demenagement-permis-be-nice/",
+    "category": "location-camion",
+    "mappedCategory": "location-camion",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "camion-demenagement-permis-be-nice.md"
+  },
+  "cartons-gratuits-nice-ou-trouver": {
+    "url": "/blog/demenagement-pas-cher-nice/cartons-gratuits-nice-ou-trouver/",
+    "category": "demenagement-pas-cher-nice",
+    "mappedCategory": "demenagement-pas-cher-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "cartons-gratuits-nice-ou-trouver.md"
+  },
+  "caution-location-camion-nice": {
+    "url": "/blog/location-camion-nice/caution-location-camion-nice/",
+    "category": "location-camion-nice",
+    "mappedCategory": "location-camion-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "caution-location-camion-nice.md"
+  },
+  "checklist-demenagement-complete-nice": {
+    "url": "/blog/aide-demenagement/checklist-demenagement-complete-nice/",
+    "category": "aide-demenagement",
+    "mappedCategory": "aide-demenagement",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "checklist-demenagement-complete-nice.md"
+  },
+  "choisir-demenageur-nice-criteres": {
+    "url": "/blog/demenageur-nice/choisir-demenageur-nice-criteres/",
+    "category": "demenageur-nice",
+    "mappedCategory": "demenageur-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "choisir-demenageur-nice-criteres.md"
+  },
+  "comparateur-devis-demenagement-nice": {
+    "url": "/blog/demenagement-pas-cher-nice/comparateur-devis-demenagement-nice/",
+    "category": "demenagement-pas-cher-nice",
+    "mappedCategory": "demenagement-pas-cher-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "comparateur-devis-demenagement-nice.md"
+  },
+  "comparatif-demenageurs-nice": {
+    "url": "/blog/demenageur-nice/comparatif-demenageurs-nice/",
+    "category": "demenageur-nice",
+    "mappedCategory": "demenageur-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "comparatif-demenageurs-nice.md"
+  },
+  "conduire-camion-vieux-nice-conseils": {
+    "url": "/blog/location-camion-nice/conduire-camion-vieux-nice-conseils/",
+    "category": "location-camion-nice",
+    "mappedCategory": "location-camion-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "conduire-camion-vieux-nice-conseils.md"
+  },
+  "cout-reel-demenagement-nice": {
+    "url": "/blog/prix/cout-reel-demenagement-nice/",
+    "category": "prix-demenagement",
+    "mappedCategory": "prix",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "cout-reel-demenagement-nice.md"
+  },
+  "delai-demenagement-international-nice": {
+    "url": "/blog/demenagement-international-nice/delai-demenagement-international-nice/",
+    "category": "demenagement-international-nice",
+    "mappedCategory": "demenagement-international-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "delai-demenagement-international-nice.md"
+  },
+  "demenagement-apres-divorce-separation-nice": {
+    "url": "/blog/aide-demenagement/demenagement-apres-divorce-separation-nice/",
+    "category": "aide-demenagement",
+    "mappedCategory": "aide-demenagement",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-apres-divorce-separation-nice.md"
+  },
+  "demenagement-aquarium-poissons-nice": {
+    "url": "/blog/aide-demenagement/demenagement-aquarium-poissons-nice/",
+    "category": "aide-demenagement",
+    "mappedCategory": "aide-demenagement",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-aquarium-poissons-nice.md"
+  },
+  "demenagement-archives-entreprise-nice": {
+    "url": "/blog/demenagement-entreprise-nice/demenagement-archives-entreprise-nice/",
+    "category": "demenagement-entreprise-nice",
+    "mappedCategory": "demenagement-entreprise-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-archives-entreprise-nice.md"
+  },
+  "demenagement-avec-animaux-nice": {
+    "url": "/blog/aide-demenagement/demenagement-avec-animaux-nice/",
+    "category": "aide-demenagement",
+    "mappedCategory": "aide-demenagement",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-avec-animaux-nice.md"
+  },
+  "demenagement-avec-enfants-nice": {
+    "url": "/blog/aide-demenagement/demenagement-avec-enfants-nice/",
+    "category": "aide-demenagement",
+    "mappedCategory": "aide-demenagement",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-avec-enfants-nice.md"
+  },
+  "demenagement-bureaux-entreprise-nice": {
+    "url": "/blog/demenagement-entreprise-nice/demenagement-bureaux-entreprise-nice/",
+    "category": "demenagement-entreprise-nice",
+    "mappedCategory": "demenagement-entreprise-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-bureaux-entreprise-nice.md"
+  },
+  "demenagement-cabinet-medical-nice": {
+    "url": "/blog/demenagement-entreprise-nice/demenagement-cabinet-medical-nice/",
+    "category": "demenagement-entreprise-nice",
+    "mappedCategory": "demenagement-entreprise-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-cabinet-medical-nice.md"
+  },
+  "demenagement-cave-vin-nice": {
+    "url": "/blog/demenagement-objets-fragiles/demenagement-cave-vin-nice/",
+    "category": "demenagement-objets-fragiles",
+    "mappedCategory": "demenagement-objets-fragiles",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-cave-vin-nice.md"
+  },
+  "demenagement-chambre-etudiant-nice": {
+    "url": "/blog/petit-demenagement-nice/demenagement-chambre-etudiant-nice/",
+    "category": "petit-demenagement-nice",
+    "mappedCategory": "petit-demenagement-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-chambre-etudiant-nice.md"
+  },
+  "demenagement-colocation-nice": {
+    "url": "/blog/petit-demenagement-nice/demenagement-colocation-nice/",
+    "category": "petit-demenagement-nice",
+    "mappedCategory": "petit-demenagement-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-colocation-nice.md"
+  },
+  "demenagement-colocation-vers-logement-seul-nice": {
+    "url": "/blog/petit-demenagement/demenagement-colocation-vers-logement-seul-nice/",
+    "category": "petit-demenagement",
+    "mappedCategory": "petit-demenagement",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-colocation-vers-logement-seul-nice.md"
+  },
+  "demenagement-commerce-boutique-nice": {
+    "url": "/blog/entreprise/demenagement-commerce-boutique-nice/",
+    "category": "demenagement-entreprise",
+    "mappedCategory": "entreprise",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-commerce-boutique-nice.md"
+  },
+  "demenagement-cote-azur-nice-cannes-antibes": {
+    "url": "/blog/demenagement-local/demenagement-cote-azur-nice-cannes-antibes/",
+    "category": "demenagement-local",
+    "mappedCategory": "demenagement-local",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-cote-azur-nice-cannes-antibes.md"
+  },
+  "demenagement-covid-sanitaire-nice": {
+    "url": "/blog/aide-demenagement/demenagement-covid-sanitaire-nice/",
+    "category": "aide-demenagement",
+    "mappedCategory": "aide-demenagement",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-covid-sanitaire-nice.md"
+  },
+  "demenagement-depuis-autre-region-vers-nice": {
+    "url": "/blog/longue-distance/demenagement-depuis-autre-region-vers-nice/",
+    "category": "demenagement-longue-distance",
+    "mappedCategory": "longue-distance",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-depuis-autre-region-vers-nice.md"
+  },
+  "demenagement-ecologique-nice": {
+    "url": "/blog/pas-cher/demenagement-ecologique-nice/",
+    "category": "demenagement-pas-cher",
+    "mappedCategory": "pas-cher",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-ecologique-nice.md"
+  },
+  "demenagement-en-couple-nice": {
+    "url": "/blog/aide-demenagement/demenagement-en-couple-nice/",
+    "category": "aide-demenagement",
+    "mappedCategory": "aide-demenagement",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-en-couple-nice.md"
+  },
+  "demenagement-entreprise-weekend-nice": {
+    "url": "/blog/demenagement-entreprise-nice/demenagement-entreprise-weekend-nice/",
+    "category": "demenagement-entreprise-nice",
+    "mappedCategory": "demenagement-entreprise-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-entreprise-weekend-nice.md"
+  },
+  "demenagement-etudiant-pas-cher-nice": {
+    "url": "/blog/demenagement-pas-cher-nice/demenagement-etudiant-pas-cher-nice/",
+    "category": "demenagement-pas-cher-nice",
+    "mappedCategory": "demenagement-pas-cher-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-etudiant-pas-cher-nice.md"
+  },
+  "demenagement-express-rapide-nice": {
+    "url": "/blog/petit-demenagement-nice/demenagement-express-rapide-nice/",
+    "category": "petit-demenagement-nice",
+    "mappedCategory": "petit-demenagement-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-express-rapide-nice.md"
+  },
+  "demenagement-formalites-douane-nice": {
+    "url": "/blog/demenagement-international-nice/demenagement-formalites-douane-nice/",
+    "category": "demenagement-international-nice",
+    "mappedCategory": "demenagement-international-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-formalites-douane-nice.md"
+  },
+  "demenagement-formule-economique-nice": {
+    "url": "/blog/demenagement-pas-cher-nice/demenagement-formule-economique-nice/",
+    "category": "demenagement-pas-cher-nice",
+    "mappedCategory": "demenagement-pas-cher-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-formule-economique-nice.md"
+  },
+  "demenagement-groupe-nice": {
+    "url": "/blog/demenagement-pas-cher-nice/demenagement-groupe-nice/",
+    "category": "demenagement-pas-cher-nice",
+    "mappedCategory": "demenagement-pas-cher-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-groupe-nice.md"
+  },
+  "demenagement-handicap-pmr-nice": {
+    "url": "/blog/aide-demenagement/demenagement-handicap-pmr-nice/",
+    "category": "aide-demenagement",
+    "mappedCategory": "aide-demenagement",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-handicap-pmr-nice.md"
+  },
+  "demenagement-hors-saison-nice": {
+    "url": "/blog/pas-cher/demenagement-hors-saison-nice/",
+    "category": "demenagement-pas-cher",
+    "mappedCategory": "pas-cher",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-hors-saison-nice.md"
+  },
+  "demenagement-instrument-musique-fragile-nice": {
+    "url": "/blog/piano/demenagement-instrument-musique-fragile-nice/",
+    "category": "demenagement-piano",
+    "mappedCategory": "piano",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-instrument-musique-fragile-nice.md"
+  },
+  "demenagement-international-nice-italie": {
+    "url": "/blog/demenagement-international-nice/demenagement-international-nice-italie/",
+    "category": "demenagement-international-nice",
+    "mappedCategory": "demenagement-international-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-international-nice-italie.md"
+  },
+  "demenagement-international-nice-monaco": {
+    "url": "/blog/international/demenagement-international-nice-monaco/",
+    "category": "demenagement-international",
+    "mappedCategory": "international",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-international-nice-monaco.md"
+  },
+  "demenagement-international-nice-suisse": {
+    "url": "/blog/demenagement-international-nice/demenagement-international-nice-suisse/",
+    "category": "demenagement-international-nice",
+    "mappedCategory": "demenagement-international-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-international-nice-suisse.md"
+  },
+  "demenagement-investisseur-locatif-nice": {
+    "url": "/blog/entreprise/demenagement-investisseur-locatif-nice/",
+    "category": "demenagement-entreprise",
+    "mappedCategory": "entreprise",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-investisseur-locatif-nice.md"
+  },
+  "demenagement-local-commercial-nice": {
+    "url": "/blog/entreprise/demenagement-local-commercial-nice/",
+    "category": "demenagement-entreprise",
+    "mappedCategory": "entreprise",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-local-commercial-nice.md"
+  },
+  "demenagement-locaux-commerciaux-nice": {
+    "url": "/blog/demenagement-entreprise-nice/demenagement-locaux-commerciaux-nice/",
+    "category": "demenagement-entreprise-nice",
+    "mappedCategory": "demenagement-entreprise-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-locaux-commerciaux-nice.md"
+  },
+  "demenagement-longue-distance-depuis-nice": {
+    "url": "/blog/prix-demenagement-nice/demenagement-longue-distance-depuis-nice/",
+    "category": "prix-demenagement-nice",
+    "mappedCategory": "prix-demenagement-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-longue-distance-depuis-nice.md"
+  },
+  "demenagement-maison-nice-prix": {
+    "url": "/blog/prix-demenagement-nice/demenagement-maison-nice-prix/",
+    "category": "prix-demenagement-nice",
+    "mappedCategory": "prix-demenagement-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-maison-nice-prix.md"
+  },
+  "demenagement-objets-fragiles-nice": {
+    "url": "/blog/aide-demenagement/demenagement-objets-fragiles-nice/",
+    "category": "aide-demenagement",
+    "mappedCategory": "aide-demenagement",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-objets-fragiles-nice.md"
+  },
+  "demenagement-oeuvres-art-collection-nice": {
+    "url": "/blog/aide-demenagement/demenagement-oeuvres-art-collection-nice/",
+    "category": "aide-demenagement",
+    "mappedCategory": "aide-demenagement",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-oeuvres-art-collection-nice.md"
+  },
+  "demenagement-personnes-agees-nice": {
+    "url": "/blog/aide-demenagement-nice/demenagement-personnes-agees-nice/",
+    "category": "aide-demenagement-nice",
+    "mappedCategory": "aide-demenagement-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-personnes-agees-nice.md"
+  },
+  "demenagement-personnes-mobilite-reduite-nice": {
+    "url": "/blog/aide-demenagement/demenagement-personnes-mobilite-reduite-nice/",
+    "category": "aide-demenagement",
+    "mappedCategory": "aide-demenagement",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-personnes-mobilite-reduite-nice.md"
+  },
+  "demenagement-petit-budget-nice": {
+    "url": "/blog/demenagement-pas-cher-nice/demenagement-petit-budget-nice/",
+    "category": "demenagement-pas-cher-nice",
+    "mappedCategory": "demenagement-pas-cher-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-petit-budget-nice.md"
+  },
+  "demenagement-piano-droit-nice": {
+    "url": "/blog/demenagement-piano-nice/demenagement-piano-droit-nice/",
+    "category": "demenagement-piano-nice",
+    "mappedCategory": "demenagement-piano-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-piano-droit-nice.md"
+  },
+  "demenagement-piano-monte-meuble-nice": {
+    "url": "/blog/demenagement-piano-nice/demenagement-piano-monte-meuble-nice/",
+    "category": "demenagement-piano-nice",
+    "mappedCategory": "demenagement-piano-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-piano-monte-meuble-nice.md"
+  },
+  "demenagement-piano-nice-prix": {
+    "url": "/blog/demenagement-piano-nice/demenagement-piano-nice-prix/",
+    "category": "demenagement-piano-nice",
+    "mappedCategory": "demenagement-piano-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-piano-nice-prix.md"
+  },
+  "demenagement-piano-queue-nice": {
+    "url": "/blog/demenagement-piano-nice/demenagement-piano-queue-nice/",
+    "category": "demenagement-piano-nice",
+    "mappedCategory": "demenagement-piano-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-piano-queue-nice.md"
+  },
+  "demenagement-plantes-jardin-nice": {
+    "url": "/blog/aide-demenagement/demenagement-plantes-jardin-nice/",
+    "category": "aide-demenagement",
+    "mappedCategory": "aide-demenagement",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-plantes-jardin-nice.md"
+  },
+  "demenagement-retraites-seniors-nice": {
+    "url": "/blog/aide-demenagement/demenagement-retraites-seniors-nice/",
+    "category": "aide-demenagement",
+    "mappedCategory": "aide-demenagement",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-retraites-seniors-nice.md"
+  },
+  "demenagement-sans-interruption-activite-nice": {
+    "url": "/blog/demenagement-entreprise-nice/demenagement-sans-interruption-activite-nice/",
+    "category": "demenagement-entreprise-nice",
+    "mappedCategory": "demenagement-entreprise-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-sans-interruption-activite-nice.md"
+  },
+  "demenagement-sophia-antipolis-nice": {
+    "url": "/blog/demenagement-entreprise-nice/demenagement-sophia-antipolis-nice/",
+    "category": "demenagement-entreprise-nice",
+    "mappedCategory": "demenagement-entreprise-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-sophia-antipolis-nice.md"
+  },
+  "demenagement-start-up-nice": {
+    "url": "/blog/entreprise/demenagement-start-up-nice/",
+    "category": "demenagement-entreprise",
+    "mappedCategory": "entreprise",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-start-up-nice.md"
+  },
+  "demenagement-studio-nice-prix": {
+    "url": "/blog/petit-demenagement-nice/demenagement-studio-nice-prix/",
+    "category": "petit-demenagement-nice",
+    "mappedCategory": "petit-demenagement-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-studio-nice-prix.md"
+  },
+  "demenagement-transfrontalier-nice-italie": {
+    "url": "/blog/international/demenagement-transfrontalier-nice-italie/",
+    "category": "demenagement-international",
+    "mappedCategory": "international",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-transfrontalier-nice-italie.md"
+  },
+  "demenagement-une-piece-nice": {
+    "url": "/blog/petit-demenagement-nice/demenagement-une-piece-nice/",
+    "category": "petit-demenagement-nice",
+    "mappedCategory": "petit-demenagement-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-une-piece-nice.md"
+  },
+  "demenagement-urgence-rapide-nice": {
+    "url": "/blog/petit-demenagement/demenagement-urgence-rapide-nice/",
+    "category": "petit-demenagement",
+    "mappedCategory": "petit-demenagement",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-urgence-rapide-nice.md"
+  },
+  "demenagement-velo-moto-nice": {
+    "url": "/blog/aide-demenagement/demenagement-velo-moto-nice/",
+    "category": "aide-demenagement",
+    "mappedCategory": "aide-demenagement",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-velo-moto-nice.md"
+  },
+  "demenagement-weekend-jours-feries-nice": {
+    "url": "/blog/aide-demenagement/demenagement-weekend-jours-feries-nice/",
+    "category": "aide-demenagement",
+    "mappedCategory": "aide-demenagement",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-weekend-jours-feries-nice.md"
+  },
+  "demenagement-weekend-vs-semaine-nice": {
+    "url": "/blog/demenagement-pas-cher-nice/demenagement-weekend-vs-semaine-nice/",
+    "category": "demenagement-pas-cher-nice",
+    "mappedCategory": "demenagement-pas-cher-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenagement-weekend-vs-semaine-nice.md"
+  },
+  "demenager-seul-nice-guide": {
+    "url": "/blog/demenagement-pas-cher-nice/demenager-seul-nice-guide/",
+    "category": "demenagement-pas-cher-nice",
+    "mappedCategory": "demenagement-pas-cher-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenager-seul-nice-guide.md"
+  },
+  "demenageur-dimanche-soir-nice": {
+    "url": "/blog/demenageur-nice/demenageur-dimanche-soir-nice/",
+    "category": "demenageur-nice",
+    "mappedCategory": "demenageur-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenageur-dimanche-soir-nice.md"
+  },
+  "demenageur-monte-meuble-nice": {
+    "url": "/blog/demenageur-nice/demenageur-monte-meuble-nice/",
+    "category": "demenageur-nice",
+    "mappedCategory": "demenageur-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenageur-monte-meuble-nice.md"
+  },
+  "demenageur-vieux-nice-acces-difficile": {
+    "url": "/blog/demenageur-nice/demenageur-vieux-nice-acces-difficile/",
+    "category": "demenageur-nice",
+    "mappedCategory": "demenageur-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "demenageur-vieux-nice-acces-difficile.md"
+  },
+  "devis-demenagement-nice-gratuit": {
+    "url": "/blog/prix-demenagement-nice/devis-demenagement-nice-gratuit/",
+    "category": "prix-demenagement-nice",
+    "mappedCategory": "prix-demenagement-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "devis-demenagement-nice-gratuit.md"
+  },
+  "duree-minimum-location-box-nice": {
+    "url": "/blog/garde-meuble-nice/duree-minimum-location-box-nice/",
+    "category": "garde-meuble-nice",
+    "mappedCategory": "garde-meuble-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "duree-minimum-location-box-nice.md"
+  },
+  "facteurs-prix-demenagement-nice": {
+    "url": "/blog/prix-demenagement-nice/facteurs-prix-demenagement-nice/",
+    "category": "prix-demenagement-nice",
+    "mappedCategory": "prix-demenagement-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "facteurs-prix-demenagement-nice.md"
+  },
+  "formule-economique-vs-cle-en-main-nice": {
+    "url": "/blog/demenageur-nice/formule-economique-vs-cle-en-main-nice/",
+    "category": "demenageur-nice",
+    "mappedCategory": "demenageur-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "formule-economique-vs-cle-en-main-nice.md"
+  },
+  "garde-meuble-etudiant-nice-pas-cher": {
+    "url": "/blog/garde-meuble-nice/garde-meuble-etudiant-nice-pas-cher/",
+    "category": "garde-meuble-nice",
+    "mappedCategory": "garde-meuble-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "garde-meuble-etudiant-nice-pas-cher.md"
+  },
+  "garde-meuble-longue-duree-nice": {
+    "url": "/blog/garde-meuble/garde-meuble-longue-duree-nice/",
+    "category": "garde-meuble",
+    "mappedCategory": "garde-meuble",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "garde-meuble-longue-duree-nice.md"
+  },
+  "garde-meuble-pendant-demenagement-nice": {
+    "url": "/blog/garde-meuble-nice/garde-meuble-pendant-demenagement-nice/",
+    "category": "garde-meuble-nice",
+    "mappedCategory": "garde-meuble-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "garde-meuble-pendant-demenagement-nice.md"
+  },
+  "garde-meuble-securise-nice": {
+    "url": "/blog/garde-meuble-nice/garde-meuble-securise-nice/",
+    "category": "garde-meuble-nice",
+    "mappedCategory": "garde-meuble-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "garde-meuble-securise-nice.md"
+  },
+  "garde-meuble-vieux-nice-centre": {
+    "url": "/blog/garde-meuble-nice/garde-meuble-vieux-nice-centre/",
+    "category": "garde-meuble-nice",
+    "mappedCategory": "garde-meuble-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "garde-meuble-vieux-nice-centre.md"
+  },
+  "km-inclus-location-camion-nice": {
+    "url": "/blog/location-camion-nice/km-inclus-location-camion-nice/",
+    "category": "location-camion-nice",
+    "mappedCategory": "location-camion-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "km-inclus-location-camion-nice.md"
+  },
+  "location-camion-weekend-nice": {
+    "url": "/blog/location-camion-nice/location-camion-weekend-nice/",
+    "category": "location-camion-nice",
+    "mappedCategory": "location-camion-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "location-camion-weekend-nice.md"
+  },
+  "location-utilitaire-demenagement-nice": {
+    "url": "/blog/location-camion-nice/location-utilitaire-demenagement-nice/",
+    "category": "location-camion-nice",
+    "mappedCategory": "location-camion-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "location-utilitaire-demenagement-nice.md"
+  },
+  "menage-fin-bail-demenagement-nice": {
+    "url": "/blog/aide-demenagement/menage-fin-bail-demenagement-nice/",
+    "category": "aide-demenagement",
+    "mappedCategory": "aide-demenagement",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "menage-fin-bail-demenagement-nice.md"
+  },
+  "periode-pas-chere-demenagement-nice": {
+    "url": "/blog/demenagement-pas-cher-nice/periode-pas-chere-demenagement-nice/",
+    "category": "demenagement-pas-cher-nice",
+    "mappedCategory": "demenagement-pas-cher-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "periode-pas-chere-demenagement-nice.md"
+  },
+  "permis-conduire-camion-demenagement": {
+    "url": "/blog/location-camion-nice/permis-conduire-camion-demenagement/",
+    "category": "location-camion-nice",
+    "mappedCategory": "location-camion-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "permis-conduire-camion-demenagement.md"
+  },
+  "petit-demenagement-nice-solutions": {
+    "url": "/blog/petit-demenagement-nice/petit-demenagement-nice-solutions/",
+    "category": "petit-demenagement-nice",
+    "mappedCategory": "petit-demenagement-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "petit-demenagement-nice-solutions.md"
+  },
+  "piano-electronique-vs-acoustique-demenagement-nice": {
+    "url": "/blog/piano/piano-electronique-vs-acoustique-demenagement-nice/",
+    "category": "demenagement-piano",
+    "mappedCategory": "piano",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "piano-electronique-vs-acoustique-demenagement-nice.md"
+  },
+  "preparer-affaires-garde-meuble-nice": {
+    "url": "/blog/garde-meuble-nice/preparer-affaires-garde-meuble-nice/",
+    "category": "garde-meuble-nice",
+    "mappedCategory": "garde-meuble-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "preparer-affaires-garde-meuble-nice.md"
+  },
+  "prix-demenagement-t2-nice": {
+    "url": "/blog/prix-demenagement-nice/prix-demenagement-t2-nice/",
+    "category": "prix-demenagement-nice",
+    "mappedCategory": "prix-demenagement-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "prix-demenagement-t2-nice.md"
+  },
+  "prix-demenagement-t3-nice": {
+    "url": "/blog/prix-demenagement-nice/prix-demenagement-t3-nice/",
+    "category": "prix-demenagement-nice",
+    "mappedCategory": "prix-demenagement-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "prix-demenagement-t3-nice.md"
+  },
+  "prix-demenageur-nice-2025": {
+    "url": "/blog/demenageur-nice/prix-demenageur-nice-2025/",
+    "category": "demenageur-nice",
+    "mappedCategory": "demenageur-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "prix-demenageur-nice-2025.md"
+  },
+  "prix-garde-meuble-nice-2025": {
+    "url": "/blog/garde-meuble-nice/prix-garde-meuble-nice-2025/",
+    "category": "garde-meuble-nice",
+    "mappedCategory": "garde-meuble-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "prix-garde-meuble-nice-2025.md"
+  },
+  "quelle-taille-box-stockage-nice": {
+    "url": "/blog/garde-meuble-nice/quelle-taille-box-stockage-nice/",
+    "category": "garde-meuble-nice",
+    "mappedCategory": "garde-meuble-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "quelle-taille-box-stockage-nice.md"
+  },
+  "reduction-impots-demenagement-nice": {
+    "url": "/blog/aide-demenagement/reduction-impots-demenagement-nice/",
+    "category": "aide-demenagement",
+    "mappedCategory": "aide-demenagement",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "reduction-impots-demenagement-nice.md"
+  },
+  "resilier-contrats-demenagement-nice": {
+    "url": "/blog/aide-demenagement/resilier-contrats-demenagement-nice/",
+    "category": "aide-demenagement",
+    "mappedCategory": "aide-demenagement",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "resilier-contrats-demenagement-nice.md"
+  },
+  "self-stockage-vs-garde-meuble-traditionnel-nice": {
+    "url": "/blog/garde-meuble-nice/self-stockage-vs-garde-meuble-traditionnel-nice/",
+    "category": "garde-meuble-nice",
+    "mappedCategory": "garde-meuble-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "self-stockage-vs-garde-meuble-traditionnel-nice.md"
+  },
+  "taille-camion-selon-logement-nice": {
+    "url": "/blog/location-camion-nice/taille-camion-selon-logement-nice/",
+    "category": "location-camion-nice",
+    "mappedCategory": "location-camion-nice",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "taille-camion-selon-logement-nice.md"
+  },
+  "vendre-meubles-avant-demenagement-nice": {
+    "url": "/blog/pas-cher/vendre-meubles-avant-demenagement-nice/",
+    "category": "demenagement-pas-cher",
+    "mappedCategory": "pas-cher",
+    "type": "satellite",
+    "folder": "satellites",
+    "file": "vendre-meubles-avant-demenagement-nice.md"
+  }
+}
