@@ -227,6 +227,15 @@ const nextConfig = {
 
       // TOP PRIORITÉ (URL 404 → fallback /blog)
       { source: '/blog/garde-meuble/acces-24-7-garde-meuble-nice', destination: '/blog/', permanent: true },
+
+      // WILDCARDS CATCH-ALL (TASK-LEADGEN-02 - Fix 404 restructuration blog)
+      { source: '/blog/garde-meuble/:slug*', destination: '/blog/satellites/:slug*', permanent: true },
+      { source: '/blog/pas-cher/:slug*', destination: '/blog/satellites/:slug*', permanent: true },
+      { source: '/blog/international/:slug*', destination: '/blog/satellites/:slug*', permanent: true },
+      { source: '/blog/piano/:slug*', destination: '/blog/satellites/:slug*', permanent: true },
+      { source: '/blog/location-camion-nice/:slug*', destination: '/blog/satellites/:slug*', permanent: true },
+      { source: '/blog/petit-demenagement-nice/:slug*', destination: '/blog/satellites/:slug*', permanent: true },
+      { source: '/blog/demenageur/:slug*', destination: '/blog/satellites/:slug*', permanent: true },
     ];
   }
 };
