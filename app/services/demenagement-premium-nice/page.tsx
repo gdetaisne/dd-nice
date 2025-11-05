@@ -8,7 +8,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = (() => {
   const city = getCityDataFromUrl(env.SITE_URL);
   return {
-    title: `Déménagement Premium ${city.nameCapitalized} - Service Haut de Gamme | Moverz`,
+    title: `Déménagement Premium ${city.nameCapitalized} — Dès 1200€`,
     description: `Formule premium pour déménager à ${city.nameCapitalized}. Service tout compris haut de gamme. Estimation IA gratuite, devis sous 7j. À partir de 1200€.`,
     alternates: {
       canonical: getCanonicalUrl(`services/demenagement-premium-${city.slug}`),
