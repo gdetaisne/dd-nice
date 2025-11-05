@@ -3,17 +3,21 @@ import { getAllBlogPosts, getPilierPosts } from '@/lib/blog';
 import Link from 'next/link';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { getCanonicalUrl } from '@/lib/canonical-helper';
+import { getCityDataFromUrl } from '@/lib/cityData';
+import { env } from '@/lib/env';
 import { SatelliteArticlesSection } from '@/components/blog/SatelliteArticlesSection';
 
+const city = getCityDataFromUrl(env.SITE_URL);
+
 export const metadata: Metadata = {
-  title: "Blog Déménagement Nice - Guides & Conseils Experts | Moverz",
-  description: "Guides complets et conseils d'experts pour réussir votre déménagement à Nice. Astuces budget, checklist, comparatifs, conseils pratiques. Articles rédigés par des professionnels.",
+  title: `Blog Déménagement ${city.nameCapitalized} - Guides & Conseils Experts | Moverz`,
+  description: `Guides complets et conseils d'experts pour réussir votre déménagement à ${city.nameCapitalized}. Astuces budget, checklist, comparatifs, conseils pratiques. Articles rédigés par des professionnels.`,
   alternates: {
     canonical: getCanonicalUrl('blog'),
   },
   openGraph: {
-    title: "Blog Déménagement Nice - Tous nos guides pratiques",
-    description: "Conseils d'experts, guides détaillés et astuces pour déménager sereinement à Nice.",
+    title: `Blog Déménagement ${city.nameCapitalized} - Tous nos guides pratiques`,
+    description: `Conseils d'experts, guides détaillés et astuces pour déménager sereinement à ${city.nameCapitalized}.`,
     url: getCanonicalUrl('blog'),
     type: 'website',
   },
