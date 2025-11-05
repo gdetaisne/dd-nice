@@ -58,7 +58,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
       canonical: canonicalUrl,
     },
     openGraph: {
-      title: `${categoryLabel} - Blog Déménagement Lille`,
+      title: `${categoryLabel} - Blog Déménagement ${city.nameCapitalized}`,
       description: categoryDescription,
       url: canonicalUrl,
       type: 'website',
