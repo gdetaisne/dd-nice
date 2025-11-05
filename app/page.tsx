@@ -16,7 +16,7 @@ export const metadata: Metadata = (() => {
   const city = getCityDataFromUrl(env.SITE_URL);
   return {
     description:
-      `Préparez votre déménagement à ${city.nameCapitalized} en 30 minutes. Envoyez vos photos, recevez 5 devis fiables sous 7 jours sans appels ni formulaires. L'IA s'occupe de tout.`,
+      `Volume IA identique pour 3-5 devis comparables. Dossier anonyme, zéro harcèlement. Déménageurs vérifiés ${city.nameCapitalized}. Vraie comparaison.`,
   };
 })();
 
