@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   const canonicalUrl = getCanonicalUrl(`blog/${params.category}`);
   
   return {
-    title: `${categoryLabel} - Blog Déménagement lille`,
+    title: `${categoryLabel} - Blog Déménagement ${city.nameCapitalized}`,
     description: categoryDescription,
     alternates: {
       canonical: canonicalUrl,
