@@ -269,7 +269,7 @@ export default function PartenairesPage() {
             </h1>
             <p className="text-lg md:text-xl text-white/90">
               Nous travaillons exclusivement avec des déménageurs locaux certifiés et expérimentés. 
-              Chaque partenaire est sélectionné pour sa qualité de service, sa transparence tarifaire et sa connaissance du terrain niçois.
+              Chaque partenaire est sélectionné pour sa qualité de service, sa transparence tarifaire et sa connaissance du terrain local.
             </p>
           </div>
         </div>
@@ -309,7 +309,7 @@ export default function PartenairesPage() {
               </div>
               <h3 className="text-xl font-semibold mb-3">Connaissance locale</h3>
               <p className="text-white/80">
-                Expertise du terrain niçois : accès, stationnement, contraintes spécifiques à chaque quartier.
+                Expertise locale : accès, stationnement, contraintes spécifiques à chaque quartier.
               </p>
             </div>
           </div>
