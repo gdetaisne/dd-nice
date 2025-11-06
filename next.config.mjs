@@ -227,6 +227,10 @@ const nextConfig = {
 
       // TOP PRIORITÉ (URL 404 → fallback /blog)
       { source: '/blog/garde-meuble/acces-24-7-garde-meuble-nice', destination: '/blog/', permanent: true },
+      // LEADGEN-02: Redirections 404 prioritaires (Nice - 06/11/2025)
+      { source: '/blog/entreprise/demenagement-archives-entreprise-nice', destination: '/blog/entreprise-nice/demenagement-archives-entreprise-nice/', permanent: true },
+      { source: '/blog/satellites/LISTE-COMPLETE-50-SATELLITES-GENERES', destination: '/blog/', permanent: true },
+
       // WILDCARDS CATCH-ALL (TASK-LEADGEN-02 - COMPLETS)
       { source: '/blog/garde-meuble/:slug*', destination: '/blog/garde-meuble-nice/:slug*', permanent: true },
       { source: '/blog/pas-cher/:slug*', destination: '/blog/demenagement-pas-cher-nice/:slug*', permanent: true },
