@@ -37,7 +37,7 @@ Les entreprises niçoises (Arenas Eco-Vallée, Port/Riquier développement, cent
 **Justification surcoût :**
 - Heures supplémentaires déménageurs (samedi +50%, dimanche +100%)
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagement d'entreprise à Nice](/blog/demenagement-entreprise-nice/demenagement-entreprise-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagement d'entreprise à Nice](/blog/demenagement-nice/demenagement-entreprise-nice-guide/).
 
 - Disponibilité limitée (30% déménageurs refusent weekend entreprise)
 - Complexité organisation (56h continues fatigue équipes)
@@ -45,7 +45,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagem
 ## Planning Type
 
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel et bureaux Nice](/blog/demenagement-entreprise-nice/demenagement-entreprise-nice-guide).
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel et bureaux Nice](/blog/demenagement-nice/demenagement-entreprise-nice-guide/).
 
 **Vendredi 18h :** Fin journée, salariés partent
 
@@ -72,7 +72,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement
 **Industrie :** Production 24/7 = déménagement nuit (surcoût +50-60%) ou arrêt production planifié
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transfert de locaux professionnels à Nice](/blog/demenagement-entreprise-nice/demenagement-entreprise-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transfert de locaux professionnels à Nice](/blog/demenagement-nice/demenagement-entreprise-nice-guide/).
 
 ## Conclusion
 

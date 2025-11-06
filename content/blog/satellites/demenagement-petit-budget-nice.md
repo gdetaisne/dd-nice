@@ -34,7 +34,7 @@ Les **35 000 étudiants niçois** et jeunes actifs précaires utilisent massivem
 
 **Contraintes :** 8-10h travail (emballage 4h, manutention 4-6h), aide amis nécessaire (3-4 personnes), fatigue.
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement économique à Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement économique à Nice](/blog/demenagement-nice/demenagement-pas-cher-nice-guide/).
 
 
 **Solution 2 : Formule Économique Pro (400-500€)**
@@ -52,7 +52,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement é
 - Aide CAF : 500€
 - Aide Pôle Emploi mobilité : 300€
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas chères pour déménager à Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
+Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas chères pour déménager à Nice](/blog/demenagement-nice/demenagement-pas-cher-nice-guide/).
 
 - Contribution famille : 100€
 - **Total aides : 900€**
@@ -86,7 +86,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas 
 **Cumul astuces :** Studio 600€ (prix plein) → 250-350€ (toutes astuces) = **économie 250-350€** (58%)
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [réduire le coût de votre déménagement niçois](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [réduire le coût de votre déménagement niçois](/blog/demenagement-nice/demenagement-pas-cher-nice-guide/).
 
 ## Conclusion
 

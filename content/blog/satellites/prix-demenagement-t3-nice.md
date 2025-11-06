@@ -41,11 +41,11 @@ T3 = **4-5 déménageurs**, **camion 35m³**, **durée 7-10h**. Volume : mobilie
 
 **Fourchette : 1 000-1 800€** (écart 800€ selon quartier/formule)
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide des prix déménagement à Nice](/blog/prix-demenagement-nice/prix-demenagement-nice-guide). Ces éléments s'inscrivent dans le contexte plus large de notre [tarifs déménageur Nice détaillés](/blog/prix-demenagement-nice/prix-demenagement-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide des prix déménagement à Nice](/blog/demenagement-nice/prix-demenagement-nice-guide/). Ces éléments s'inscrivent dans le contexte plus large de notre [tarifs déménageur Nice détaillés](/blog/demenagement-nice/prix-demenagement-nice-guide/).
 
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [comprendre les coûts de déménagement niçois](/blog/prix-demenagement-nice/prix-demenagement-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [comprendre les coûts de déménagement niçois](/blog/demenagement-nice/prix-demenagement-nice-guide/).
 
 ## Conclusion
 

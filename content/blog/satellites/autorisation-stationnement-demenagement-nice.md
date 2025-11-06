@@ -21,7 +21,7 @@ L'autorisation de stationnement est **obligatoire dans le Vieux-Nice** et fortem
 
 À Nice, **100% des déménagements Vieux-Nice** nécessitent cette autorisation (stationnement impossible sinon), et 60-70% des déménagements centre-ville également. La démarche se fait sur le site nice.fr (section démarches) ou auprès de la Police Municipale. Certains déménageurs niçois comme Akte 21 ou Les Collinettes gèrent cette démarche pour vous (+20-30€ de frais de gestion).
 
-Ce guide détaille la démarche complète, les quartiers concernés, les délais, le coût et les alternatives. Pour tout comprendre sur [le déménagement à Nice](/blog/demenageur-nice/demenageur-nice-guide), consultez notre guide complet.
+Ce guide détaille la démarche complète, les quartiers concernés, les délais, le coût et les alternatives. Pour tout comprendre sur [le déménagement à Nice](/blog/demenagement-nice/demenageur-nice-guide/), consultez notre guide complet.
 
 ## Quartiers Nécessitant Autorisation
 
@@ -29,7 +29,7 @@ Ce guide détaille la démarche complète, les quartiers concernés, les délais
 
 Le Vieux-Nice est **80% piétonnier** avec stationnement quasi-impossible. Sans autorisation, vous ne pouvez PAS stationner un camion de déménagement. **Amende systématique : 135€** + risque fourrière (sortie véhicule 150-200€).
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet des déménageurs à Nice](/blog/demenageur-nice/demenageur-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet des déménageurs à Nice](/blog/demenagement-nice/demenageur-nice-guide/).
 
 
 L'autorisation réserve 1-2 places rue périphérique Vieux-Nice (où camions peuvent stationner) pendant fenêtre horaire définie (généralement 6h-14h). Le déménageur fait navettes entre camion et immeuble (parfois 50-100m à pied).
@@ -119,9 +119,9 @@ Stationnement libre généralement disponible. Autorisation inutile sauf rues sp
 
 Sans autorisation : amende 135€ + temps perdu 2h = +200€ → **autorisation est rentable**.
 
-Pour tout savoir sur [les contraintes du Vieux-Nice](/blog/conseils/demenageur-vieux-nice-acces-difficile), consultez notre guide spécialisé. Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel à Nice](/blog/demenageur-nice/demenageur-nice-guide).
+Pour tout savoir sur [les contraintes du Vieux-Nice](/blog/demenageur-nice/demenageur-vieux-nice-acces-difficile), consultez notre guide spécialisé. Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel à Nice](/blog/demenagement-nice/demenageur-nice-guide/).
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [nos services de déménagement niçois](/blog/demenageur-nice/demenageur-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [nos services de déménagement niçois](/blog/demenagement-nice/demenageur-nice-guide/).
 
 
 ---

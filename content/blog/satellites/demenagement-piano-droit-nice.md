@@ -24,7 +24,7 @@ Les **protections obligatoires** incluent couvertures épaisses (éviter rayures
 
 **Rez-de-chaussée ou 1er avec ascenseur large (> 100cm) :**
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du déménagement de piano à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du déménagement de piano à Nice](/blog/demenagement-nice/demenagement-piano-nice-guide/).
 
 - Déplacement horizontal simple : 200-250€
 - 4 déménageurs, 2-3h, plateau roulant
@@ -38,7 +38,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du 
 - Fatigue équipe (prudence diminuée = risque)
 
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement piano professionnel à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide).
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement piano professionnel à Nice](/blog/demenagement-nice/demenagement-piano-nice-guide/).
 
 **Vieux-Nice/Cimiez avec monte-meuble :**
 - Escaliers < 90cm (impossible passage) : 400-550€
@@ -59,7 +59,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement
 **Film plastique perforé :** Protection poussière/chocs (respiration pour bois)
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transport sécurisé de piano à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transport sécurisé de piano à Nice](/blog/demenagement-nice/demenagement-piano-nice-guide/).
 
 ## Conclusion
 

@@ -28,22 +28,22 @@ Dans ce guide complet, découvrez comment choisir le meilleur **déménageur à 
 Pour tout savoir sur les déménageurs professionnels à Nice, consultez nos guides spécialisés :
 
 **Prix et Formules :**
-- [Prix déménageur Nice 2025 : tarifs détaillés](/blog/conseils/prix-demenageur-nice-2025) - Fourchettes par type de logement et formule
-- [Formule économique vs clé en main à Nice](/blog/conseils/formule-economique-vs-cle-en-main-nice) - Comparatif complet des prestations
+- [Prix déménageur Nice 2025 : tarifs détaillés](/blog/demenageur-nice/prix-demenageur-nice-2025/) - Fourchettes par type de logement et formule
+- [Formule économique vs clé en main à Nice](/blog/demenageur-nice/formule-economique-vs-cle-en-main-nice/) - Comparatif complet des prestations
 
 **Choix et Comparatif :**
-- [Comment choisir son déménageur à Nice : critères essentiels](/blog/conseils/choisir-demenageur-nice-criteres) - Licence, assurance, avis, devis
-- [Comparatif des meilleurs déménageurs de Nice](/blog/conseils/comparatif-demenageurs-nice) - Acteurs locaux et nationaux
-- [Avis déménageurs Nice : où les trouver ?](/blog/conseils/avis-demenageurs-nice-guide) - Plateformes fiables et témoignages
+- [Comment choisir son déménageur à Nice : critères essentiels](/blog/demenageur-nice/choisir-demenageur-nice-criteres/) - Licence, assurance, avis, devis
+- [Comparatif des meilleurs déménageurs de Nice](/blog/demenageur-nice/comparatif-demenageurs-nice/) - Acteurs locaux et nationaux
+- [Avis déménageurs Nice : où les trouver ?](/blog/demenageur-nice/avis-demenageurs-nice-guide/) - Plateformes fiables et témoignages
 
 **Services et Équipements :**
-- [Déménageur avec monte-meuble à Nice](/blog/conseils/demenageur-monte-meuble-nice) - Immeubles sans ascenseur, étages élevés
-- [Assurance déménageur Nice : ce qu'il faut savoir](/blog/conseils/assurance-demenageur-nice) - Garanties, franchises, indemnisation
+- [Déménageur avec monte-meuble à Nice](/blog/demenageur-nice/demenageur-monte-meuble-nice/) - Immeubles sans ascenseur, étages élevés
+- [Assurance déménageur Nice : ce qu'il faut savoir](/blog/demenageur-nice/assurance-demenageur-nice/) - Garanties, franchises, indemnisation
 
 **Spécificités Niçoises :**
-- [Déménageur Vieux-Nice : accès difficiles](/blog/conseils/demenageur-vieux-nice-acces-difficile) - Ruelles étroites, solution navette
-- [Autorisation stationnement déménagement Nice](/blog/conseils/autorisation-stationnement-demenagement-nice) - Démarches mairie, délais, tarifs
-- [Déménagement dimanche/soir à Nice](/blog/conseils/demenageur-dimanche-soir-nice) - Horaires flexibles, surcoûts
+- [Déménageur Vieux-Nice : accès difficiles](/blog/demenageur-nice/demenageur-vieux-nice-acces-difficile/) - Ruelles étroites, solution navette
+- [Autorisation stationnement déménagement Nice](/blog/demenageur-nice/autorisation-stationnement-demenagement-nice/) - Démarches mairie, délais, tarifs
+- [Déménagement dimanche/soir à Nice](/blog/demenageur-nice/demenageur-dimanche-soir-nice/) - Horaires flexibles, surcoûts
 
 ## Pourquoi faire appel à un déménageur professionnel à Nice ?
 

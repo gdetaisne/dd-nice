@@ -22,7 +22,7 @@ author: "Équipe Moverz Nice"
 
 Le choix entre ces deux formules dépend de vos priorités : accès libre ou prix réduit, flexibilité ou économies. À Nice, le **self-stockage représente environ 80% du marché** contre 20% pour le traditionnel. Cette domination s'explique par les besoins spécifiques des Niçois : 35 000 étudiants, population touristique, marché immobilier tendu (4 500-5 000€/m²) nécessitant des accès fréquents et une grande flexibilité.
 
-Ce guide compare en détail les deux solutions pour vous aider à choisir celle adaptée à votre situation niçoise. Pour une vision complète des options disponibles, consultez notre [guide du garde-meuble à Nice](/blog/garde-meuble-nice/garde-meuble-nice-guide).
+Ce guide compare en détail les deux solutions pour vous aider à choisir celle adaptée à votre situation niçoise. Pour une vision complète des options disponibles, consultez notre [guide du garde-meuble à Nice](/blog/demenagement-nice/garde-meuble-nice-guide/).
 
 ## Qu'est-ce que le Self-Stockage à Nice ?
 
@@ -30,7 +30,7 @@ Ce guide compare en détail les deux solutions pour vous aider à choisir celle 
 
 Le self-stockage consiste à louer un box individuel dans un centre sécurisé où vous gérez vous-même le chargement, le stockage et le déchargement. **À Nice, Homebox (6 rue Leotardi), Shurgard (3 centres) et Annexx (La Trinité) proposent ce service** avec des boxes de 0,75 à 30m². Vous disposez d'un accès personnel via badge ou code, sans intermédiaire.
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du garde-meuble à Nice](/blog/garde-meuble-nice/garde-meuble-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du garde-meuble à Nice](/blog/demenagement-nice/garde-meuble-nice-guide/).
 
 
 Le principe repose sur l'autonomie totale : vous venez quand vous voulez, aussi souvent que nécessaire, sans rendez-vous ni horaires contraints. C'est l'équivalent d'une "extension de votre domicile" où vos affaires restent accessibles en permanence. Les centres niçois sont ouverts 24h/24 et 7j/7 pour la plupart, particulièrement adaptés aux professionnels et aux personnes ayant des horaires décalés.
@@ -98,7 +98,7 @@ Pour un **volume de 10m³** (équivalent T2 compact) :
 
 ### Sécurité Comparée
 
-Les deux solutions offrent une sécurité élevée à Nice. Le self-stockage mise sur la **technologie** (vidéosurveillance HD, alarmes connectées, contrôle d'accès biométrique chez Homebox). Le traditionnel repose sur le **scellé physique** et l'isolement dans des entrepôts fermés. Ces éléments s'inscrivent dans le contexte plus large de notre [stockage sécurisé sur la Côte d'Azur](/blog/garde-meuble-nice/garde-meuble-nice-guide).
+Les deux solutions offrent une sécurité élevée à Nice. Le self-stockage mise sur la **technologie** (vidéosurveillance HD, alarmes connectées, contrôle d'accès biométrique chez Homebox). Le traditionnel repose sur le **scellé physique** et l'isolement dans des entrepôts fermés. Ces éléments s'inscrivent dans le contexte plus large de notre [stockage sécurisé sur la Côte d'Azur](/blog/demenagement-nice/garde-meuble-nice-guide/).
 
 À Nice, aucun sinistre majeur n'a été rapporté chez les principaux acteurs (2020-2025). La vidéosurveillance du self-stockage dissuade efficacement les tentatives d'effraction. Le risque principal concerne plutôt l'humidité et les variations de température, mieux contrôlées en self-stockage climatisé.
 
@@ -132,10 +132,10 @@ Les deux solutions offrent une sécurité élevée à Nice. Le self-stockage mis
 
 Certains Niçois utilisent **les deux solutions** : self-stockage pour les affaires courantes (documents, outils, rotation) et traditionnel pour le long terme (meubles stockés 1-2 ans). Cette stratégie optimise coût et flexibilité mais nécessite de gérer deux contrats.
 
-Pour tout savoir sur comment [choisir le bon garde-meuble à Nice](/blog/garde-meuble-nice/garde-meuble-nice-guide) selon vos critères spécifiques, consultez notre guide détaillé.
+Pour tout savoir sur comment [choisir le bon garde-meuble à Nice](/blog/demenagement-nice/garde-meuble-nice-guide/) selon vos critères spécifiques, consultez notre guide détaillé.
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [solutions de garde-meuble niçois](/blog/garde-meuble-nice/garde-meuble-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [solutions de garde-meuble niçois](/blog/demenagement-nice/garde-meuble-nice-guide/).
 
 ## Conclusion
 

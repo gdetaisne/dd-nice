@@ -23,12 +23,12 @@ Un déménagement à Nice implique **25-40 démarches administratives** (résili
 **☐ Budget déménagement**
 - Estimer coût (F2 : 1 000-1 400€, F3 : 1 600-2 200€)
 - Prévoir suppléments (monte-meuble 300-500€, cartons 100-180€)
-- [Calculer coût réel Nice](/blog/conseils/cout-reel-demenagement-nice)
+- [Calculer coût réel Nice](/blog/prix/cout-reel-demenagement-nice/)
 
 **☐ Rechercher déménageurs Nice**
 - Demander 3 devis minimum (Akte 21, Les Collinettes, Sterling)
 - Comparer assurances (responsabilité civile vs Tous Risques)
-- [Comparatif déménageurs Nice](/blog/demenageur-nice/demenageur-nice-guide)
+- [Comparatif déménageurs Nice](/blog/demenagement-nice/demenageur-nice-guide/)
 
 **☐ Réservation déménageur**
 - **Haute saison** : Réserver 3-4 semaines avant minimum
@@ -45,7 +45,7 @@ Un déménagement à Nice implique **25-40 démarches administratives** (résili
 **☐ Désencombrement**
 - Pièce par pièce : Garder / Vendre / Donner / Jeter
 - **Vendre mobilier** : Leboncoin, Facebook Marketplace (publication J-45 idéal)
-- [Vendre meubles Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide)
+- [Vendre meubles Nice](/blog/demenagement-nice/demenagement-pas-cher-nice-guide/)
 
 **☐ Évaluation volume**
 - F2 40m² ≈ 30-35m³
@@ -74,14 +74,14 @@ Un déménagement à Nice implique **25-40 démarches administratives** (résili
 - Maternelle/Primaire : Mairie quartier (metropole.nice.fr)
 - Collège : Académie Nice (ac-nice.fr)
 - Lycée : Rectorat Nice
-- [Déménager avec enfants Nice](/blog/conseils/demenagement-etudiant-pas-cher-nice)
+- [Déménager avec enfants Nice](/blog/demenagement-pas-cher-nice/demenagement-etudiant-pas-cher-nice/)
 
 **☐ Commander cartons/matériel**
 - 30-50 cartons (F2), 50-80 (F3)
 - Papier bulle (objets fragiles)
 - Scotch renforcé (6 rouleaux)
 - Ou récupérer gratuits : Supermarchés Nice (Carrefour TNL, Auchan Lingostière)
-- [Cartons gratuits Nice](/blog/conseils/cartons-gratuits-nice-ou-trouver)
+- [Cartons gratuits Nice](/blog/demenagement-pas-cher-nice/cartons-gratuits-nice-ou-trouver/)
 
 ## Checklist J-30 à J-15 (4-2 Semaines)
 
@@ -139,7 +139,7 @@ Un déménagement à Nice implique **25-40 démarches administratives** (résili
 - Décalage baux : Stockage temporaire 1-2 mois
 - Homebox Nice Arenas : 80-120€/mois (10m²)
 - Shurgard Nice Est : 100-150€/mois
-- [Garde-meuble pendant déménagement](/blog/garde-meuble-nice/garde-meuble-nice-guide)
+- [Garde-meuble pendant déménagement](/blog/demenagement-nice/garde-meuble-nice-guide/)
 
 **☐ Informer entourage**
 - Nouvelle adresse Nice : Famille, amis, employeur
@@ -153,7 +153,7 @@ Un déménagement à Nice implique **25-40 démarches administratives** (résili
 **☐ Réservation garde enfants/animaux J**
 - Babysitter (12-18€/h), famille, amis
 - Pension animaux Nice (25-40€/jour chien, 20-30€ chat)
-- [Déménager avec animaux Nice](/blog/conseils/demenagement-avec-animaux-nice)
+- [Déménager avec animaux Nice](/blog/aide-demenagement/demenagement-avec-animaux-nice/)
 
 **☐ Préparation "Sac Essentiel"**
 - Documents : Baux, assurances, devis déménageur, cartes identité
@@ -261,7 +261,7 @@ Un déménagement à Nice implique **25-40 démarches administratives** (résili
 **☐ Inscription CAF Nice** (si applicable)
 - Changement adresse (en ligne : caf.fr)
 - Délai : 3 mois maximum
-- [Aide déménagement CAF](/blog/aide-demenagement-nice/aide-demenagement-nice-guide)
+- [Aide déménagement CAF](/blog/demenagement-nice/aide-demenagement-nice-guide/)
 
 ## Checklist J+7 à J+30 (1er Mois)
 
@@ -362,7 +362,7 @@ Demande sur **metropole.nice.fr** (Service Autorisations Temporaires) **10-15 jo
 
 ### Combien de cartons faut-il pour un déménagement F2 ou F3 à Nice ?
 
-**F2 40m²** : 30-50 cartons (selon encombrement), **F3 60m²** : 50-80 cartons. Types : standards (livres, vêtements), renforcés (vaisselle, 4-6€/pièce), penderie (vêtements suspendus, 8-12€). Nice : récupérer gratuits Carrefour TNL, Auchan Lingostière, pharmacies (économie 100-250€ vs achat). [Cartons gratuits Nice](/blog/conseils/cartons-gratuits-nice-ou-trouver).
+**F2 40m²** : 30-50 cartons (selon encombrement), **F3 60m²** : 50-80 cartons. Types : standards (livres, vêtements), renforcés (vaisselle, 4-6€/pièce), penderie (vêtements suspendus, 8-12€). Nice : récupérer gratuits Carrefour TNL, Auchan Lingostière, pharmacies (économie 100-250€ vs achat). [Cartons gratuits Nice](/blog/demenagement-pas-cher-nice/cartons-gratuits-nice-ou-trouver/).
 
 ### Que faire avec les cartons après le déménagement à Nice ?
 

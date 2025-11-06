@@ -41,7 +41,7 @@ Ce guide détaille prix par type pièce, solutions adaptées et astuces économi
 **Contenus types :**
 - Chambre : Lit, armoire, bureau, chaise, 8-15 cartons
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide petit déménagement Nice](/blog/petit-demenagement-nice/petit-demenagement-nice-guide). Ces éléments s'inscrivent dans le contexte plus large de notre [déménager un studio ou petit volume à Nice](/blog/petit-demenagement-nice/petit-demenagement-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide petit déménagement Nice](/blog/demenagement-nice/petit-demenagement-nice-guide/). Ces éléments s'inscrivent dans le contexte plus large de notre [déménager un studio ou petit volume à Nice](/blog/demenagement-nice/petit-demenagement-nice-guide/).
 
 - Bureau : Bureau, fauteuil, étagère, matériel, 10-20 cartons
 - Cave : Cartons archives, objets stockés, outils
@@ -57,7 +57,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide petit dém�
 **Quartiers :** Riquier/Libération (étudiants), Arenas (jeunes actifs), Cimiez (seniors caves)
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [solutions petit déménagement économique Nice](/blog/petit-demenagement-nice/petit-demenagement-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [solutions petit déménagement économique Nice](/blog/demenagement-nice/petit-demenagement-nice-guide/).
 
 ## Conclusion
 

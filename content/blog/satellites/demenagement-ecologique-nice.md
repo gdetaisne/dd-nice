@@ -65,7 +65,7 @@ Un déménagement **standard F3 Nice génère 150-300 kg CO2** (transport), 50-1
 - **Supermarchés Nice** : Carrefour TNL, Auchan Lingostière, Casino (cartons fruits/légumes solides)
 - **Pharmacies** : Cartons médicaments (renforcés)
 - **Librairies Nice** : Cartons livres (petits, robustes)
-- [Cartons gratuits Nice](/blog/conseils/cartons-gratuits-nice-ou-trouver)
+- [Cartons gratuits Nice](/blog/demenagement-pas-cher-nice/cartons-gratuits-nice-ou-trouver/)
 
 **Avantages éco** :
 - **Zéro production** (vs cartons neufs énergie-intensive)
@@ -136,7 +136,7 @@ Un déménagement **standard F3 Nice génère 150-300 kg CO2** (transport), 50-1
 **Vente mobilier avant déménagement :**
 - **Leboncoin Nice** : Canapé 150-400€, lit 80-250€, table 80-200€
 - **Facebook Marketplace** : Portée locale (344 064 habitants + 35 000 étudiants)
-- [Vendre meubles Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide)
+- [Vendre meubles Nice](/blog/demenagement-nice/demenagement-pas-cher-nice-guide/)
 
 **Bénéfice écologique :**
 - **Réemploi** : Prolonge durée vie mobilier (vs production neuve énergie-intensive)

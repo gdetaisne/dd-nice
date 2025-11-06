@@ -236,7 +236,7 @@ featured: false
 **Déménagement F3-F4 Nice famille :**
 - **Garde enfants J** : Obligatoire (babysitter 96-144€/jour 2 enfants)
 - **Chambres enfants priorité** : Lits montés J (vs parents dépliage canapé)
-- [Déménager avec enfants Nice](/blog/conseils/demenagement-etudiant-pas-cher-nice)
+- [Déménager avec enfants Nice](/blog/demenagement-pas-cher-nice/demenagement-etudiant-pas-cher-nice/)
 
 **Répartition couple parents :**
 - Partenaire A : Supervision déménagement
@@ -341,7 +341,7 @@ featured: false
 
 ### Comment économiser sur un déménagement en couple à Nice ?
 
-**Formule économique** (vs clé en main) : -35-45% = **1 200-1 600€** vs 2 200-2 800€ (F2). Couple = 2 paires bras (emballage, démontage accessibles). **Cartons gratuits** récupérés duo Carrefour TNL, Auchan (-100-180€), **vente mobilier** coordonnée Leboncoin (recettes 300-800€), **nettoyage DIY** (-200-350€). **Total économies** : 1 300-1 730€. [Astuces déménagement pas cher Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
+**Formule économique** (vs clé en main) : -35-45% = **1 200-1 600€** vs 2 200-2 800€ (F2). Couple = 2 paires bras (emballage, démontage accessibles). **Cartons gratuits** récupérés duo Carrefour TNL, Auchan (-100-180€), **vente mobilier** coordonnée Leboncoin (recettes 300-800€), **nettoyage DIY** (-200-350€). **Total économies** : 1 300-1 730€. [Astuces déménagement pas cher Nice](/blog/demenagement-nice/demenagement-pas-cher-nice-guide/).
 
 ### Faut-il ouvrir un compte commun pour gérer les frais de déménagement ?
 

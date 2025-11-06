@@ -27,12 +27,12 @@ Dans ce guide complet, découvrez toutes les étapes d'un déménagement interna
 Préparez votre expatriation depuis/vers Nice avec nos guides spécialisés :
 
 **Formalités et Délais :**
-- [Formalités douanières déménagement international Nice](/blog/conseils/demenagement-formalites-douane-nice) - Documents, déclarations, restrictions
-- [Délais déménagement international depuis Nice](/blog/conseils/delai-demenagement-international-nice) - Maritime vs aérien, timing complet
+- [Formalités douanières déménagement international Nice](/blog/demenagement-international-nice/demenagement-formalites-douane-nice/) - Documents, déclarations, restrictions
+- [Délais déménagement international depuis Nice](/blog/demenagement-international-nice/delai-demenagement-international-nice/) - Maritime vs aérien, timing complet
 
 **Destinations Populaires :**
-- [Déménagement Nice-Italie](/blog/conseils/demenagement-international-nice-italie) - Voisin frontalier, spécificités Europe
-- [Déménagement Nice-Suisse](/blog/conseils/demenagement-international-nice-suisse) - Hors UE, formalités complètes
+- [Déménagement Nice-Italie](/blog/demenagement-international-nice/demenagement-international-nice-italie/) - Voisin frontalier, spécificités Europe
+- [Déménagement Nice-Suisse](/blog/demenagement-international-nice/demenagement-international-nice-suisse/) - Hors UE, formalités complètes
 
 ## Pourquoi un déménagement international depuis/vers Nice est-il si particulier ?
 

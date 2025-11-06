@@ -21,7 +21,7 @@ L'assurance lors d'un déménagement à Nice protège vos biens contre les risqu
 
 Pour une **couverture renforcée** (tous risques incluant vos propres erreurs, événements climatiques, vol pendant transport), les déménageurs niçois proposent une **assurance optionnelle** pour +20-50€. Cette option couvre davantage de situations mais augmente le coût final de 5-10%. À Nice, avec les contraintes du Vieux-Nice (monte-meubles, escaliers étroits = risque casse supérieur), vérifier les garanties précises de votre déménageur est crucial.
 
-Ce guide explique les types d'assurances, ce qu'elles couvrent exactement, la démarche en cas de sinistre à Nice, et comment choisir la bonne couverture. Pour tout savoir sur [comment sélectionner un déménageur fiable](/blog/demenageur-nice/demenageur-nice-guide), consultez notre guide complet.
+Ce guide explique les types d'assurances, ce qu'elles couvrent exactement, la démarche en cas de sinistre à Nice, et comment choisir la bonne couverture. Pour tout savoir sur [comment sélectionner un déménageur fiable](/blog/demenagement-nice/demenageur-nice-guide/), consultez notre guide complet.
 
 ## Types d'Assurances Déménagement
 
@@ -29,7 +29,7 @@ Ce guide explique les types d'assurances, ce qu'elles couvrent exactement, la d�
 
 **Couverture :** Dommages causés par le déménageur à vos biens (casse pendant manutention, rayures, pertes)
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet des déménageurs à Nice](/blog/demenageur-nice/demenageur-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet des déménageurs à Nice](/blog/demenagement-nice/demenageur-nice-guide/).
 
 
 **Plafond :** 50 000-100 000€ (standard) à 150 000-300 000€ (renforcé)
@@ -106,7 +106,7 @@ Ces situations représentent **95% des sinistres** déménagement. L'assurance R
 
 **Vices cachés découverts :** Meuble semble intact, vous découvrez fêlure 2 semaines après (déménageur nie) → Litige complexe → Tous risques facilite indemnisation
 
-Ces situations (5% des cas) justifient l'assurance tous risques si vos biens ont forte valeur ou si vous êtes inquiet. Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel à Nice](/blog/demenageur-nice/demenageur-nice-guide).
+Ces situations (5% des cas) justifient l'assurance tous risques si vos biens ont forte valeur ou si vous êtes inquiet. Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel à Nice](/blog/demenagement-nice/demenageur-nice-guide/).
 
 ## Démarche en Cas de Sinistre Nice
 
@@ -187,7 +187,7 @@ Ces situations (5% des cas) justifient l'assurance tous risques si vos biens ont
 **Bon livraison :** Lisez avant signer. "Livraison conforme" = vous validez tout OK. Annotez réserves.
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [nos services de déménagement niçois](/blog/demenageur-nice/demenageur-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [nos services de déménagement niçois](/blog/demenagement-nice/demenageur-nice-guide/).
 
 ## Conclusion
 
@@ -201,7 +201,7 @@ L'assurance déménagement à Nice comprend une **RC professionnelle obligatoire
 
 **En cas de sinistre :** Signalez sous 24-48h avec photos, valeur, pièces justificatives. Délai indemnisation 30-90 jours. À Nice, les déménagements complexes (Vieux-Nice, monte-meubles) génèrent un risque casse légèrement supérieur : l'assurance n'est pas optionnelle, c'est votre sécurité financière.
 
-Pour comprendre [tous les aspects du déménagement à Nice](/blog/demenageur-nice/demenageur-nice-guide) et faire le bon choix de prestataire, consultez notre guide complet.
+Pour comprendre [tous les aspects du déménagement à Nice](/blog/demenagement-nice/demenageur-nice-guide/) et faire le bon choix de prestataire, consultez notre guide complet.
 
 ---
 

@@ -37,7 +37,7 @@ Ce guide détaille les prix selon type piano et quartier, les spécialistes niç
 
 **Facteurs prix :** Poids, étage, accès (largeur escalier), distance, assurance valeur piano.
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du déménagement de piano à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide). Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement piano professionnel à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du déménagement de piano à Nice](/blog/demenagement-nice/demenagement-piano-nice-guide/). Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement piano professionnel à Nice](/blog/demenagement-nice/demenagement-piano-nice-guide/).
 
 
 **Vieux-Nice :** Escaliers 70-90cm = piano droit passe difficilement, piano queue **impossible** → monte-meuble obligatoire (+150-200€).
@@ -53,7 +53,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du 
 **Facteurs sélection :** Assurance objets > 5 000€, références pianos Vieux-Nice/Cimiez, équipement (sangles, plateau roulant, monte-meuble).
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transport sécurisé de piano à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transport sécurisé de piano à Nice](/blog/demenagement-nice/demenagement-piano-nice-guide/).
 
 ## Conclusion
 

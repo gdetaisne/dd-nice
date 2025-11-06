@@ -268,7 +268,7 @@ Nice accueille **344 064 habitants** dont environ **18-20% ont moins de 18 ans**
 ### Aides Ville Nice Familles
 
 **CAF (Caisse Allocations Familiales) 06 :**
-- **Aide déménagement** : Prêt 1 000€ (conditions ressources) - [Aide déménagement Nice](/blog/aide-demenagement-nice/aide-demenagement-nice-guide)
+- **Aide déménagement** : Prêt 1 000€ (conditions ressources) - [Aide déménagement Nice](/blog/demenagement-nice/aide-demenagement-nice-guide/)
 - **Prime déménagement** : Si 3+ enfants (990€ max)
 
 **Ville Nice :**
@@ -360,7 +360,7 @@ Nice accueille **344 064 habitants** dont environ **18-20% ont moins de 18 ans**
 
 ### Combien coûte un déménagement à Nice avec 2 enfants ?
 
-**Déménagement F3** : 1 600-2 200€ + **suppléments famille** : garde jour J (96-144€ babysitter ou 30-50€ centre loisirs), installation chambres (100-300€ décoration), activités familiarisation (50-150€). **Total : 1 846-2 794€**. Économies : garde famille/amis gratuit, DIY décoration (-150-300€). [Aide CAF déménagement](/blog/aide-demenagement-nice/aide-demenagement-nice-guide) : prêt 1 000€.
+**Déménagement F3** : 1 600-2 200€ + **suppléments famille** : garde jour J (96-144€ babysitter ou 30-50€ centre loisirs), installation chambres (100-300€ décoration), activités familiarisation (50-150€). **Total : 1 846-2 794€**. Économies : garde famille/amis gratuit, DIY décoration (-150-300€). [Aide CAF déménagement](/blog/demenagement-nice/aide-demenagement-nice-guide/) : prêt 1 000€.
 
 ### Combien de temps un enfant met-il à s'adapter après un déménagement ?
 

@@ -21,7 +21,7 @@ Le Vieux-Nice, cœur historique de la ville avec ses ruelles médiévales et ses
 
 **Homebox (6 rue Leotardi, à 2km) et Shurgard (centre Nice)** sont les acteurs les plus accessibles depuis le Vieux-Nice, à 10-15 minutes en tramway ou 12 minutes à pied/vélo. Cette proximité relative compense l'absence d'acteur dans le quartier. Les petits logements du centre historique (studios de 15-25m² dominants) génèrent une forte demande de boxes de 2-5m² pour 60-150€/mois.
 
-Ce guide détaille les problématiques de stockage spécifiques au Vieux-Nice, les acteurs les plus proches avec distances exactes, et les solutions pour les déménagements complexes du centre historique. Pour comprendre toutes les options à Nice, consultez notre [guide complet du garde-meuble](/blog/garde-meuble-nice/garde-meuble-nice-guide).
+Ce guide détaille les problématiques de stockage spécifiques au Vieux-Nice, les acteurs les plus proches avec distances exactes, et les solutions pour les déménagements complexes du centre historique. Pour comprendre toutes les options à Nice, consultez notre [guide complet du garde-meuble](/blog/demenagement-nice/garde-meuble-nice-guide/).
 
 ## Problématiques Stockage Vieux-Nice
 
@@ -233,7 +233,7 @@ Certains **déménageurs spécialisés Vieux-Nice** proposent formule "déménag
 - Budget prioritaire, économie de 240-360€/an importante
 - Affaires standards (meubles, cartons, pas objets grande valeur)
 
-Pour évaluer précisément vos besoins en taille de box, consultez notre [guide pour calculer la taille idéale selon votre logement](/blog/conseils/quelle-taille-box-stockage-nice).
+Pour évaluer précisément vos besoins en taille de box, consultez notre [guide pour calculer la taille idéale selon votre logement](/blog/garde-meuble-nice/quelle-taille-box-stockage-nice).
 
 ## Conclusion
 
@@ -243,7 +243,7 @@ Les **5 000 habitants** du Vieux-Nice utilisent massivement les garde-meubles (s
 
 **Recommandation :** Privilégiez Homebox ou Shurgard centre pour la proximité (10-15 min) et la commodité si vous prévoyez des accès fréquents. Optez pour Annexx ou Stock Avenue en périphérie (25-30 min) pour économiser 20-30% sur du stockage longue durée avec accès rares. Le surcoût de proximité (20-30€/mois) se justifie par le gain de temps et la flexibilité pour les habitants du Vieux-Nice.
 
-Pour comparer tous les acteurs et services de Nice, consultez notre [guide complet du garde-meuble à Nice](/blog/garde-meuble-nice/garde-meuble-nice-guide) avec critères de sélection détaillés.
+Pour comparer tous les acteurs et services de Nice, consultez notre [guide complet du garde-meuble à Nice](/blog/demenagement-nice/garde-meuble-nice-guide/) avec critères de sélection détaillés.
 
 ---
 

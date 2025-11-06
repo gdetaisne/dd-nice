@@ -29,7 +29,7 @@ Ce guide détaille montants par véhicule, conditions restitution, délais et qu
 - Valeur véhicule : 15 000-20 000€
 - Risque agence : Faible (petit gabarit, débutants)
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide location camion déménagement Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide location camion déménagement Nice](/blog/demenagement-nice/location-camion-demenagement-nice-guide/).
 
 
 **20m³ (Master, Boxer) :**
@@ -43,7 +43,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide location ca
 - Risque : Élevé (conduite délicate)
 
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [louer un camion pour déménager à Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
+Ces éléments s'inscrivent dans le contexte plus large de notre [louer un camion pour déménager à Nice](/blog/demenagement-nice/location-camion-demenagement-nice-guide/).
 
 **Mode prélèvement :** Empreinte CB (autorisation) sans débit immédiat. Débit effectif SI dommages après expertise (3-7j).
 
@@ -67,7 +67,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [louer un camio
 **Si dommage important :** Carrosserie 1 200€ > caution 1 000€ → Caution perdue + facturation 200€ supplémentaires
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [location véhicule utilitaire Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [location véhicule utilitaire Nice](/blog/demenagement-nice/location-camion-demenagement-nice-guide/).
 
 ## Conclusion
 
