@@ -139,7 +139,7 @@ La Côte d'Azur, avec ses **343 km de littoral** entre Menton et Théoule-sur-Me
 - Couverture Tous Risques recommandée
 - Plafond indemnisation >50 000€
 
-[Comparez 3 déménageurs Nice Côte d'Azur](/blog/demenagement-nice/demenageur-nice-guide/) pour obtenir le meilleur tarif.
+[Comparez 3 déménageurs Nice Côte d'Azur](/blog/demenageur-nice/demenageur-nice-guide) pour obtenir le meilleur tarif.
 
 ## Déménagement par Trajet Côte d'Azur
 
@@ -252,7 +252,7 @@ La Côte d'Azur, avec ses **343 km de littoral** entre Menton et Théoule-sur-Me
 **Solutions économiques :**
 - Location camion Europcar/Sixt Nice Aéroport : 70-90€/jour (12m³)
 - Aide manutention amis (carburant + repas)
-- [Astuces déménagement étudiant pas cher Nice](/blog/demenagement-pas-cher-nice/demenagement-etudiant-pas-cher-nice/)
+- [Astuces déménagement étudiant pas cher Nice](/blog/conseils/demenagement-etudiant-pas-cher-nice)
 
 ## FAQ Déménagement Côte d'Azur
 
@@ -286,6 +286,6 @@ Comptez **1 400-1 800€ TTC** pour un F2 40m² en formule standard (emballage, 
 
 ---
 
-**Déménager sur la Côte d'Azur entre [Nice](/blog/demenagement-nice/demenageur-nice-guide/), [Cannes](/blog/demenagement-nice/demenagement-international-nice-guide/) et Antibes nécessite une planification saisonnière**. Avec un déménageur local expérimenté et une organisation en basse saison, profitez d'un déménagement fluide sur le littoral azuréen sans subir les contraintes estivales.
+**Déménager sur la Côte d'Azur entre [Nice](/blog/demenageur-nice/demenageur-nice-guide), [Cannes](/blog/demenagement-international-nice/demenagement-international-nice-guide) et Antibes nécessite une planification saisonnière**. Avec un déménageur local expérimenté et une organisation en basse saison, profitez d'un déménagement fluide sur le littoral azuréen sans subir les contraintes estivales.
 
 

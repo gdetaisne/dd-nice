@@ -21,7 +21,7 @@ Le marché immobilier tendu de Nice (4 500-5 000€/m²) provoque fréquemment d
 
 Les **acteurs niçois proposent des contrats flexibles** sans engagement longue durée, parfaitement adaptés à ces besoins temporaires. Homebox, Shurgard et Annexx appliquent le même tarif mensuel qu'une location standard (pas de surcoût "court terme"), avec préavis courts de 15-30 jours. Pour un T2 complet stocké 2 mois, comptez 300-400€ chez ces acteurs.
 
-Ce guide explique pourquoi les décalages sont fréquents à Nice, quelle durée prévoir, les prix et acteurs flexibles, et comment organiser logistiquement stockage et déménagement. Pour comprendre toutes les options, consultez notre [guide complet du garde-meuble à Nice](/blog/demenagement-nice/garde-meuble-nice-guide/).
+Ce guide explique pourquoi les décalages sont fréquents à Nice, quelle durée prévoir, les prix et acteurs flexibles, et comment organiser logistiquement stockage et déménagement. Pour comprendre toutes les options, consultez notre [guide complet du garde-meuble à Nice](/blog/garde-meuble-nice/garde-meuble-nice-guide).
 
 ## Pourquoi Stocker Pendant Déménagement Nice ?
 
@@ -275,7 +275,7 @@ Le **stockage temporaire pendant déménagement** concerne 30-40% des Niçois en
 
 **Acteur recommandé Nice :** Shurgard avec promotion "premier mois offert" (-16%) offre le meilleur rapport flexibilité-prix pour les transitions. Homebox convient si vous prévoyez de nombreux accès pendant la période (24/7). Annexx ou Stock Avenue si budget très serré et accès rares acceptables.
 
-Pour choisir la taille de box exacte selon votre logement, consultez notre [guide de calcul des besoins](/blog/garde-meuble-nice/quelle-taille-box-stockage-nice). Pour comparer les prix détaillés, voir notre [comparatif tarifaire Nice 2025](/blog/garde-meuble-nice/prix-garde-meuble-nice-2025).
+Pour choisir la taille de box exacte selon votre logement, consultez notre [guide de calcul des besoins](/blog/conseils/quelle-taille-box-stockage-nice). Pour comparer les prix détaillés, voir notre [comparatif tarifaire Nice 2025](/blog/conseils/prix-garde-meuble-nice-2025).
 
 ---
 

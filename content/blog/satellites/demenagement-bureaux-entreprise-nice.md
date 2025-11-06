@@ -39,11 +39,11 @@ Ce guide détaille les prix selon taille, le planning optimal, le déménagement
 
 **Inclus :** Mobilier bureaux, archives, petit matériel. **Exclu :** IT/serveurs (prestation spécialisée +800-2 000€).
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagement d'entreprise à Nice](/blog/demenagement-nice/demenagement-entreprise-nice-guide/).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagement d'entreprise à Nice](/blog/demenagement-entreprise-nice/demenagement-entreprise-nice-guide).
 
 
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel et bureaux Nice](/blog/demenagement-nice/demenagement-entreprise-nice-guide/).
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel et bureaux Nice](/blog/demenagement-entreprise-nice/demenagement-entreprise-nice-guide).
 
 **Nice → Sophia-Antipolis (20 km) :** +200-400€ vs déménagement local Nice.
 
@@ -66,7 +66,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement
 **Interruption :** 0h (weekend) vs 2-3 jours (déménagement semaine).
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transfert de locaux professionnels à Nice](/blog/demenagement-nice/demenagement-entreprise-nice-guide/).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transfert de locaux professionnels à Nice](/blog/demenagement-entreprise-nice/demenagement-entreprise-nice-guide).
 
 ## Conclusion
 

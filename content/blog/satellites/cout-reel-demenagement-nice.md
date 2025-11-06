@@ -86,7 +86,7 @@ Le **coût annoncé** d'un déménagement à Nice (800-1 500€ pour un F2) repr
 
 Inclut : Cartons + emballage fragiles (vaisselle, miroirs) + films protecteurs.
 
-**Alternative gratuite :** [Récupérer cartons gratuits Nice](/blog/demenagement-pas-cher-nice/cartons-gratuits-nice-ou-trouver/) (supermarchés, pharmacies) = **économie 60-250€**.
+**Alternative gratuite :** [Récupérer cartons gratuits Nice](/blog/conseils/cartons-gratuits-nice-ou-trouver) (supermarchés, pharmacies) = **économie 60-250€**.
 
 ### 3. Autorisations Stationnement (+50-150€)
 
@@ -215,11 +215,11 @@ Inclut : Cartons + emballage fragiles (vaisselle, miroirs) + films protecteurs.
 - Supermarchés Nice (Carrefour TNL, Auchan Lingostière)
 - Pharmacies (cartons médicaments solides)
 - Librairies Nice (cartons livres)
-- [Guide cartons gratuits Nice](/blog/demenagement-pas-cher-nice/cartons-gratuits-nice-ou-trouver/)
+- [Guide cartons gratuits Nice](/blog/conseils/cartons-gratuits-nice-ou-trouver)
 
 **2. Déménagement Basse Saison = -15-20%**
 - **Janvier-mars** : -300-600€ (vs septembre haute saison)
-- [Déménager hors saison Nice](/blog/demenagement-nice/demenagement-pas-cher-nice-guide/)
+- [Déménager hors saison Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide)
 
 **3. Anticipation Autorisations = -60-100€**
 - Demande 15j avant (vs express <7j)
@@ -234,7 +234,7 @@ Inclut : Cartons + emballage fragiles (vaisselle, miroirs) + films protecteurs.
 
 **6. Comparaison 3 Devis = -10-20%**
 - Négociation concurrence
-- [Comparateur déménageurs Nice](/blog/demenagement-nice/demenageur-nice-guide/)
+- [Comparateur déménageurs Nice](/blog/demenageur-nice/demenageur-nice-guide)
 
 **ÉCONOMIES TOTALES POSSIBLES : 500-1 500€** (F2-F3)
 
@@ -293,7 +293,7 @@ Les **5 principaux coûts non mentionnés** dans les devis standards : **monte-m
 
 ### Comment réduire le coût d'un déménagement à Nice sans sacrifier la qualité ?
 
-**5 économies majeures** : récupérer [cartons gratuits](/blog/demenagement-pas-cher-nice/cartons-gratuits-nice-ou-trouver/) (-60-250€), déménager en [basse saison](/blog/demenagement-nice/demenagement-pas-cher-nice-guide/) janvier-mars (-15-20%), demander autorisation 15j avant (gratuit vs 60-100€ express), choisir formule économique où vous emballez (-30-40%), comparer 3 devis (-10-20%). **Économies totales : 500-1 500€**.
+**5 économies majeures** : récupérer [cartons gratuits](/blog/conseils/cartons-gratuits-nice-ou-trouver) (-60-250€), déménager en [basse saison](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide) janvier-mars (-15-20%), demander autorisation 15j avant (gratuit vs 60-100€ express), choisir formule économique où vous emballez (-30-40%), comparer 3 devis (-10-20%). **Économies totales : 500-1 500€**.
 
 ### Le monte-meuble est-il vraiment nécessaire à Nice ?
 
@@ -313,6 +313,6 @@ Pour un **F2 40m²** : **1 900-2 400€** (emballage, transport, démontage/remo
 
 ---
 
-**Le [coût réel d'un déménagement à Nice](/blog/prix-demenagement-nice/calculer-prix-demenagement-nice/) dépasse souvent le devis initial de 30-50% en raison des spécificités locales** (monte-meuble fréquent, immeubles anciens, rues étroites). En anticipant ces postes cachés et en optimisant votre organisation, vous éviterez les mauvaises surprises financières et maîtriserez votre budget déménagement.
+**Le [coût réel d'un déménagement à Nice](/blog/conseils/calculer-prix-demenagement-nice) dépasse souvent le devis initial de 30-50% en raison des spécificités locales** (monte-meuble fréquent, immeubles anciens, rues étroites). En anticipant ces postes cachés et en optimisant votre organisation, vous éviterez les mauvaises surprises financières et maîtriserez votre budget déménagement.
 
 

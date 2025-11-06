@@ -27,18 +27,18 @@ Dans ce guide complet, découvrez pourquoi louer un camion pour déménager à N
 Tout savoir pour louer le bon véhicule à Nice :
 
 **Choix et Taille :**
-- [Quelle taille de camion selon votre logement Nice](/blog/location-camion-nice/taille-camion-selon-logement-nice/) - 6m³ studio, 20m³ T3
-- [Location utilitaire déménagement Nice](/blog/location-camion-nice/location-utilitaire-demenagement-nice/) - Comparatif loueurs, tarifs
+- [Quelle taille de camion selon votre logement Nice](/blog/conseils/taille-camion-selon-logement-nice) - 6m³ studio, 20m³ T3
+- [Location utilitaire déménagement Nice](/blog/conseils/location-utilitaire-demenagement-nice) - Comparatif loueurs, tarifs
 
 **Conditions et Pratique :**
-- [Permis pour conduire un camion déménagement](/blog/location-camion-nice/permis-conduire-camion-demenagement/) - Permis B suffit jusqu'à 3,5T
-- [Caution location camion Nice](/blog/location-camion-nice/caution-location-camion-nice/) - Montants, déblocage, CB
-- [Assurance location utilitaire Nice](/blog/location-camion-nice/assurance-location-utilitaire-nice/) - Garanties, franchises
-- [Km inclus location camion Nice](/blog/location-camion-nice/km-inclus-location-camion-nice/) - Forfaits, dépassement
+- [Permis pour conduire un camion déménagement](/blog/conseils/permis-conduire-camion-demenagement) - Permis B suffit jusqu'à 3,5T
+- [Caution location camion Nice](/blog/conseils/caution-location-camion-nice) - Montants, déblocage, CB
+- [Assurance location utilitaire Nice](/blog/conseils/assurance-location-utilitaire-nice) - Garanties, franchises
+- [Km inclus location camion Nice](/blog/conseils/km-inclus-location-camion-nice) - Forfaits, dépassement
 
 **Timing et Conduite :**
-- [Location camion weekend à Nice](/blog/location-camion-nice/location-camion-weekend-nice/) - Tarifs samedi-dimanche, disponibilité
-- [Conduire un camion dans le Vieux-Nice](/blog/location-camion-nice/conduire-camion-vieux-nice-conseils/) - Ruelles étroites, conseils pratiques
+- [Location camion weekend à Nice](/blog/conseils/location-camion-weekend-nice) - Tarifs samedi-dimanche, disponibilité
+- [Conduire un camion dans le Vieux-Nice](/blog/conseils/conduire-camion-vieux-nice-conseils) - Ruelles étroites, conseils pratiques
 
 ## Pourquoi louer un camion pour son déménagement à Nice ?
 

@@ -43,10 +43,10 @@ Ce guide détaille les prix selon quartiers, les formules adaptées, la location
 
 **Quartier influence :** Vieux-Nice +20-25%, Cimiez +15%, Arenas -10% vs moyenne.
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide petit déménagement Nice](/blog/demenagement-nice/petit-demenagement-nice-guide/).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide petit déménagement Nice](/blog/petit-demenagement-nice/petit-demenagement-nice-guide).
 
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [déménager un studio ou petit volume à Nice](/blog/demenagement-nice/petit-demenagement-nice-guide/).
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménager un studio ou petit volume à Nice](/blog/petit-demenagement-nice/petit-demenagement-nice-guide).
 
 
 **Formule recommandée :** Économique (vous emballez 15 cartons = 3-4h, économie 150-200€ vs standard).
@@ -71,7 +71,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [déménager un
 **Agences Nice :** Europcar, Sixt, Hertz (aéroport, gare), Leclerc.
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [solutions petit déménagement économique Nice](/blog/demenagement-nice/petit-demenagement-nice-guide/).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [solutions petit déménagement économique Nice](/blog/petit-demenagement-nice/petit-demenagement-nice-guide).
 
 ## Conclusion
 

@@ -21,7 +21,7 @@ Le Vieux-Nice représente le **défi le plus complexe** pour un déménagement �
 
 Les **5 000 habitants** du Vieux-Nice déménagent dans des conditions uniques à Nice : **40-50% des déménagements nécessitent un monte-meuble** (+150-300€), **100% requièrent une autorisation de stationnement mairie** (délai 5-7j, coût 50-100€), et le surcoût moyen atteint **+15-25%** vs quartiers classiques. Seuls les déménageurs expérimentés comme Akte 21 ou Les Collinettes maîtrisent ces contraintes.
 
-Ce guide détaille les spécificités du déménagement dans le Vieux-Nice, le rôle crucial du monte-meuble, les déménageurs spécialisés et les astuces pour limiter les surcoûts. Pour tout savoir sur [comment bien déménager à Nice](/blog/demenagement-nice/demenageur-nice-guide/), consultez notre guide complet.
+Ce guide détaille les spécificités du déménagement dans le Vieux-Nice, le rôle crucial du monte-meuble, les déménageurs spécialisés et les astuces pour limiter les surcoûts. Pour tout savoir sur [comment bien déménager à Nice](/blog/demenageur-nice/demenageur-nice-guide), consultez notre guide complet.
 
 ## Contraintes Spécifiques Vieux-Nice
 
@@ -29,7 +29,7 @@ Ce guide détaille les spécificités du déménagement dans le Vieux-Nice, le r
 
 Le Vieux-Nice conserve son **tracé médiéval** avec des ruelles de 2 à 4m de largeur. Un camion de déménagement standard (20m³, largeur 2,5m) ne peut **physiquement pas circuler** dans 80% des rues. Les impasses, virages à 90°, arches basses (2,2m) et pavés irréguliers compliquent davantage.
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet des déménageurs à Nice](/blog/demenagement-nice/demenageur-nice-guide/).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet des déménageurs à Nice](/blog/demenageur-nice/demenageur-nice-guide).
 
 
 **Solution :** Utiliser des **utilitaires 12m³ maximum** (Renault Master, Fiat Ducato, largeur 2m). Inconvénient : un T2 (40m³) nécessite **3 rotations** au lieu d'1 avec camion 20m³. Temps supplémentaire : +2-4h = surcoût +150-250€ (main d'œuvre).
@@ -97,7 +97,7 @@ Akte 21 se positionne comme **spécialiste des déménagements complexes** niço
 **Note :** 4/5 sur 2 avis  
 **Adresse :** 9 rue Pertinax, 06000 Nice
 
-Les Collinettes, malgré peu d'avis (seulement 2), affichent une **note parfaite 4/5**. Acteur niçois local, probablement petite structure familiale, connaissant bien les spécificités locales. Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel à Nice](/blog/demenagement-nice/demenageur-nice-guide/).
+Les Collinettes, malgré peu d'avis (seulement 2), affichent une **note parfaite 4/5**. Acteur niçois local, probablement petite structure familiale, connaissant bien les spécificités locales. Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel à Nice](/blog/demenageur-nice/demenageur-nice-guide).
 
 **Avantages supposés :** Proximité, connaissance terrain, flexibilité petite structure
 
@@ -151,7 +151,7 @@ Ces préparations **facilitent travail déménageurs** = gain 30-60 min = écono
 **Économie :** 150-230€ vs formule standard, tout en déléguant le plus technique (contraintes Vieux-Nice).
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [nos services de déménagement niçois](/blog/demenagement-nice/demenageur-nice-guide/).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [nos services de déménagement niçois](/blog/demenageur-nice/demenageur-nice-guide).
 
 ## Conclusion
 
@@ -164,7 +164,7 @@ Les acteurs niçois recommandés incluent **Akte 21** (4,1/5 - 15 avis, expérie
 - T2 : 900-1 200€ (vs 700-1 000€)
 - T3 : 1 200-1 800€ (vs 1 000-1 500€)
 
-Pour limiter surcoûts : désencombrez, demandez autorisation 10j avant, optez pour formule économique mixte (vous emballez, déménageur gère contraintes). Pour comparer les [prix détaillés selon quartiers](/blog/demenageur-nice/prix-demenageur-nice-2025), consultez notre guide tarifaire Nice 2025.
+Pour limiter surcoûts : désencombrez, demandez autorisation 10j avant, optez pour formule économique mixte (vous emballez, déménageur gère contraintes). Pour comparer les [prix détaillés selon quartiers](/blog/conseils/prix-demenageur-nice-2025), consultez notre guide tarifaire Nice 2025.
 
 ---
 

@@ -30,7 +30,7 @@ Les **commerces niçois** (centre-ville, Libération, Port, zones commerciales) 
 **Restaurant 80m² :**
 - Équipements : Cuisine pro (pianos, fours, frigos pro), salle (tables, chaises), bar
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagement d'entreprise à Nice](/blog/demenagement-nice/demenagement-entreprise-nice-guide/).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagement d'entreprise à Nice](/blog/demenagement-entreprise-nice/demenagement-entreprise-nice-guide).
 
 - Weekend : 4 500-6 500€
 - + Débranchement/rebranchement cuisine : +1 000-2 000€ (plombier, électricien)
@@ -48,7 +48,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagem
 - **Lundi :** Déménagement complet (fermé)
 - **Mardi matin :** Réouverture nouveau local
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel et bureaux Nice](/blog/demenagement-nice/demenagement-entreprise-nice-guide/).
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel et bureaux Nice](/blog/demenagement-entreprise-nice/demenagement-entreprise-nice-guide).
 
 - **Interruption : 1 jour** (lundi habituel fermeture = 0 impact CA)
 
@@ -79,7 +79,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement
 - **Total : +800-1 500€**
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transfert de locaux professionnels à Nice](/blog/demenagement-nice/demenagement-entreprise-nice-guide/).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transfert de locaux professionnels à Nice](/blog/demenagement-entreprise-nice/demenagement-entreprise-nice-guide).
 
 ## Conclusion
 

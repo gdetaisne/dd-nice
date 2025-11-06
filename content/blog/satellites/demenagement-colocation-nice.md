@@ -27,7 +27,7 @@ Le déménagement en colocation à Nice concerne deux situations : **déménager
 - Pro formule économique : 300-450€
 - Contenu : Lit, armoire, bureau, chaise, 10-15 cartons
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide petit déménagement Nice](/blog/demenagement-nice/petit-demenagement-nice-guide/).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide petit déménagement Nice](/blog/petit-demenagement-nice/petit-demenagement-nice-guide).
 
 
 **Colocation complète T3 (40-50m³, 3 chambres) :**
@@ -48,7 +48,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide petit dém�
 **Chambre seule (vous partez, colocataires restent) :**
 - Vos affaires : 10-15m³
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [déménager un studio ou petit volume à Nice](/blog/demenagement-nice/petit-demenagement-nice-guide/).
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménager un studio ou petit volume à Nice](/blog/petit-demenagement-nice/petit-demenagement-nice-guide).
 
 - Mobilier commun : Reste dans colocation
 - Timing : 1/2 journée (4-5h)
@@ -78,7 +78,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [déménager un
 **Centre (Vieux-Nice, Musiciens) :** Rare et cher (1 500-2 000€ T3 = 375-500€/chambre)
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [solutions petit déménagement économique Nice](/blog/demenagement-nice/petit-demenagement-nice-guide/).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [solutions petit déménagement économique Nice](/blog/petit-demenagement-nice/petit-demenagement-nice-guide).
 
 ## Conclusion
 

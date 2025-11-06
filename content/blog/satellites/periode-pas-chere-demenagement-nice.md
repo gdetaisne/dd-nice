@@ -29,7 +29,7 @@ Ce guide détaille le calendrier optimal mois par mois, les périodes à éviter
 - Tarifs : -10-15% vs moyenne
 - Disponibilité : Excellente (large choix déménageurs)
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement économique à Nice](/blog/demenagement-nice/demenagement-pas-cher-nice-guide/).
+Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement économique à Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
 
 - Météo : Douce Nice (13°C moyen, pluie modérée)
 - **Exception :** Éviter Carnaval mi-février (circulation bloquée centre-ville)
@@ -48,7 +48,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement é
 
 **ÉTÉ (Juin-Août) - ⭐⭐ MOYEN**
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas chères pour déménager à Nice](/blog/demenagement-nice/demenagement-pas-cher-nice-guide/).
+Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas chères pour déménager à Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
 
 - Tarifs : +10-15% (tourisme, circulation)
 - Disponibilité : Moyenne (vacances déménageurs)
@@ -75,7 +75,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas 
 **Employeurs :** Certains accordent "jour déménagement" (1-2 jours congés spéciaux). Vérifier convention collective.
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [réduire le coût de votre déménagement niçois](/blog/demenagement-nice/demenagement-pas-cher-nice-guide/).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [réduire le coût de votre déménagement niçois](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
 
 ## Conclusion
 

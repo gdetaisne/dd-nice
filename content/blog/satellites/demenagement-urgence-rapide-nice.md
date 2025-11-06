@@ -205,7 +205,7 @@ Une mutation professionnelle, une résiliation de bail imprévue ou une opportun
 - **Risque dommages** mobilier (aucune assurance professionnelle)
 - **Monte-meuble** : Impossible (escaliers = portage)
 
-[Guide location camion Nice](/blog/demenagement-nice/location-camion-demenagement-nice-guide/)
+[Guide location camion Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide)
 
 ### Garde-Meuble Temporaire + Déménagement Différé
 
@@ -227,7 +227,7 @@ Une mutation professionnelle, une résiliation de bail imprévue ou une opportun
 - Déménagement garde-meuble → Logement : 600-900€
 - **Total : 1 560-2 340€** (vs déménagement urgent direct 1 600-2 400€ si logement incertain)
 
-[Garde-meuble pendant déménagement Nice](/blog/demenagement-nice/garde-meuble-nice-guide/)
+[Garde-meuble pendant déménagement Nice](/blog/garde-meuble-nice/garde-meuble-nice-guide)
 
 ### Déménagement Partiel Prioritaire
 
@@ -287,7 +287,7 @@ Une mutation professionnelle, une résiliation de bail imprévue ou une opportun
 
 ### Est-il possible de déménager en 24h à Nice ?
 
-**Oui, mais difficile et coûteux**. Disponibilité déménageurs : 10-15% haute saison (septembre, été), **60-70% basse saison** (novembre-mars). **Majoration +60-80%** (F2 : 1 600-2 400€ vs 1 000-1 400€ standard). Alternative : [location camion](/blog/demenagement-nice/location-camion-demenagement-nice-guide/) + aide amis (200-400€) mais fatigue et risques dommages.
+**Oui, mais difficile et coûteux**. Disponibilité déménageurs : 10-15% haute saison (septembre, été), **60-70% basse saison** (novembre-mars). **Majoration +60-80%** (F2 : 1 600-2 400€ vs 1 000-1 400€ standard). Alternative : [location camion](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide) + aide amis (200-400€) mais fatigue et risques dommages.
 
 ### Quel est le surcoût d'un déménagement express à Nice ?
 
@@ -307,7 +307,7 @@ Demande express **<7 jours** : 60-100€ sur metropole.nice.fr (délai traitemen
 
 ### Quelles sont les solutions si aucun déménageur n'est disponible en urgence ?
 
-**3 alternatives** : 1) [Location camion](/blog/demenagement-nice/location-camion-demenagement-nice-guide/) 12-20m³ (70-150€/jour) + aide amis (repas ~100€) = 200-400€ total, 2) [Déménagement partiel](/blog/petit-demenagement-nice/demenagement-une-piece-nice/) essentiels (5-10 cartons, lit) puis complet 7-15j après, 3) [Garde-meuble temporaire](/blog/demenagement-nice/garde-meuble-nice-guide/) 1-2 mois (80-180€/mois) puis déménagement standard.
+**3 alternatives** : 1) [Location camion](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide) 12-20m³ (70-150€/jour) + aide amis (repas ~100€) = 200-400€ total, 2) [Déménagement partiel](/blog/conseils/demenagement-une-piece-nice) essentiels (5-10 cartons, lit) puis complet 7-15j après, 3) [Garde-meuble temporaire](/blog/garde-meuble-nice/garde-meuble-nice-guide) 1-2 mois (80-180€/mois) puis déménagement standard.
 
 ### Un déménagement urgent est-il aussi bien assuré qu'un déménagement standard ?
 
@@ -315,6 +315,6 @@ Demande express **<7 jours** : 60-100€ sur metropole.nice.fr (délai traitemen
 
 ---
 
-**Un [déménagement urgent à Nice](/blog/demenagement-nice/petit-demenagement-nice-guide/) en 24-72h est possible avec une organisation éclair et un budget adapté**. En contactant plusieurs déménageurs simultanément, en anticipant les autorisations express et en acceptant les majorations (+20-80%), vous pouvez réaliser votre déménagement express sans compromettre la sécurité de votre mobilier.
+**Un [déménagement urgent à Nice](/blog/petit-demenagement-nice/petit-demenagement-nice-guide) en 24-72h est possible avec une organisation éclair et un budget adapté**. En contactant plusieurs déménageurs simultanément, en anticipant les autorisations express et en acceptant les majorations (+20-80%), vous pouvez réaliser votre déménagement express sans compromettre la sécurité de votre mobilier.
 
 

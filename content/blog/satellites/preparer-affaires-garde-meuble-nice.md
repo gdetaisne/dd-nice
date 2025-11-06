@@ -21,7 +21,7 @@ Bien préparer vos affaires avant de les stocker prolonge leur durée de vie et 
 
 Les **acteurs niçois** facilitent la préparation : Homebox vend cartons et matériel d'emballage sur place, Shurgard propose des kits complets, Annexx conseille sur les protections nécessaires. Pour 10-15 cartons (studio/T1), prévoyez un budget matériel de 20-40€. Pour 30-50 cartons (T2/T3), comptez 60-120€.
 
-Ce guide détaille le matériel nécessaire à Nice (où acheter), l'emballage selon le type d'objets, la protection contre l'humidité marine et l'organisation optimale de votre box pour accès facile. Pour tout savoir sur le stockage à Nice, consultez notre [guide complet du garde-meuble](/blog/demenagement-nice/garde-meuble-nice-guide/).
+Ce guide détaille le matériel nécessaire à Nice (où acheter), l'emballage selon le type d'objets, la protection contre l'humidité marine et l'organisation optimale de votre box pour accès facile. Pour tout savoir sur le stockage à Nice, consultez notre [guide complet du garde-meuble](/blog/garde-meuble-nice/garde-meuble-nice-guide).
 
 ## Matériel Nécessaire à Nice (Où Acheter)
 
@@ -246,7 +246,7 @@ L'**organisation stratégique** de votre box (zones arrière/centrale/avant, all
 - ✅ Photos affaires de valeur (assurance)
 - ✅ Plan d'organisation box (zones d'accès)
 
-Pour choisir la taille exacte de box selon vos affaires, consultez notre [guide de calcul des besoins](/blog/garde-meuble-nice/quelle-taille-box-stockage-nice). Pour comparer les acteurs et leurs services, voir notre [comparatif complet Nice](/blog/demenagement-nice/garde-meuble-nice-guide/).
+Pour choisir la taille exacte de box selon vos affaires, consultez notre [guide de calcul des besoins](/blog/conseils/quelle-taille-box-stockage-nice). Pour comparer les acteurs et leurs services, voir notre [comparatif complet Nice](/blog/garde-meuble-nice/garde-meuble-nice-guide).
 
 ---
 

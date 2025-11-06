@@ -43,7 +43,7 @@ Ce guide détaille prix par ville suisse, formalités douane spécifiques, déla
 
 **Facteurs :** Distance, volume, formalités douane (+coût administratif 200-300€), assurance internationale étendue.
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagement international depuis Nice](/blog/demenagement-nice/demenagement-international-nice-guide/). Ces éléments s'inscrivent dans le contexte plus large de notre [déménager à l'étranger depuis Nice](/blog/demenagement-nice/demenagement-international-nice-guide/).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagement international depuis Nice](/blog/demenagement-international-nice/demenagement-international-nice-guide). Ces éléments s'inscrivent dans le contexte plus large de notre [déménager à l'étranger depuis Nice](/blog/demenagement-international-nice/demenagement-international-nice-guide).
 
 
 ## Formalités Douane Suisse
@@ -65,7 +65,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide déménagem
 **Objets interdits :** Armes (déclaration spéciale), certains médicaments, produits dangereux.
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [expatriation et déménagement international Nice](/blog/demenagement-nice/demenagement-international-nice-guide/).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [expatriation et déménagement international Nice](/blog/demenagement-international-nice/demenagement-international-nice-guide).
 
 ## Conclusion
 

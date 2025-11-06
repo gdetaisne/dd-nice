@@ -224,7 +224,7 @@ TOTAL MOBILIER : 8 500€
 - Traversée frontière (contrôle rare = +30-60 min potentiel)
 - Livraison J+1 si destination >150 km (Gênes, Milan)
 
-[Comparatif déménageurs Nice](/blog/demenagement-nice/demenageur-nice-guide/) pour sélection éclairée.
+[Comparatif déménageurs Nice](/blog/demenageur-nice/demenageur-nice-guide) pour sélection éclairée.
 
 ## Organisation Déménagement Italie
 

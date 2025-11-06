@@ -27,20 +27,20 @@ Nous comparerons les différentes options disponibles à Nice, analyserons les p
 Tous nos conseils pour réduire le coût de votre déménagement à Nice :
 
 **Conseils et Astuces :**
-- [Astuces déménagement pas cher à Nice](/blog/demenagement-pas-cher-nice/astuces-demenagement-pas-cher-nice/) - 15 conseils pour économiser 30-60%
-- [Cartons gratuits à Nice : où les trouver ?](/blog/demenagement-pas-cher-nice/cartons-gratuits-nice-ou-trouver/) - Supermarchés, magasins, ressourceries
-- [Période pas chère pour déménager à Nice](/blog/demenagement-pas-cher-nice/periode-pas-chere-demenagement-nice/) - Éviter juillet-août, privilégier hiver
+- [Astuces déménagement pas cher à Nice](/blog/conseils/astuces-demenagement-pas-cher-nice) - 15 conseils pour économiser 30-60%
+- [Cartons gratuits à Nice : où les trouver ?](/blog/conseils/cartons-gratuits-nice-ou-trouver) - Supermarchés, magasins, ressourceries
+- [Période pas chère pour déménager à Nice](/blog/conseils/periode-pas-chere-demenagement-nice) - Éviter juillet-août, privilégier hiver
 
 **Formules Économiques :**
-- [Formule économique déménagement Nice](/blog/demenagement-pas-cher-nice/demenagement-formule-economique-nice/) - Transport seul, vous gérez chargement
-- [Déménager seul à Nice : guide complet](/blog/demenagement-pas-cher-nice/demenager-seul-nice-guide/) - Location camion, aide amis, DIY
-- [Déménagement étudiant pas cher Nice](/blog/demenagement-pas-cher-nice/demenagement-etudiant-pas-cher-nice/) - Solutions 35 000 étudiants niçois
+- [Formule économique déménagement Nice](/blog/conseils/demenagement-formule-economique-nice) - Transport seul, vous gérez chargement
+- [Déménager seul à Nice : guide complet](/blog/conseils/demenager-seul-nice-guide) - Location camion, aide amis, DIY
+- [Déménagement étudiant pas cher Nice](/blog/conseils/demenagement-etudiant-pas-cher-nice) - Solutions 35 000 étudiants niçois
 
 **Optimisation Budget :**
-- [Déménagement groupe à Nice](/blog/demenagement-pas-cher-nice/demenagement-groupe-nice/) - Mutualiser camion, diviser coûts
-- [Comparateur devis déménagement Nice](/blog/demenagement-pas-cher-nice/comparateur-devis-demenagement-nice/) - 3-5 devis gratuits, gagner 20-40%
-- [Déménagement weekend vs semaine Nice](/blog/demenagement-pas-cher-nice/demenagement-weekend-vs-semaine-nice/) - Économiser 15-25% en semaine
-- [Déménagement petit budget Nice](/blog/demenagement-pas-cher-nice/demenagement-petit-budget-nice/) - Solutions <500€ T1-T2
+- [Déménagement groupe à Nice](/blog/conseils/demenagement-groupe-nice) - Mutualiser camion, diviser coûts
+- [Comparateur devis déménagement Nice](/blog/conseils/comparateur-devis-demenagement-nice) - 3-5 devis gratuits, gagner 20-40%
+- [Déménagement weekend vs semaine Nice](/blog/conseils/demenagement-weekend-vs-semaine-nice) - Économiser 15-25% en semaine
+- [Déménagement petit budget Nice](/blog/conseils/demenagement-petit-budget-nice) - Solutions <500€ T1-T2
 
 ## Déménagement pas cher à Nice : Est-ce vraiment possible ?
 
@@ -149,7 +149,7 @@ Si vous avez le permis B, êtes en bonne condition physique, et disposez d'amis 
 - **Camion 20m³** : 80-140€/jour (T2, T3)
 - **Camion 30m³** : 120-200€/jour (T4, maison)
 
-Pour tous les détails pratiques sur la location (comparatif loueurs, conseils conduite, options), découvrez notre [guide location camion Nice](/blog/demenagement-nice/location-camion-demenagement-nice-guide/).
+Pour tous les détails pratiques sur la location (comparatif loueurs, conseils conduite, options), découvrez notre [guide location camion Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide).
 
 **Où louer à Nice** :
 - Locations traditionnelles : Europcar, Sixt, Hertz (aéroport et centre-ville)
@@ -207,7 +207,7 @@ La **formule économique** est le meilleur compromis pour ceux qui veulent écon
 - T3 : 900-1 600€
 - T4 : 1 400-2 200€
 
-Pour une analyse complète des tarifs incluant toutes les formules et facteurs de prix, consultez notre [guide prix déménagement Nice](/blog/demenagement-nice/prix-demenagement-nice-guide/).
+Pour une analyse complète des tarifs incluant toutes les formules et facteurs de prix, consultez notre [guide prix déménagement Nice](/blog/prix-demenagement-nice/prix-demenagement-nice-guide).
 
 **Pour qui ?** Particuliers organisés, disposant de temps pour préparer, et cherchant à économiser 40-50% par rapport à une formule standard.
 
@@ -282,7 +282,7 @@ Certains **déménageurs à Nice** proposent des **prestations à la carte** pou
 - Stockage sécurisé de quelques jours à plusieurs mois
 - Évite de payer un double loyer
 
-Pour comparer toutes les options de stockage temporaire et éviter un double loyer, consultez notre [guide garde-meuble Nice](/blog/demenagement-nice/garde-meuble-nice-guide/).
+Pour comparer toutes les options de stockage temporaire et éviter un double loyer, consultez notre [guide garde-meuble Nice](/blog/garde-meuble-nice/garde-meuble-nice-guide).
 
 ## Comparatif des options de déménagement à Nice selon votre budget
 

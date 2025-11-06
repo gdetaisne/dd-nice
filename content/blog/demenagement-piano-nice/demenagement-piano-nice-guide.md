@@ -27,15 +27,15 @@ Dans ce guide complet, découvrez pourquoi le **transport de piano à Nice** né
 Tout savoir sur le transport professionnel de piano à Nice :
 
 **Prix et Assurance :**
-- [Prix déménagement piano à Nice 2025](/blog/demenagement-piano-nice/demenagement-piano-nice-prix/) - Tarifs selon type de piano et distance
-- [Assurer son piano pendant le transport à Nice](/blog/piano/assurer-piano-transport-nice/) - Garanties, franchises, indemnisation
+- [Prix déménagement piano à Nice 2025](/blog/conseils/demenagement-piano-nice-prix) - Tarifs selon type de piano et distance
+- [Assurer son piano pendant le transport à Nice](/blog/conseils/assurer-piano-transport-nice) - Garanties, franchises, indemnisation
 
 **Types de Piano :**
-- [Déménagement piano droit à Nice](/blog/demenagement-piano-nice/demenagement-piano-droit-nice/) - Transport piano vertical 250-350 kg
-- [Déménagement piano à queue à Nice](/blog/demenagement-piano-nice/demenagement-piano-queue-nice/) - Transport piano horizontal 400-600 kg
+- [Déménagement piano droit à Nice](/blog/conseils/demenagement-piano-droit-nice) - Transport piano vertical 250-350 kg
+- [Déménagement piano à queue à Nice](/blog/conseils/demenagement-piano-queue-nice) - Transport piano horizontal 400-600 kg
 
 **Équipement Spécifique :**
-- [Monte-meuble pour piano à Nice](/blog/demenagement-piano-nice/demenagement-piano-monte-meuble-nice/) - Immeubles sans ascenseur, étages élevés
+- [Monte-meuble pour piano à Nice](/blog/conseils/demenagement-piano-monte-meuble-nice) - Immeubles sans ascenseur, étages élevés
 
 ## Pourquoi le déménagement d'un piano est une affaire de spécialistes ?
 

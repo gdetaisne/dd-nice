@@ -39,7 +39,7 @@ Nice attire chaque année **8 000-12 000 nouveaux arrivants** depuis d'autres r�
 **Retraite (25%) :**
 - Climat favorable arthrose, rhumatismes
 - Structures médicales excellentes
-- [Déménagement retraités Nice](/blog/aide-demenagement/demenagement-retraites-seniors-nice/)
+- [Déménagement retraités Nice](/blog/conseils/demenagement-retraites-seniors-nice)
 
 ### Freins et Réalités
 
@@ -97,7 +97,7 @@ Nice attire chaque année **8 000-12 000 nouveaux arrivants** depuis d'autres r�
 
 **Volume :**
 - Réduction si vente mobilier avant (-20-30% tarif)
-- [Vendre meubles avant déménagement](/blog/demenagement-nice/demenagement-pas-cher-nice-guide/)
+- [Vendre meubles avant déménagement](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide)
 
 **Saison :**
 - Haute (juin-septembre) : +30-40% (rentrée 35 000 étudiants, tourisme)

@@ -21,14 +21,14 @@ Déménager le dimanche ou en soirée à Nice génère un **surcoût important**
 
 À Nice, la **disponibilité dimanche et soir est limitée** : seulement 30-40% des déménageurs acceptent (vs 100% lundi-jeudi journée). En haute saison (septembre, juillet-août), réservez 2-3 mois avant pour un dimanche. Les 35 000 étudiants et les actifs qui travaillent saturent les créneaux weekend, obligeant à anticiper fortement ou accepter dates imposées.
 
-Ce guide explique les surcoûts exacts, la disponibilité des acteurs niçois, les périodes où le dimanche/soir est justifié, et les alternatives pour économiser. Pour comprendre [tous les tarifs selon situations](/blog/demenageur-nice/prix-demenageur-nice-2025), consultez notre guide prix complet.
+Ce guide explique les surcoûts exacts, la disponibilité des acteurs niçois, les périodes où le dimanche/soir est justifié, et les alternatives pour économiser. Pour comprendre [tous les tarifs selon situations](/blog/conseils/prix-demenageur-nice-2025), consultez notre guide prix complet.
 
 ## Surcoûts Dimanche et Soir
 
 **Lundi-Jeudi journée :** Tarif standard (base)  
 **Vendredi :** +10-15% (début weekend, forte demande)  
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet des déménageurs à Nice](/blog/demenagement-nice/demenageur-nice-guide/).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet des déménageurs à Nice](/blog/demenageur-nice/demenageur-nice-guide).
 
 **Samedi :** +20-30% (weekend plein, heures sup équipes)  
 **Dimanche :** +30-40% (jour repos légal, majorations maximales)  
@@ -41,7 +41,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet des
 - Dimanche : 1 300-1 400€ (+300-400€)
 - Mardi soir 18h-22h : 1 150-1 200€ (+150-200€)
 
-L'économie de **déménager en semaine** atteint 300-400€ sur T2 (30-40%). Si vous pouvez poser 1 jour congé, c'est très rentable. Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel à Nice](/blog/demenagement-nice/demenageur-nice-guide/).
+L'économie de **déménager en semaine** atteint 300-400€ sur T2 (30-40%). Si vous pouvez poser 1 jour congé, c'est très rentable. Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel à Nice](/blog/demenageur-nice/demenageur-nice-guide).
 
 ## Disponibilité Acteurs Nice
 
@@ -55,7 +55,7 @@ L'économie de **déménager en semaine** atteint 300-400€ sur T2 (30-40%). Si
 **Basse saison** (janvier-mars) : Meilleure disponibilité dimanche/soir (moins demandés = surcoût parfois négociable à +20% vs +30-40%).
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [nos services de déménagement niçois](/blog/demenagement-nice/demenageur-nice-guide/).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [nos services de déménagement niçois](/blog/demenageur-nice/demenageur-nice-guide).
 
 ## Conclusion
 

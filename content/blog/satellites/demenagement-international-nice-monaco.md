@@ -137,7 +137,7 @@ Les déménageurs expérimentés Nice-Monaco connaissent ces formalités et peuv
 - Délai intervention
 - Disponibilité (Monaco = planification stricte)
 
-[Comparez 3 déménageurs Nice spécialisés Monaco](/blog/demenagement-nice/demenageur-nice-guide/) pour obtenir le meilleur tarif.
+[Comparez 3 déménageurs Nice spécialisés Monaco](/blog/demenageur-nice/demenageur-nice-guide) pour obtenir le meilleur tarif.
 
 ## Formalités et Autorisations Monaco
 
@@ -297,6 +297,6 @@ Souscrivez une **assurance Tous Risques** couvrant la valeur réelle de votre mo
 
 ---
 
-**Déménager de [Nice à Monaco](/blog/demenagement-nice/demenagement-international-nice-guide/) requiert un déménageur expérimenté dans les spécificités de la principauté**. Avec une organisation anticipée (autorisations, assurance adaptée) et un prestataire connaissant Monaco, votre installation dans les 2 km² les plus prestigieux de la Côte d'Azur se déroulera sans encombre.
+**Déménager de [Nice à Monaco](/blog/demenagement-international-nice/demenagement-international-nice-guide) requiert un déménageur expérimenté dans les spécificités de la principauté**. Avec une organisation anticipée (autorisations, assurance adaptée) et un prestataire connaissant Monaco, votre installation dans les 2 km² les plus prestigieux de la Côte d'Azur se déroulera sans encombre.
 
 

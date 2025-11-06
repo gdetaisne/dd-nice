@@ -21,7 +21,7 @@ Nice accueille **35 000 étudiants** (Université Côte d'Azur, 2025) générant
 
 Les **quartiers étudiants** (Riquier, Libération, Arenas, Pasteur) concentrent les locations meublées et résidences universitaires. La **rentrée début septembre** crée une saturation (+30-40% demande) avec tarifs majorés de 15-20%. Les étudiants niçois économisent en déménageant fin août ou mi-septembre, en semaine, avec location utilitaire 12m³ (90-120€ journée) et aide de la famille ou promo.
 
-Ce guide détaille les solutions économiques spécifiques aux 35 000 étudiants niçois, les aides financières, les quartiers abordables et les astuces pour déménager sous 400€. Pour tout comprendre sur [les déménagements économiques à Nice](/blog/demenagement-nice/demenagement-pas-cher-nice-guide/), consultez notre guide complet.
+Ce guide détaille les solutions économiques spécifiques aux 35 000 étudiants niçois, les aides financières, les quartiers abordables et les astuces pour déménager sous 400€. Pour tout comprendre sur [les déménagements économiques à Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide), consultez notre guide complet.
 
 ## Prix Déménagement Étudiant Nice
 
@@ -37,7 +37,7 @@ Ce guide détaille les solutions économiques spécifiques aux 35 000 étudiants
 **Avec déménageur économique :**
 - Formule transport seul : 350-450€ (2 déménageurs, utilitaire, 3-4h)
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement économique à Nice](/blog/demenagement-nice/demenagement-pas-cher-nice-guide/).
+Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement économique à Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
 
 - Vous emballez cartons
 - **Total : 350-450€**
@@ -101,12 +101,12 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement é
 
 ### Aides Locales Nice (À Vérifier)
 
-Contactez **CROUS Nice** (aides ponctuelles), **Mission Locale** (< 25 ans), **CCAS Nice** (Centre Communal Action Sociale) pour aides exceptionnelles déménagement/installation. Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas chères pour déménager à Nice](/blog/demenagement-nice/demenagement-pas-cher-nice-guide/).
+Contactez **CROUS Nice** (aides ponctuelles), **Mission Locale** (< 25 ans), **CCAS Nice** (Centre Communal Action Sociale) pour aides exceptionnelles déménagement/installation. Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas chères pour déménager à Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
 
 **Montants variables :** 50-300€ selon situation (très précaire, première installation, etc.)
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [réduire le coût de votre déménagement niçois](/blog/demenagement-nice/demenagement-pas-cher-nice-guide/).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [réduire le coût de votre déménagement niçois](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
 
 ## Conclusion
 

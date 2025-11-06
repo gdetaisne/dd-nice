@@ -36,7 +36,7 @@ Ce guide explique comment calculer précisément votre budget déménagement à 
 
 **Règle approximative :** Surface (m²) × 0,7 = Volume (m³)
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide des prix déménagement à Nice](/blog/demenagement-nice/prix-demenagement-nice-guide/).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide des prix déménagement à Nice](/blog/prix-demenagement-nice/prix-demenagement-nice-guide).
 
 
 **Exemples Nice :**
@@ -60,7 +60,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide des prix d�
 **Arenas, Riquier moderne :** 90% avec ascenseur (économie)
 
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [tarifs déménageur Nice détaillés](/blog/demenagement-nice/prix-demenagement-nice-guide/).
+Ces éléments s'inscrivent dans le contexte plus large de notre [tarifs déménageur Nice détaillés](/blog/prix-demenagement-nice/prix-demenagement-nice-guide).
 
 ### Étape 3 : Surcoût Quartier
 
@@ -99,7 +99,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [tarifs démén
 **En ligne :** Comparateurs (estimation rapide ±20%)
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [comprendre les coûts de déménagement niçois](/blog/demenagement-nice/prix-demenagement-nice-guide/).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [comprendre les coûts de déménagement niçois](/blog/prix-demenagement-nice/prix-demenagement-nice-guide).
 
 ## Conclusion
 

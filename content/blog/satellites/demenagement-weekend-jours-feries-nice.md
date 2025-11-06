@@ -75,7 +75,7 @@ featured: false
 
 **Basse saison (novembre-mars) :**
 - Weekend **+15-25%** (demande moindre, négociation possible)
-- [Déménagement hors saison](/blog/demenagement-nice/demenagement-pas-cher-nice-guide/) : Meilleure alternative
+- [Déménagement hors saison](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide) : Meilleure alternative
 
 **Période optimale weekend** : **Avril-mai, octobre** (demande modérée, météo clémente)
 
@@ -121,7 +121,7 @@ featured: false
 **Location camion + aide :**
 - **Weekend = Tarif identique** semaine (Europcar, Sixt Nice)
 - Aide amis/famille disponible samedi-dimanche
-- [Location utilitaire Nice](/blog/demenagement-nice/location-camion-demenagement-nice-guide/)
+- [Location utilitaire Nice](/blog/location-camion-demenagement-nice/location-camion-demenagement-nice-guide)
 
 **Déménagement partiel :**
 - **Vendredi soir** : Cartons, objets légers (voiture personnelle)

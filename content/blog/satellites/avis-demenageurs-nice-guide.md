@@ -21,7 +21,7 @@ Les avis Google constituent la source la plus fiable pour évaluer un déménage
 
 La **note minimum recommandée** est **4/5 sur minimum 10-15 avis** pour garantir fiabilité statistique. Une note de 3,5/5 ou moins signale généralement des problèmes (retards fréquents, surcoûts non annoncés, casse non indemnisée). À Nice, où les contraintes du Vieux-Nice (rues 2-4m, monte-meubles, autorisations) complexifient les déménagements, choisir un professionnel expérimenté via les avis est crucial.
 
-Ce guide explique comment interpréter les avis Google, identifier les signaux de fiabilité, détecter les faux avis, et utiliser les avis pour comparer les déménageurs niçois. Pour comprendre [comment choisir selon tous critères](/blog/demenageur-nice/choisir-demenageur-nice-criteres), consultez notre guide 10 critères.
+Ce guide explique comment interpréter les avis Google, identifier les signaux de fiabilité, détecter les faux avis, et utiliser les avis pour comparer les déménageurs niçois. Pour comprendre [comment choisir selon tous critères](/blog/conseils/choisir-demenageur-nice-criteres), consultez notre guide 10 critères.
 
 ## Analyse Avis Acteurs Nice
 
@@ -30,7 +30,7 @@ Ce guide explique comment interpréter les avis Google, identifier les signaux d
 **Note :** Au-dessus du seuil 4/5  
 **Échantillon :** 15 avis = significatif (fiabilité statistique OK)  
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet des déménageurs à Nice](/blog/demenagement-nice/demenageur-nice-guide/).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet des déménageurs à Nice](/blog/demenageur-nice/demenageur-nice-guide).
 
 **Tendance :** Note stable (pas de chute récente visible)
 
@@ -59,7 +59,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet des
 3. Si références positives → acteur fiable
 4. Si refus fournir références → méfiance
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel à Nice](/blog/demenagement-nice/demenageur-nice-guide/).
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement professionnel à Nice](/blog/demenageur-nice/demenageur-nice-guide).
 
 
 **Verdict :** ⚠️ Prometteur mais valider via références directes
@@ -97,13 +97,13 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement
 **Avis récents :** Privilégiez derniers 6-12 mois (évolution qualité). Acteur 4,5/5 il y a 2 ans mais 3/5 derniers 6 mois = dégradation.
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [nos services de déménagement niçois](/blog/demenagement-nice/demenageur-nice-guide/).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [nos services de déménagement niçois](/blog/demenageur-nice/demenageur-nice-guide).
 
 ## Conclusion
 
 Pour choisir un déménageur fiable à Nice via les avis Google, visez **note ≥ 4/5 sur minimum 10-15 avis**. **Akte 21** (4,1/5 - 15 avis) répond à ces critères et est recommandable. **Les Collinettes** (4/5 - 2 avis seulement) nécessite validation via références clients. **Sterling** (3,2/5 - 10 avis) présente un risque élevé (40% insatisfaction).
 
-Lisez les **avis détaillés** cherchant mentions Nice (Vieux-Nice, quartiers), problématiques spécifiques (surcoûts, retards, casse) et réponses du professionnel (gestion SAV). Un acteur répondant à tous les avis, même négatifs, démontre professionnalisme. Pour comparer les [acteurs et services disponibles](/blog/demenageur-nice/comparatif-demenageurs-nice), consultez notre comparatif complet.
+Lisez les **avis détaillés** cherchant mentions Nice (Vieux-Nice, quartiers), problématiques spécifiques (surcoûts, retards, casse) et réponses du professionnel (gestion SAV). Un acteur répondant à tous les avis, même négatifs, démontre professionnalisme. Pour comparer les [acteurs et services disponibles](/blog/conseils/comparatif-demenageurs-nice), consultez notre comparatif complet.
 
 ---
 

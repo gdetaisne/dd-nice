@@ -39,7 +39,7 @@ Les **35 000 étudiants** niçois et jeunes actifs privilégient massivement cet
 
 **Quartiers :** Vieux-Nice +15-25%, Arenas -5-10% (facteur quartier identique toutes formules).
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement économique à Nice](/blog/demenagement-nice/demenagement-pas-cher-nice-guide/).
+Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement économique à Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
 
 
 **Économie proportionnelle volume :** Plus le logement est grand, plus l'économie formule économique est importante (600€ sur T3 vs 200€ sur studio).
@@ -65,7 +65,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [déménagement é
 - ❌ Démontage meubles simples (vous gérez)
 - ❌ Cartons fournis (vous achetez/récupérez)
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas chères pour déménager à Nice](/blog/demenagement-nice/demenagement-pas-cher-nice-guide/).
+Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas chères pour déménager à Nice](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
 
 - ❌ Emballage objets fragiles (vous faites avec précautions)
 
@@ -113,7 +113,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [solutions pas 
 - Professionnels (priorité rapidité sur économie)
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [réduire le coût de votre déménagement niçois](/blog/demenagement-nice/demenagement-pas-cher-nice-guide/).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [réduire le coût de votre déménagement niçois](/blog/demenagement-pas-cher-nice/demenagement-pas-cher-nice-guide).
 
 ## Conclusion
 

@@ -27,12 +27,12 @@ Dans ce guide complet, découvrez toutes les formes d'aide disponibles pour votr
 Découvrez toutes les solutions d'accompagnement pour votre déménagement à Nice :
 
 **Aides Financières :**
-- [Aides financières déménagement à Nice](/blog/aide-demenagement-nice/aide-financiere-demenagement-nice/) - CAF, Pôle Emploi, employeur, FSL
-- [Aide Pôle Emploi déménagement Nice](/blog/aide-demenagement-nice/aide-pole-emploi-demenagement-nice/) - Conditions, démarches, montants 2025
+- [Aides financières déménagement à Nice](/blog/conseils/aide-financiere-demenagement-nice) - CAF, Pôle Emploi, employeur, FSL
+- [Aide Pôle Emploi déménagement Nice](/blog/conseils/aide-pole-emploi-demenagement-nice) - Conditions, démarches, montants 2025
 
 **Aide Humaine et Manutention :**
-- [Aide manutention déménagement Nice](/blog/aide-demenagement-nice/aide-manutention-demenagement-nice/) - Professionnels à l'heure, formules flexibles
-- [Déménagement personnes âgées à Nice](/blog/aide-demenagement-nice/demenagement-personnes-agees-nice/) - Accompagnement adapté, services seniors
+- [Aide manutention déménagement Nice](/blog/conseils/aide-manutention-demenagement-nice) - Professionnels à l'heure, formules flexibles
+- [Déménagement personnes âgées à Nice](/blog/conseils/demenagement-personnes-agees-nice) - Accompagnement adapté, services seniors
 
 ## Pourquoi chercher de l'aide pour votre déménagement à Nice ?
 

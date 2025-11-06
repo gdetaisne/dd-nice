@@ -17,7 +17,7 @@ Le **Conservatoire Nice** forme **2 500 élèves musiciens** et la ville compte 
 **Fragilité extrême :**
 - **Bois précieux** : Épicéa, érable (sensibilité humidité 70-80% Nice)
 
-Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du déménagement de piano à Nice](/blog/demenagement-nice/demenagement-piano-nice-guide/).
+Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du déménagement de piano à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide).
 
 - **Vernis** : Craquelures si chocs/température
 - **Chevalet** : Désarme transport (cordes détendues)
@@ -116,7 +116,7 @@ Pour comprendre tous les aspects de ce sujet, consultez notre [guide complet du 
 - **Manche** : Réglage truss rod post-transport (luthier)
 
 
-Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement piano professionnel à Nice](/blog/demenagement-nice/demenagement-piano-nice-guide/).
+Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement piano professionnel à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide).
 
 **Emballage :**
 - Détendre cordes légèrement
@@ -225,7 +225,7 @@ Ces éléments s'inscrivent dans le contexte plus large de notre [déménagement
 - **Transport** : Responsabilité élève (étuis fournis)
 
 
-Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transport sécurisé de piano à Nice](/blog/demenagement-nice/demenagement-piano-nice-guide/).
+Pour approfondir ce sujet et découvrir tous nos conseils, consultez notre [transport sécurisé de piano à Nice](/blog/demenagement-piano-nice/demenagement-piano-nice-guide).
 
 ## FAQ Instruments Musique Déménagement Nice
 
