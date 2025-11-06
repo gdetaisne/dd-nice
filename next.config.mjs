@@ -178,6 +178,9 @@ const nextConfig = {
       { source: '/blog/pas-cher', destination: '/blog/demenagement-nice/demenagement-pas-cher-nice-guide/', permanent: true },
       { source: '/blog/piano', destination: '/blog/demenagement-nice/demenagement-piano-nice-guide/', permanent: true },
       { source: '/blog/prix', destination: '/blog/demenagement-nice/prix-demenagement-nice-guide/', permanent: true },
+      
+      // LEADGEN-02: Redirections 404 prioritaires (Nice - 06/11/2025)
+      { source: '/blog/entreprise/demenagement-archives-entreprise-nice', destination: '/blog/demenagement-entreprise-nice/', permanent: true },
 
       // MAUVAIS DOSSIER /demenagement/ → correct
       { source: '/demenagement/demenagement-une-piece-nice', destination: '/blog/satellites/demenagement-une-piece-nice/', permanent: true },
