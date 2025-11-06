@@ -108,6 +108,11 @@ const nextConfig = {
       { source: '/blog/satellites/demenagement-aquarium-poissons', destination: '/blog/satellites/demenagement-aquarium-poissons-nice/', permanent: true },
       { source: '/blog/satellites/caution-location-camion', destination: '/blog/satellites/caution-location-camion-nice/', permanent: true },
       { source: '/blog/satellites/demenagement-petit-budget', destination: '/blog/satellites/demenagement-petit-budget-nice/', permanent: true },
+      
+      // FICHIERS BATCH/LISTE/PILIER supprimés → /blog (06/11/2025)
+      // Redirections pour /blog/conseils/ ET /blog/satellites/ (au cas où)
+      { source: '/blog/conseils/LISTE-COMPLETE-50-SATELLITES-GENERES', destination: '/blog', permanent: true },
+      { source: '/blog/satellites/LISTE-COMPLETE-50-SATELLITES-GENERES', destination: '/blog', permanent: true },
       { source: '/blog/satellites/preparer-affaires-garde-meuble', destination: '/blog/satellites/preparer-affaires-garde-meuble-nice/', permanent: true },
       { source: '/blog/satellites/demenagement-urgence-rapide', destination: '/blog/satellites/demenagement-urgence-rapide-nice/', permanent: true },
       { source: '/blog/satellites/demenagement-cabinet-medical', destination: '/blog/satellites/demenagement-cabinet-medical-nice/', permanent: true },
