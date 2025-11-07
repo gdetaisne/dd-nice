@@ -15,6 +15,9 @@ import { buildFaqPageSchema } from '@/lib/schema/faq';
  * - Organization + LocalBusiness (toutes pages)
  * - HowTo (homepage uniquement)
  * - Service + FAQPage (pages /services/demenagement-{type}-{ville}/)
+ * - Service (pages corridors /{ville}-vers-{destination}/)
+ * - Service (pages quartiers /{ville}/{quartier}/)
+ * - Service (page index /services/)
  * - Article (pages blog - future)
  */
 export default function DynamicStructuredData() {
@@ -191,6 +194,109 @@ export default function DynamicStructuredData() {
 
     // Ajouter les schemas au graph
     graph.push(serviceSchema, faqSchema);
+  }
+
+  // 4. Service (page index /services/)
+  if (pathname === '/services' || pathname === '/services/') {
+    const serviceSchema = {
+      ...buildServiceSchema({
+        name: `Services Déménagement ${city.nameCapitalized}`,
+        serviceType: 'Déménagement',
+        url: getCanonicalUrl('services'),
+        areaServed: [city.nameCapitalized],
+        priceRange: '€-€€€',
+      }),
+      provider: {
+        '@type': 'Organization',
+        '@id': `${city.siteUrl}/#organization`,
+        name: `Déménageurs ${city.nameCapitalized} (IA)`,
+        url: city.siteUrl,
+      },
+      hasOfferCatalog: {
+        '@type': 'OfferCatalog',
+        name: 'Formules de déménagement',
+        itemListElement: [
+          {
+            '@type': 'Offer',
+            itemOffered: {
+              '@type': 'Service',
+              name: 'Déménagement Économique',
+              description: 'Pour les budgets serrés',
+            },
+          },
+          {
+            '@type': 'Offer',
+            itemOffered: {
+              '@type': 'Service',
+              name: 'Déménagement Standard',
+              description: 'Le plus populaire',
+            },
+          },
+          {
+            '@type': 'Offer',
+            itemOffered: {
+              '@type': 'Service',
+              name: 'Déménagement Premium',
+              description: 'Service haut de gamme',
+            },
+          },
+        ],
+      },
+    };
+    graph.push(serviceSchema);
+  }
+
+  // 5. Service (pages corridors /{ville}-vers-{destination}/)
+  const corridorMatch = pathname?.match(new RegExp(`^/${city.slug}-vers-([a-z-]+)/?$`));
+  if (corridorMatch) {
+    const destination = corridorMatch[1];
+    const destinationCapitalized = destination
+      .split('-')
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+
+    const serviceSchema = {
+      ...buildServiceSchema({
+        name: `Déménagement ${city.nameCapitalized} → ${destinationCapitalized}`,
+        serviceType: 'Déménagement Longue Distance',
+        url: getCanonicalUrl(`${city.slug}-vers-${destination}`),
+        areaServed: [city.nameCapitalized, destinationCapitalized],
+        priceRange: '€€€',
+      }),
+      provider: {
+        '@type': 'Organization',
+        '@id': `${city.siteUrl}/#organization`,
+        name: `Déménageurs ${city.nameCapitalized} (IA)`,
+        url: city.siteUrl,
+      },
+    };
+    graph.push(serviceSchema);
+  }
+
+  // 6. Service (pages quartiers /{ville}/{quartier}/)
+  const quartierMatch = pathname?.match(new RegExp(`^/${city.slug}/([a-z-]+)/?$`));
+  if (quartierMatch) {
+    const quartierSlug = quartierMatch[1];
+    const quartier = city.neighborhoods.find((n) => n.slug === quartierSlug);
+    
+    if (quartier) {
+      const serviceSchema = {
+        ...buildServiceSchema({
+          name: `Déménagement ${quartier.name} (${city.nameCapitalized})`,
+          serviceType: 'Déménagement Local',
+          url: getCanonicalUrl(`${city.slug}/${quartierSlug}`),
+          areaServed: [quartier.name, city.nameCapitalized],
+          priceRange: '€€',
+        }),
+        provider: {
+          '@type': 'Organization',
+          '@id': `${city.siteUrl}/#organization`,
+          name: `Déménageurs ${city.nameCapitalized} (IA)`,
+          url: city.siteUrl,
+        },
+      };
+      graph.push(serviceSchema);
+    }
   }
 
   // Retourner le script JSON-LD
