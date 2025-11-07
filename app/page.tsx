@@ -3,6 +3,7 @@ import { getCityDataFromUrl } from "@/lib/cityData";
 import { env } from "@/lib/env";
 import { getCanonicalAlternates } from "@/lib/canonical-helper";
 import Hero from "@/components/Hero";
+import StructuredData from "@/components/StructuredData";
 import ValueTriad from "@/components/ValueTriad";
 import HowItWorks from "@/components/HowItWorks";
 import PhotoGuidelines from "@/components/PhotoGuidelines";
@@ -27,6 +28,7 @@ export default function Home() {
   
   return (
     <main className="bg-hero">
+      <StructuredData />
       <div className="halo" />
       
       {/* 1. Hero (inclut déjà social proof) */}
