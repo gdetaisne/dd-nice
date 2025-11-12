@@ -28,7 +28,6 @@ Tout savoir sur le transport professionnel de piano à Nice :
 
 **Prix et Assurance :**
 - [Prix déménagement piano à Nice 2025](/blog/demenagement-piano-nice/demenagement-piano-nice-prix/) - Tarifs selon type de piano et distance
-- [Assurer son piano pendant le transport à Nice](/blog/piano/assurer-piano-transport-nice/) - Garanties, franchises, indemnisation
 
 **Types de Piano :**
 - [Déménagement piano droit à Nice](/blog/demenagement-piano-nice/demenagement-piano-droit-nice/) - Transport piano vertical 250-350 kg
