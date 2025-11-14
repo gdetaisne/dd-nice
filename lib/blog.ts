@@ -166,12 +166,7 @@ export function getBlogPostsByCleanCategory(cleanCategory: string): BlogPost[] {
 
 export function getPilierPosts(): BlogPost[] {
   const posts = getAllBlogPosts();
-  // TASK-061: Filtrer catégories cassées par wildcards (doublons ville)
-  const blockedCategories = ['pas-cher', 'international', 'prix', 'garde-meuble', 'piano', 'aide', 'déménageur-professionnel'];
-  return posts.filter(post => 
-    post.type === 'pilier' && 
-    !blockedCategories.includes(post.cleanCategory)
-  );
+  return posts.filter(post => post.type === 'pilier');
 }
 
 export function getFeaturedPosts(): BlogPost[] {

@@ -23,6 +23,7 @@ Un déménagement à Nice implique **25-40 démarches administratives** (résili
 **☐ Budget déménagement**
 - Estimer coût (F2 : 1 000-1 400€, F3 : 1 600-2 200€)
 - Prévoir suppléments (monte-meuble 300-500€, cartons 100-180€)
+- [Calculer coût réel Nice](/blog/prix/cout-reel-demenagement-nice/)
 
 **☐ Rechercher déménageurs Nice**
 - Demander 3 devis minimum (Akte 21, Les Collinettes, Sterling)

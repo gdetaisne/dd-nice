@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import { getCityDataFromUrl } from "@/lib/cityData";
 import { env } from "@/lib/env";
 import { getCanonicalAlternates } from "@/lib/canonical-helper";
-import HeroDisruptive from "@/components/HeroDisruptive";
-import ValueTriadDisruptive from "@/components/ValueTriadDisruptive";
-import DevisOptionsLight from "@/components/DevisOptionsLight";
+import Hero from "@/components/Hero";
+import ValueTriad from "@/components/ValueTriad";
 import HowItWorks from "@/components/HowItWorks";
+import PhotoGuidelines from "@/components/PhotoGuidelines";
 import PricingPreview from "@/components/PricingPreview";
 import Testimonials from "@/components/Testimonials";
 import NeighborhoodsTeaser from "@/components/NeighborhoodsTeaser";
@@ -15,9 +15,9 @@ import LocalMoneyFAQ from "@/components/LocalMoneyFAQ";
 export const metadata: Metadata = (() => {
   const city = getCityDataFromUrl(env.SITE_URL);
   return {
-    title: `Déménagement ${city.nameCapitalized} — Devis Vraiment Comparables`,
+    title: `Déménagement ${city.nameCapitalized} — 5 Devis IA Comparables Gratuits`,
     description:
-      `Le seul comparateur où vous comparez vraiment. IA calcule votre volume → 3-5 devis sur la même base sous 7j. Dossier anonyme, gratuit. 1200+ clients ⭐4.9/5`,
+      `Déménagez à ${city.nameCapitalized} dès 280€. IA analyse vos photos → 5 devis comparables sous 7j. Gratuit, sans appels. 1200+ clients ⭐4.9/5`,
     ...getCanonicalAlternates(''),
   };
 })();
@@ -29,25 +29,10 @@ export default function Home() {
     <main className="bg-hero">
       <div className="halo" />
       
-      {/* 1. Hero DISRUPTIF */}
-      <HeroDisruptive />
+      {/* 1. Hero (inclut déjà social proof) */}
+      <Hero />
 
-      {/* 2. Choix méthode - 2 options */}
-      <section className="section py-16 md:py-20 bg-white">
-        <div className="container">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-900 mb-4">
-              2 façons d'obtenir vos devis
-            </h2>
-            <p className="text-gray-700 max-w-3xl mx-auto text-base md:text-lg">
-              Choisissez la méthode qui vous convient le mieux
-            </p>
-          </div>
-          <DevisOptionsLight />
-        </div>
-      </section>
-
-      {/* 3. Comment ça marche */}
+      {/* 2. Comment ça marche */}
       <section className="section py-16 md:py-20">
         <div className="container">
           <HowItWorks />
@@ -61,104 +46,43 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 4. Pourquoi nous sommes différents - TABLEAU COMPARATIF */}
-      <section className="section py-16 md:py-20 bg-gray-50">
+      {/* 4. Pourquoi Moverz - Différenciation + Garanties */}
+      <section className="section py-16 md:py-20">
         <div className="container">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-900 mb-4">
-              Pourquoi Moverz est le seul comparateur où vous comparez vraiment ?
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white mb-4">
+              Pourquoi choisir Moverz ?
             </h2>
-            <p className="text-gray-700 max-w-3xl mx-auto text-base md:text-lg">
-              Les autres vous envoient des devis. Nous vous envoyons des devis comparables.
+            <p className="text-white/80 max-w-2xl mx-auto text-base md:text-lg">
+              La première plateforme qui compare vraiment les devis de déménagement
             </p>
           </div>
 
-          {/* Tableau comparatif visuel */}
-          <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6 md:gap-8 mb-16">
-            {/* Les autres comparateurs */}
-            <div className="bg-white rounded-2xl p-8 border-2 border-red-500/40 shadow-sm">
-              <div className="flex items-center gap-3 mb-6">
-                <span className="text-3xl">❌</span>
-                <h3 className="text-xl md:text-2xl font-bold text-gray-900">
-                  Les autres comparateurs
-                </h3>
-              </div>
-              <div className="space-y-4">
-                <div className="flex items-start gap-3">
-                  <span className="text-red-500 text-xl mt-1 font-bold">✗</span>
-                  <div>
-                    <div className="text-gray-900 font-medium">Chaque déménageur estime différemment</div>
-                    <div className="text-gray-600 text-sm mt-1">Volume 20m³, 25m³, 30m³ (incomparable)</div>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="text-red-500 text-xl mt-1 font-bold">✗</span>
-                  <div>
-                    <div className="text-gray-900 font-medium">Coordonnées partagées immédiatement</div>
-                    <div className="text-gray-600 text-sm mt-1">"50 appels en 20 min" (avis client réel)</div>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="text-red-500 text-xl mt-1 font-bold">✗</span>
-                  <div>
-                    <div className="text-gray-900 font-medium">"Jusqu'à 6 devis" (pas de garantie)</div>
-                    <div className="text-gray-600 text-sm mt-1">Certains ne répondent jamais</div>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="text-red-500 text-xl mt-1 font-bold">✗</span>
-                  <div>
-                    <div className="text-gray-900 font-medium">"Audités" (vague)</div>
-                    <div className="text-gray-600 text-sm mt-1">Pas de détails sur la vérification</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Moverz */}
-            <div className="bg-gradient-to-br from-[#6bcfcf]/10 to-[#2b7a78]/5 rounded-2xl p-8 border-2 border-[#2b7a78] shadow-sm">
-              <div className="flex items-center gap-3 mb-6">
-                <span className="text-3xl">✅</span>
-                <h3 className="text-xl md:text-2xl font-bold text-gray-900">
-                  Moverz
-                </h3>
-              </div>
-              <div className="space-y-4">
-                <div className="flex items-start gap-3">
-                  <span className="text-[#2b7a78] text-xl mt-1 font-bold">✓</span>
-                  <div>
-                    <div className="text-gray-900 font-medium">Volume IA identique pour tous</div>
-                    <div className="text-gray-700 text-sm mt-1">28m³ envoyé à 5 déménageurs (vraiment comparable)</div>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="text-[#2b7a78] text-xl mt-1 font-bold">✓</span>
-                  <div>
-                    <div className="text-gray-900 font-medium">Dossier anonyme jusqu'à votre choix</div>
-                    <div className="text-gray-700 text-sm mt-1">Vos coordonnées restent privées</div>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="text-[#2b7a78] text-xl mt-1 font-bold">✓</span>
-                  <div>
-                    <div className="text-gray-900 font-medium">3-5 devis garantis sous 7 jours</div>
-                    <div className="text-gray-700 text-sm mt-1">Minimum 3 déménageurs répondent</div>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="text-[#2b7a78] text-xl mt-1 font-bold">✓</span>
-                  <div>
-                    <div className="text-gray-900 font-medium">Vérification Google + solvabilité</div>
-                    <div className="text-gray-700 text-sm mt-1">Transparent, critères objectifs</div>
+          {/* Différenciation - Card simple et claire */}
+          <div className="max-w-3xl mx-auto mb-12">
+            <div className="card-glass rounded-2xl p-8 border-2 border-[#6bcfcf]/30">
+              <div className="flex items-start gap-4">
+                <div className="text-4xl flex-shrink-0">💡</div>
+                <div>
+                  <h3 className="text-xl md:text-2xl font-bold text-white mb-3">
+                    La différence Moverz
+                  </h3>
+                  <p className="text-white/80 leading-relaxed">
+                    Notre IA analyse vos photos pour créer <strong className="text-[#6bcfcf]">un inventaire unique</strong>. 
+                    Tous les déménageurs chiffrent le même volume → vous comparez enfin ce qui est comparable.
+                  </p>
+                  <div className="mt-4 inline-flex items-center gap-2 text-sm text-[#6bcfcf]">
+                    <span>✓</span>
+                    <span>Fini les devis incomparables</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Garanties - ValueTriad DISRUPTIF */}
+          {/* Garanties - FOCUS principal */}
           <div>
-            <ValueTriadDisruptive />
+            <ValueTriad />
           </div>
         </div>
       </section>
@@ -171,89 +95,89 @@ export default function Home() {
       </section>
 
       {/* 6. Objection Handling */}
-      <section className="section py-16 md:py-20 bg-white">
+      <section className="section py-16 md:py-20">
         <div className="container">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-900 mb-4">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white mb-4">
               Pourquoi ne pas déménager seul ?
             </h2>
-            <p className="text-gray-700 max-w-2xl mx-auto text-base md:text-lg">
+            <p className="text-white/80 max-w-2xl mx-auto text-base md:text-lg">
               Comparez les avantages avant de décider
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {/* DIY */}
-            <div className="bg-gray-100 rounded-2xl p-8 border-2 border-gray-200">
-              <h3 className="text-xl font-semibold text-gray-900 mb-6 flex items-center gap-2">
+            <div className="card-glass rounded-2xl p-8">
+              <h3 className="text-xl font-semibold text-white mb-6 flex items-center gap-2">
                 <span className="text-2xl">🚗</span>
                 Déménagement seul
               </h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
-                  <div className="text-green-600 text-xl mt-1 font-bold">✓</div>
+                  <div className="text-green-400 text-xl mt-1">✓</div>
                   <div>
-                    <div className="text-gray-900 font-medium">Économie apparente</div>
-                    <div className="text-gray-600 text-sm">Location camion ~150€</div>
+                    <div className="text-white font-medium">Économie apparente</div>
+                    <div className="text-white/70 text-sm">Location camion ~150€</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="text-red-500 text-xl mt-1 font-bold">✗</div>
+                  <div className="text-red-400 text-xl mt-1">✗</div>
                   <div>
-                    <div className="text-gray-900 font-medium">Risques élevés</div>
-                    <div className="text-gray-600 text-sm">Blessures, casse, fatigue</div>
+                    <div className="text-white font-medium">Risques élevés</div>
+                    <div className="text-white/70 text-sm">Blessures, casse, fatigue</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="text-red-500 text-xl mt-1 font-bold">✗</div>
+                  <div className="text-red-400 text-xl mt-1">✗</div>
                   <div>
-                    <div className="text-gray-900 font-medium">Temps important</div>
-                    <div className="text-gray-600 text-sm">2-3 jours minimum</div>
+                    <div className="text-white font-medium">Temps important</div>
+                    <div className="text-white/70 text-sm">2-3 jours minimum</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="text-red-500 text-xl mt-1 font-bold">✗</div>
+                  <div className="text-red-400 text-xl mt-1">✗</div>
                   <div>
-                    <div className="text-gray-900 font-medium">Aucune assurance pro</div>
-                    <div className="text-gray-600 text-sm">Casse à vos frais</div>
+                    <div className="text-white font-medium">Aucune assurance pro</div>
+                    <div className="text-white/70 text-sm">Casse à vos frais</div>
                   </div>
                 </div>
               </div>
             </div>
 
             {/* Pro avec Moverz */}
-            <div className="bg-gradient-to-br from-[#6bcfcf]/10 to-[#2b7a78]/5 rounded-2xl p-8 border-2 border-[#2b7a78]">
-              <h3 className="text-xl font-semibold text-gray-900 mb-6 flex items-center gap-2">
+            <div className="card-glass rounded-2xl p-8 border-2 border-[#6bcfcf]">
+              <h3 className="text-xl font-semibold text-white mb-6 flex items-center gap-2">
                 <span className="text-2xl">🚚</span>
                 Avec Moverz (dès 280€)
               </h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
-                  <div className="text-[#2b7a78] text-xl mt-1 font-bold">✓</div>
+                  <div className="text-[#6bcfcf] text-xl mt-1">✓</div>
                   <div>
-                    <div className="text-gray-900 font-medium">Prix transparent</div>
-                    <div className="text-gray-700 text-sm">5 devis comparables</div>
+                    <div className="text-white font-medium">Prix transparent</div>
+                    <div className="text-white/70 text-sm">5 devis comparables</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="text-[#2b7a78] text-xl mt-1 font-bold">✓</div>
+                  <div className="text-[#6bcfcf] text-xl mt-1">✓</div>
                   <div>
-                    <div className="text-gray-900 font-medium">Zéro risque</div>
-                    <div className="text-gray-700 text-sm">Pros assurés + vérifiés</div>
+                    <div className="text-white font-medium">Zéro risque</div>
+                    <div className="text-white/70 text-sm">Pros assurés + vérifiés</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="text-[#2b7a78] text-xl mt-1 font-bold">✓</div>
+                  <div className="text-[#6bcfcf] text-xl mt-1">✓</div>
                   <div>
-                    <div className="text-gray-900 font-medium">Gain de temps</div>
-                    <div className="text-gray-700 text-sm">Fini en 1 journée</div>
+                    <div className="text-white font-medium">Gain de temps</div>
+                    <div className="text-white/70 text-sm">Fini en 1 journée</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="text-[#2b7a78] text-xl mt-1 font-bold">✓</div>
+                  <div className="text-[#6bcfcf] text-xl mt-1">✓</div>
                   <div>
-                    <div className="text-gray-900 font-medium">Assurance tous risques</div>
-                    <div className="text-gray-700 text-sm">Casse couverte</div>
+                    <div className="text-white font-medium">Assurance tous risques</div>
+                    <div className="text-white/70 text-sm">Casse couverte</div>
                   </div>
                 </div>
               </div>
@@ -264,8 +188,8 @@ export default function Home() {
             <a href="/inventaire-ia/" className="btn-primary">
               Comparer 5 devis maintenant
             </a>
-            <p className="text-gray-600 text-sm mt-4">
-              ou <a href="/estimation-rapide/" className="text-[#2b7a78] underline hover:text-[#2b7a78]/80 font-medium">estimation rapide sans photos</a> (30 secondes)
+            <p className="text-white/60 text-sm mt-4">
+              ou <a href="/estimation-rapide/" className="text-[#6bcfcf] underline hover:text-[#6bcfcf]/80">estimation rapide sans photos</a> (30 secondes)
             </p>
           </div>
         </div>
@@ -276,7 +200,14 @@ export default function Home() {
         <LocalMoneyFAQ citySlug={city.slug} cityName={city.nameCapitalized} />
       </section>
 
-      {/* 8. Zones couvertes */}
+      {/* 8. Guides photos */}
+      <section className="section py-16 md:py-20 bg-gradient-to-br from-[#04163a]/60 to-[#2b7a78]/20 border-y border-white/20">
+        <div className="container">
+          <PhotoGuidelines />
+        </div>
+      </section>
+
+      {/* 9. Zones couvertes */}
       <section className="section py-16 md:py-20">
         <div className="container">
           <NeighborhoodsTeaser />
