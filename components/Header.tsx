@@ -213,7 +213,7 @@ export default function Header() {
             className="hidden sm:inline-flex h-11 items-center justify-center rounded-2xl bg-[#2b7a78] px-5 text-sm font-medium text-white shadow-marketing-xl hover:brightness-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50 transition duration-300"
             onClick={() => trackClick('cta-header')}
           >
-            Obtenir 5 devis gratuits
+            Comparez 5+ devis fiables gratuitement
           </Link>
           
           {/* Mobile Menu Button */}
@@ -326,7 +326,7 @@ export default function Header() {
                   trackClick('mobile-cta');
                 }}
               >
-                Obtenir 5 devis gratuits
+                Comparez 5+ devis fiables gratuitement
               </Link>
             </div>
           </div>
