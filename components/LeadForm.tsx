@@ -142,7 +142,7 @@ export default function LeadForm() {
         disabled={submitting}
         className="inline-flex h-11 w-full items-center justify-center rounded-2xl bg-[#2b7a78] px-5 text-sm font-medium text-white shadow-marketing-xl hover:brightness-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50 transition duration-300 disabled:cursor-not-allowed disabled:opacity-70 md:w-auto"
       >
-        {submitting ? "Envoi..." : "Obtenez vos devis précis gratuitement"}
+        {submitting ? "Envoi..." : "Recevez 5+ devis fiables gratuitement"}
       </button>
     </form>
   );
