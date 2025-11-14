@@ -108,7 +108,7 @@ export default function CtaPrimary({ placement, label, className = "" }: CtaPrim
             <div className="text-left">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6">
                 <span className="text-2xl">🚚</span>
-                <span className="text-sm font-medium text-white">Démarrez votre projet</span>
+                <span className="text-sm font-medium text-white">Comparateur anti-arnaque</span>
               </div>
               
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
