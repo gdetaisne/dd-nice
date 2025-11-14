@@ -18,8 +18,8 @@ export default function HowItWorks() {
     },
     {
       number: "3",
-      title: "Vous recevez vos devis précis gratuitement",
-      description: "5 offres adaptées sous 7 jours",
+      title: "Recevez au moins 5 devis sur LE MÊME inventaire",
+      description: "Sous 7 jours, minimum 5 pros contrôlés → enfin comparable !",
       image: "/images/how-it-works/step-3-loading.jpg",
       alt: "Équipe de déménagement chargeant des cartons dans un camion"
     }
@@ -59,7 +59,7 @@ export default function HowItWorks() {
       </div>
       
       <div className="text-center mt-10 md:mt-12 flex flex-col items-center justify-center gap-3 sm:flex-row">
-        <a href="/inventaire-ia/" className="btn-primary" aria-label="Obtenez vos devis précis gratuitement">Obtenez vos devis précis gratuitement</a>
+        <a href="/inventaire-ia/" className="btn-primary" aria-label="Recevez 5+ devis fiables gratuitement">Recevez 5+ devis fiables gratuitement</a>
         <a href="/comment-ca-marche/" className="btn-secondary">Comment ça marche</a>
       </div>
     </div>

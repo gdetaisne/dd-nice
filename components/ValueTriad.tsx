@@ -22,28 +22,28 @@ export default function ValueTriad() {
 
   const values = [
     {
-      icon: "🎯",
-      iconBg: "from-blue-500/20 to-cyan-500/20",
-      title: "IA précise",
-      description: "Estimation volumétrique ultra‑fiable à partir de vos photos"
+      icon: "✅",
+      iconBg: "from-green-500/20 to-emerald-500/20",
+      title: "5+ déménageurs contrôlés",
+      description: "Minimum 5 pros → Solidité financière vérifiée + Historique litiges analysé"
     },
     {
-      icon: "✨",
-      iconBg: "from-purple-500/20 to-pink-500/20",
-      title: "Transparence totale",
-      description: "Devis détaillés, aucun frais caché"
+      icon: "🎯",
+      iconBg: "from-blue-500/20 to-cyan-500/20",
+      title: "Devis vraiment comparables",
+      description: "L'IA crée UN inventaire unique → tous chiffrent le même volume"
     },
     {
       icon: "🆓",
-      iconBg: "from-green-500/20 to-emerald-500/20",
-      title: "100% gratuit",
-      description: "Comparez en toute liberté, sans engagement"
+      iconBg: "from-purple-500/20 to-pink-500/20",
+      title: "100% gratuit, sans engagement",
+      description: "Comparez en toute liberté, décidez sans pression"
     },
     {
-      icon: "🏆",
+      icon: "🚫",
       iconBg: "from-amber-500/20 to-yellow-500/20",
-      title: "Experts locaux",
-      description: `Déménageurs qualifiés (ex. ${city.nameCapitalized} & Gironde)`
+      title: "Sans harcèlement téléphonique",
+      description: "Zéro appel intempestif, vous recevez tout par email"
     }
   ];
 

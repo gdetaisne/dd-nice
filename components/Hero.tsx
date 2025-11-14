@@ -43,9 +43,25 @@ export default function Hero() {
       <div className="relative mx-auto max-w-7xl px-6 py-16 md:px-10 md:py-24 lg:py-28">
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div className="mx-auto max-w-2xl text-center lg:mx-0 lg:text-left">
-            <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">Préparez votre déménagement en 30 minutes</h1>
-            <p className="mt-3 text-lg md:text-xl text-white/90">Envoyez vos photos, recevez 5 devis fiables sous 7 jours — sans appels ni formulaires, l'IA s'occupe de tout.</p>
-            <div className="mt-5 flex flex-wrap items-center justify-center gap-3 text-sm text-white/80 lg:justify-start">
+            <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">Le seul comparateur où vous comparez vraiment</h1>
+            <p className="mt-3 text-lg md:text-xl text-white/90">Notre IA calcule votre volume exact (ex: 28 m³) et l'envoie à 5+ déménageurs contrôlés (solvabilité vérifiée, 0 litige). 100% gratuit, sans harcèlement.</p>
+            
+            <div className="mt-4 space-y-2 text-base md:text-lg text-white/90">
+              <div className="flex items-start gap-2 justify-center lg:justify-start">
+                <span className="text-[#6bcfcf] mt-1">✓</span>
+                <span>Volume identique pour tous les déménageurs</span>
+              </div>
+              <div className="flex items-start gap-2 justify-center lg:justify-start">
+                <span className="text-[#6bcfcf] mt-1">✓</span>
+                <span>Dossier anonyme jusqu'à votre choix</span>
+              </div>
+              <div className="flex items-start gap-2 justify-center lg:justify-start">
+                <span className="text-[#6bcfcf] mt-1">✓</span>
+                <span>5+ devis garantis sous 7 jours (gratuit)</span>
+              </div>
+            </div>
+
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-3 text-sm text-white/80 lg:justify-start">
               <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 ring-1 ring-white/15">
                 <Image src="/logo.png" alt="Logo Moverz" width={16} height={16} className="rounded-[3px]" />
                 <span>Propulsé par Moverz IA</span>
@@ -53,7 +69,7 @@ export default function Hero() {
               <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 ring-1 ring-white/15"><span className="h-1 w-1 rounded-full bg-white/50" />Déménageurs vérifiés</span>
             </div>
             <div className="mt-7 flex flex-col items-center justify-center gap-3 sm:flex-row lg:justify-start">
-              <a href="/inventaire-ia/" className="btn-primary" aria-label="Obtenez vos devis précis gratuitement">Obtenez vos devis précis gratuitement</a>
+              <a href="/inventaire-ia/" className="btn-primary" aria-label="Recevez 5+ devis fiables gratuitement">Recevez 5+ devis fiables gratuitement</a>
             </div>
             <div className="mt-6 flex flex-col items-center gap-4 text-sm text-white/80 sm:flex-row lg:justify-start">
               <div className="flex items-center gap-2">
@@ -119,7 +135,7 @@ export default function Hero() {
                   <div className="flex items-start gap-3">
                     <div className={`flex h-9 w-9 items-center justify-center rounded-lg ${stage === 3 ? "bg-emerald-400 text-[#04163a]" : "bg-white/10 text-white/70"}`}>{stage === 3 ? "✓" : "…"}</div>
                     <div>
-                      <div className="text-white font-medium">5 devis générés</div>
+                      <div className="text-white font-medium">5+ devis générés</div>
                       <div className={`text-xs ${stage === 3 ? "text-white/90" : "text-white/70"}`}>Prêts sous 7 jours</div>
                     </div>
                   </div>
