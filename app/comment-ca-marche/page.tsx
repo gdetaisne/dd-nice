@@ -51,7 +51,7 @@ export default function CommentCaMarchePage() {
               Comment recevoir 5+ devis comparables en 30 minutes
             </h1>
             <p className="mt-4 text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
-              Vous nous envoyez vos photos, notre IA calcule un inventaire unique et l'envoie à 5+ déménageurs contrôlés (solvabilité & litiges vérifiés). Résultat : des devis comparables, sans appels intempestifs, 100% gratuit.
+              Notre IA crée un inventaire unique et l'envoie à 5+ déménageurs contrôlés (solvabilité & litiges vérifiés). Résultat : des devis comparables, sans appels intempestifs, 100% gratuit.
             </p>
           </div>
         </div>

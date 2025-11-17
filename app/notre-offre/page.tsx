@@ -8,8 +8,8 @@ import { env } from "@/lib/env";
 const city = getCityDataFromUrl(env.SITE_URL);
 
 export const metadata: Metadata = {
-  title: `Notre Offre Déménagement ${city.nameCapitalized} - Calcul de volume en photos & 5+ devis | Moverz`,
-  description: `Notre IA crée un inventaire unique et l'envoie à 5+ déménageurs contrôlés (solvabilité vérifiée, 0 litige). Recevez des devis comparables en 7 jours, 100% gratuit et sans harcèlement.`,
+  title: `Notre Offre Déménagement ${city.nameCapitalized} - Calcul de volume en photos & 5+ devis`,
+  description: `Un inventaire et dossier unique envoyé à 5+ déménageurs contrôlés (solvabilité vérifiée, 0 litige). Recevez des devis comparables en 7 jours, 100% gratuit et sans harcèlement.`,
   alternates: {
     canonical: getCanonicalUrl('notre-offre'),
   },
@@ -50,10 +50,10 @@ export default function NotreOffrePage() {
               ]}
             />
             <h1 className="mt-6 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-              L'offre Moverz : 5+ devis comparables ou rien
+              L'offre de notre comparateur de déménageurs : 5+ devis comparables ou rien
             </h1>
             <p className="mt-4 text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
-              Notre IA transforme vos photos en inventaire unique, puis l’envoie à 5+ déménageurs contrôlés (solvabilité, litiges, avis clients). Vous recevez des devis alignés sur le même cahier des charges, sans appels intempestifs.
+              Un inventaire et dossier unique envoyé à 5+ déménageurs contrôlés (solvabilité vérifiée, 0 litige). Recevez des devis comparables en 7 jours, 100% gratuit et sans harcèlement.
             </p>
           </div>
         </div>
@@ -155,7 +155,7 @@ export default function NotreOffrePage() {
         <div className="container">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-2xl md:text-3xl font-semibold text-white mb-6">
-              Notre solution : IA + contrôles humains
+              Notre solution : Un inventaire unique et dossier unique envoyé à 5+ déménageurs contrôlés (solvabilité vérifiée, 0 litige)
             </h2>
             <p className="text-lg text-white/80 leading-relaxed mb-8">
               Notre approche innovante couplée d'une multitude d'outils d'IA et de traitement d'image 
@@ -174,7 +174,7 @@ export default function NotreOffrePage() {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-2">Calcul de volume en photos</h3>
-                <p className="text-white/70 text-sm">Photos → inventaire unique partagé à tous les déménageurs</p>
+                <p className="text-white/70 text-sm">Photos → inventaire unique et dossier unique envoyé à 5+ déménageurs contrôlés (solvabilité vérifiée, 0 litige)</p>
               </div>
 
               <div className="text-center">
@@ -184,7 +184,7 @@ export default function NotreOffrePage() {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-2">Comparables enfin</h3>
-                <p className="text-white/70 text-sm">UN cahier des charges → devis ligne par ligne identiques</p>
+                <p className="text-white/70 text-sm">Un cahier des charges unique → devis ligne par ligne identiques</p>
               </div>
 
               <div className="text-center">
