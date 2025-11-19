@@ -546,22 +546,17 @@ export default function InventaireIAPage() {
   };
 
   const handleNext = async () => {
-    // Étape 1 : Créer le lead (MODE DEMO - sans backend)
+    // Étape 1 : Créer le lead (PRODUCTION ACTIVÉE)
     if (formState.currentStep === 1 && !formState.leadId) {
       try {
         setIsSaving(true);
         
-        // MODE DEMO : Générer un ID local sans appeler le backend
-        const demoLeadId = `demo-${Date.now()}`;
-        setFormState((prev) => ({ ...prev, leadId: demoLeadId }));
-        console.log('✅ Lead créé (mode demo):', demoLeadId);
-        
-        /* PRODUCTION : Décommenter quand CORS sera configuré
         const source = getSource();
         const { id } = await createLead({
           firstName: formState.contactName,
           lastName: '',
           email: formState.email,
+          phone: formState.phone,
           estimationMethod: 'FORM',
           source,
           status: 'NEW',
@@ -571,8 +566,7 @@ export default function InventaireIAPage() {
           },
         });
         setFormState((prev) => ({ ...prev, leadId: id }));
-        console.log('✅ Lead créé:', id);
-        */
+        console.log('✅ Lead créé dans backend:', id);
       } catch (error) {
         console.error('❌ Erreur création lead:', error);
         // Fallback : Continuer en mode local
@@ -617,19 +611,6 @@ export default function InventaireIAPage() {
     try {
       setIsSaving(true);
       
-      // MODE DEMO : Sauvegarder seulement dans localStorage
-      console.log('✅ Lead finalisé (mode demo):', formState.leadId);
-      console.log('📊 Données complètes:', { ...formState, pricing });
-      
-      localStorage.setItem('moverz_completed_lead', JSON.stringify({
-        ...formState,
-        pricing,
-      }));
-      
-      // Redirect
-      window.location.href = '/inventaire-ia/merci/';
-      
-      /* PRODUCTION : Décommenter quand CORS sera configuré
       const originParsed = parseAddress(formState.originAddress);
       const destParsed = parseAddress(formState.destinationAddress);
       
@@ -667,8 +648,8 @@ export default function InventaireIAPage() {
         pricing,
       }));
       
+      console.log('✅ Lead finalisé et sauvegardé dans backend:', formState.leadId);
       window.location.href = '/inventaire-ia/merci/';
-      */
     } catch (error) {
       console.error('❌ Erreur finalisation:', error);
       alert('Erreur lors de l\'envoi final. Vos données sont sauvegardées. Contactez-nous si le problème persiste.');
