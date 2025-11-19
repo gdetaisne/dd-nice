@@ -53,10 +53,10 @@ export default function Testimonials() {
         </h2>
         <div className="flex flex-col items-center justify-center gap-1 text-base text-yellow-400 md:text-lg">
           <div className="flex items-center gap-2">
-            <span className="text-lg">⭐⭐⭐⭐⭐</span>
+          <span className="text-lg">⭐⭐⭐⭐⭐</span>
             <span className="text-sm text-[#04163a]/70 md:text-base">
               {ratingLabel} de moyenne
-            </span>
+          </span>
           </div>
           <p className="text-xs text-[#04163a]/60 md:text-sm">
             Clarté des devis, 0 spam, accompagnement, pros fiables.

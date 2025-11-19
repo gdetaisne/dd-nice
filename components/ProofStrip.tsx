@@ -63,7 +63,7 @@ export default function ProofStrip() {
             </div>
             <div className="mt-3 flex items-baseline gap-2">
               <span className="text-3xl md:text-4xl font-bold text-white">
-                {stat.value}
+              {stat.value}
               </span>
             </div>
             <p className="mt-3 text-sm text-white/75">{stat.caption}</p>

@@ -1,37 +1,3 @@
-const CheckIcon = ({ className = "" }: { className?: string }) => (
-  <svg
-    className={className}
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M5 13.5L9.5 18L19 7"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-);
-
-const CrossIcon = ({ className = "" }: { className?: string }) => (
-  <svg
-    className={className}
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M6 6L18 18M6 18L18 6"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-);
-
 export default function ComparisonSection() {
   const rows = [
     {
@@ -82,7 +48,7 @@ export default function ComparisonSection() {
                 <td className="align-top px-3 py-3">
                   <div className="flex items-start gap-2 text-white/70">
                     <span className="mt-1 flex h-5 w-5 items-center justify-center rounded-full bg-red-500/15 text-red-300">
-                      <CrossIcon className="h-3 w-3" />
+                      <span>×</span>
                     </span>
                     <span>{row.without}</span>
                   </div>
@@ -90,7 +56,7 @@ export default function ComparisonSection() {
                 <td className="align-top px-3 py-3">
                   <div className="flex items-start gap-2 text-emerald-100">
                     <span className="mt-1 flex h-5 w-5 items-center justify-center rounded-full bg-emerald-400/15 text-emerald-200">
-                      <CheckIcon className="h-3 w-3" />
+                      <span>✓</span>
                     </span>
                     <span>{row.with}</span>
                   </div>
