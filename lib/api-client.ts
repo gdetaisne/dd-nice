@@ -79,6 +79,9 @@ export interface UpdateLeadPayload {
 }
 
 export async function createLead(payload: CreateLeadPayload): Promise<{ id: string }> {
+  // 🔍 DEBUG: Log du payload envoyé
+  console.log('📤 Payload envoyé au backend:', JSON.stringify(payload, null, 2));
+  
   const response = await fetch(`${API_BASE_URL}/api/leads`, {
     method: 'POST',
     headers: {
@@ -89,7 +92,14 @@ export async function createLead(payload: CreateLeadPayload): Promise<{ id: stri
 
   if (!response.ok) {
     const errorData = await response.json().catch(() => ({ message: 'Unknown error' }));
-    const errorMessage = errorData.message || errorData.error || `Failed to create lead (${response.status})`;
+    // 🔍 DEBUG: Log de l'erreur complète
+    console.error('❌ Erreur backend complète:', {
+      status: response.status,
+      statusText: response.statusText,
+      errorData,
+      payload: JSON.stringify(payload, null, 2),
+    });
+    const errorMessage = errorData.message || errorData.error || errorData.details || `Failed to create lead (${response.status})`;
     throw new Error(errorMessage);
   }
 

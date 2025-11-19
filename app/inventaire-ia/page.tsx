@@ -592,13 +592,21 @@ export default function InventaireIAPage() {
         setIsSaving(true);
         
         const source = getSource();
+        
+        // Vérifier que source n'est pas vide (requis par backend)
+        if (!source || !source.trim()) {
+          alert('Erreur: Source non détectée. Veuillez réessayer.');
+          return;
+        }
+        
         const payload: any = {
           firstName: formState.contactName.trim(),
-          lastName: '',
           email: formState.email.trim(),
-          source,
+          source: source.trim(),
         };
         
+        // lastName: Omettre si vide (backend attend min(1) si présent)
+        // Si nécessaire, on peut ajouter un espace, mais mieux vaut omettre
         // Note: phone n'est pas dans FormState actuellement, peut être ajouté plus tard si nécessaire
         
         const { id } = await createLead(payload);
