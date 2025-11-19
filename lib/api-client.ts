@@ -3,11 +3,11 @@
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://moverz-backoffice.gslv.cloud';
 
 export interface CreateLeadPayload {
-  // Champs requis
+  // Champs requis (selon backend createLeadSchema)
   firstName: string;  // min 1 caractère
   email: string;      // format email valide
   
-  // Champs optionnels
+  // Champs optionnels (selon backend)
   lastName?: string;  // default "" si non fourni
   phone?: string;
   source?: string;

@@ -475,7 +475,7 @@ export default function InventaireIAPage() {
     setFormState((prev) => ({ ...prev, [field]: value }));
   };
 
-  // Sauvegarder le Lead dans le backend (debounced) - PRODUCTION ACTIVÉ
+  // Sauvegarder le Lead dans le backend (debounced) - PRODUCTION ACTIVÉE
   const saveToBackend = useCallback(async (state: FormState) => {
     if (state.currentStep === 1 && !state.leadId) return;
     
@@ -599,10 +599,7 @@ export default function InventaireIAPage() {
           source,
         };
         
-        // Ne pas envoyer phone si vide/undefined
-        if (formState.phone && formState.phone.trim()) {
-          payload.phone = formState.phone.trim();
-        }
+        // Note: phone n'est pas dans FormState actuellement, peut être ajouté plus tard si nécessaire
         
         const { id } = await createLead(payload);
         setFormState((prev) => ({ ...prev, leadId: id }));
@@ -1033,7 +1030,7 @@ export default function InventaireIAPage() {
                   </p>
                   <DatePicker
                     selected={formState.movingDate ? new Date(formState.movingDate) : null}
-                    onChange={(dates) => {
+                    onChange={(dates: Date | [Date | null, Date | null] | null) => {
                       if (Array.isArray(dates)) {
                         const [start, end] = dates;
                         updateField('movingDate', start ? start.toISOString().split('T')[0] : '');
