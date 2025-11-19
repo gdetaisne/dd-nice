@@ -3,33 +3,103 @@
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://moverz-backoffice.gslv.cloud';
 
 export interface CreateLeadPayload {
+  // Contact
   firstName: string;
   lastName: string;
   email: string;
   phone?: string;
+  
+  // Source & Tracking
+  source: string;
+  estimationMethod: 'FORM' | 'PHOTO';
+  status: 'NEW' | 'CONTACTED' | 'CONVERTED';
+  
+  // Adresses
   originAddress?: string;
   originCity?: string;
   originPostalCode?: string;
   destinationAddress?: string;
   destinationCity?: string;
   destinationPostalCode?: string;
+  
+  // Dates
   movingDate?: string;
+  movingDateEnd?: string;
+  dateFlexible?: boolean;
+  
+  // Volume & Surface
+  surfaceM2?: number;
   estimatedVolume?: number;
-  estimationMethod: 'FORM';
-  source: string;
-  status: 'NEW' | 'CONTACTED' | 'CONVERTED';
+  density?: string;
+  
+  // Formule & Prix
+  formule?: string;
+  estimatedPriceMin?: number;
+  estimatedPriceAvg?: number;
+  estimatedPriceMax?: number;
+  
+  // Logement Origine
+  originHousingType?: string;
+  originFloor?: number;
+  originElevator?: string;
+  originFurnitureLift?: string;
+  originCarryDistance?: string;
+  originParkingAuth?: boolean;
+  
+  // Logement Destination
+  destinationHousingType?: string;
+  destinationFloor?: number;
+  destinationElevator?: string;
+  destinationFurnitureLift?: string;
+  destinationCarryDistance?: string;
+  destinationParkingAuth?: boolean;
+  
+  // Métadonnées (UTM, referrer, etc.)
   metadata?: Record<string, any>;
 }
 
 export interface UpdateLeadPayload {
+  // Adresses
   originAddress?: string;
   originCity?: string;
   originPostalCode?: string;
   destinationAddress?: string;
   destinationCity?: string;
   destinationPostalCode?: string;
+  
+  // Dates
   movingDate?: string;
+  movingDateEnd?: string;
+  dateFlexible?: boolean;
+  
+  // Volume & Surface
+  surfaceM2?: number;
   estimatedVolume?: number;
+  density?: string;
+  
+  // Formule & Prix
+  formule?: string;
+  estimatedPriceMin?: number;
+  estimatedPriceAvg?: number;
+  estimatedPriceMax?: number;
+  
+  // Logement Origine
+  originHousingType?: string;
+  originFloor?: number;
+  originElevator?: string;
+  originFurnitureLift?: string;
+  originCarryDistance?: string;
+  originParkingAuth?: boolean;
+  
+  // Logement Destination
+  destinationHousingType?: string;
+  destinationFloor?: number;
+  destinationElevator?: string;
+  destinationFurnitureLift?: string;
+  destinationCarryDistance?: string;
+  destinationParkingAuth?: boolean;
+  
+  // Métadonnées
   metadata?: Record<string, any>;
 }
 
