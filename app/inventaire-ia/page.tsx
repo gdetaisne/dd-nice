@@ -591,22 +591,20 @@ export default function InventaireIAPage() {
       try {
         setIsSaving(true);
         
-        const source = getSource();
-        
-        // Vérifier que source n'est pas vide (requis par backend)
-        if (!source || !source.trim()) {
-          alert('Erreur: Source non détectée. Veuillez réessayer.');
-          return;
-        }
-        
+        // Payload minimal selon doc backend: firstName + email (requis)
+        // lastName, phone, source sont optionnels
         const payload: any = {
           firstName: formState.contactName.trim(),
           email: formState.email.trim(),
-          source: source.trim(),
         };
         
-        // lastName: Omettre si vide (backend attend min(1) si présent)
-        // Si nécessaire, on peut ajouter un espace, mais mieux vaut omettre
+        // Ajouter source si disponible (optionnel, mais utile pour tracking)
+        const source = getSource();
+        if (source && source.trim()) {
+          payload.source = source.trim();
+        }
+        
+        // Note: lastName omis (optionnel, backend mettra "" par défaut)
         // Note: phone n'est pas dans FormState actuellement, peut être ajouté plus tard si nécessaire
         
         const { id } = await createLead(payload);

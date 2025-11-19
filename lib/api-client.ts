@@ -81,6 +81,8 @@ export interface UpdateLeadPayload {
 export async function createLead(payload: CreateLeadPayload): Promise<{ id: string }> {
   // 🔍 DEBUG: Log du payload envoyé
   console.log('📤 Payload envoyé au backend:', JSON.stringify(payload, null, 2));
+  console.log('🌐 URL backend:', `${API_BASE_URL}/api/leads`);
+  console.log('🌐 Origin:', typeof window !== 'undefined' ? window.location.origin : 'SSR');
   
   const response = await fetch(`${API_BASE_URL}/api/leads`, {
     method: 'POST',
@@ -99,7 +101,18 @@ export async function createLead(payload: CreateLeadPayload): Promise<{ id: stri
       errorData,
       payload: JSON.stringify(payload, null, 2),
     });
-    const errorMessage = errorData.message || errorData.error || errorData.details || `Failed to create lead (${response.status})`;
+    
+    // Format backend: { success: false, error: "...", details: [...] }
+    let errorMessage = errorData.error || errorData.message || `Failed to create lead (${response.status})`;
+    
+    // Si details existe (validation Zod), afficher les détails
+    if (errorData.details && Array.isArray(errorData.details)) {
+      const validationErrors = errorData.details.map((d: any) => 
+        `${d.path?.join('.') || 'unknown'}: ${d.message || d.code}`
+      ).join(', ');
+      errorMessage = `${errorMessage} - ${validationErrors}`;
+    }
+    
     throw new Error(errorMessage);
   }
 
