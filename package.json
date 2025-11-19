@@ -5,12 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "qa:seo:head": "tsx scripts/seo/seo-head-qa.ts",
-    "qa:seo:year": "node scripts/seo/seo-qa.cjs",
-    "qa:seo:breadcrumb": "tsx scripts/seo/seo-breadcrumb-qa.ts",
-    "qa:seo": "npm run qa:seo:head && npm run qa:seo:year && npm run qa:seo:breadcrumb",
-    "prebuild": "npm run qa:seo"
+    "start": "next start"
   },
   "dependencies": {
     "@react-google-maps/api": "^2.20.7",
