@@ -160,6 +160,10 @@ export async function updateLead(leadId: string, payload: UpdateLeadPayload): Pr
     throw new Error('Cannot update demo lead. Please create a real lead first.');
   }
   
+  // 🔍 DEBUG: Log de la requête PATCH
+  console.log('📤 PATCH /api/leads/' + leadId);
+  console.log('📤 Payload PATCH:', JSON.stringify(payload, null, 2));
+  
   const response = await fetch(`${API_BASE_URL}/api/leads/${leadId}`, {
     method: 'PATCH',
     headers: {
@@ -169,10 +173,37 @@ export async function updateLead(leadId: string, payload: UpdateLeadPayload): Pr
   });
 
   if (!response.ok) {
-    const errorData = await response.json().catch(() => ({ message: 'Unknown error' }));
-    const errorMessage = errorData.message || errorData.error || `Failed to update lead (${response.status})`;
+    // Essayer de parser la réponse JSON, sinon récupérer le texte brut
+    let errorData: any = {};
+    const contentType = response.headers.get('content-type');
+    
+    if (contentType && contentType.includes('application/json')) {
+      try {
+        errorData = await response.json();
+      } catch (e) {
+        const text = await response.text();
+        errorData = { rawResponse: text };
+      }
+    } else {
+      const text = await response.text();
+      errorData = { rawResponse: text };
+    }
+    
+    // 🔍 DEBUG: Log de l'erreur complète
+    console.error('❌ Erreur PATCH backend:', {
+      status: response.status,
+      statusText: response.statusText,
+      errorData,
+      leadId,
+      url: `${API_BASE_URL}/api/leads/${leadId}`,
+      payload: JSON.stringify(payload, null, 2),
+    });
+    
+    const errorMessage = errorData.error || errorData.message || errorData.rawResponse || `Failed to update lead (${response.status})`;
     throw new Error(errorMessage);
   }
+  
+  console.log('✅ Lead mis à jour avec succès:', leadId);
 }
 
 // Fonction helper pour extraire ville et code postal d'une adresse

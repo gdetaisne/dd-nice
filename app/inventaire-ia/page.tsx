@@ -487,6 +487,9 @@ export default function InventaireIAPage() {
     
     if (!state.leadId) return;
     
+    // 🔍 DEBUG: Log de l'ID utilisé pour le PATCH
+    console.log('🔄 Tentative PATCH lead:', state.leadId);
+    
     try {
       setIsSaving(true);
       
