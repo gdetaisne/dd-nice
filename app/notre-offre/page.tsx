@@ -26,7 +26,7 @@ export default function NotreOffrePage() {
   return (
     <main className="bg-hero">
       <div className="halo" />
-
+      
       {/* 1. Hero sombre */}
       <section className="section section-contrast">
         <div className="container">
@@ -68,7 +68,7 @@ export default function NotreOffrePage() {
             <p className="text-sm text-[#4b5c6b]">
               Trois piliers pour rendre vos devis enfin comparables.
             </p>
-          </div>
+                </div>
           <div className="grid gap-4 md:grid-cols-3">
             <div className="group rounded-2xl border border-[#E3E5E8] bg-gradient-to-b from-white to-[#F8F9FA] p-5 shadow-sm shadow-black/5 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_18px_60px_rgba(15,23,42,0.15)]">
               <h3 className="text-base md:text-lg font-semibold text-[#04163a]">
@@ -78,7 +78,7 @@ export default function NotreOffrePage() {
                 Vous partagez une seule fois les infos clés sur votre
                 déménagement.
               </p>
-            </div>
+              </div>
             <div className="group rounded-2xl border border-[#E3E5E8] bg-gradient-to-b from-white to-[#F8F9FA] p-5 shadow-sm shadow-black/5 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_18px_60px_rgba(15,23,42,0.15)]">
               <h3 className="text-base md:text-lg font-semibold text-[#04163a]">
                 Pros contrôlés
@@ -87,7 +87,7 @@ export default function NotreOffrePage() {
                 Seuls les déménageurs sérieux (assurances, avis, historique)
                 reçoivent votre dossier.
               </p>
-            </div>
+                </div>
             <div className="group rounded-2xl border border-[#E3E5E8] bg-gradient-to-b from-white to-[#F8F9FA] p-5 shadow-sm shadow-black/5 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_18px_60px_rgba(15,23,42,0.15)]">
               <h3 className="text-base md:text-lg font-semibold text-[#04163a]">
                 Devis comparables
@@ -119,8 +119,8 @@ export default function NotreOffrePage() {
               </h3>
               <p className="mt-2 text-sm text-white/75">
                 Quelques infos pratiques sur votre logement et vos dates.
-              </p>
-            </div>
+                  </p>
+                </div>
             <div className="rounded-2xl border border-white/10 bg-white/6 p-5 shadow-sm transition-all.duration-200 hover:-translate-y-1 hover:bg-white/10 hover:shadow-lg hover:shadow-black/40">
               <div className="mb-2 flex h-8 w-8 items-center justify-center rounded-full bg-[#E6FFFA] text-xs font-semibold text-[#0f766e]">
                 2
@@ -131,8 +131,8 @@ export default function NotreOffrePage() {
               <p className="mt-2 text-sm text-white/75">
                 On ne garde que des déménageurs contrôlés et on aligne les
                 devis sur la même base.
-              </p>
-            </div>
+                  </p>
+                </div>
             <div className="rounded-2xl border border-white/10 bg-white/6 p-5 shadow-sm transition-all.duration-200 hover:-translate-y-1 hover:bg-white/10 hover:shadow-lg hover:shadow-black/40">
               <div className="mb-2 flex h-8 w-8 items-center justify-center rounded-full bg-[#E6FFFA] text-xs font-semibold text-[#0f766e]">
                 3
@@ -142,7 +142,7 @@ export default function NotreOffrePage() {
               </h3>
               <p className="mt-2 text-sm text-white/75">
                 Vous choisissez en toute sérénité, sans spam ni appels forcés.
-              </p>
+                  </p>
             </div>
           </div>
         </div>
@@ -187,11 +187,11 @@ export default function NotreOffrePage() {
         <div className="container space-y-4 text-center">
           <h2 className="text-2xl md:text-3xl font-semibold text-white">
             Lancer mon comparateur de devis
-          </h2>
+            </h2>
           <p className="text-sm md:text-base text-white/80 max-w-xl mx-auto">
             Sans engagement · 0 spam · 5+ devis fiables pour votre déménagement
             à {city.nameCapitalized}.
-          </p>
+            </p>
           <a href="/inventaire-ia/" className="btn-primary">
             Commencer avec mon dossier unique
           </a>
