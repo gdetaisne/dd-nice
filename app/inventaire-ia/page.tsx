@@ -591,21 +591,31 @@ export default function InventaireIAPage() {
       try {
         setIsSaving(true);
         
-        // Payload minimal selon doc backend: firstName + email (requis)
-        // lastName, phone, source sont optionnels
+        // ⚠️ BACKEND RÉEL: Exige tous les champs (lastName, adresses) comme REQUIS
+        // Créer le lead avec valeurs par défaut pour champs non encore collectés
+        const source = getSource();
+        
+        // Extraire city/postalCode depuis les adresses si disponibles
+        const originParsed = formState.originAddress ? parseAddress(formState.originAddress) : { city: 'À compléter', postalCode: '00000' };
+        const destParsed = formState.destinationAddress ? parseAddress(formState.destinationAddress) : { city: 'À compléter', postalCode: '00000' };
+        
         const payload: any = {
+          // Contact (requis)
           firstName: formState.contactName.trim(),
+          lastName: '',  // ⚠️ REQUIS par backend, on met "" pour l'instant
           email: formState.email.trim(),
+          source: source && source.trim() ? source.trim() : 'devis-demenageur-nice.fr',
+          
+          // Adresses (REQUIS par backend, valeurs par défaut pour l'instant)
+          originAddress: formState.originAddress || 'À compléter',
+          originCity: originParsed.city || 'À compléter',
+          originPostalCode: originParsed.postalCode || '00000',
+          destAddress: formState.destinationAddress || 'À compléter',
+          destCity: destParsed.city || 'À compléter',
+          destPostalCode: destParsed.postalCode || '00000',
         };
         
-        // Ajouter source si disponible (optionnel, mais utile pour tracking)
-        const source = getSource();
-        if (source && source.trim()) {
-          payload.source = source.trim();
-        }
-        
-        // Note: lastName omis (optionnel, backend mettra "" par défaut)
-        // Note: phone n'est pas dans FormState actuellement, peut être ajouté plus tard si nécessaire
+        // Note: Ces valeurs par défaut seront mises à jour via PATCH lors des étapes suivantes
         
         const { id } = await createLead(payload);
         setFormState((prev) => ({ ...prev, leadId: id }));
