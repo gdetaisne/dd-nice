@@ -404,7 +404,6 @@ export default function InventaireIAPage() {
   const [isSaving, setIsSaving] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
   const saveTimeoutRef = useRef<NodeJS.Timeout | null>(null);
-  const leadCreatedAtRef = useRef<number | null>(null); // Timestamp de création du lead
 
   // Load from localStorage (only once on mount)
   useEffect(() => {
@@ -560,20 +559,11 @@ export default function InventaireIAPage() {
       clearTimeout(saveTimeoutRef.current);
     }
     
-    // ⚠️ Délai supplémentaire si le lead vient d'être créé (éviter 404)
-    let delay = 3000;
-    if (leadCreatedAtRef.current && formState.leadId) {
-      const timeSinceCreation = Date.now() - leadCreatedAtRef.current;
-      if (timeSinceCreation < 1000) {
-        // Lead créé il y a moins de 1 seconde → attendre encore 500ms
-        delay = 3000 + (1000 - timeSinceCreation) + 500;
-        console.log(`⏳ Lead créé récemment (${timeSinceCreation}ms), délai supplémentaire: ${delay}ms`);
-      }
-    }
-    
+    // ✅ Backend confirme : lead disponible immédiatement après POST
+    // Pas besoin de délai supplémentaire
     saveTimeoutRef.current = setTimeout(() => {
       saveToBackend(formState);
-    }, delay);
+    }, 3000);
     
     return () => {
       if (saveTimeoutRef.current) {
@@ -606,35 +596,32 @@ export default function InventaireIAPage() {
       try {
         setIsSaving(true);
         
-        // ⚠️ BACKEND RÉEL: Exige tous les champs (lastName, adresses) comme REQUIS
-        // Créer le lead avec valeurs par défaut pour champs non encore collectés
+        // ✅ PAYLOAD MINIMAL selon backend : firstName + email uniquement
+        // lastName et adresses sont optionnels (seront ajoutés via PATCH)
         const source = getSource();
         
-        // Extraire city/postalCode depuis les adresses si disponibles
-        const originParsed = formState.originAddress ? parseAddress(formState.originAddress) : { city: 'À compléter', postalCode: '00000' };
-        const destParsed = formState.destinationAddress ? parseAddress(formState.destinationAddress) : { city: 'À compléter', postalCode: '00000' };
+        // Validation email avant envoi
+        const emailTrimmed = formState.email.trim();
+        if (!emailTrimmed.includes('@') || !emailTrimmed.includes('.')) {
+          alert('Veuillez renseigner une adresse email valide.');
+          return;
+        }
         
         const payload: any = {
-          // Contact (requis)
+          // Champs REQUIS uniquement
           firstName: formState.contactName.trim(),
-          lastName: 'Non renseigné',  // ⚠️ REQUIS par backend avec min(1), valeur par défaut
-          email: formState.email.trim(),
-          source: source && source.trim() ? source.trim() : 'devis-demenageur-nice.fr',
-          
-          // Adresses (REQUIS par backend, valeurs par défaut pour l'instant)
-          originAddress: formState.originAddress || 'À compléter',
-          originCity: originParsed.city || 'À compléter',
-          originPostalCode: originParsed.postalCode || '00000',
-          destAddress: formState.destinationAddress || 'À compléter',
-          destCity: destParsed.city || 'À compléter',
-          destPostalCode: destParsed.postalCode || '00000',
+          email: emailTrimmed.toLowerCase(), // Normaliser en lowercase
         };
         
-        // Note: Ces valeurs par défaut seront mises à jour via PATCH lors des étapes suivantes
+        // Champs optionnels (ajoutés si disponibles)
+        if (source && source.trim()) {
+          payload.source = source.trim();
+        }
+        
+        // Note: lastName et adresses seront ajoutés via PATCH lors des étapes suivantes
         
         const { id } = await createLead(payload);
         setFormState((prev) => ({ ...prev, leadId: id }));
-        leadCreatedAtRef.current = Date.now(); // Marquer le timestamp de création
         console.log('✅ Lead créé dans backend:', id);
       } catch (error) {
         console.error('❌ Erreur création lead:', error);
