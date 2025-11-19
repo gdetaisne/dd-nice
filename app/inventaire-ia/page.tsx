@@ -602,7 +602,7 @@ export default function InventaireIAPage() {
         const payload: any = {
           // Contact (requis)
           firstName: formState.contactName.trim(),
-          lastName: '',  // ⚠️ REQUIS par backend, on met "" pour l'instant
+          lastName: 'Non renseigné',  // ⚠️ REQUIS par backend avec min(1), valeur par défaut
           email: formState.email.trim(),
           source: source && source.trim() ? source.trim() : 'devis-demenageur-nice.fr',
           
