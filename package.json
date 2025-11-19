@@ -13,7 +13,6 @@
     "prebuild": "npm run qa:seo"
   },
   "dependencies": {
-    "@next/swc-darwin-arm64": "^16.0.3",
     "@react-google-maps/api": "^2.20.7",
     "@types/react-datepicker": "^6.2.0",
     "clsx": "^2.1.1",
