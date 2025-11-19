@@ -404,6 +404,7 @@ export default function InventaireIAPage() {
   const [isSaving, setIsSaving] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
   const saveTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const leadCreatedAtRef = useRef<number | null>(null); // Timestamp de création du lead
 
   // Load from localStorage (only once on mount)
   useEffect(() => {
@@ -559,9 +560,20 @@ export default function InventaireIAPage() {
       clearTimeout(saveTimeoutRef.current);
     }
     
+    // ⚠️ Délai supplémentaire si le lead vient d'être créé (éviter 404)
+    let delay = 3000;
+    if (leadCreatedAtRef.current && formState.leadId) {
+      const timeSinceCreation = Date.now() - leadCreatedAtRef.current;
+      if (timeSinceCreation < 1000) {
+        // Lead créé il y a moins de 1 seconde → attendre encore 500ms
+        delay = 3000 + (1000 - timeSinceCreation) + 500;
+        console.log(`⏳ Lead créé récemment (${timeSinceCreation}ms), délai supplémentaire: ${delay}ms`);
+      }
+    }
+    
     saveTimeoutRef.current = setTimeout(() => {
       saveToBackend(formState);
-    }, 3000);
+    }, delay);
     
     return () => {
       if (saveTimeoutRef.current) {
@@ -622,6 +634,7 @@ export default function InventaireIAPage() {
         
         const { id } = await createLead(payload);
         setFormState((prev) => ({ ...prev, leadId: id }));
+        leadCreatedAtRef.current = Date.now(); // Marquer le timestamp de création
         console.log('✅ Lead créé dans backend:', id);
       } catch (error) {
         console.error('❌ Erreur création lead:', error);

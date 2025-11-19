@@ -154,14 +154,14 @@ export async function createLead(payload: CreateLeadPayload): Promise<{ id: stri
   throw new Error('Invalid response format from backend');
 }
 
-export async function updateLead(leadId: string, payload: UpdateLeadPayload): Promise<void> {
+export async function updateLead(leadId: string, payload: UpdateLeadPayload, retryCount = 0): Promise<void> {
   // ⚠️ Protection : Ne pas appeler backend avec demo ID
   if (leadId.startsWith('demo-')) {
     throw new Error('Cannot update demo lead. Please create a real lead first.');
   }
   
   // 🔍 DEBUG: Log de la requête PATCH
-  console.log('📤 PATCH /api/leads/' + leadId);
+  console.log(`📤 PATCH /api/leads/${leadId}${retryCount > 0 ? ` (retry ${retryCount})` : ''}`);
   console.log('📤 Payload PATCH:', JSON.stringify(payload, null, 2));
   
   const response = await fetch(`${API_BASE_URL}/api/leads/${leadId}`, {
@@ -173,6 +173,13 @@ export async function updateLead(leadId: string, payload: UpdateLeadPayload): Pr
   });
 
   if (!response.ok) {
+    // ⚠️ Retry automatique si 404 (lead pas encore disponible en DB)
+    if (response.status === 404 && retryCount < 3) {
+      const delay = (retryCount + 1) * 500; // 500ms, 1000ms, 1500ms
+      console.warn(`⚠️ 404 sur PATCH, retry dans ${delay}ms (tentative ${retryCount + 1}/3)`);
+      await new Promise(resolve => setTimeout(resolve, delay));
+      return updateLead(leadId, payload, retryCount + 1);
+    }
     // Essayer de parser la réponse JSON, sinon récupérer le texte brut
     let errorData: any = {};
     const contentType = response.headers.get('content-type');
