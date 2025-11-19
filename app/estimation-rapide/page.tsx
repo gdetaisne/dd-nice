@@ -351,14 +351,17 @@ function calculerDistanceIntelligente(villeDepart: string, villeArrivee: string)
   return Math.max(50, Math.min(800, facteurDistance));
 }
 
+// Import constants centralisés
+import { CONSTANTS } from '@/lib/moverz-constants';
+
 // Fonction de calcul des tarifs selon la distance
 function calculerTarifs(distance: number) {
   if (distance < 100) {
-    return { eco: 35, standard: 40, premium: 65 };
+    return CONSTANTS.pricing.tarifsByDistance.local;
   } else if (distance <= 500) {
-    return { eco: 60, standard: 95, premium: 130 };
+    return CONSTANTS.pricing.tarifsByDistance.regional;
   } else {
-    return { eco: 110, standard: 140, premium: 160 };
+    return CONSTANTS.pricing.tarifsByDistance.national;
   }
 }
 

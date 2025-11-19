@@ -475,67 +475,55 @@ export default function InventaireIAPage() {
     setFormState((prev) => ({ ...prev, [field]: value }));
   };
 
-  // Sauvegarder le Lead dans le backend (debounced)
+  // Sauvegarder le Lead dans le backend (debounced) - MODE DEMO DÉSACTIVÉ
   const saveToBackend = useCallback(async (state: FormState) => {
-    if (!state.leadId || state.currentStep === 1) return;
+    // MODE DEMO : Ne rien faire pour éviter erreurs CORS
+    console.log('💾 Sauvegarde locale (mode demo):', state.leadId);
+    return;
+    
+    /* PRODUCTION : Décommenter quand CORS sera configuré
+    if (state.currentStep === 1 && !state.leadId) return;
     
     try {
-      const originParsed = state.originAddress ? parseAddress(state.originAddress) : { city: '', postalCode: '' };
-      const destParsed = state.destinationAddress ? parseAddress(state.destinationAddress) : { city: '', postalCode: '' };
+      setIsSaving(true);
       
-      await updateLead(state.leadId, {
-        // Adresses
-        originAddress: state.originAddress,
-        originCity: originParsed.city,
-        originPostalCode: originParsed.postalCode,
-        destinationAddress: state.destinationAddress,
-        destinationCity: destParsed.city,
-        destinationPostalCode: destParsed.postalCode,
+      if (state.leadId) {
+        const originParsed = state.originAddress ? parseAddress(state.originAddress) : { city: '', postalCode: '' };
+        const destParsed = state.destinationAddress ? parseAddress(state.destinationAddress) : { city: '', postalCode: '' };
         
-        // Dates
-        movingDate: state.movingDate || undefined,
-        movingDateEnd: state.movingDateEnd || undefined,
-        dateFlexible: state.dateFlexible,
+        await updateLead(state.leadId, {
+          originAddress: state.originAddress,
+          originCity: originParsed.city,
+          originPostalCode: originParsed.postalCode,
+          destinationAddress: state.destinationAddress,
+          destinationCity: destParsed.city,
+          destinationPostalCode: destParsed.postalCode,
+          movingDate: state.movingDate || undefined,
+          estimatedVolume: pricing?.volumeM3,
+          metadata: {
+            currentStep: state.currentStep,
+            completedSteps,
+            housingType: state.housingType,
+            surfaceM2: state.surfaceM2,
+            density: state.density,
+            formule: state.formule,
+            originFloor: state.originFloor,
+            originElevator: state.originElevator,
+            destinationFloor: state.destinationFloor,
+            destinationElevator: state.destinationElevator,
+            dateFlexible: state.dateFlexible,
+            pricing: pricing || undefined,
+          },
+        });
         
-        // Volume & Surface
-        surfaceM2: state.surfaceM2 || undefined,
-        estimatedVolume: pricing?.volumeM3 || undefined,
-        density: state.density || undefined,
-        
-        // Formule & Prix
-        formule: state.formule || undefined,
-        estimatedPriceMin: pricing?.prixMin || undefined,
-        estimatedPriceAvg: pricing?.prixAvg || undefined,
-        estimatedPriceMax: pricing?.prixMax || undefined,
-        
-        // Logement Origine
-        originHousingType: state.originHousingType || undefined,
-        originFloor: state.originFloor,
-        originElevator: state.originElevator || undefined,
-        originFurnitureLift: state.originFurnitureLift || undefined,
-        originCarryDistance: state.originCarryDistance || undefined,
-        originParkingAuth: state.originParkingAuth,
-        
-        // Logement Destination
-        destinationHousingType: state.destinationHousingType || undefined,
-        destinationFloor: state.destinationFloor,
-        destinationElevator: state.destinationElevator || undefined,
-        destinationFurnitureLift: state.destinationFurnitureLift || undefined,
-        destinationCarryDistance: state.destinationCarryDistance || undefined,
-        destinationParkingAuth: state.destinationParkingAuth,
-        
-        // Métadonnées (step, etc.)
-        metadata: {
-          currentStep: state.currentStep,
-          completedSteps,
-          updatedAt: new Date().toISOString(),
-        },
-      });
-      
-      console.log('✅ Lead mis à jour:', state.leadId);
+        console.log('✅ Lead mis à jour:', state.leadId);
+      }
     } catch (error) {
       console.error('❌ Erreur sauvegarde backend:', error);
+    } finally {
+      setIsSaving(false);
     }
+    */
   }, [completedSteps, pricing]);
 
   // Debounce save (3s après dernière modif)
@@ -564,48 +552,38 @@ export default function InventaireIAPage() {
   };
 
   const handleNext = async () => {
-    // Étape 1 : Créer le lead avec toutes les données
+    // Étape 1 : Créer le lead (MODE DEMO - sans backend)
     if (formState.currentStep === 1 && !formState.leadId) {
       try {
         setIsSaving(true);
         
+        // MODE DEMO : Générer un ID local sans appeler le backend
+        const demoLeadId = `demo-${Date.now()}`;
+        setFormState((prev) => ({ ...prev, leadId: demoLeadId }));
+        console.log('✅ Lead créé (mode demo):', demoLeadId);
+        
+        /* PRODUCTION : Décommenter quand CORS sera configuré
         const source = getSource();
-        
-        // Collecter les UTM params
-        const urlParams = new URLSearchParams(window.location.search);
-        
         const { id } = await createLead({
-          // Contact
           firstName: formState.contactName,
           lastName: '',
           email: formState.email,
-          
-          // Source & Tracking
-          source,
           estimationMethod: 'FORM',
+          source,
           status: 'NEW',
-          
-          // Métadonnées (UTM, referrer, etc.)
           metadata: {
             currentStep: 1,
             startedAt: new Date().toISOString(),
-            entryUrl: window.location.href,
-            referrer: document.referrer,
-            userAgent: navigator.userAgent,
-            utmSource: urlParams.get('utm_source') || undefined,
-            utmMedium: urlParams.get('utm_medium') || undefined,
-            utmCampaign: urlParams.get('utm_campaign') || undefined,
-            utmTerm: urlParams.get('utm_term') || undefined,
-            utmContent: urlParams.get('utm_content') || undefined,
           },
         });
-        
         setFormState((prev) => ({ ...prev, leadId: id }));
         console.log('✅ Lead créé:', id);
+        */
       } catch (error) {
         console.error('❌ Erreur création lead:', error);
-        alert('Impossible de créer votre demande. Veuillez réessayer.');
-        return;
+        // Fallback : Continuer en mode local
+        const demoLeadId = `demo-${Date.now()}`;
+        setFormState((prev) => ({ ...prev, leadId: demoLeadId }));
       } finally {
         setIsSaving(false);
       }
@@ -645,72 +623,58 @@ export default function InventaireIAPage() {
     try {
       setIsSaving(true);
       
+      // MODE DEMO : Sauvegarder seulement dans localStorage
+      console.log('✅ Lead finalisé (mode demo):', formState.leadId);
+      console.log('📊 Données complètes:', { ...formState, pricing });
+      
+      localStorage.setItem('moverz_completed_lead', JSON.stringify({
+        ...formState,
+        pricing,
+      }));
+      
+      // Redirect
+      window.location.href = '/inventaire-ia/merci/';
+      
+      /* PRODUCTION : Décommenter quand CORS sera configuré
       const originParsed = parseAddress(formState.originAddress);
       const destParsed = parseAddress(formState.destinationAddress);
       
-      // Mise à jour finale avec status SUBMITTED
       await updateLead(formState.leadId, {
-        // Adresses
         originAddress: formState.originAddress,
         originCity: originParsed.city,
         originPostalCode: originParsed.postalCode,
         destinationAddress: formState.destinationAddress,
         destinationCity: destParsed.city,
         destinationPostalCode: destParsed.postalCode,
-        
-        // Dates
         movingDate: formState.movingDate || undefined,
-        movingDateEnd: formState.movingDateEnd || undefined,
-        dateFlexible: formState.dateFlexible,
-        
-        // Volume & Surface
-        surfaceM2: formState.surfaceM2,
         estimatedVolume: pricing?.volumeM3,
-        density: formState.density,
-        
-        // Formule & Prix
-        formule: formState.formule,
-        estimatedPriceMin: pricing?.prixMin,
-        estimatedPriceAvg: pricing?.prixAvg,
-        estimatedPriceMax: pricing?.prixMax,
-        
-        // Logement Origine
-        originHousingType: formState.originHousingType,
-        originFloor: formState.originFloor,
-        originElevator: formState.originElevator,
-        originFurnitureLift: formState.originFurnitureLift,
-        originCarryDistance: formState.originCarryDistance,
-        originParkingAuth: formState.originParkingAuth,
-        
-        // Logement Destination
-        destinationHousingType: formState.destinationHousingType,
-        destinationFloor: formState.destinationFloor,
-        destinationElevator: formState.destinationElevator,
-        destinationFurnitureLift: formState.destinationFurnitureLift,
-        destinationCarryDistance: formState.destinationCarryDistance,
-        destinationParkingAuth: formState.destinationParkingAuth,
-        
-        // Métadonnées finales
         metadata: {
           currentStep: 4,
           completedSteps: [1, 2, 3, 4],
           completedAt: new Date().toISOString(),
+          housingType: formState.housingType,
+          surfaceM2: formState.surfaceM2,
+          density: formState.density,
+          formule: formState.formule,
+          originFloor: formState.originFloor,
+          originElevator: formState.originElevator,
+          originParkingDifficult: formState.originParkingDifficult,
+          destinationFloor: formState.destinationFloor,
+          destinationElevator: formState.destinationElevator,
+          destinationParkingDifficult: formState.destinationParkingDifficult,
+          destinationUnknown: formState.destinationUnknown,
+          dateFlexible: formState.dateFlexible,
+          pricing: pricing || undefined,
         },
       });
       
-      console.log('✅ Lead finalisé:', formState.leadId);
-      
-      // Sauvegarder aussi en local (backup)
       localStorage.setItem('moverz_completed_lead', JSON.stringify({
         ...formState,
         pricing,
       }));
       
-      // Nettoyer la session
-      localStorage.removeItem('moverz_form_state');
-      
-      // Redirection vers page de remerciement
       window.location.href = '/inventaire-ia/merci/';
+      */
     } catch (error) {
       console.error('❌ Erreur finalisation:', error);
       alert('Erreur lors de l\'envoi final. Vos données sont sauvegardées. Contactez-nous si le problème persiste.');
