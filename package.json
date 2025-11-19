@@ -1,11 +1,7 @@
 {
-  "name": "demenageurs-toulouse",
+  "name": "demenageurs-nice",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -17,7 +13,6 @@
     "prebuild": "npm run qa:seo"
   },
   "dependencies": {
-    "@moverz/ui": "workspace:*",
     "@next/swc-darwin-arm64": "^16.0.3",
     "@react-google-maps/api": "^2.20.7",
     "@types/react-datepicker": "^6.2.0",
