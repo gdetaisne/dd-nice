@@ -555,6 +555,12 @@ export default function InventaireIAPage() {
 
   // Debounce save (3s après dernière modif)
   useEffect(() => {
+    // ⚠️ Ne pas sauvegarder automatiquement sur l'étape 4 (dernière étape)
+    // L'utilisateur va soumettre manuellement, pas besoin de save auto
+    if (formState.currentStep === 4) {
+      return;
+    }
+    
     if (saveTimeoutRef.current) {
       clearTimeout(saveTimeoutRef.current);
     }
