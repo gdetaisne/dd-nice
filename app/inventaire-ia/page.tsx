@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { FormState, INITIAL_FORM_STATE, PricingResult } from '@/lib/form-types';
 import { calculatePricing, calculateVolume, formatPrice, calculateDistance } from '@/lib/pricing';
-import { createLead, updateLead, parseAddress, getSource } from '@/lib/api-client';
+import { createLead, updateLead, parseAddress, getSource, mapElevatorToBackend, mapDensityToBackend, mapFurnitureLiftToBackend } from '@/lib/api-client';
 import { searchPostcode } from '@/lib/french-cities';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
@@ -487,26 +487,50 @@ export default function InventaireIAPage() {
         const destParsed = state.destinationAddress ? parseAddress(state.destinationAddress) : { city: '', postalCode: '' };
         
         await updateLead(state.leadId, {
-          originAddress: state.originAddress,
-          originCity: originParsed.city,
-          originPostalCode: originParsed.postalCode,
-          destinationAddress: state.destinationAddress,
-          destinationCity: destParsed.city,
-          destinationPostalCode: destParsed.postalCode,
+          // Adresses
+          originAddress: state.originAddress || undefined,
+          originCity: originParsed.city || undefined,
+          originPostalCode: originParsed.postalCode || undefined,
+          destAddress: state.destinationAddress || undefined,  // ⚠️ Backend attend "destAddress", pas "destinationAddress"
+          destCity: destParsed.city || undefined,
+          destPostalCode: destParsed.postalCode || undefined,
+          
+          // Dates
           movingDate: state.movingDate || undefined,
+          movingDateEnd: state.movingDateEnd || undefined,
+          dateFlexible: state.dateFlexible,
+          
+          // Volume & Surface
+          surfaceM2: state.surfaceM2 || undefined,
           estimatedVolume: pricing?.volumeM3,
+          density: mapDensityToBackend(state.density),  // ⚠️ Mapping: 'normal' → 'MEDIUM'
+          
+          // Formule & Prix
+          formule: state.formule,
+          estimatedPriceMin: pricing?.prixMin,
+          estimatedPriceAvg: pricing?.prixAvg,
+          estimatedPriceMax: pricing?.prixMax,
+          
+          // Détails logement origine
+          originHousingType: state.originHousingType,
+          originFloor: state.originFloor,
+          originElevator: mapElevatorToBackend(state.originElevator),  // ⚠️ Mapping: 'none'/'small'/'medium'/'large' → 'OUI'/'NON'/'PARTIEL'
+          originFurnitureLift: mapFurnitureLiftToBackend(state.originFurnitureLift),
+          originCarryDistance: state.originCarryDistance,
+          originParkingAuth: state.originParkingAuth,
+          
+          // Détails logement destination
+          destHousingType: state.destinationHousingType,
+          destFloor: state.destinationFloor,
+          destElevator: mapElevatorToBackend(state.destinationElevator),  // ⚠️ Mapping
+          destFurnitureLift: mapFurnitureLiftToBackend(state.destinationFurnitureLift),
+          destCarryDistance: state.destinationCarryDistance,
+          destParkingAuth: state.destinationParkingAuth,
+          
+          // Métadonnées (tracking interne uniquement)
           metadata: {
             currentStep: state.currentStep,
             completedSteps,
-            housingType: state.housingType,
-            surfaceM2: state.surfaceM2,
-            density: state.density,
-            formule: state.formule,
-            originFloor: state.originFloor,
-            originElevator: state.originElevator,
-            destinationFloor: state.destinationFloor,
-            destinationElevator: state.destinationElevator,
-            dateFlexible: state.dateFlexible,
             pricing: pricing || undefined,
           },
         });
@@ -615,30 +639,54 @@ export default function InventaireIAPage() {
       const destParsed = parseAddress(formState.destinationAddress);
       
       await updateLead(formState.leadId, {
-        originAddress: formState.originAddress,
-        originCity: originParsed.city,
-        originPostalCode: originParsed.postalCode,
-        destinationAddress: formState.destinationAddress,
-        destinationCity: destParsed.city,
-        destinationPostalCode: destParsed.postalCode,
+        // Adresses
+        originAddress: formState.originAddress || undefined,
+        originCity: originParsed.city || undefined,
+        originPostalCode: originParsed.postalCode || undefined,
+        destAddress: formState.destinationAddress || undefined,  // ⚠️ Backend attend "destAddress", pas "destinationAddress"
+        destCity: destParsed.city || undefined,
+        destPostalCode: destParsed.postalCode || undefined,
+        
+        // Dates
         movingDate: formState.movingDate || undefined,
+        movingDateEnd: formState.movingDateEnd || undefined,
+        dateFlexible: formState.dateFlexible,
+        
+        // Volume & Surface
+        surfaceM2: formState.surfaceM2 || undefined,
         estimatedVolume: pricing?.volumeM3,
+        density: mapDensityToBackend(formState.density),  // ⚠️ Mapping: 'normal' → 'MEDIUM'
+        
+        // Formule & Prix
+        formule: formState.formule,
+        estimatedPriceMin: pricing?.prixMin,
+        estimatedPriceAvg: pricing?.prixAvg,
+        estimatedPriceMax: pricing?.prixMax,
+        
+        // Détails logement origine
+        originHousingType: formState.originHousingType,
+        originFloor: formState.originFloor,
+        originElevator: mapElevatorToBackend(formState.originElevator),  // ⚠️ Mapping
+        originFurnitureLift: mapFurnitureLiftToBackend(formState.originFurnitureLift),
+        originCarryDistance: formState.originCarryDistance,
+        originParkingAuth: formState.originParkingAuth,
+        
+        // Détails logement destination
+        destHousingType: formState.destinationHousingType,
+        destFloor: formState.destinationFloor,
+        destElevator: mapElevatorToBackend(formState.destinationElevator),  // ⚠️ Mapping
+        destFurnitureLift: mapFurnitureLiftToBackend(formState.destinationFurnitureLift),
+        destCarryDistance: formState.destinationCarryDistance,
+        destParkingAuth: formState.destinationParkingAuth,
+        
+        // Status (marquer comme complété)
+        status: 'CONVERTED',
+        
+        // Métadonnées (tracking interne uniquement)
         metadata: {
           currentStep: 4,
           completedSteps: [1, 2, 3, 4],
           completedAt: new Date().toISOString(),
-          housingType: formState.housingType,
-          surfaceM2: formState.surfaceM2,
-          density: formState.density,
-          formule: formState.formule,
-          originFloor: formState.originFloor,
-          originElevator: formState.originElevator,
-          originParkingDifficult: formState.originParkingDifficult,
-          destinationFloor: formState.destinationFloor,
-          destinationElevator: formState.destinationElevator,
-          destinationParkingDifficult: formState.destinationParkingDifficult,
-          destinationUnknown: formState.destinationUnknown,
-          dateFlexible: formState.dateFlexible,
           pricing: pricing || undefined,
         },
       });
