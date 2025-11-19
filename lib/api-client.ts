@@ -3,22 +3,19 @@
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://moverz-backoffice.gslv.cloud';
 
 export interface CreateLeadPayload {
-  firstName: string;
-  lastName: string;
-  email: string;
+  // Champs requis
+  firstName: string;  // min 1 caractère
+  email: string;      // format email valide
+  
+  // Champs optionnels
+  lastName?: string;  // default "" si non fourni
   phone?: string;
-  originAddress?: string;
-  originCity?: string;
-  originPostalCode?: string;
-  destinationAddress?: string;
-  destinationCity?: string;
-  destinationPostalCode?: string;
-  movingDate?: string;
-  estimatedVolume?: number;
-  estimationMethod: 'FORM';
-  source: string;
-  status: 'NEW' | 'CONTACTED' | 'CONVERTED';
-  metadata?: Record<string, any>;
+  source?: string;
+  estimationMethod?: 'FORM' | 'PHOTO';
+  status?: 'NEW' | 'CONTACTED' | 'CONVERTED' | 'ABANDONED';  // default "NEW"
+  
+  // ⚠️ NOTE: Les autres champs (adresses, dates, volume, etc.) doivent être envoyés via PATCH /api/leads/:id
+  // Le POST initial crée seulement un lead minimal avec contact
 }
 
 export interface UpdateLeadPayload {
@@ -91,14 +88,32 @@ export async function createLead(payload: CreateLeadPayload): Promise<{ id: stri
   });
 
   if (!response.ok) {
-    const error = await response.json().catch(() => ({ message: 'Unknown error' }));
-    throw new Error(error.message || 'Failed to create lead');
+    const errorData = await response.json().catch(() => ({ message: 'Unknown error' }));
+    const errorMessage = errorData.message || errorData.error || `Failed to create lead (${response.status})`;
+    throw new Error(errorMessage);
   }
 
-  return await response.json();
+  const result = await response.json();
+  
+  // Backend retourne { success: true, data: { id: "...", ... } }
+  if (result.success && result.data && result.data.id) {
+    return { id: result.data.id };
+  }
+  
+  // Fallback si format différent
+  if (result.id) {
+    return { id: result.id };
+  }
+  
+  throw new Error('Invalid response format from backend');
 }
 
 export async function updateLead(leadId: string, payload: UpdateLeadPayload): Promise<void> {
+  // ⚠️ Protection : Ne pas appeler backend avec demo ID
+  if (leadId.startsWith('demo-')) {
+    throw new Error('Cannot update demo lead. Please create a real lead first.');
+  }
+  
   const response = await fetch(`${API_BASE_URL}/api/leads/${leadId}`, {
     method: 'PATCH',
     headers: {
@@ -108,8 +123,9 @@ export async function updateLead(leadId: string, payload: UpdateLeadPayload): Pr
   });
 
   if (!response.ok) {
-    const error = await response.json().catch(() => ({ message: 'Unknown error' }));
-    throw new Error(error.message || 'Failed to update lead');
+    const errorData = await response.json().catch(() => ({ message: 'Unknown error' }));
+    const errorMessage = errorData.message || errorData.error || `Failed to update lead (${response.status})`;
+    throw new Error(errorMessage);
   }
 }
 

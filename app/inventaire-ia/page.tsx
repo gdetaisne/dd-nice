@@ -479,64 +479,70 @@ export default function InventaireIAPage() {
   const saveToBackend = useCallback(async (state: FormState) => {
     if (state.currentStep === 1 && !state.leadId) return;
     
+    // ⚠️ Ne pas sauvegarder si leadId est un demo ID (ne devrait plus arriver)
+    if (state.leadId && state.leadId.startsWith('demo-')) {
+      console.warn('⚠️ Tentative de sauvegarde avec demo ID, ignorée:', state.leadId);
+      return;
+    }
+    
+    if (!state.leadId) return;
+    
     try {
       setIsSaving(true);
       
-      if (state.leadId) {
-        const originParsed = state.originAddress ? parseAddress(state.originAddress) : { city: '', postalCode: '' };
-        const destParsed = state.destinationAddress ? parseAddress(state.destinationAddress) : { city: '', postalCode: '' };
+      const originParsed = state.originAddress ? parseAddress(state.originAddress) : { city: '', postalCode: '' };
+      const destParsed = state.destinationAddress ? parseAddress(state.destinationAddress) : { city: '', postalCode: '' };
+      
+      await updateLead(state.leadId, {
+        // Adresses
+        originAddress: state.originAddress || undefined,
+        originCity: originParsed.city || undefined,
+        originPostalCode: originParsed.postalCode || undefined,
+        destAddress: state.destinationAddress || undefined,  // ⚠️ Backend attend "destAddress", pas "destinationAddress"
+        destCity: destParsed.city || undefined,
+        destPostalCode: destParsed.postalCode || undefined,
         
-        await updateLead(state.leadId, {
-          // Adresses
-          originAddress: state.originAddress || undefined,
-          originCity: originParsed.city || undefined,
-          originPostalCode: originParsed.postalCode || undefined,
-          destAddress: state.destinationAddress || undefined,  // ⚠️ Backend attend "destAddress", pas "destinationAddress"
-          destCity: destParsed.city || undefined,
-          destPostalCode: destParsed.postalCode || undefined,
-          
-          // Dates
-          movingDate: state.movingDate || undefined,
-          movingDateEnd: state.movingDateEnd || undefined,
-          dateFlexible: state.dateFlexible,
-          
-          // Volume & Surface
-          surfaceM2: state.surfaceM2 || undefined,
-          estimatedVolume: pricing?.volumeM3,
-          density: mapDensityToBackend(state.density),  // ⚠️ Mapping: 'normal' → 'MEDIUM'
-          
-          // Formule & Prix
-          formule: state.formule,
-          estimatedPriceMin: pricing?.prixMin,
-          estimatedPriceAvg: pricing?.prixAvg,
-          estimatedPriceMax: pricing?.prixMax,
-          
-          // Détails logement origine
-          originHousingType: state.originHousingType,
-          originFloor: state.originFloor,
-          originElevator: mapElevatorToBackend(state.originElevator),  // ⚠️ Mapping: 'none'/'small'/'medium'/'large' → 'OUI'/'NON'/'PARTIEL'
-          originFurnitureLift: mapFurnitureLiftToBackend(state.originFurnitureLift),
-          originCarryDistance: state.originCarryDistance,
-          originParkingAuth: state.originParkingAuth,
-          
-          // Détails logement destination
-          destHousingType: state.destinationHousingType,
-          destFloor: state.destinationFloor,
-          destElevator: mapElevatorToBackend(state.destinationElevator),  // ⚠️ Mapping
-          destFurnitureLift: mapFurnitureLiftToBackend(state.destinationFurnitureLift),
-          destCarryDistance: state.destinationCarryDistance,
-          destParkingAuth: state.destinationParkingAuth,
-          
-          // Métadonnées (tracking interne uniquement)
-          metadata: {
-            currentStep: state.currentStep,
-            completedSteps,
-            pricing: pricing || undefined,
-          },
-        });
+        // Dates
+        movingDate: state.movingDate || undefined,
+        movingDateEnd: state.movingDateEnd || undefined,
+        dateFlexible: state.dateFlexible,
         
-        console.log('✅ Lead mis à jour:', state.leadId);
-      }
+        // Volume & Surface
+        surfaceM2: state.surfaceM2 || undefined,
+        estimatedVolume: pricing?.volumeM3,
+        density: mapDensityToBackend(state.density),  // ⚠️ Mapping: 'normal' → 'MEDIUM'
+        
+        // Formule & Prix
+        formule: state.formule,
+        estimatedPriceMin: pricing?.prixMin,
+        estimatedPriceAvg: pricing?.prixAvg,
+        estimatedPriceMax: pricing?.prixMax,
+        
+        // Détails logement origine
+        originHousingType: state.originHousingType,
+        originFloor: state.originFloor,
+        originElevator: mapElevatorToBackend(state.originElevator),  // ⚠️ Mapping: 'none'/'small'/'medium'/'large' → 'OUI'/'NON'/'PARTIEL'
+        originFurnitureLift: mapFurnitureLiftToBackend(state.originFurnitureLift),
+        originCarryDistance: state.originCarryDistance,
+        originParkingAuth: state.originParkingAuth,
+        
+        // Détails logement destination
+        destHousingType: state.destinationHousingType,
+        destFloor: state.destinationFloor,
+        destElevator: mapElevatorToBackend(state.destinationElevator),  // ⚠️ Mapping
+        destFurnitureLift: mapFurnitureLiftToBackend(state.destinationFurnitureLift),
+        destCarryDistance: state.destinationCarryDistance,
+        destParkingAuth: state.destinationParkingAuth,
+        
+        // Métadonnées (tracking interne uniquement)
+        metadata: {
+          currentStep: state.currentStep,
+          completedSteps,
+          pricing: pricing || undefined,
+        },
+      });
+      
+      console.log('✅ Lead mis à jour:', state.leadId);
     } catch (error) {
       console.error('❌ Erreur sauvegarde backend:', error);
     } finally {
@@ -572,30 +578,41 @@ export default function InventaireIAPage() {
   const handleNext = async () => {
     // Étape 1 : Créer le lead (PRODUCTION ACTIVÉE)
     if (formState.currentStep === 1 && !formState.leadId) {
+      // Validation avant création
+      if (!formState.contactName || !formState.contactName.trim()) {
+        alert('Veuillez renseigner votre nom.');
+        return;
+      }
+      if (!formState.email || !formState.email.trim()) {
+        alert('Veuillez renseigner votre email.');
+        return;
+      }
+      
       try {
         setIsSaving(true);
         
         const source = getSource();
-        const { id } = await createLead({
-          firstName: formState.contactName,
+        const payload: any = {
+          firstName: formState.contactName.trim(),
           lastName: '',
-          email: formState.email,
-          phone: formState.phone,
-          estimationMethod: 'FORM',
+          email: formState.email.trim(),
           source,
-          status: 'NEW',
-          metadata: {
-            currentStep: 1,
-            startedAt: new Date().toISOString(),
-          },
-        });
+        };
+        
+        // Ne pas envoyer phone si vide/undefined
+        if (formState.phone && formState.phone.trim()) {
+          payload.phone = formState.phone.trim();
+        }
+        
+        const { id } = await createLead(payload);
         setFormState((prev) => ({ ...prev, leadId: id }));
         console.log('✅ Lead créé dans backend:', id);
       } catch (error) {
         console.error('❌ Erreur création lead:', error);
-        // Fallback : Continuer en mode local
-        const demoLeadId = `demo-${Date.now()}`;
-        setFormState((prev) => ({ ...prev, leadId: demoLeadId }));
+        // Afficher erreur à l'utilisateur au lieu de fallback demo
+        alert('Erreur lors de la création de votre demande. Veuillez réessayer ou nous contacter.');
+        // Ne pas continuer si création échoue
+        return;
       } finally {
         setIsSaving(false);
       }
@@ -629,6 +646,12 @@ export default function InventaireIAPage() {
   const handleSubmit = async () => {
     if (!formState.leadId) {
       alert('Erreur: Aucun lead créé. Veuillez recommencer.');
+      return;
+    }
+    
+    // ⚠️ Ne pas soumettre si leadId est un demo ID
+    if (formState.leadId.startsWith('demo-')) {
+      alert('Erreur: Votre demande n\'a pas pu être créée. Veuillez recommencer depuis le début.');
       return;
     }
     
