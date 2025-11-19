@@ -736,7 +736,7 @@ export default function InventaireIAPage() {
       }));
       
       console.log('✅ Lead finalisé et sauvegardé dans backend:', formState.leadId);
-      window.location.href = '/inventaire-ia/merci/';
+      window.location.href = '/devis-gratuits/merci/';
     } catch (error) {
       console.error('❌ Erreur finalisation:', error);
       alert('Erreur lors de l\'envoi final. Vos données sont sauvegardées. Contactez-nous si le problème persiste.');

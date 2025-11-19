@@ -1,4 +1,4 @@
-import InventaireIAPage from '../inventaire-ia/page';
+import InventaireIAPage from '../devis-gratuits/page';
 
 export const metadata = {
   title: 'Tunnel Test - Lead Generation',

@@ -227,6 +227,11 @@ const nextConfig = {
       { source: '/prix-demenagement-nice/', destination: '/blog/prix-demenagement-nice/prix-demenagement-nice-guide/', permanent: true },
       { source: '/devis-demenagement-nice/', destination: '/estimation-rapide/', permanent: true },
 
+      // REDIRECTIONS inventaire-ia → devis-gratuits (20/01/2026)
+      { source: '/inventaire-ia', destination: '/devis-gratuits/', permanent: true },
+      { source: '/inventaire-ia/', destination: '/devis-gratuits/', permanent: true },
+      { source: '/inventaire-ia/:path*', destination: '/devis-gratuits/:path*', permanent: true },
+
       // CATÉGORIES BLOG VIDES → /blog (Fix CSV 30/10/2025)
       { source: '/blog/etudiant', destination: '/blog/', permanent: true },
       { source: '/blog/urgent', destination: '/blog/', permanent: true },

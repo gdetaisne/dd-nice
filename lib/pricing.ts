@@ -1,35 +1,20 @@
 // Algorithme de calcul du pricing pour le formulaire
+// Utilise moverz-constants.ts pour source unique de vérité
 
-const TYPE_COEFFICIENTS = {
-  studio: 0.30,
-  t1: 0.30,
-  t2: 0.35,
-  t3: 0.35,
-  t4: 0.40,
-  t5: 0.40,
-  house: 0.45,
-};
+import { CONSTANTS, type HousingType, type DensityType, type FormuleType } from './moverz-constants';
 
-const DENSITY_COEFFICIENTS = {
-  light: 0.90,   // Sobre : -10%
-  normal: 1.00,  // Normal : standard
-  dense: 1.10,   // Dense : +10%
-};
-
-const FORMULE_MULTIPLIERS = {
-  ECONOMIQUE: 1.10,
-  STANDARD: 1.25,
-  PREMIUM: 1.40,
-};
-
-const COEF_VOLUME = 80;   // 80€ par m3
-const COEF_DISTANCE = 1.2; // 1.20€ par km
-const PRIX_MIN_SOCLE = 400; // Prix minimum
+// Références aux constants pour compatibilité
+const TYPE_COEFFICIENTS = CONSTANTS.volumes.ratios;
+const DENSITY_COEFFICIENTS = CONSTANTS.volumes.densites;
+const FORMULE_MULTIPLIERS = CONSTANTS.pricing.formules;
+const COEF_VOLUME = CONSTANTS.pricing.coefficients.coefVolume;
+const COEF_DISTANCE = CONSTANTS.pricing.coefficients.coefDistance;
+const PRIX_MIN_SOCLE = CONSTANTS.pricing.coefficients.prixMinSocle;
 
 export function calculateVolume(
   surfaceM2: number,
-  housingType: keyof typeof TYPE_COEFFICIENTS,
-  density: keyof typeof DENSITY_COEFFICIENTS = 'normal'
+  housingType: HousingType,
+  density: DensityType = 'normal'
 ): number {
   const baseVolume = surfaceM2 * TYPE_COEFFICIENTS[housingType];
   const adjustedVolume = baseVolume * DENSITY_COEFFICIENTS[density];
@@ -40,28 +25,22 @@ export function calculateDistance(
   originCity: string,
   destCity: string
 ): number {
-  // Simplified distance calculation
-  // In production, use Google Maps Distance Matrix API
-  const distances: Record<string, Record<string, number>> = {
-    nice: { paris: 931, lyon: 472, marseille: 198, toulouse: 678 },
-    paris: { nice: 931, lyon: 463, marseille: 775, toulouse: 678 },
-    lyon: { nice: 472, paris: 463, marseille: 314, toulouse: 537 },
-    marseille: { nice: 198, paris: 775, lyon: 314, toulouse: 404 },
-    toulouse: { nice: 678, paris: 678, lyon: 537, marseille: 404 },
-  };
-  
+  // Utilise matrice complète 11×11 villes depuis moverz-constants
   const origin = originCity.toLowerCase();
   const dest = destCity.toLowerCase();
   
-  return distances[origin]?.[dest] || 500; // Default 500km
+  const distances = CONSTANTS.distances.villes[origin as keyof typeof CONSTANTS.distances.villes];
+  if (!distances) return CONSTANTS.distances.default;
+  
+  return distances[dest as keyof typeof distances] ?? CONSTANTS.distances.default;
 }
 
 export function calculatePricing(
   surfaceM2: number,
-  housingType: keyof typeof TYPE_COEFFICIENTS,
-  density: keyof typeof DENSITY_COEFFICIENTS,
+  housingType: HousingType,
+  density: DensityType,
   distanceKm: number,
-  formule: keyof typeof FORMULE_MULTIPLIERS
+  formule: FormuleType
 ) {
   // 1. Calcul volume
   const volumeM3 = calculateVolume(surfaceM2, housingType, density);
@@ -78,9 +57,9 @@ export function calculatePricing(
   // 4. Prix avec formule
   const prixAvg = Math.round(prixBase * formuleMultiplier);
   
-  // 5. Fourchette ±10%
-  const prixMin = Math.round(prixAvg * 0.90);
-  const prixMax = Math.round(prixAvg * 1.10);
+  // 5. Fourchette (depuis constants)
+  const prixMin = Math.round(prixAvg * CONSTANTS.pricing.margin.min);
+  const prixMax = Math.round(prixAvg * CONSTANTS.pricing.margin.max);
   
   return {
     volumeM3,
@@ -91,12 +70,6 @@ export function calculatePricing(
   };
 }
 
-export function formatPrice(price: number): string {
-  return new Intl.NumberFormat('fr-FR', {
-    style: 'currency',
-    currency: 'EUR',
-    minimumFractionDigits: 0,
-    maximumFractionDigits: 0,
-  }).format(price);
-}
+// Réexporte helper depuis constants pour compatibilité
+export { formatPrice } from './moverz-constants';
 

@@ -192,7 +192,7 @@ export default function NotreOffrePage() {
             Sans engagement · 0 spam · 5+ devis fiables pour votre déménagement
             à {city.nameCapitalized}.
             </p>
-          <a href="/inventaire-ia/" className="btn-primary">
+          <a href="/devis-gratuits/" className="btn-primary">
             Commencer avec mon dossier unique
           </a>
         </div>
