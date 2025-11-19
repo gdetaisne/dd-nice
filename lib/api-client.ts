@@ -93,7 +93,23 @@ export async function createLead(payload: CreateLeadPayload): Promise<{ id: stri
   });
 
   if (!response.ok) {
-    const errorData = await response.json().catch(() => ({ message: 'Unknown error' }));
+    // Essayer de parser la réponse JSON, sinon récupérer le texte brut
+    let errorData: any = {};
+    const contentType = response.headers.get('content-type');
+    
+    if (contentType && contentType.includes('application/json')) {
+      try {
+        errorData = await response.json();
+      } catch (e) {
+        console.warn('⚠️ Réponse JSON invalide, tentative texte brut');
+        const text = await response.text();
+        errorData = { rawResponse: text };
+      }
+    } else {
+      const text = await response.text();
+      errorData = { rawResponse: text };
+    }
+    
     // 🔍 DEBUG: Log de l'erreur complète
     console.error('❌ Erreur backend complète:', {
       status: response.status,
@@ -103,14 +119,21 @@ export async function createLead(payload: CreateLeadPayload): Promise<{ id: stri
     });
     
     // Format backend: { success: false, error: "...", details: [...] }
-    let errorMessage = errorData.error || errorData.message || `Failed to create lead (${response.status})`;
+    let errorMessage = errorData.error || errorData.message || errorData.rawResponse || `Failed to create lead (${response.status})`;
     
     // Si details existe (validation Zod), afficher les détails
     if (errorData.details && Array.isArray(errorData.details)) {
-      const validationErrors = errorData.details.map((d: any) => 
-        `${d.path?.join('.') || 'unknown'}: ${d.message || d.code}`
-      ).join(', ');
-      errorMessage = `${errorMessage} - ${validationErrors}`;
+      try {
+        const validationErrors = errorData.details.map((d: any) => {
+          // ⚠️ FIX: Vérifier que path est un array avant .join()
+          const pathStr = Array.isArray(d.path) ? d.path.join('.') : (d.path || 'unknown');
+          return `${pathStr}: ${d.message || d.code || 'validation error'}`;
+        }).join(', ');
+        errorMessage = `${errorMessage} - ${validationErrors}`;
+      } catch (e) {
+        console.error('⚠️ Erreur lors du parsing des détails Zod:', e);
+        // Continuer avec le message de base
+      }
     }
     
     throw new Error(errorMessage);
