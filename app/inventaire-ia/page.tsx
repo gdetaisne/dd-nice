@@ -475,13 +475,8 @@ export default function InventaireIAPage() {
     setFormState((prev) => ({ ...prev, [field]: value }));
   };
 
-  // Sauvegarder le Lead dans le backend (debounced) - MODE DEMO DÉSACTIVÉ
+  // Sauvegarder le Lead dans le backend (debounced) - PRODUCTION ACTIVÉ
   const saveToBackend = useCallback(async (state: FormState) => {
-    // MODE DEMO : Ne rien faire pour éviter erreurs CORS
-    console.log('💾 Sauvegarde locale (mode demo):', state.leadId);
-    return;
-    
-    /* PRODUCTION : Décommenter quand CORS sera configuré
     if (state.currentStep === 1 && !state.leadId) return;
     
     try {
@@ -523,7 +518,6 @@ export default function InventaireIAPage() {
     } finally {
       setIsSaving(false);
     }
-    */
   }, [completedSteps, pricing]);
 
   // Debounce save (3s après dernière modif)
