@@ -3,51 +3,10 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { FormState, INITIAL_FORM_STATE, PricingResult } from '@/lib/form-types';
 import { calculatePricing, calculateVolume, formatPrice, calculateDistance } from '@/lib/pricing';
-import { CONSTANTS, type HousingType } from '@/lib/moverz-constants';
 import { createLead, updateLead, parseAddress, getSource, mapElevatorToBackend, mapDensityToBackend, mapFurnitureLiftToBackend } from '@/lib/api-client';
 import { searchPostcode } from '@/lib/french-cities';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-
-// ============================================================================
-// MAPPINGS LOGEMENT ↔ CONSTANTS (Surface & Libellés)
-// ============================================================================
-
-const HOUSING_LABELS: Record<string, string> = {
-  studio: 'studio',
-  t1: 'T1',
-  t2: 'T2',
-  t3: 'T3',
-  t4: 'T4',
-  t5: 'T5',
-  house: 'maison plain-pied',
-  house_1floor: 'maison avec 1 étage',
-  house_2floors: 'maison avec 2 étages',
-  house_3floors: 'maison avec 3 étages ou plus',
-};
-
-const HOUSING_SURFACE_TYPICAL: Record<HousingType, number> = {
-  studio: CONSTANTS.surfaces.studio.typical,
-  t1: CONSTANTS.surfaces.t1.typical,
-  t2: CONSTANTS.surfaces.t2.typical,
-  t3: CONSTANTS.surfaces.t3.typical,
-  t4: CONSTANTS.surfaces.t4.typical,
-  t5: CONSTANTS.surfaces.t5.typical,
-  house: CONSTANTS.surfaces.house.typical,
-  house_1floor: CONSTANTS.surfaces.house_1floor.typical,
-  house_2floors: CONSTANTS.surfaces.house_2floors.typical,
-  house_3floors: CONSTANTS.surfaces.house_3floors.typical,
-};
-
-function getHousingLabel(housingType: string): string {
-  return HOUSING_LABELS[housingType] ?? housingType;
-}
-
-function getHousingSurfaceLabel(housingType: string): string {
-  const key = housingType as HousingType;
-  const surface = HOUSING_SURFACE_TYPICAL[key] ?? HOUSING_SURFACE_TYPICAL.t2;
-  return `~${surface}m²`;
-}
 
 // Types pour l'autocomplete
 interface AddressSuggestion {
@@ -596,12 +555,6 @@ export default function InventaireIAPage() {
 
   // Debounce save (3s après dernière modif)
   useEffect(() => {
-    // ⚠️ Ne pas sauvegarder automatiquement sur l'étape 4 (dernière étape)
-    // L'utilisateur va soumettre manuellement, pas besoin de save auto
-    if (formState.currentStep === 4) {
-      return;
-    }
-    
     if (saveTimeoutRef.current) {
       clearTimeout(saveTimeoutRef.current);
     }
@@ -683,11 +636,21 @@ export default function InventaireIAPage() {
     
     // Étape 2 → 3 : Pré-remplir la superficie moyenne selon le type de logement
     if (formState.currentStep === 2) {
-      const key = formState.originHousingType as HousingType;
-      const suggestedSurface = HOUSING_SURFACE_TYPICAL[key] ?? HOUSING_SURFACE_TYPICAL.t2;
+      const surfaces: Record<string, number> = {
+        studio: 25,
+        t1: 30,
+        t2: 45,
+        t3: 65,
+        t4: 85,
+        t5: 115,
+        house: 120,
+        house_1floor: 150,
+        house_2floors: 180,
+        house_3floors: 220,
+      };
+      const suggestedSurface = surfaces[formState.originHousingType] || 45;
       updateField('surfaceM2', suggestedSurface);
-      // On synchronise le type de logement pour le pricing, en conservant la distinction entre maisons
-      updateField('housingType', formState.originHousingType as FormState['housingType']);
+      updateField('housingType', formState.originHousingType); // Synchroniser
     }
     
     if (!completedSteps.includes(formState.currentStep)) {
@@ -773,7 +736,7 @@ export default function InventaireIAPage() {
       }));
       
       console.log('✅ Lead finalisé et sauvegardé dans backend:', formState.leadId);
-      window.location.href = '/devis-gratuits/merci/';
+      window.location.href = '/inventaire-ia/merci/';
     } catch (error) {
       console.error('❌ Erreur finalisation:', error);
       alert('Erreur lors de l\'envoi final. Vos données sont sauvegardées. Contactez-nous si le problème persiste.');
@@ -1153,11 +1116,31 @@ export default function InventaireIAPage() {
                 <p className="text-white/80 mb-4">
                   Superficie moyenne d'un{' '}
                   <span className="font-bold text-white">
-                    {getHousingLabel(formState.originHousingType)}
+                    {formState.originHousingType === 'studio' ? 'studio' :
+                     formState.originHousingType === 't1' ? 'T1' :
+                     formState.originHousingType === 't2' ? 'T2' :
+                     formState.originHousingType === 't3' ? 'T3' :
+                     formState.originHousingType === 't4' ? 'T4' :
+                     formState.originHousingType === 't5' ? 'T5' :
+                     formState.originHousingType === 'house' ? 'maison plain-pied' :
+                     formState.originHousingType === 'house_1floor' ? 'maison avec 1 étage' :
+                     formState.originHousingType === 'house_2floors' ? 'maison avec 2 étages' :
+                     formState.originHousingType === 'house_3floors' ? 'maison avec 3 étages ou plus' :
+                     formState.originHousingType}
                   </span>
                   {' '}:{' '}
                   <span className="font-bold text-brand-secondary">
-                    {getHousingSurfaceLabel(formState.originHousingType)}
+                    {formState.originHousingType === 'studio' ? '~25m²' :
+                     formState.originHousingType === 't1' ? '~30m²' :
+                     formState.originHousingType === 't2' ? '~45m²' :
+                     formState.originHousingType === 't3' ? '~65m²' :
+                     formState.originHousingType === 't4' ? '~85m²' :
+                     formState.originHousingType === 't5' ? '~115m²' :
+                     formState.originHousingType === 'house' ? '~120m²' :
+                     formState.originHousingType === 'house_1floor' ? '~150m²' :
+                     formState.originHousingType === 'house_2floors' ? '~180m²' :
+                     formState.originHousingType === 'house_3floors' ? '~220m²' :
+                     '~45m²'}
                   </span>
                   {' '}
                   <button 
@@ -1287,7 +1270,17 @@ export default function InventaireIAPage() {
                   <p className="text-white/80 mb-4">
                     Volume moyen pour un{' '}
                     <span className="font-bold text-white">
-                      {getHousingLabel(formState.originHousingType)}
+                      {formState.originHousingType === 'studio' ? 'studio' :
+                       formState.originHousingType === 't1' ? 'T1' :
+                       formState.originHousingType === 't2' ? 'T2' :
+                       formState.originHousingType === 't3' ? 'T3' :
+                       formState.originHousingType === 't4' ? 'T4' :
+                       formState.originHousingType === 't5' ? 'T5' :
+                       formState.originHousingType === 'house' ? 'maison plain-pied' :
+                       formState.originHousingType === 'house_1floor' ? 'maison avec 1 étage' :
+                       formState.originHousingType === 'house_2floors' ? 'maison avec 2 étages' :
+                       formState.originHousingType === 'house_3floors' ? 'maison avec 3 étages ou plus' :
+                       formState.originHousingType}
                     </span>
                     {' '}de{' '}
                     <span className="font-bold text-white">{formState.surfaceM2} m²</span>

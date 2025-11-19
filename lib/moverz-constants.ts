@@ -47,7 +47,10 @@ const VOLUME_RATIOS = {
   t3: 0.35,     // T3 : 40-50m² → ~14-18m³
   t4: 0.40,     // T4 : 55-70m² → ~22-28m³
   t5: 0.40,     // T5 : 70-90m² → ~28-36m³
-  house: 0.45,  // Maison : 90-150m² → ~40-68m³
+  house: 0.45,        // Maison plain-pied : 90-150m² → ~40-68m³
+  house_1floor: 0.45, // Maison 1 étage : plus grande mais ratio similaire
+  house_2floors: 0.45,
+  house_3floors: 0.45,
 } as const;
 
 /**
@@ -82,6 +85,10 @@ const VOLUMES_MOYENS = {
   t4: { min: 60, max: 80, typical: 70 },
   t5: { min: 80, max: 100, typical: 90 },
   house: { min: 100, max: 150, typical: 120 },
+  // Estimations internes graduées par nombre d'étages (1m³ ≈ 1m²)
+  house_1floor: { min: 120, max: 170, typical: 150 },
+  house_2floors: { min: 140, max: 210, typical: 180 },
+  house_3floors: { min: 160, max: 260, typical: 220 },
 } as const;
 
 // ============================================================================
@@ -107,6 +114,10 @@ const SURFACES_LOGEMENTS = {
   t4: { min: 55, max: 70, typical: 62 },
   t5: { min: 70, max: 90, typical: 80 },
   house: { min: 90, max: 150, typical: 120 },
+  // Estimations internes graduées par nombre d'étages (à fiabiliser Phase 2)
+  house_1floor: { min: 110, max: 180, typical: 150 },
+  house_2floors: { min: 130, max: 220, typical: 180 },
+  house_3floors: { min: 150, max: 260, typical: 220 },
 } as const;
 
 // ============================================================================
