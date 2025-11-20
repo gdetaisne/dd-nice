@@ -144,32 +144,32 @@ export default function CategoryPage({ params }: CategoryPageProps) {
               >
                 <div className="bg-white border border-[#E3E5E8] rounded-3xl p-8 md:p-12 shadow-sm hover:shadow-lg hover:border-[#6BCFCF]/30 transition-all duration-300">
                   <div className="grid md:grid-cols-[2fr_1fr] gap-8">
-                    {/* Contenu texte */}
-                    <div className="flex flex-col justify-center space-y-6">
-                      <div className="flex items-center gap-3">
+                      {/* Contenu texte */}
+                      <div className="flex flex-col justify-center space-y-6">
+                        <div className="flex items-center gap-3">
                         <svg className="w-8 h-8 text-[#6BCFCF]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                         </svg>
                         <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold bg-[#6bcfcf]/10 text-[#04163a] border border-[#6bcfcf]/20">
-                          Guide Complet
-                        </span>
-                      </div>
-                      
-                      <h3 className="text-2xl md:text-3xl font-bold text-[#04163a] leading-tight group-hover:text-[#6bcfcf] transition-colors">
-                        {post.title}
-                      </h3>
-                      
-                      <p className="text-lg text-[#4b5c6b] leading-relaxed">
-                        {post.meta_description}
-                      </p>
-                      
-                      <div className="flex flex-wrap items-center gap-4 text-sm text-[#4b5c6b]">
-                        <div className="flex items-center gap-2">
-                          <svg className="w-5 h-5 text-[#6BCFCF]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                          </svg>
-                          <span>{post.word_count} mots</span>
+                            Guide Complet
+                          </span>
                         </div>
+                        
+                      <h3 className="text-2xl md:text-3xl font-bold text-[#04163a] leading-tight group-hover:text-[#6bcfcf] transition-colors">
+                          {post.title}
+                      </h3>
+                        
+                      <p className="text-lg text-[#4b5c6b] leading-relaxed">
+                          {post.meta_description}
+                        </p>
+                        
+                      <div className="flex flex-wrap items-center gap-4 text-sm text-[#4b5c6b]">
+                          <div className="flex items-center gap-2">
+                          <svg className="w-5 h-5 text-[#6BCFCF]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                            <span>{post.word_count} mots</span>
+                          </div>
                         <span className="text-[#E3E5E8]">·</span>
                         <div className="flex items-center gap-2">
                           <svg className="w-5 h-5 text-[#6BCFCF]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -178,31 +178,31 @@ export default function CategoryPage({ params }: CategoryPageProps) {
                           <span>{Math.ceil(post.word_count / 200)} min de lecture</span>
                         </div>
                         <span className="text-[#E3E5E8]">·</span>
-                        <div className="flex items-center gap-2">
+                          <div className="flex items-center gap-2">
                           <svg className="w-5 h-5 text-[#6BCFCF]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                          </svg>
-                          <span>{new Date(post.publish_date).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                            <span>{new Date(post.publish_date).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+                          </div>
+                        </div>
+                        
+                        <div className="pt-4">
+                        <span className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-gradient-to-r from-[#6BCFCF] to-[#4FB8B8] text-[#04141f] font-semibold group-hover:shadow-lg transition-all duration-300">
+                            Lire le guide complet
+                            <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                            </svg>
+                          </span>
                         </div>
                       </div>
                       
-                      <div className="pt-4">
-                        <span className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-gradient-to-r from-[#6BCFCF] to-[#4FB8B8] text-[#04141f] font-semibold group-hover:shadow-lg transition-all duration-300">
-                          Lire le guide complet
-                          <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                          </svg>
-                        </span>
-                      </div>
-                    </div>
-                    
                     {/* Stats */}
-                    <div className="hidden md:flex flex-col justify-center space-y-4">
+                      <div className="hidden md:flex flex-col justify-center space-y-4">
                       <div className="grid grid-cols-2 gap-4">
                         <div className="bg-[#F8F9FA] border border-[#E3E5E8] rounded-2xl p-4 text-center">
                           <div className="text-3xl font-bold text-[#6bcfcf] mb-1">100%</div>
                           <div className="text-xs text-[#4b5c6b] font-medium">Complet</div>
-                        </div>
+                            </div>
                         <div className="bg-[#F8F9FA] border border-[#E3E5E8] rounded-2xl p-4 text-center">
                           <div className="text-3xl font-bold text-[#6bcfcf] mb-1">{Math.ceil(post.word_count / 200)}'</div>
                           <div className="text-xs text-[#4b5c6b] font-medium">Lecture</div>
@@ -289,7 +289,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
             <p className="text-[#4b5c6b] mb-8 max-w-2xl mx-auto text-lg">
               Comparez 5+ devis de déménageurs certifiés sous 7 jours
             </p>
-            <Link
+            <Link 
               href="/devis-gratuits/"
               className="group relative inline-flex items-center gap-2 overflow-hidden rounded-2xl bg-gradient-to-r from-[#6BCFCF] via-[#4FB8B8] to-[#3DA5A5] px-8 py-4 text-lg font-semibold text-[#04141f] shadow-[0_8px_30px_rgba(107,207,207,0.35)] hover:shadow-[0_12px_50px_rgba(107,207,207,0.5)] hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
             >

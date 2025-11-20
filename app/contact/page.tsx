@@ -23,7 +23,7 @@ export const metadata: Metadata = (() => {
 
 export default function ContactPage() {
   const city = getCityDataFromUrl(env.SITE_URL);
-  const emailDomain = city.siteUrl.replace(/^https?:\/\//, '').replace(/^www\./, '');
+  const emailDomain = city.siteUrl.replace(/^https?:\/\//, '').replace(/^www\./, '').replace(/\/$/, '');
   
   return (
     <main className="bg-hero min-h-screen">
