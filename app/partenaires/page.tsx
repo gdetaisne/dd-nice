@@ -277,8 +277,8 @@ export default function PartenairesPage() {
               Garanties
             </p>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
-              Pourquoi faire confiance à nos partenaires ?
-            </h2>
+            Pourquoi faire confiance à nos partenaires ?
+          </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             <div className="group rounded-3xl border border-white/10 bg-white/5 backdrop-blur-sm p-6 md:p-8 shadow-lg transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(107,207,207,0.2)] hover:border-[#6BCFCF]/40">
@@ -321,7 +321,7 @@ export default function PartenairesPage() {
       {/* CTA - Fond clair */}
       <section className="section section-light">
         <div className="container">
-          <CtaPrimary placement="inline" />
+        <CtaPrimary placement="inline" />
         </div>
       </section>
 
@@ -335,14 +335,14 @@ export default function PartenairesPage() {
                 Rejoignez-nous
               </div>
               <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight">
-                Devenir partenaire Moverz
-              </h2>
+              Devenir partenaire Moverz
+            </h2>
               <p className="text-base md:text-lg text-white/80 max-w-2xl mx-auto leading-relaxed">
                 Vous êtes déménageur à {city.nameCapitalized} et souhaitez rejoindre notre réseau ? 
-                Bénéficiez de notre technologie IA et de notre visibilité en ligne.
-              </p>
-              <a 
-                href="/contact/" 
+              Bénéficiez de notre technologie IA et de notre visibilité en ligne.
+            </p>
+            <a 
+              href="/contact/" 
                 className="group relative inline-flex items-center gap-2 overflow-hidden rounded-2xl bg-gradient-to-r from-[#6BCFCF] via-[#4FB8B8] to-[#3DA5A5] px-8 py-4 text-lg font-semibold text-[#04141f] shadow-[0_8px_30px_rgba(107,207,207,0.35)] hover:shadow-[0_12px_50px_rgba(107,207,207,0.5)] hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
               >
                 <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-700" />
@@ -353,7 +353,7 @@ export default function PartenairesPage() {
               </a>
             </div>
           </div>
-        </div>
+      </div>
       </section>
     </main>
   );

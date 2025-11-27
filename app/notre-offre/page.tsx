@@ -8,15 +8,14 @@ import { env } from "@/lib/env";
 const city = getCityDataFromUrl(env.SITE_URL);
 
 export const metadata: Metadata = {
-  title: `Notre offre déménagement ${city.nameCapitalized} – Comparateur de devis fiables`,
-  description: `Un dossier unique, des déménageurs contrôlés, 5+ devis comparables pour votre déménagement à ${city.nameCapitalized}. Gratuit, sans spam et sans engagement.`,
+  title: `Comparateur Déménageurs ${city.nameCapitalized} | 0 Spam | Anonyme`,
+  description: `280€ minimum. Comparez 5+ devis anonymement à ${city.nameCapitalized}. Tarifs transparents, 0 harcèlement. Déménageurs contrôlés et assurés. Gratuit.`,
   alternates: {
     canonical: getCanonicalUrl("notre-offre"),
   },
   openGraph: {
-    title: `Notre offre déménagement ${city.nameCapitalized}`,
-    description:
-      "Un dossier unique pour comparer des devis de déménagement vraiment comparables.",
+    title: `Comparateur Déménageurs ${city.nameCapitalized} | 0 Spam | Anonyme`,
+    description: `280€ min. 5+ devis anonymes. Tarifs transparents. Contrôlés. Gratuit.`,
     url: getCanonicalUrl("notre-offre"),
     type: "website",
   },

@@ -6,21 +6,22 @@ import { getCanonicalUrl } from "@/lib/canonical-helper";
 import { getCityDataFromUrl } from "@/lib/cityData";
 import { env } from "@/lib/env";
 
-export const metadata: Metadata = {
-  title: "Comment ça marche ? Déménagement Nice en 3 étapes | Moverz",
-  description:
-    "Créez un inventaire IA unique en 30 min, recevez 5+ devis de déménageurs contrôlés (solvabilité vérifiée, 0 litige) et choisissez sans harcèlement. 100% gratuit.",
-  alternates: {
-    canonical: getCanonicalUrl("comment-ca-marche"),
-  },
-  openGraph: {
-    title: "Processus IA anti-arnaque : 5+ devis comparables à Nice | Moverz",
-    description:
-      "Notre IA calcule votre volume exact et l'envoie à 5+ déménageurs contrôlés. Recevez des devis comparables en 7 jours, sans appels intrusifs.",
-    url: getCanonicalUrl("comment-ca-marche"),
-    type: "website",
-  },
-};
+export const metadata: Metadata = (() => {
+  const city = getCityDataFromUrl(env.SITE_URL);
+  return {
+    title: `Comment ça marche | Déménagement ${city.nameCapitalized} | 3 étapes`,
+    description: `3 étapes : 1) Dossier 5 min, 2) 5+ devis en 48h, 3) Choix déménageur à ${city.nameCapitalized}. Dès 280€. Anonyme, 0 spam. Déménageurs contrôlés. Gratuit.`,
+    alternates: {
+      canonical: getCanonicalUrl("comment-ca-marche"),
+    },
+    openGraph: {
+      title: `Comment ça marche | Déménagement ${city.nameCapitalized} | 3 étapes`,
+      description: `3 étapes : Dossier 5 min → 5+ devis 48h → Choix. Dès 280€. Gratuit.`,
+      url: getCanonicalUrl("comment-ca-marche"),
+      type: "website",
+    },
+  };
+})();
 
 export default function CommentCaMarchePage() {
   const city = getCityDataFromUrl(env.SITE_URL);

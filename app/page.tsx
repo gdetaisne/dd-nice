@@ -13,9 +13,9 @@ import FAQAccordion from "@/components/FAQAccordion";
 export const metadata: Metadata = (() => {
   const city = getCityDataFromUrl(env.SITE_URL);
   return {
-    title: `Déménagement ${city.nameCapitalized} — 5 Devis IA Comparables Gratuits`,
+    title: `Déménagement ${city.nameCapitalized} dès 280€ | 5+ Devis 48h | Contrôlés`,
     description:
-      `Déménagez à ${city.nameCapitalized} dès 280€. IA analyse vos photos → 5 devis comparables sous 7j. Gratuit, sans appels. 1200+ clients ⭐4.9/5`,
+      `280€ minimum. Recevez 5+ devis comparables en 48h à ${city.nameCapitalized}. Dossier anonyme, 0 harcèlement. Déménageurs contrôlés et assurés. 100% gratuit.`,
     ...getCanonicalAlternates(''),
   };
 })();
@@ -59,13 +59,13 @@ export default function Home() {
       <section className="section section-contrast">
         <div className="container space-y-10">
           <div className="text-center space-y-4">
-            <p className="text-xs font-bold uppercase tracking-[0.3em] text-[#6BCFCF]">
+            <p className="text-sm md:text-xs font-bold uppercase tracking-[0.3em] text-[#6BCFCF]">
               Pourquoi ce comparateur
             </p>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
               Ce que vous gagnez vraiment
             </h2>
-            <p className="text-base md:text-lg text-white/70 leading-relaxed max-w-2xl mx-auto font-light">
+            <p className="text-lg md:text-base lg:text-lg text-white/70 leading-relaxed max-w-2xl mx-auto font-light">
               4 bénéfices concrets pour comparer sereinement vos devis.
             </p>
           </div>
