@@ -4,8 +4,8 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { FormState, INITIAL_FORM_STATE, PricingResult } from '@/lib/form-types';
 import { calculatePricing, calculateVolume, formatPrice, calculateDistance } from '@/lib/pricing';
 import { CONSTANTS, type HousingType } from '@/lib/moverz-constants';
-import { createLead, updateLead, parseAddress, getSource, mapElevatorToBackend, mapDensityToBackend, mapFurnitureLiftToBackend } from '@/lib/api-client';
-import { searchPostcode } from '@/lib/french-cities';
+import { createLead, updateLead, requestLeadConfirmation, getSource, mapElevatorToBackend, mapDensityToBackend, mapFurnitureLiftToBackend } from '@/lib/api-client';
+import { FRENCH_POSTCODES } from '@/lib/french-cities';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 
@@ -49,123 +49,145 @@ function getHousingSurfaceLabel(housingType: string): string {
   return `~${surface}m²`;
 }
 
-// Types pour l'autocomplete
-interface AddressSuggestion {
-  label: string;
-  postcode: string;
-  city: string;
+// Petit composant d'aide contextuelle (icône + bulle au survol)
+function HelpTooltip({ text }: { text: string }) {
+  return (
+    <span className="relative inline-flex items-center ml-2 group" tabIndex={0}>
+      <span className="w-4 h-4 flex items-center justify-center rounded-full border border-[#E3E5E8] bg-white text-[10px] font-bold text-[#04163a] group-hover:border-[#6BCFCF] group-focus-visible:border-[#6BCFCF]">
+        ?
+      </span>
+      <div className="absolute z-20 hidden group-hover:block group-focus-within:block left-1/2 top-full mt-2 -translate-x-1/2 min-w-[220px] max-w-xs bg-white border border-[#E3E5E8] rounded-xl shadow-lg p-3 text-xs text-[#04163a]">
+        {text}
+      </div>
+    </span>
+  );
 }
 
-// Composant AddressInput avec autocomplete français
-function AddressInput({
-  label,
-  value,
-  onChange,
-  required = false,
-  placeholder = '',
-  helpText = '',
-  disabled = false,
+// Composant groupant Code postal + Ville + Adresse
+function PostalCityGroup({
+  postalCode,
+  city,
+  address,
+  onPostalCodeChange,
+  onCityChange,
+  onAddressChange,
 }: {
-  label: string;
-  value: string;
-  onChange: (value: string) => void;
-  required?: boolean;
-  placeholder?: string;
-  helpText?: string;
-  disabled?: boolean;
+  postalCode: string;
+  city: string;
+  address: string;
+  onPostalCodeChange: (value: string) => void;
+  onCityChange: (value: string) => void;
+  onAddressChange: (value: string) => void;
 }) {
-  const [suggestions, setSuggestions] = useState<AddressSuggestion[]>([]);
-  const [showSuggestions, setShowSuggestions] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
-  const debounceRef = useRef<NodeJS.Timeout | null>(null);
+  const [cityMode, setCityMode] = useState<'NONE' | 'LIST' | 'OTHER'>('NONE');
 
-  const fetchSuggestions = async (query: string) => {
-    // Minimum 5 caractères pour avoir des résultats fiables
-    if (query.length < 5) {
-      setSuggestions([]);
-      setShowSuggestions(false);
-      return;
+  const handlePostalChange = (val: string) => {
+    const sanitized = val.replace(/\D/g, '').slice(0, 5);
+    onPostalCodeChange(sanitized);
+    // Reset ville lorsqu'on change de code postal
+    setCityMode('NONE');
+    onCityChange('');
+  };
+
+  const isPostcodeFormatValid = postalCode.length === 5;
+  const cities =
+    isPostcodeFormatValid && FRENCH_POSTCODES[postalCode]
+      ? FRENCH_POSTCODES[postalCode]
+      : [];
+  const hasPostcodeWarning =
+    isPostcodeFormatValid && cities.length === 0 && postalCode.length === 5;
+
+  const handleCitySelectChange = (val: string) => {
+    if (val === '__other__') {
+      setCityMode('OTHER');
+      onCityChange('');
+    } else if (val) {
+      setCityMode('LIST');
+      onCityChange(val);
+    } else {
+      setCityMode('NONE');
+      onCityChange('');
     }
-
-    setIsLoading(true);
-    
-    // Recherche locale INSTANTANÉE (pas d'API)
-    const results = searchPostcode(query);
-    
-    setSuggestions(results);
-    setShowSuggestions(results.length > 0);
-    setIsLoading(false);
   };
 
-  const handleInputChange = (val: string) => {
-    onChange(val);
-    
-    // Appeler l'API SEULEMENT quand on atteint exactement 5 caractères
-    if (val.length === 5) {
-      // Debounce très court juste pour éviter les doubles appels
-      if (debounceRef.current) clearTimeout(debounceRef.current);
-      debounceRef.current = setTimeout(() => {
-        fetchSuggestions(val);
-      }, 50);
-    } else if (val.length < 5) {
-      // Cacher les suggestions si < 5 caractères
-      setSuggestions([]);
-      setShowSuggestions(false);
-    }
-    // Si > 5 caractères, on garde les suggestions affichées (pas de nouvel appel)
-  };
-
-  const handleSelectSuggestion = (suggestion: AddressSuggestion) => {
-    onChange(suggestion.label);
-    setSuggestions([]);
-    setShowSuggestions(false);
-  };
+  const citySelectValue =
+    cityMode === 'OTHER' ? '__other__' : city || '';
 
   return (
-    <div className="mb-6 relative">
+    <>
+      {/* Code postal */}
+      <div className="mb-4">
       <label className="block text-sm font-semibold text-[#04163a] mb-2">
-        {label}
-        {required && <span className="text-[#6BCFCF] ml-1">*</span>}
+          Code postal <span className="text-[#6BCFCF] ml-1">*</span>
       </label>
       <input
         type="text"
-        value={value}
-        onChange={(e) => handleInputChange(e.target.value)}
-        onFocus={() => value && suggestions.length > 0 && setShowSuggestions(true)}
-        onBlur={() => setTimeout(() => setShowSuggestions(false), 200)}
-        placeholder={placeholder}
-        required={required}
-        disabled={disabled}
-        className="w-full px-4 py-3.5 bg-white border-2 border-[#E3E5E8] rounded-xl text-[#04163a] placeholder-[#4b5c6b]/50 focus:outline-none focus:border-[#6BCFCF] focus:shadow-[0_0_0_4px_rgba(107,207,207,0.1),0_4px_20px_rgba(107,207,207,0.15)] disabled:opacity-50 disabled:cursor-not-allowed disabled:bg-[#F8F9FA] transition-all duration-300"
-        autoComplete="off"
-      />
-      
-      {/* Dropdown suggestions - Stripe-like */}
-      {showSuggestions && suggestions.length > 0 && (
-        <div className="absolute z-50 w-full mt-2 bg-white rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.12)] border border-[#E3E5E8] overflow-hidden">
-          {suggestions.map((suggestion, idx) => (
-            <button
-              key={idx}
-              type="button"
-              onClick={() => handleSelectSuggestion(suggestion)}
-              className="w-full px-4 py-3 text-left hover:bg-[#F8F9FA] transition-colors border-b border-[#E3E5E8] last:border-0"
-            >
-              <div className="font-semibold text-[#04163a]">{suggestion.city}</div>
-            </button>
+          inputMode="numeric"
+          maxLength={5}
+          value={postalCode}
+          onChange={(e) => handlePostalChange(e.target.value)}
+          className="w-full px-4 py-3.5 bg-white border-2 border-[#E3E5E8] rounded-xl text-[#04163a] placeholder-[#4b5c6b]/50 focus:outline-none focus:border-[#6BCFCF] focus:shadow-[0_0_0_4px_rgba(107,207,207,0.1),0_4px_20px_rgba(107,207,207,0.15)] transition-all duration-300"
+          placeholder="Ex: 33700"
+        />
+        {hasPostcodeWarning && (
+          <p className="mt-1 text-xs text-amber-700">
+            Code postal non présent dans notre base interne. Vous pouvez continuer en
+            saisissant la ville manuellement.
+          </p>
+        )}
+      </div>
+
+      {/* Ville */}
+      <div className="mb-4">
+        <label className="block text-sm font-semibold text-[#04163a] mb-2">
+          Ville <span className="text-[#6BCFCF] ml-1">*</span>
+        </label>
+        <select
+          value={citySelectValue}
+          onChange={(e) => handleCitySelectChange(e.target.value)}
+          disabled={!isPostcodeFormatValid}
+          className="w-full px-4 py-3 bg-white border border-[#E3E5E8] rounded-xl text-[#04163a] focus:outline-none focus:border-[#6BCFCF] focus:ring-4 focus:ring-[#6BCFCF]/10 transition-all duration-200 cursor-pointer disabled:bg-[#F8F9FA] disabled:cursor-not-allowed"
+        >
+          <option value="">
+            {isPostcodeFormatValid
+              ? 'Sélectionnez une ville ou choisissez "Autre ville…"'
+              : 'Entrez un code postal valide'}
+          </option>
+          {cities.map((c) => (
+            <option key={c} value={c}>
+              {c}
+            </option>
           ))}
-        </div>
-      )}
-      
-      {isLoading && (
-        <div className="absolute right-3 top-11 text-[#4b5c6b] text-sm">⏳</div>
-      )}
-      
-      {helpText && (
-        <p className="mt-2 text-xs text-[#4b5c6b] bg-[#F8F9FA] border border-[#E3E5E8] rounded-lg p-3">
-          {helpText}
-        </p>
-      )}
+          {isPostcodeFormatValid && (
+            <option value="__other__">Autre ville…</option>
+          )}
+        </select>
+        {cityMode === 'OTHER' && (
+          <input
+            type="text"
+            value={city}
+            onChange={(e) => onCityChange(e.target.value)}
+            placeholder="Saisissez votre ville"
+            className="mt-3 w-full px-4 py-3.5 bg-white border-2 border-[#E3E5E8] rounded-xl text-[#04163a] placeholder-[#4b5c6b]/50 focus:outline-none focus:border-[#6BCFCF] focus:shadow-[0_0_0_4px_rgba(107,207,207,0.1),0_4px_20px_rgba(107,207,207,0.15)] transition-all duration-300"
+          />
+        )}
+      </div>
+
+      {/* Adresse détaillée (facultative) */}
+      <div className="mb-4">
+        <label className="block text-sm font-semibold text-[#04163a] mb-2 flex items-center">
+          <span>Adresse (facultatif)</span>
+          <HelpTooltip text="Nous n'avons pas besoin de votre adresse exacte pour obtenir des devis. Mais un dossier complet permet aux déménageurs de faire une estimation plus précise. À vous de décider." />
+        </label>
+        <input
+          type="text"
+          value={address}
+          onChange={(e) => onAddressChange(e.target.value)}
+          placeholder="Numéro et rue, bâtiment, étage..."
+          className="w-full px-4 py-3.5 bg-white border-2 border-[#E3E5E8] rounded-xl text-[#04163a] placeholder-[#4b5c6b]/50 focus:outline-none focus:border-[#6BCFCF] focus:shadow-[0_0_0_4px_rgba(107,207,207,0.1),0_4px_20px_rgba(107,207,207,0.15)] transition-all duration-300"
+        />
     </div>
+    </>
   );
 }
 
@@ -183,7 +205,7 @@ function Stepper({
     { number: 1, label: 'Contact' },
     { number: 2, label: 'Projet' },
     { number: 3, label: 'Services' },
-    { number: 4, label: 'Récapitulatif' },
+    { number: 4, label: 'Validez votre dossier' },
   ];
 
   return (
@@ -297,12 +319,14 @@ function Input({
 // Select Component - Stripe-like
 function Select({
   label,
+  help,
   value,
   onChange,
   options,
   required = false,
 }: {
   label: string;
+  help?: string;
   value: string | number;
   onChange: (value: string) => void;
   options: { value: string | number; label: string }[];
@@ -310,9 +334,12 @@ function Select({
 }) {
   return (
     <div className="mb-6">
-      <label className="block text-sm font-semibold text-[#04163a] mb-2">
+      <label className="block text-sm font-semibold text-[#04163a] mb-2 flex items-center">
+        <span>
         {label}
         {required && <span className="text-[#6BCFCF] ml-1">*</span>}
+        </span>
+        {help && <HelpTooltip text={help} />}
       </label>
       <select
         value={value}
@@ -441,20 +468,35 @@ export default function InventaireIAPage() {
   const [completedSteps, setCompletedSteps] = useState<number[]>([]);
   const [pricing, setPricing] = useState<PricingResult | null>(null);
   const [isSaving, setIsSaving] = useState(false);
+  const [confirmationEmail, setConfirmationEmail] = useState<string | null>(null);
+  const [confirmationError, setConfirmationError] = useState<string | null>(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const saveTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  const originPostcode = formState.originPostalCode || '';
+  const destinationPostcode = formState.destinationPostalCode || '';
+
+  const isOriginPostcodeValid =
+    originPostcode.length === 5;
+  const isDestinationPostcodeValid =
+    destinationPostcode.length === 5;
 
   // Load from localStorage (only once on mount)
   useEffect(() => {
     const saved = localStorage.getItem('moverz_form_state');
     if (saved) {
       try {
-        const parsed = JSON.parse(saved);
+        const parsedRaw = JSON.parse(saved);
+        // Normaliser l'état restauré avec les nouveaux champs (CP/ville, etc.)
+        const parsed: FormState = {
+          ...INITIAL_FORM_STATE,
+          ...parsedRaw,
+        };
         // RÈGLE : Ne charger QUE si leadId existe ET step < 4
         // Si session corrompue (step > 1 sans leadId) → ignorer
         if (parsed.leadId && parsed.currentStep < 4) {
           setFormState(parsed);
-          setCompletedSteps(parsed.completedSteps || []);
+          setCompletedSteps(parsedRaw.completedSteps || []);
           console.log('📦 Session restaurée:', parsed.leadId);
         } else {
           // Session invalide → nettoyer
@@ -482,10 +524,10 @@ export default function InventaireIAPage() {
     if (formState.surfaceM2) {
       // Calculer la distance (ou utiliser une distance par défaut de 50km si pas encore renseignée)
       let distance = 50; // Distance par défaut
-      if (formState.originAddress && formState.destinationAddress) {
+      if (formState.originCity && formState.destinationCity) {
         distance = calculateDistance(
-          formState.originAddress.split(',')[0] || 'nice',
-          formState.destinationAddress.split(',')[0] || 'paris'
+          formState.originCity || 'nice',
+          formState.destinationCity || 'paris'
         );
       }
       
@@ -532,17 +574,14 @@ export default function InventaireIAPage() {
     try {
       setIsSaving(true);
       
-      const originParsed = state.originAddress ? parseAddress(state.originAddress) : { city: '', postalCode: '' };
-      const destParsed = state.destinationAddress ? parseAddress(state.destinationAddress) : { city: '', postalCode: '' };
-      
       await updateLead(state.leadId, {
         // Adresses
         originAddress: state.originAddress || undefined,
-        originCity: originParsed.city || undefined,
-        originPostalCode: originParsed.postalCode || undefined,
+        originCity: state.originCity || undefined,
+        originPostalCode: state.originPostalCode || undefined,
         destAddress: state.destinationAddress || undefined,  // ⚠️ Backend attend "destAddress", pas "destinationAddress"
-        destCity: destParsed.city || undefined,
-        destPostalCode: destParsed.postalCode || undefined,
+        destCity: state.destinationCity || undefined,
+        destPostalCode: state.destinationPostalCode || undefined,
         
         // Dates
         movingDate: state.movingDate || undefined,
@@ -688,6 +727,39 @@ export default function InventaireIAPage() {
       updateField('housingType', formState.originHousingType as FormState['housingType']);
     }
     
+    // Étape 3 → 4 : Sauvegarder + demander l'email de confirmation
+    if (formState.currentStep === 3) {
+    if (!formState.leadId) {
+        alert('Erreur : aucun lead créé. Veuillez recommencer.');
+      return;
+    }
+    
+    try {
+      setIsSaving(true);
+        setConfirmationError(null);
+
+        // S'assurer que tout est bien sauvegardé avant la demande de confirmation
+        await saveToBackend({ ...formState, currentStep: 3 });
+
+        await requestLeadConfirmation(formState.leadId);
+
+        const emailTrimmed = formState.email.trim().toLowerCase();
+        setConfirmationEmail(emailTrimmed);
+
+        if (!completedSteps.includes(3)) {
+          setCompletedSteps((prev) => [...prev, 3]);
+        }
+        goToStep(4);
+      } catch (error: any) {
+        console.error('❌ Erreur lors de la demande de confirmation email:', error);
+        setConfirmationError(error?.message || 'Erreur lors de l’envoi de l’email de confirmation. Veuillez réessayer.');
+        alert('Erreur lors de l’envoi de l’email de confirmation. Vos informations sont sauvegardées, vous pouvez réessayer.');
+    } finally {
+      setIsSaving(false);
+    }
+      return;
+    }
+
     if (!completedSteps.includes(formState.currentStep)) {
       setCompletedSteps((prev) => [...prev, formState.currentStep]);
     }
@@ -695,89 +767,10 @@ export default function InventaireIAPage() {
   };
 
   const handleSubmit = async () => {
-    if (!formState.leadId) {
-      alert('Erreur: Aucun lead créé. Veuillez recommencer.');
-      return;
-    }
-    
-    // ⚠️ Ne pas soumettre si leadId est un demo ID
-    if (formState.leadId.startsWith('demo-')) {
-      alert('Erreur: Votre demande n\'a pas pu être créée. Veuillez recommencer depuis le début.');
-      return;
-    }
-    
-    try {
-      setIsSaving(true);
-      
-      const originParsed = parseAddress(formState.originAddress);
-      const destParsed = parseAddress(formState.destinationAddress);
-      
-      await updateLead(formState.leadId, {
-        // Adresses
-        originAddress: formState.originAddress || undefined,
-        originCity: originParsed.city || undefined,
-        originPostalCode: originParsed.postalCode || undefined,
-        destAddress: formState.destinationAddress || undefined,  // ⚠️ Backend attend "destAddress", pas "destinationAddress"
-        destCity: destParsed.city || undefined,
-        destPostalCode: destParsed.postalCode || undefined,
-        
-        // Dates
-        movingDate: formState.movingDate || undefined,
-        movingDateEnd: formState.movingDateEnd || undefined,
-        dateFlexible: formState.dateFlexible,
-        
-        // Volume & Surface
-        surfaceM2: formState.surfaceM2 || undefined,
-        estimatedVolume: pricing?.volumeM3,
-        density: mapDensityToBackend(formState.density),  // ⚠️ Mapping: 'normal' → 'MEDIUM'
-        
-        // Formule & Prix
-        formule: formState.formule,
-        estimatedPriceMin: pricing?.prixMin,
-        estimatedPriceAvg: pricing?.prixAvg,
-        estimatedPriceMax: pricing?.prixMax,
-        
-        // Détails logement origine
-        originHousingType: formState.originHousingType,
-        originFloor: formState.originFloor,
-        originElevator: mapElevatorToBackend(formState.originElevator),  // ⚠️ Mapping
-        originFurnitureLift: mapFurnitureLiftToBackend(formState.originFurnitureLift),
-        originCarryDistance: formState.originCarryDistance,
-        originParkingAuth: formState.originParkingAuth,
-        
-        // Détails logement destination
-        destHousingType: formState.destinationHousingType,
-        destFloor: formState.destinationFloor,
-        destElevator: mapElevatorToBackend(formState.destinationElevator),  // ⚠️ Mapping
-        destFurnitureLift: mapFurnitureLiftToBackend(formState.destinationFurnitureLift),
-        destCarryDistance: formState.destinationCarryDistance,
-        destParkingAuth: formState.destinationParkingAuth,
-        
-        // Status (marquer comme complété)
-        status: 'CONVERTED',
-        
-        // Métadonnées (tracking interne uniquement)
-        metadata: {
-          currentStep: 4,
-          completedSteps: [1, 2, 3, 4],
-          completedAt: new Date().toISOString(),
-          pricing: pricing || undefined,
-        },
-      });
-      
-      localStorage.setItem('moverz_completed_lead', JSON.stringify({
-        ...formState,
-        pricing,
-      }));
-      
-      console.log('✅ Lead finalisé et sauvegardé dans backend:', formState.leadId);
-      window.location.href = '/devis-gratuits/merci/';
-    } catch (error) {
-      console.error('❌ Erreur finalisation:', error);
-      alert('Erreur lors de l\'envoi final. Vos données sont sauvegardées. Contactez-nous si le problème persiste.');
-    } finally {
-      setIsSaving(false);
-    }
+    // Nouvelle logique : à ce stade tout est déjà sauvegardé et
+    // l'email de confirmation a été demandé. On se contente de
+    // rediriger vers la page de remerciement.
+    window.location.href = '/devis-gratuits/merci/';
   };
 
   return (
@@ -885,17 +878,18 @@ export default function InventaireIAPage() {
                 <div className="p-6 bg-[#F8F9FA] rounded-2xl border border-[#E3E5E8]">
                   <h3 className="font-bold mb-4 text-[#04163a] text-lg">Adresse actuelle</h3>
                   
-                  <AddressInput
-                    label="Code postal + Ville"
-                    value={formState.originAddress}
-                    onChange={(v) => updateField('originAddress', v)}
-                    required
-                    placeholder="Ex: 17290"
-                    helpText=""
+                  <PostalCityGroup
+                    postalCode={formState.originPostalCode}
+                    city={formState.originCity}
+                    address={formState.originAddress}
+                    onPostalCodeChange={(v) => updateField('originPostalCode', v)}
+                    onCityChange={(v) => updateField('originCity', v)}
+                    onAddressChange={(v) => updateField('originAddress', v)}
                   />
 
                     <Select
                       label="Type de logement"
+                      help="T1, T2, T3... correspondent au nombre de pièces principales (hors cuisine, salle de bain). Maison = logement individuel. Choisissez ce qui se rapproche le plus de votre logement."
                       value={formState.originHousingType}
                       onChange={(v) => updateField('originHousingType', v as any)}
                       options={[
@@ -931,6 +925,7 @@ export default function InventaireIAPage() {
                     />
                     <Select
                       label="Ascenseur"
+                      help="Nous devons savoir si le logement est facilement accessible (escaliers, ascenseur, petit ou grand). Cela impacte le temps et le matériel nécessaires."
                       value={formState.originElevator}
                       onChange={(v) => updateField('originElevator', v as any)}
                       options={[
@@ -946,6 +941,7 @@ export default function InventaireIAPage() {
                   <div className="grid grid-cols-2 gap-4">
                     <Select
                       label="Monte-meuble"
+                      help="Avons-nous besoin de prévoir un monte-meuble à cette adresse ? Si vous avez des meubles volumineux à faire passer par la fenêtre ou si l'accès est compliqué, cela peut être nécessaire."
                       value={formState.originFurnitureLift}
                       onChange={(v) => updateField('originFurnitureLift', v as any)}
                       options={[
@@ -957,6 +953,7 @@ export default function InventaireIAPage() {
                     />
                     <Select
                       label="Distance de portage"
+                      help="C'est la distance prévue entre l'arrière du camion et l'entrée de votre logement (ou du hall). Plus elle est longue, plus le déménagement demande de temps et d'efforts."
                       value={formState.originCarryDistance}
                       onChange={(v) => updateField('originCarryDistance', v as any)}
                       options={[
@@ -986,17 +983,18 @@ export default function InventaireIAPage() {
                 <div className="p-6 bg-[#F8F9FA] rounded-2xl border border-[#E3E5E8]">
                   <h3 className="font-bold mb-4 text-[#04163a] text-lg">Nouvelle adresse</h3>
                   
-                  <AddressInput
-                    label="Code postal + Ville"
-                    value={formState.destinationAddress}
-                    onChange={(v) => updateField('destinationAddress', v)}
-                    required
-                    placeholder="Ex: 75001"
-                    helpText=""
+                  <PostalCityGroup
+                    postalCode={formState.destinationPostalCode}
+                    city={formState.destinationCity}
+                    address={formState.destinationAddress}
+                    onPostalCodeChange={(v) => updateField('destinationPostalCode', v)}
+                    onCityChange={(v) => updateField('destinationCity', v)}
+                    onAddressChange={(v) => updateField('destinationAddress', v)}
                   />
 
                       <Select
                         label="Type de logement"
+                        help="T1, T2, T3... correspondent au nombre de pièces principales (hors cuisine, salle de bain). Maison = logement individuel. Choisissez ce qui se rapproche le plus de votre logement."
                         value={formState.destinationHousingType}
                         onChange={(v) => updateField('destinationHousingType', v as any)}
                         options={[
@@ -1032,6 +1030,7 @@ export default function InventaireIAPage() {
                         />
                         <Select
                           label="Ascenseur"
+                          help="Nous devons savoir si le logement est facilement accessible (escaliers, ascenseur, petit ou grand). Cela impacte le temps et le matériel nécessaires."
                           value={formState.destinationElevator}
                           onChange={(v) => updateField('destinationElevator', v as any)}
                           options={[
@@ -1047,6 +1046,7 @@ export default function InventaireIAPage() {
                       <div className="grid grid-cols-2 gap-4">
                         <Select
                           label="Monte-meuble"
+                          help="Avons-nous besoin de prévoir un monte-meuble à cette adresse ? Si vous avez des meubles volumineux à faire passer par la fenêtre ou si l'accès est compliqué, cela peut être nécessaire."
                           value={formState.destinationFurnitureLift}
                           onChange={(v) => updateField('destinationFurnitureLift', v as any)}
                           options={[
@@ -1058,6 +1058,7 @@ export default function InventaireIAPage() {
                         />
                         <Select
                           label="Distance de portage"
+                          help="C'est la distance prévue entre l'arrière du camion et l'entrée de votre logement (ou du hall). Plus elle est longue, plus le déménagement demande de temps et d'efforts."
                           value={formState.destinationCarryDistance}
                           onChange={(v) => updateField('destinationCarryDistance', v as any)}
                           options={[
@@ -1143,7 +1144,13 @@ export default function InventaireIAPage() {
                 </button>
                 <button
                   onClick={handleNext}
-                  disabled={!formState.originAddress || !formState.movingDate}
+                  disabled={
+                    !isOriginPostcodeValid ||
+                    !isDestinationPostcodeValid ||
+                    !formState.originCity ||
+                    !formState.destinationCity ||
+                    !formState.movingDate
+                  }
                   className="group relative flex-1 bg-gradient-to-r from-[#6BCFCF] to-[#4FB8B8] text-[#04141f] py-4 rounded-xl font-bold overflow-hidden hover:shadow-[0_0_0_4px_rgba(107,207,207,0.15),0_8px_30px_rgba(107,207,207,0.4)] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 hover:-translate-y-0.5"
                 >
                   <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
@@ -1400,22 +1407,40 @@ export default function InventaireIAPage() {
             </div>
           )}
 
-          {/* ÉTAPE 4 : Récapitulatif */}
+          {/* ÉTAPE 4 : Validation & confirmation email */}
           {formState.currentStep === 4 && (
             <div>
               <h2 className="text-3xl font-bold mb-4 text-center text-[#04163a]">
-                Bravo ! Nous avons toutes les informations
+                Confirmez votre demande en 1 clic
               </h2>
-              <p className="text-center text-[#4b5c6b] mb-8 text-lg">
-                Nous avons tout ce qu'il faut pour demander vos devis personnalisés
+              <p className="text-center text-[#4b5c6b] mb-2 text-lg">
+                Nous venons d&apos;envoyer un mail à{' '}
+                <span className="font-bold">
+                  {(confirmationEmail || formState.email || '').trim()}
+                </span>
+                . Sans cette validation, nous ne pourrons pas traiter votre demande.
+              </p>
+              {confirmationError && (
+                <p className="text-center text-sm text-red-600 mb-6">
+                  {confirmationError}
+                </p>
+              )}
+              <p className="text-center text-sm text-[#4b5c6b] mb-6">
+                Une fois que vous avez cliqué sur le lien dans votre mail, votre demande est validée.
+                Vous pouvez alors fermer cette page.
               </p>
 
-              {/* Vérification email */}
-              <div className="mb-8 p-6 bg-[#F8F9FA] border border-[#E3E5E8] rounded-2xl">
-                <h3 className="font-bold mb-3 text-[#04163a]">Vérifiez votre email</h3>
+              {/* Lien secondaire : pas de mail reçu */}
+              <div className="mb-6 text-center">
+                <details className="inline-block text-left">
+                  <summary className="text-sm text-[#4b5c6b] cursor-pointer hover:text-[#04163a]">
+                    Je n&apos;ai pas reçu le mail de validation
+                  </summary>
+                  <div className="mt-4 p-4 bg-[#F8F9FA] border border-[#E3E5E8] rounded-2xl max-w-xl mx-auto">
                 <p className="text-sm text-[#4b5c6b] mb-3">
-                  Assurez-vous que votre adresse est correcte pour ne pas perdre contact :
+                      Vérifiez ou corrigez votre adresse ci-dessous, puis renvoyez le mail de validation.
                 </p>
+                    <div className="grid md:grid-cols-[2fr,1fr] gap-4 items-end">
                 <Input
                   label=""
                   type="email"
@@ -1423,37 +1448,42 @@ export default function InventaireIAPage() {
                   onChange={(v) => updateField('email', v)}
                   placeholder="votre@email.com"
                 />
-              </div>
-
-              {/* Récapitulatif */}
-              <div className="mb-8 p-6 bg-[#F8F9FA] border border-[#E3E5E8] rounded-2xl">
-                <h3 className="font-bold mb-4 text-[#04163a] flex items-center justify-between">
-                  Récapitulatif de votre demande
                   <button 
-                    onClick={() => goToStep(2)} 
-                    className="text-sm text-[#6BCFCF] hover:underline font-normal"
-                  >
-                    Modifier
+                        type="button"
+                        onClick={async () => {
+                          if (!formState.leadId) {
+                            alert('Erreur : aucun lead créé. Veuillez recommencer.');
+                            return;
+                          }
+                          const emailTrimmed = formState.email.trim();
+                          if (!emailTrimmed || !emailTrimmed.includes('@') || !emailTrimmed.includes('.')) {
+                            alert('Veuillez renseigner une adresse email valide.');
+                            return;
+                          }
+                          try {
+                            setIsSaving(true);
+                            setConfirmationError(null);
+                            await updateLead(formState.leadId, {
+                              email: emailTrimmed.toLowerCase(),
+                            });
+                            await requestLeadConfirmation(formState.leadId);
+                            setConfirmationEmail(emailTrimmed.toLowerCase());
+                          } catch (error: any) {
+                            console.error('❌ Erreur mise à jour email / nouvelle confirmation:', error);
+                            setConfirmationError(error?.message || 'Erreur lors de l’envoi de l’email de confirmation. Veuillez réessayer.');
+                            alert('Erreur lors de l’envoi de l’email de confirmation. Vos informations sont sauvegardées, vous pouvez réessayer.');
+                          } finally {
+                            setIsSaving(false);
+                          }
+                        }}
+                        className="w-full bg-gradient-to-r from-[#6BCFCF] to-[#4FB8B8] text-[#04141f] py-3.5 rounded-xl font-semibold hover:shadow-[0_0_0_4px_rgba(107,207,207,0.15),0_8px_30px_rgba(107,207,207,0.4)] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300"
+                        disabled={isSaving}
+                      >
+                        {isSaving ? 'Envoi…' : 'Renvoyer le mail de validation'}
                   </button>
-                </h3>
-                <p className="text-[#04163a] text-base leading-relaxed">
-                  Vous déménagez un <span className="font-bold">{formState.housingType.toUpperCase()} de {formState.surfaceM2} m²</span> ({formState.density === 'light' ? 'sobre' : formState.density === 'normal' ? 'normalement meublé' : 'densément meublé'})
-                  {' '}de <span className="font-bold">{formState.originAddress || '[Point de départ]'}</span>
-                  {' '}à <span className="font-bold">{formState.destinationAddress || '[Point d\'arrivée]'}</span>
-                  {formState.movingDate && (
-                    <>
-                      {' '}le <span className="font-bold">{new Date(formState.movingDate).toLocaleDateString('fr-FR')}</span>
-                      {formState.dateFlexible && formState.movingDateEnd && (
-                        <> au <span className="font-bold">{new Date(formState.movingDateEnd).toLocaleDateString('fr-FR')}</span></>
-                      )}
-                    </>
-                  )}.
-                </p>
-                <div className="mt-4 pt-4 border-t border-[#E3E5E8]">
-                  <p className="text-[#04163a]">
-                    Vous souhaitez un accompagnement <span className="font-bold text-[#6BCFCF]">{formState.formule}</span>
-                  </p>
                 </div>
+                  </div>
+                </details>
               </div>
 
               {/* Ce qui va se passer */}
@@ -1465,22 +1495,22 @@ export default function InventaireIAPage() {
                   {[
                     {
                       num: 1,
-                      title: 'Confirmation immédiate',
-                      desc: 'Vous recevrez un email de confirmation dans les 2 minutes.',
+                      title: 'Vous confirmez votre adresse email',
+                      desc: "Vous recevez un email de confirmation dans les 2 minutes. Cliquez sur le lien de validation dans ce mail pour que nous puissions lancer l'envoi de vos devis.",
                     },
                     {
                       num: 2,
-                      title: 'Transmission aux déménageurs',
-                      desc: 'Votre demande est envoyée à 3 à 6 déménageurs qualifiés.',
+                      title: 'Nous contactons les déménageurs',
+                      desc: "Nous contactons une dizaine de déménageurs et vous tenons informé de l'évolution de votre dossier à chaque étape. Rassurez-vous, rien à faire de votre côté.",
                     },
                     {
                       num: 3,
-                      title: 'Réception des devis',
-                      desc: 'Sous 24 à 48h, vous recevez vos devis détaillés par email.',
+                      title: 'Nous vous présentons les devis',
+                      desc: 'Dès que nous avons obtenu suffisamment de devis qualifiés, nous vous les présentons dans une grille de lecture simplifiée. Notre objectif : vous proposer entre 3 et 5 devis sous 5 à 7 jours.',
                     },
                     {
                       num: 4,
-                      title: 'Vous comparez et choisissez',
+                      title: 'Vous choisissez en toute sérénité',
                       desc: 'Aucune obligation, vous choisissez le meilleur rapport qualité-prix.',
                     },
                   ].map((step) => (
@@ -1529,32 +1559,7 @@ export default function InventaireIAPage() {
               </div>
 
               {/* Boutons */}
-              <div className="flex gap-4">
-                <button
-                  onClick={() => goToStep(3)}
-                  className="flex-1 bg-white border-2 border-[#E3E5E8] text-[#04163a] py-3 rounded-xl font-medium hover:border-[#6BCFCF] hover:text-[#6BCFCF] transition-all duration-300"
-                >
-                  ← Retour
-                </button>
-                <button
-                  onClick={handleSubmit}
-                  disabled={isSaving}
-                  className="group relative flex-1 bg-gradient-to-r from-[#6BCFCF] to-[#4FB8B8] text-[#04141f] py-5 rounded-xl font-bold text-lg overflow-hidden hover:shadow-[0_0_0_6px_rgba(107,207,207,0.2),0_12px_40px_rgba(107,207,207,0.5)] transition-all duration-300 hover:-translate-y-1 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
-                  <span className="relative flex items-center gap-2">
-                    {isSaving ? (
-                      <>
-                        <span className="animate-spin">⏳</span> Envoi en cours...
-                      </>
-                    ) : (
-                      <>
-                        Obtenir mes devis gratuits
-                      </>
-                    )}
-                  </span>
-                </button>
-              </div>
+              {/* Pas de boutons de navigation supplémentaires : tout passe par le mail */}
             </div>
           )}
         </div>
