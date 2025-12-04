@@ -46,6 +46,10 @@ const nextConfig = {
   // Redirections 404 - Nettoyage indexation Nice
   async redirects() {
     const existing = [
+      // VAGUE 2 – Migration homepage domaine → page ville moverz.fr
+      { source: '/', destination: 'https://moverz.fr/demenagement/nice/', permanent: true },
+
+      // Redirections historiques
       // SATELLITES : Articles sans -nice → avec -nice (~50)
       { source: '/blog/satellites/cartons-gratuits-ou-trouver', destination: '/blog/satellites/cartons-gratuits-ou-trouver-nice/', permanent: true },
       { source: '/blog/satellites/demenagement-piano-droit', destination: '/blog/satellites/demenagement-piano-droit-nice/', permanent: true },
