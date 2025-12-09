@@ -49,6 +49,12 @@ const nextConfig = {
       // VAGUE 2 – Migration homepage domaine → page ville moverz.fr
       { source: '/', destination: 'https://moverz.fr/demenagement/nice/', permanent: true },
 
+      // MIGRATION BLOG → moverz.fr
+      { source: '/blog', destination: 'https://moverz.fr/blog/', permanent: true },
+      { source: '/blog/', destination: 'https://moverz.fr/blog/', permanent: true },
+      // Nouvelle structure /blog/demenagement-nice/{slug} → moverz.fr/blog/{slug}
+      { source: '/blog/demenagement-nice/:slug*', destination: 'https://moverz.fr/blog/:slug*', permanent: true },
+
       // Redirections historiques
       // SATELLITES : Articles sans -nice → avec -nice (~50)
       { source: '/blog/satellites/cartons-gratuits-ou-trouver', destination: '/blog/satellites/cartons-gratuits-ou-trouver-nice/', permanent: true },
