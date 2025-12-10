@@ -1,4 +1,4 @@
-import { getMoverzBlogRedirectsForHost } from './scripts/blog-moverz-redirects.mjs';
+import { getMoverzBlogRedirectsForHost } from '../../scripts/blog-moverz-redirects.mjs';
 
 const HOST = 'devis-demenageur-nice.fr';
 
@@ -39,8 +39,12 @@ const nextConfig = {
   async redirects() {
     const existing = [
       // Homepage → Page ville moverz.fr
+      { source: '/', destination: 'https://moverz.fr/demenagement/nice/', permanent: true },
       // Blog hub → moverz.fr
+      { source: '/blog', destination: 'https://moverz.fr/blog/', permanent: true },
+      { source: '/blog/', destination: 'https://moverz.fr/blog/', permanent: true },
       // Blog articles → moverz.fr
+      { source: '/blog/demenagement-nice/:slug*', destination: 'https://moverz.fr/blog/:slug*', permanent: true },
       // Quartiers nice (6 pages)
       { source: '/nice/', destination: 'https://moverz.fr/nice/', permanent: true },
       { source: '/nice/cimiez/', destination: 'https://moverz.fr/nice/cimiez/', permanent: true },
@@ -49,6 +53,7 @@ const nextConfig = {
       { source: '/nice/promenade-anglais/', destination: 'https://moverz.fr/nice/promenade-anglais/', permanent: true },
       { source: '/nice/vieux-nice/', destination: 'https://moverz.fr/nice/vieux-nice/', permanent: true },
       // Hub quartiers nice
+      { source: '/quartiers-nice/', destination: 'https://moverz.fr/quartiers-nice/', permanent: true },
       // Corridors depuis nice (6 pages)
       { source: '/nice-vers-espagne/', destination: 'https://moverz.fr/nice-vers-espagne/', permanent: true },
       { source: '/nice-vers-lyon/', destination: 'https://moverz.fr/nice-vers-lyon/', permanent: true },
